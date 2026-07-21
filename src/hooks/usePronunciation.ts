@@ -2,6 +2,7 @@ import { pronunciationConfigAtom } from '@/store'
 import type { PronunciationType } from '@/typings'
 import { addHowlListener } from '@/utils'
 import { romajiToHiragana } from '@/utils/kana'
+import { playMiMoTTS } from '@/utils/mimoTTS'
 import noop from '@/utils/noop'
 import type { Howl } from 'howler'
 import { useAtomValue } from 'jotai'
@@ -62,9 +63,10 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
   const pronunciationConfig = useAtomValue(pronunciationConfigAtom)
   const loop = useMemo(() => (typeof isLoop === 'boolean' ? isLoop : pronunciationConfig.isLoop), [isLoop, pronunciationConfig.isLoop])
   const [isPlaying, setIsPlaying] = useState(false)
-  // 有道发音失败时切换到浏览器内置 TTS
-  const [useFallback, setUseFallback] = useState(false)
-  const spokenFallbackRef = useRef(false)
+  // 有道发音失败时的回退策略：'none' | 'mimo' | 'speech'
+  const [fallbackMode, setFallbackMode] = useState<'none' | 'mimo' | 'speech'>('none')
+  const fallbackTriggeredRef = useRef(false)
+  const mimoControllerRef = useRef<{ stop: () => void } | null>(null)
 
   const [play, { stop, sound }] = useSound(generateWordSoundSrc(word, pronunciationConfig.type), {
     html5: true,
@@ -76,11 +78,16 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
 
   // 切换单词/发音类型时重置回退状态
   useEffect(() => {
-    setUseFallback(false)
-    spokenFallbackRef.current = false
+    setFallbackMode('none')
+    fallbackTriggeredRef.current = false
+    return () => {
+      mimoControllerRef.current?.stop()
+      mimoControllerRef.current = null
+    }
   }, [word, pronunciationConfig.type])
 
-  const speakFallback = useCallback(() => {
+  // 浏览器内置 Web Speech API（最终兆底）
+  const speakBrowserTTS = useCallback(() => {
     if (typeof window === 'undefined' || !window.speechSynthesis) return
     const u = new SpeechSynthesisUtterance(word)
     u.lang = fallbackLang(pronunciationConfig.type)
@@ -91,25 +98,54 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     u.onerror = () => setIsPlaying(false)
     window.speechSynthesis.cancel()
     window.speechSynthesis.speak(u)
-    spokenFallbackRef.current = true
   }, [word, pronunciationConfig.type, pronunciationConfig.rate, pronunciationConfig.volume])
 
+  // MiMo TTS fallback（高质量英语女声）
+  const speakMiMo = useCallback(() => {
+    const controller = playMiMoTTS(word, {
+      volume: pronunciationConfig.volume,
+      rate: pronunciationConfig.rate,
+      onstart: () => setIsPlaying(true),
+      onend: () => setIsPlaying(false),
+      onerror: () => {
+        setIsPlaying(false)
+        // MiMo 也失败，最终回退到浏览器内置 TTS
+        setFallbackMode('speech')
+        speakBrowserTTS()
+      },
+    })
+    mimoControllerRef.current = controller
+  }, [word, pronunciationConfig.volume, pronunciationConfig.rate, speakBrowserTTS])
+
+  // 触发 fallback 链：MiMo TTS → Web Speech API
+  const triggerFallback = useCallback(() => {
+    if (fallbackTriggeredRef.current) return
+    fallbackTriggeredRef.current = true
+    setFallbackMode('mimo')
+    speakMiMo()
+  }, [speakMiMo])
+
   const playWrapped = useCallback(() => {
-    if (useFallback) {
-      speakFallback()
+    if (fallbackMode === 'mimo') {
+      speakMiMo()
+    } else if (fallbackMode === 'speech') {
+      speakBrowserTTS()
     } else {
       play()
     }
-  }, [useFallback, play, speakFallback])
+  }, [fallbackMode, play, speakMiMo, speakBrowserTTS])
 
   const stopWrapped = useCallback(() => {
-    if (useFallback && typeof window !== 'undefined' && window.speechSynthesis) {
+    if (fallbackMode === 'mimo') {
+      mimoControllerRef.current?.stop()
+      setIsPlaying(false)
+    } else if (fallbackMode === 'speech' && typeof window !== 'undefined' && window.speechSynthesis) {
       window.speechSynthesis.cancel()
       setIsPlaying(false)
     } else {
       stop()
     }
-  }, [useFallback, stop])
+  }, [fallbackMode, stop])
 
   useEffect(() => {
     if (!sound) return
@@ -127,19 +163,13 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     unListens.push(
       addHowlListener(sound, 'playerror', () => {
         setIsPlaying(false)
-        if (!spokenFallbackRef.current) {
-          setUseFallback(true)
-          speakFallback()
-        }
+        triggerFallback()
       }),
     )
 
-    // 有道返回 500 等加载失败时，回退到浏览器 TTS
+    // 有道返回 500 等加载失败时，触发 MiMo TTS fallback
     const onLoadError = () => {
-      if (!spokenFallbackRef.current) {
-        setUseFallback(true)
-        speakFallback()
-      }
+      triggerFallback()
     }
     ;(sound as Howl).on('loaderror', onLoadError)
 
@@ -149,7 +179,7 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
       unListens.forEach((unListen) => unListen())
       ;(sound as Howl).unload()
     }
-  }, [sound, speakFallback])
+  }, [sound, triggerFallback])
 
   return { play: playWrapped, stop: stopWrapped, isPlaying }
 }
