@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/mimo-tts/(.*)",
-      "destination": "https://api.xiaomimimo.com/$1"
+      "destination": "/api/mimo-tts?upstream=$1"
     },
     {
       "source": "/(.*)",

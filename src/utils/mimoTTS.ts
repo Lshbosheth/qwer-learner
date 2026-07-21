@@ -6,9 +6,10 @@
  * 音色: default_en（英语女声，专业清晰）
  */
 
-// 开发环境通过 Vite 代理绕过 CORS，生产环境通过 nginx 代理
+// 开发环境通过 Vite 代理绕过 CORS；生产环境(Vercel)由 /api/mimo-tts 服务端函数注入 key，
+// 因此前端不再携带明文 key。本地开发如需启用 MiMo，请在 .env.local 设置 VITE_MIMO_API_KEY。
 const MIMO_API_BASE = '/mimo-tts/v1'
-const MIMO_API_KEY = 'sk-ckiypx0j9gsl93s4n2ykbn9tjdleiyv4ggvxcqkil8ajrv0s'
+const MIMO_API_KEY = import.meta.env.VITE_MIMO_API_KEY ?? ''
 const MIMO_MODEL = 'mimo-v2.5-tts'
 const MIMO_VOICE = 'Mia' // 英语女声（可用: mimo_default, Mia, Chloe, Milo, Dean 等）
 
@@ -32,7 +33,7 @@ export async function fetchMiMoTTS(text: string): Promise<string | null> {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'api-key': MIMO_API_KEY,
+        ...(MIMO_API_KEY ? { 'api-key': MIMO_API_KEY } : {}),
       },
       body: JSON.stringify({
         model: MIMO_MODEL,
