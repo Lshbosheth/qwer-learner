@@ -5,7 +5,7 @@ import { romajiToHiragana } from '@/utils/kana'
 import noop from '@/utils/noop'
 import type { Howl } from 'howler'
 import { useAtomValue } from 'jotai'
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import useSound from 'use-sound'
 import type { HookOptions } from 'use-sound/dist/types'
 
@@ -34,10 +34,37 @@ export function generateWordSoundSrc(word: string, pronunciation: Exclude<Pronun
   }
 }
 
+// 有道 dictvoice 对部分词组（如含 backpropagation 的短语）会返回 500，
+// 此时回退到浏览器内置的 Web Speech API 朗读，保证发音功能始终可用。
+function fallbackLang(type: PronunciationType): string {
+  switch (type) {
+    case 'uk':
+      return 'en-GB'
+    case 'us':
+      return 'en-US'
+    case 'zh':
+      return 'zh-CN'
+    case 'ja':
+    case 'romaji':
+      return 'ja-JP'
+    case 'de':
+      return 'de-DE'
+    case 'kk':
+      return 'ru-RU'
+    case 'id':
+      return 'id-ID'
+    default:
+      return 'en-US'
+  }
+}
+
 export default function usePronunciationSound(word: string, isLoop?: boolean) {
   const pronunciationConfig = useAtomValue(pronunciationConfigAtom)
   const loop = useMemo(() => (typeof isLoop === 'boolean' ? isLoop : pronunciationConfig.isLoop), [isLoop, pronunciationConfig.isLoop])
   const [isPlaying, setIsPlaying] = useState(false)
+  // 有道发音失败时切换到浏览器内置 TTS
+  const [useFallback, setUseFallback] = useState(false)
+  const spokenFallbackRef = useRef(false)
 
   const [play, { stop, sound }] = useSound(generateWordSoundSrc(word, pronunciationConfig.type), {
     html5: true,
@@ -46,6 +73,43 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     volume: pronunciationConfig.volume,
     rate: pronunciationConfig.rate,
   } as HookOptions)
+
+  // 切换单词/发音类型时重置回退状态
+  useEffect(() => {
+    setUseFallback(false)
+    spokenFallbackRef.current = false
+  }, [word, pronunciationConfig.type])
+
+  const speakFallback = useCallback(() => {
+    if (typeof window === 'undefined' || !window.speechSynthesis) return
+    const u = new SpeechSynthesisUtterance(word)
+    u.lang = fallbackLang(pronunciationConfig.type)
+    u.rate = pronunciationConfig.rate
+    u.volume = pronunciationConfig.volume
+    u.onstart = () => setIsPlaying(true)
+    u.onend = () => setIsPlaying(false)
+    u.onerror = () => setIsPlaying(false)
+    window.speechSynthesis.cancel()
+    window.speechSynthesis.speak(u)
+    spokenFallbackRef.current = true
+  }, [word, pronunciationConfig.type, pronunciationConfig.rate, pronunciationConfig.volume])
+
+  const playWrapped = useCallback(() => {
+    if (useFallback) {
+      speakFallback()
+    } else {
+      play()
+    }
+  }, [useFallback, play, speakFallback])
+
+  const stopWrapped = useCallback(() => {
+    if (useFallback && typeof window !== 'undefined' && window.speechSynthesis) {
+      window.speechSynthesis.cancel()
+      setIsPlaying(false)
+    } else {
+      stop()
+    }
+  }, [useFallback, stop])
 
   useEffect(() => {
     if (!sound) return
@@ -60,16 +124,34 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     unListens.push(addHowlListener(sound, 'play', () => setIsPlaying(true)))
     unListens.push(addHowlListener(sound, 'end', () => setIsPlaying(false)))
     unListens.push(addHowlListener(sound, 'pause', () => setIsPlaying(false)))
-    unListens.push(addHowlListener(sound, 'playerror', () => setIsPlaying(false)))
+    unListens.push(
+      addHowlListener(sound, 'playerror', () => {
+        setIsPlaying(false)
+        if (!spokenFallbackRef.current) {
+          setUseFallback(true)
+          speakFallback()
+        }
+      }),
+    )
+
+    // 有道返回 500 等加载失败时，回退到浏览器 TTS
+    const onLoadError = () => {
+      if (!spokenFallbackRef.current) {
+        setUseFallback(true)
+        speakFallback()
+      }
+    }
+    ;(sound as Howl).on('loaderror', onLoadError)
 
     return () => {
+      ;(sound as Howl).off('loaderror', onLoadError)
       setIsPlaying(false)
       unListens.forEach((unListen) => unListen())
       ;(sound as Howl).unload()
     }
-  }, [sound])
+  }, [sound, speakFallback])
 
-  return { play, stop, isPlaying }
+  return { play: playWrapped, stop: stopWrapped, isPlaying }
 }
 
 export function usePrefetchPronunciationSound(word: string | undefined) {
