@@ -25,6 +25,7 @@ export type Word = {
   usphone: string
   ukphone: string
   notation?: string
+  speakAs?: string // 自定义发音文本，用于专有名词发音纠正
 }
 
 export type WordWithIndex = Word & {

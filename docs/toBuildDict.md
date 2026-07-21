@@ -30,6 +30,13 @@
 ]
 ```
 
+可选字段：
+
+- `usphone`：美式音标
+- `ukphone`：英式音标
+- `notation`：注音（用于日语罗马音等）
+- **`speakAs`**（可选）：自定义发音文本。当单词为专有名词且标准 TTS 发音不正确时使用。例如 `"name": "vite"` 搭配 `"speakAs": "veet"`，发音时会用 "veet" 去请求音频。不填则默认使用 `name` 字段发音。
+
 例如:
 
 ```json
@@ -44,6 +51,8 @@
   { "name": "program", "trans": ["n. 节目(单),程序,计划 vt. 规划,拟定计划,制作节目"] },
   { "name": "line", "trans": ["n. 行,线,航线,场界,皱纹,家族 vt. &vi. 用做衬里,排成一行,顺...排列 vi. 排成一行,顺...排列,划线于"] },
   { "name": "if", "trans": ["conj. 如果，是否，即使 n. 条件,设想"] },
+  { "name": "vite", "trans": ["前端构建工具"], "usphone": "viːt", "ukphone": "viːt", "speakAs": "veet" },
+  { "name": "nginx", "trans": ["Web服务器"], "usphone": "ˌɛndʒɪnˈɛks", "ukphone": "ˌɛndʒɪnˈɛks", "speakAs": "engine x" }
 
 ```
 
