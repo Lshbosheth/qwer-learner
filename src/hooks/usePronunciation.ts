@@ -171,8 +171,9 @@ export function usePrefetchPronunciationSound(word: string | undefined) {
       audio.src = soundUrl
       audio.preload = 'auto'
 
-      // gpt 说这这两行能尽可能规避下载插件被触发问题。 本地测试不加也可以，考虑到别的插件可能有问题，所以加上保险
-      audio.crossOrigin = 'anonymous'
+      // 不要给 audio 设置 crossOrigin：有道 dictvoice 不返回
+      // Access-Control-Allow-Origin，设了 'anonymous' 会让预加载被 CORS 拦截而永远失败
+      // （跨域媒体元素不读数据时不要求 CORS，实际播放走 use-sound 的不带 crossOrigin 的 audio 元素）。
       audio.style.display = 'none'
 
       head.appendChild(audio)
