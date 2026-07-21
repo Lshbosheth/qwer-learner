@@ -1,0 +1,152 @@
+[
+  {
+    "name": "hallucination",
+    "trans": [
+      "n. 幻觉（大模型生成看似合理但事实错误的内容）"
+    ],
+    "usphone": "həˌluːsɪˈneɪʃ(ə)n",
+    "ukphone": "həˌluːsɪˈneɪʃ(ə)n",
+    "example": "The chatbot's hallucination produced a fake citation.",
+    "exampleTrans": "聊天机器人产生的幻觉编造了一条不存在的引用。"
+  },
+  {
+    "name": "token",
+    "trans": [
+      "n. 词元（文本被切分用于模型处理的最小单位；也是 API 计费单位）"
+    ],
+    "usphone": "ˈtoʊkən",
+    "ukphone": "ˈtəʊkən",
+    "example": "The prompt was truncated because it exceeded the token limit.",
+    "exampleTrans": "由于超出词元上限，这条提示词被截断了。"
+  },
+  {
+    "name": "inference",
+    "trans": [
+      "n. 推理（模型根据输入生成输出的过程，区别于训练 training）"
+    ],
+    "usphone": "ˈɪnfərəns",
+    "ukphone": "ˈɪnfərəns",
+    "example": "We optimized the model for faster inference on edge devices.",
+    "exampleTrans": "我们优化了模型，让其在边缘设备上推理更快。"
+  },
+  {
+    "name": "fine-tuning",
+    "trans": [
+      "n. 微调（在预训练模型上用特定数据继续训练以适配任务）"
+    ],
+    "usphone": "ˌfaɪn ˈtuːnɪŋ",
+    "ukphone": "ˌfaɪn ˈtjuːnɪŋ",
+    "example": "Fine-tuning the base model on medical data improved accuracy.",
+    "exampleTrans": "在医疗数据上微调基础模型后，准确率提升了。"
+  },
+  {
+    "name": "prompt",
+    "trans": [
+      "n. 提示词（输入给大模型的指令文本）；v. 提示"
+    ],
+    "usphone": "prɑːmpt",
+    "ukphone": "prɒmpt",
+    "example": "A well-structured prompt greatly improves the output quality.",
+    "exampleTrans": "结构良好的提示词能显著提升输出质量。"
+  },
+  {
+    "name": "embedding",
+    "trans": [
+      "n. 嵌入（将文本/图像转为可计算向量的表示方式）"
+    ],
+    "usphone": "ɪmˈbedɪŋ",
+    "ukphone": "ɪmˈbedɪŋ",
+    "example": "We use embeddings to measure semantic similarity between texts.",
+    "exampleTrans": "我们用嵌入向量来衡量文本间的语义相似度。"
+  },
+  {
+    "name": "attention",
+    "trans": [
+      "n. 注意力（机制，Transformer 中计算词间关联权重的核心）"
+    ],
+    "usphone": "əˈtenʃ(ə)n",
+    "ukphone": "əˈtenʃ(ə)n",
+    "example": "Self-attention lets each token attend to every other token.",
+    "exampleTrans": "自注意力让每个词元都能关注到其他所有词元。"
+  },
+  {
+    "name": "agent",
+    "trans": [
+      "n. 智能体（能自主规划、调用工具完成目标的 AI 程序）"
+    ],
+    "usphone": "ˈeɪdʒənt",
+    "ukphone": "ˈeɪdʒənt",
+    "example": "The agent broke the task into steps and called a search tool.",
+    "exampleTrans": "这个智能体把任务拆成多步，并调用了搜索工具。"
+  },
+  {
+    "name": "autonomous",
+    "trans": [
+      "adj. 自主的（无需逐步人工干预即可行动）"
+    ],
+    "usphone": "ɔːˈtɑːnəməs",
+    "ukphone": "ɔːˈtɒnəməs",
+    "example": "An autonomous agent can loop until the goal is reached.",
+    "exampleTrans": "自主智能体可以循环执行，直到目标达成。"
+  },
+  {
+    "name": "tool calling",
+    "trans": [
+      "n. 工具调用（模型输出结构化参数以调用外部函数 / API）"
+    ],
+    "usphone": "tuːl ˈkɔːlɪŋ",
+    "ukphone": "tuːl ˈkɔːlɪŋ",
+    "example": "Tool calling lets the model fetch live weather data.",
+    "exampleTrans": "工具调用让模型能获取实时天气数据。"
+  },
+  {
+    "name": "API",
+    "trans": [
+      "n. 应用程序编程接口（系统间通信的契约）"
+    ],
+    "usphone": "ˌeɪ piː ˈaɪ",
+    "ukphone": "ˌeɪ piː ˈaɪ",
+    "example": "The agent invoked the payment API to complete the order.",
+    "exampleTrans": "智能体调用了支付 API 来完成下单。"
+  },
+  {
+    "name": "retrieval",
+    "trans": [
+      "n. 检索（从知识库中查找相关内容，RAG 的核心步骤）"
+    ],
+    "usphone": "rɪˈtriːv(ə)l",
+    "ukphone": "rɪˈtriːv(ə)l",
+    "example": "Retrieval fetches the most relevant documents before generation.",
+    "exampleTrans": "在生成之前，检索会拉取最相关的文档。"
+  },
+  {
+    "name": "knowledge base",
+    "trans": [
+      "n. 知识库（RAG 中用于存储检索内容的文档集合）"
+    ],
+    "usphone": "ˈnɑːlɪdʒ beɪs",
+    "ukphone": "ˈnɒlɪdʒ beɪs",
+    "example": "We indexed the knowledge base for semantic search.",
+    "exampleTrans": "我们对知识库建立了索引以支持语义搜索。"
+  },
+  {
+    "name": "context window",
+    "trans": [
+      "n. 上下文窗口（模型单次能处理的最大 token 长度）"
+    ],
+    "usphone": "ˈkɑːntekst ˈwɪndoʊ",
+    "ukphone": "ˈkɒntekst ˈwɪndəʊ",
+    "example": "Long documents must be chunked to fit the context window.",
+    "exampleTrans": "长文档必须分块，才能放进上下文窗口。"
+  },
+  {
+    "name": "workflow",
+    "trans": [
+      "n. 工作流（把多个步骤 / 节点编排成可重复执行的流程）"
+    ],
+    "usphone": "ˈwɜːrkfloʊ",
+    "ukphone": "ˈwɜːkfləʊ",
+    "example": "We built a workflow that chains retrieval, generation and review.",
+    "exampleTrans": "我们搭建了一个串联检索、生成与审核的工作流。"
+  }
+]
