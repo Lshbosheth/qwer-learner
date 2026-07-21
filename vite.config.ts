@@ -45,6 +45,15 @@ export default defineConfig(async ({ mode }) => {
         '@': path.resolve(__dirname, 'src'),
       },
     },
+    server: {
+      proxy: {
+        '/mimo-tts': {
+          target: 'https://api.xiaomimimo.com',
+          changeOrigin: true,
+          rewrite: (p) => p.replace(/^\/mimo-tts/, ''),
+        },
+      },
+    },
     css: {
       modules: {
         localsConvention: 'camelCaseOnly',

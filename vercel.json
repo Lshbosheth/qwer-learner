@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/mimo-tts/(.*)",
+      "destination": "https://api.xiaomimimo.com/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -63,10 +63,12 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
   const pronunciationConfig = useAtomValue(pronunciationConfigAtom)
   const loop = useMemo(() => (typeof isLoop === 'boolean' ? isLoop : pronunciationConfig.isLoop), [isLoop, pronunciationConfig.isLoop])
   const [isPlaying, setIsPlaying] = useState(false)
-  // 有道发音失败时的回退策略：'none' | 'mimo' | 'speech'
-  const [fallbackMode, setFallbackMode] = useState<'none' | 'mimo' | 'speech'>('none')
-  const fallbackTriggeredRef = useRef(false)
   const mimoControllerRef = useRef<{ stop: () => void } | null>(null)
+  // 记录当前单词 MiMo 是否失败，失败后回退到有道
+  const mimoFailedRef = useRef(false)
+
+  // 英语发音（us/uk）优先使用 MiMo TTS，其他语言用有道
+  const useMiMoPrimary = pronunciationConfig.type === 'us' || pronunciationConfig.type === 'uk'
 
   const [play, { stop, sound }] = useSound(generateWordSoundSrc(word, pronunciationConfig.type), {
     html5: true,
@@ -76,10 +78,9 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     rate: pronunciationConfig.rate,
   } as HookOptions)
 
-  // 切换单词/发音类型时重置回退状态
+  // 切换单词/发音类型时重置状态
   useEffect(() => {
-    setFallbackMode('none')
-    fallbackTriggeredRef.current = false
+    mimoFailedRef.current = false
     return () => {
       mimoControllerRef.current?.stop()
       mimoControllerRef.current = null
@@ -100,7 +101,7 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     window.speechSynthesis.speak(u)
   }, [word, pronunciationConfig.type, pronunciationConfig.rate, pronunciationConfig.volume])
 
-  // MiMo TTS fallback（高质量英语女声）
+  // MiMo TTS 播放（英语主发音源）
   const speakMiMo = useCallback(() => {
     const controller = playMiMoTTS(word, {
       volume: pronunciationConfig.volume,
@@ -109,43 +110,35 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
       onend: () => setIsPlaying(false),
       onerror: () => {
         setIsPlaying(false)
-        // MiMo 也失败，最终回退到浏览器内置 TTS
-        setFallbackMode('speech')
-        speakBrowserTTS()
+        // MiMo 失败，标记并回退到有道
+        mimoFailedRef.current = true
+        play()
       },
     })
     mimoControllerRef.current = controller
-  }, [word, pronunciationConfig.volume, pronunciationConfig.rate, speakBrowserTTS])
-
-  // 触发 fallback 链：MiMo TTS → Web Speech API
-  const triggerFallback = useCallback(() => {
-    if (fallbackTriggeredRef.current) return
-    fallbackTriggeredRef.current = true
-    setFallbackMode('mimo')
-    speakMiMo()
-  }, [speakMiMo])
+  }, [word, pronunciationConfig.volume, pronunciationConfig.rate, play])
 
   const playWrapped = useCallback(() => {
-    if (fallbackMode === 'mimo') {
+    if (useMiMoPrimary && !mimoFailedRef.current) {
+      // 英语优先用 MiMo TTS
       speakMiMo()
-    } else if (fallbackMode === 'speech') {
-      speakBrowserTTS()
     } else {
+      // 其他语言或 MiMo 失败后用有道
       play()
     }
-  }, [fallbackMode, play, speakMiMo, speakBrowserTTS])
+  }, [useMiMoPrimary, play, speakMiMo])
 
   const stopWrapped = useCallback(() => {
-    if (fallbackMode === 'mimo') {
-      mimoControllerRef.current?.stop()
-      setIsPlaying(false)
-    } else if (fallbackMode === 'speech' && typeof window !== 'undefined' && window.speechSynthesis) {
+    // 停止 MiMo
+    mimoControllerRef.current?.stop()
+    // 停止有道
+    stop()
+    // 停止浏览器 TTS
+    if (typeof window !== 'undefined' && window.speechSynthesis) {
       window.speechSynthesis.cancel()
-      setIsPlaying(false)
-    } else {
-      stop()
     }
-  }, [fallbackMode, stop])
+    setIsPlaying(false)
+  }, [stop])
 
   useEffect(() => {
     if (!sound) return
@@ -163,13 +156,14 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     unListens.push(
       addHowlListener(sound, 'playerror', () => {
         setIsPlaying(false)
-        triggerFallback()
+        // 有道也失败，用浏览器 TTS 兆底
+        speakBrowserTTS()
       }),
     )
 
-    // 有道返回 500 等加载失败时，触发 MiMo TTS fallback
     const onLoadError = () => {
-      triggerFallback()
+      // 有道加载失败，用浏览器 TTS 兆底
+      speakBrowserTTS()
     }
     ;(sound as Howl).on('loaderror', onLoadError)
 
@@ -179,7 +173,7 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
       unListens.forEach((unListen) => unListen())
       ;(sound as Howl).unload()
     }
-  }, [sound, triggerFallback])
+  }, [sound, speakBrowserTTS])
 
   return { play: playWrapped, stop: stopWrapped, isPlaying }
 }

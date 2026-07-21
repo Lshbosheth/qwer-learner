@@ -6,10 +6,11 @@
  * 音色: default_en（英语女声，专业清晰）
  */
 
-const MIMO_API_BASE = 'https://api.xiaomimimo.com/v1'
+// 开发环境通过 Vite 代理绕过 CORS，生产环境通过 nginx 代理
+const MIMO_API_BASE = '/mimo-tts/v1'
 const MIMO_API_KEY = 'sk-ckiypx0j9gsl93s4n2ykbn9tjdleiyv4ggvxcqkil8ajrv0s'
 const MIMO_MODEL = 'mimo-v2.5-tts'
-const MIMO_VOICE = 'default_en' // 英语女声
+const MIMO_VOICE = 'Mia' // 英语女声（可用: mimo_default, Mia, Chloe, Milo, Dean 等）
 
 // 内存缓存：word -> blob URL，避免重复请求
 const audioCache = new Map<string, string>()
@@ -23,6 +24,8 @@ export async function fetchMiMoTTS(text: string): Promise<string | null> {
   // 命中缓存直接返回
   const cached = audioCache.get(text)
   if (cached) return cached
+
+  console.log('[MiMo TTS] 请求发音:', text)
 
   try {
     const response = await fetch(`${MIMO_API_BASE}/chat/completions`, {
