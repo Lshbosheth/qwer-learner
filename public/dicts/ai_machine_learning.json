@@ -22,7 +22,9 @@
     "name": "Accuracy",
     "trans": [
       "准确率"
-    ]
+    ],
+    "usphone": "ˈækjərəsi; ˈækjʊrəsi",
+    "ukphone": "ˈækjərəsi; ˈækjʊrəsi"
   },
   {
     "name": "Acquisition Function",
@@ -34,7 +36,9 @@
     "name": "Action",
     "trans": [
       "动作"
-    ]
+    ],
+    "usphone": "ˈækʃ(ə)n",
+    "ukphone": "ˈækʃ(ə)n"
   },
   {
     "name": "Activation Function",
@@ -94,13 +98,17 @@
     "name": "Agent",
     "trans": [
       "智能体"
-    ]
+    ],
+    "usphone": "ˈeɪdʒənt",
+    "ukphone": "ˈeɪdʒənt"
   },
   {
     "name": "Algorithm",
     "trans": [
       "算法"
-    ]
+    ],
+    "usphone": "ˈælɡərɪðəm",
+    "ukphone": "ˈælɡərɪðəm"
   },
   {
     "name": "Alpha-Beta Pruning",
@@ -132,7 +140,8 @@
     "name": "Artificial Intelligence",
     "trans": [
       "人工智能"
-    ]
+    ],
+    "ukphone": "ˌɑːtɪfɪʃ(ə)l ɪnˈtelɪdʒəns"
   },
   {
     "name": "Artificial Neural Network",
@@ -150,7 +159,9 @@
     "name": "Attention",
     "trans": [
       "注意力"
-    ]
+    ],
+    "usphone": "əˈtenʃ(ə)n",
+    "ukphone": "əˈtenʃ(ə)n"
   },
   {
     "name": "Attention Mechanism",
@@ -162,7 +173,9 @@
     "name": "Attribute",
     "trans": [
       "属性"
-    ]
+    ],
+    "usphone": "əˈtrɪbjuːt; ˈætrɪbjuːt",
+    "ukphone": "əˈtrɪbjuːt; ˈætrɪbjuːt"
   },
   {
     "name": "Attribute Space",
@@ -230,7 +243,9 @@
     "name": "Bandit",
     "trans": [
       "赌博机/老虎机"
-    ]
+    ],
+    "usphone": "ˈbændɪt",
+    "ukphone": "ˈbændɪt"
   },
   {
     "name": "Base Learner",
@@ -248,13 +263,17 @@
     "name": "Baseline",
     "trans": [
       "基准"
-    ]
+    ],
+    "usphone": "ˈbeɪslaɪn",
+    "ukphone": "ˈbeɪslaɪn"
   },
   {
     "name": "Batch",
     "trans": [
       "批量"
-    ]
+    ],
+    "usphone": "bætʃ",
+    "ukphone": "bætʃ"
   },
   {
     "name": "Batch Normalization",
@@ -326,7 +345,9 @@
     "name": "Benchmark",
     "trans": [
       "基准"
-    ]
+    ],
+    "usphone": "ˈbentʃmɑːrk",
+    "ukphone": "ˈbentʃmɑːk"
   },
   {
     "name": "Belief Network",
@@ -344,7 +365,8 @@
     "name": "Bellman Equation",
     "trans": [
       "贝尔曼方程"
-    ]
+    ],
+    "usphone": "ˈbelmən ɪˈkweɪʒn"
   },
   {
     "name": "Bernoulli Distribution",
@@ -376,7 +398,9 @@
     "name": "Bias",
     "trans": [
       "偏差/偏置"
-    ]
+    ],
+    "usphone": "ˈbaɪəs",
+    "ukphone": "ˈbaɪəs"
   },
   {
     "name": "Bias In Affine Function",
@@ -462,7 +486,9 @@
     "name": "Boosting",
     "trans": [
       "Boosting（一种模型训练加速方式）"
-    ]
+    ],
+    "usphone": "ˈbuːstɪŋ",
+    "ukphone": "ˈbuːstɪŋ"
   },
   {
     "name": "Bootstrap Aggregating",
@@ -480,7 +506,9 @@
     "name": "Bootstrapping",
     "trans": [
       "自助法/自举法"
-    ]
+    ],
+    "usphone": "ˈbuːtstræpɪŋ",
+    "ukphone": "ˈbuːtˌstræpɪŋ"
   },
   {
     "name": "Break-Event Point",
@@ -493,7 +521,9 @@
     "name": "Bucketing",
     "trans": [
       "分桶"
-    ]
+    ],
+    "usphone": "ˈbʌkɪtɪŋ",
+    "ukphone": "ˈbʌkɪtɪŋ"
   },
   {
     "name": "Calculus of Variations",
@@ -524,13 +554,16 @@
     "name": "Cell",
     "trans": [
       "单元"
-    ]
+    ],
+    "usphone": "sel",
+    "ukphone": "sel"
   },
   {
     "name": "Chain Rule",
     "trans": [
       "链式法则"
-    ]
+    ],
+    "usphone": "tʃeɪn ruːl"
   },
   {
     "name": "Chebyshev Distance",
@@ -542,7 +575,9 @@
     "name": "Class",
     "trans": [
       "类别"
-    ]
+    ],
+    "usphone": "klæs",
+    "ukphone": "klɑːs"
   },
   {
     "name": "Class-Imbalance",
@@ -555,7 +590,9 @@
     "name": "Classification",
     "trans": [
       "分类"
-    ]
+    ],
+    "usphone": "ˌklæsɪfɪˈkeɪʃ(ə)n",
+    "ukphone": "ˌklæsɪfɪˈkeɪʃ(ə)n"
   },
   {
     "name": "Classification And Regression Tree",
@@ -567,19 +604,25 @@
     "name": "Classifier",
     "trans": [
       "分类器"
-    ]
+    ],
+    "usphone": "ˈklæsɪfaɪər",
+    "ukphone": "ˈklæsɪfaɪə(r)"
   },
   {
     "name": "Clique",
     "trans": [
       "团"
-    ]
+    ],
+    "usphone": "kliːk",
+    "ukphone": "kliːk"
   },
   {
     "name": "Cluster",
     "trans": [
       "簇"
-    ]
+    ],
+    "usphone": "ˈklʌstər",
+    "ukphone": "ˈklʌstə(r)"
   },
   {
     "name": "Cluster Assumption",
@@ -591,7 +634,9 @@
     "name": "Clustering",
     "trans": [
       "聚类"
-    ]
+    ],
+    "usphone": "ˈklʌstərɪŋ",
+    "ukphone": "ˈklʌstərɪŋ"
   },
   {
     "name": "Clustering Ensemble",
@@ -628,7 +673,9 @@
     "name": "Comprehensibility",
     "trans": [
       "可解释性"
-    ]
+    ],
+    "usphone": "ˌkɑːmprɪˌhensəˈbɪləti",
+    "ukphone": "ˌkɒmprɪˌhensəˈbɪləti"
   },
   {
     "name": "Computation Graph",
@@ -646,7 +693,8 @@
     "name": "Conditional Entropy",
     "trans": [
       "条件熵"
-    ]
+    ],
+    "usphone": "kənˈdɪʃənl ˈentrəpi"
   },
   {
     "name": "Conditional Probability",
@@ -676,13 +724,16 @@
     "name": "Confidence",
     "trans": [
       "置信度"
-    ]
+    ],
+    "usphone": "ˈkɑːnfɪdəns",
+    "ukphone": "ˈkɒnfɪdəns"
   },
   {
     "name": "Confusion Matrix",
     "trans": [
       "混淆矩阵"
-    ]
+    ],
+    "usphone": "kənˈfjuːʒn ˈmeɪtrɪks"
   },
   {
     "name": "Conjugate Distribution",
@@ -700,13 +751,16 @@
     "name": "Connectionism",
     "trans": [
       "连接主义"
-    ]
+    ],
+    "ukphone": "kəˈnekʃ(ə)nɪz(ə)m"
   },
   {
     "name": "Consistency",
     "trans": [
       "一致性"
-    ]
+    ],
+    "usphone": "kənˈsɪstənsi",
+    "ukphone": "kənˈsɪstənsi"
   },
   {
     "name": "Constrained Optimization",
@@ -748,7 +802,8 @@
     "name": "Contingency Table",
     "trans": [
       "列联表"
-    ]
+    ],
+    "usphone": "kənˈtɪndʒənsi ˈteɪbl"
   },
   {
     "name": "Continuous Attribute",
@@ -766,7 +821,9 @@
     "name": "Convergence",
     "trans": [
       "收敛"
-    ]
+    ],
+    "usphone": "kənˈvɜːrdʒəns",
+    "ukphone": "kənˈvɜːdʒəns"
   },
   {
     "name": "Convex Optimization",
@@ -784,7 +841,9 @@
     "name": "Convolution",
     "trans": [
       "卷积"
-    ]
+    ],
+    "usphone": "ˌkɑːnvəˈluːʃn",
+    "ukphone": "ˌkɒnvəˈluːʃn"
   },
   {
     "name": "Convolutional Kernel",
@@ -808,7 +867,9 @@
     "name": "Corpus",
     "trans": [
       "语料库"
-    ]
+    ],
+    "usphone": "ˈkɔːrpəs",
+    "ukphone": "ˈkɔːpəs"
   },
   {
     "name": "Correlation Coefficient",
@@ -826,7 +887,9 @@
     "name": "Cost",
     "trans": [
       "代价"
-    ]
+    ],
+    "usphone": "kɔːst",
+    "ukphone": "kɒst"
   },
   {
     "name": "Cost Curve",
@@ -857,7 +920,9 @@
     "name": "Covariance",
     "trans": [
       "协方差"
-    ]
+    ],
+    "usphone": "koʊˈveriəns",
+    "ukphone": "kəʊˈveərɪəns"
   },
   {
     "name": "Covariance Matrix",
@@ -869,7 +934,8 @@
     "name": "Critical Point",
     "trans": [
       "临界点"
-    ]
+    ],
+    "usphone": "ˈkrɪtɪkl pɔɪnt"
   },
   {
     "name": "Cross Entropy",
@@ -899,13 +965,15 @@
     "name": "Data Mining",
     "trans": [
       "数据挖掘"
-    ]
+    ],
+    "usphone": "ˈdeɪtə maɪnɪŋ; ˈdætə maɪnɪŋ"
   },
   {
     "name": "Data Set",
     "trans": [
       "数据集"
-    ]
+    ],
+    "usphone": "ˈdætə set; ˈdeɪtə set"
   },
   {
     "name": "Davidon-Fletcher-Powell",
@@ -918,13 +986,15 @@
     "name": "Decision Boundary",
     "trans": [
       "决策边界"
-    ]
+    ],
+    "usphone": "dɪˈsɪʒn ˈbaʊndri"
   },
   {
     "name": "Decision Function",
     "trans": [
       "决策函数"
-    ]
+    ],
+    "usphone": "dɪˈsɪʒn ˈfʌŋkʃn"
   },
   {
     "name": "Decision Stump",
@@ -936,25 +1006,31 @@
     "name": "Decision Tree",
     "trans": [
       "决策树"
-    ]
+    ],
+    "usphone": "dɪˈsɪʒn triː"
   },
   {
     "name": "Decoder",
     "trans": [
       "解码器"
-    ]
+    ],
+    "usphone": "diːˈkoʊdər",
+    "ukphone": "diːˈkəʊdə(r)"
   },
   {
     "name": "Decoding",
     "trans": [
       "解码"
-    ]
+    ],
+    "usphone": "diːˈkoʊdɪŋ",
+    "ukphone": "ˌdiːˈkəʊdɪŋ"
   },
   {
     "name": "Deconvolution",
     "trans": [
       "反卷积"
-    ]
+    ],
+    "ukphone": "ˌdiːkɒnvəˈluːʃ(ə)n"
   },
   {
     "name": "Deconvolutional Network",
@@ -966,7 +1042,9 @@
     "name": "Deduction",
     "trans": [
       "演绎"
-    ]
+    ],
+    "usphone": "dɪˈdʌkʃ(ə)n",
+    "ukphone": "dɪˈdʌkʃn"
   },
   {
     "name": "Deep Belief Network",
@@ -1048,19 +1126,24 @@
     "name": "Derivative",
     "trans": [
       "导数"
-    ]
+    ],
+    "usphone": "dɪˈrɪvətɪv",
+    "ukphone": "dɪˈrɪvətɪv"
   },
   {
     "name": "Determinant",
     "trans": [
       "行列式"
-    ]
+    ],
+    "usphone": "dɪˈtɜːrmɪnənt",
+    "ukphone": "dɪˈtɜːmɪnənt"
   },
   {
     "name": "Diagonal Matrix",
     "trans": [
       "对角矩阵"
-    ]
+    ],
+    "usphone": "daɪˈæɡənl ˈmeɪtrɪks"
   },
   {
     "name": "Dictionary Learning",
@@ -1072,13 +1155,15 @@
     "name": "Dimension Reduction",
     "trans": [
       "降维"
-    ]
+    ],
+    "usphone": "dɪˈmenʃn rɪˈdʌkʃn; daɪˈmenʃn rɪˈdʌkʃn"
   },
   {
     "name": "Directed Edge",
     "trans": [
       "有向边"
-    ]
+    ],
+    "usphone": "dəˈrektɪd edʒ; daɪˈrekt edʒ"
   },
   {
     "name": "Directed Graphical Model",
@@ -1108,7 +1193,9 @@
     "name": "Discriminator",
     "trans": [
       "判别器"
-    ]
+    ],
+    "usphone": "dɪˈskrɪmɪˌneɪtər",
+    "ukphone": "dɪˈskrɪmɪneɪtə(r)"
   },
   {
     "name": "Discriminator Network",
@@ -1138,19 +1225,25 @@
     "name": "Diverge",
     "trans": [
       "发散"
-    ]
+    ],
+    "usphone": "daɪˈvɜːrdʒ",
+    "ukphone": "daɪˈvɜːdʒ"
   },
   {
     "name": "Divergence",
     "trans": [
       "散度"
-    ]
+    ],
+    "usphone": "daɪˈvɜːrdʒəns",
+    "ukphone": "daɪˈvɜːdʒəns"
   },
   {
     "name": "Diversity",
     "trans": [
       "多样性"
-    ]
+    ],
+    "usphone": "daɪˈvɜːrsəti; dɪˈvɜːsɪti",
+    "ukphone": "daɪˈvɜːsəti"
   },
   {
     "name": "Diversity Measure",
@@ -1187,7 +1280,9 @@
     "trans": [
       "暂退法"
     ],
-    "speakAs": "Drop-out"
+    "speakAs": "Drop-out",
+    "usphone": "ˈdrɑːpaʊt",
+    "ukphone": "ˈdrɒpaʊt"
   },
   {
     "name": "Dropout Boosting",
@@ -1243,7 +1338,9 @@
     "trans": [
       "特征值"
     ],
-    "speakAs": "Eigen-value"
+    "speakAs": "Eigen-value",
+    "usphone": "ˈaɪɡənˌvæljuː",
+    "ukphone": "ˈaɪɡənˌvæljuː"
   },
   {
     "name": "Element-Wise Product",
@@ -1256,7 +1353,9 @@
     "name": "Embedding",
     "trans": [
       "嵌入"
-    ]
+    ],
+    "usphone": "ɪmˈbedɪŋ",
+    "ukphone": "ɪmˈbedɪŋ"
   },
   {
     "name": "Empirical Conditional Entropy",
@@ -1268,7 +1367,8 @@
     "name": "Empirical Distribution",
     "trans": [
       "经验分布"
-    ]
+    ],
+    "usphone": "ɪmˈpɪrɪkl ˌdɪstrɪˈbjuːʃn"
   },
   {
     "name": "Empirical Entropy",
@@ -1298,20 +1398,25 @@
     "name": "Encoder",
     "trans": [
       "编码器"
-    ]
+    ],
+    "usphone": "ɪnˈkoʊdər",
+    "ukphone": "ɪnˈkəʊdə(r)"
   },
   {
     "name": "Encoding",
     "trans": [
       "编码"
-    ]
+    ],
+    "usphone": "ɪnˈkoʊdɪŋ",
+    "ukphone": "ɪnˈkəʊdɪŋ"
   },
   {
     "name": "End-To-End",
     "trans": [
       "端到端"
     ],
-    "speakAs": "End To End"
+    "speakAs": "End To End",
+    "usphone": "end tu end"
   },
   {
     "name": "Energy Function",
@@ -1342,25 +1447,33 @@
     "name": "Entropy",
     "trans": [
       "熵"
-    ]
+    ],
+    "usphone": "ˈentrəpi",
+    "ukphone": "ˈentrəpi"
   },
   {
     "name": "Episode",
     "trans": [
       "回合"
-    ]
+    ],
+    "usphone": "ˈepɪsoʊd",
+    "ukphone": "ˈepɪsəʊd"
   },
   {
     "name": "Epoch",
     "trans": [
       "轮"
-    ]
+    ],
+    "usphone": "ˈepək",
+    "ukphone": "ˈiːpɒk"
   },
   {
     "name": "Error",
     "trans": [
       "误差"
-    ]
+    ],
+    "usphone": "ˈerər",
+    "ukphone": "ˈerə(r)"
   },
   {
     "name": "Error Backpropagation Algorithm",
@@ -1397,7 +1510,9 @@
     "name": "Estimator",
     "trans": [
       "估计/估计量"
-    ]
+    ],
+    "usphone": "ˈestəˌmeɪtər",
+    "ukphone": "ˈestɪmeɪtə(r)"
   },
   {
     "name": "Euclidean Distance",
@@ -1409,7 +1524,9 @@
     "name": "Evidence",
     "trans": [
       "证据"
-    ]
+    ],
+    "usphone": "ˈevɪdəns",
+    "ukphone": "ˈevɪdəns"
   },
   {
     "name": "Evidence Lower Bound",
@@ -1427,13 +1544,17 @@
     "name": "Example",
     "trans": [
       "样例"
-    ]
+    ],
+    "usphone": "ɪɡˈzæmp(ə)l",
+    "ukphone": "ɪɡˈzɑːmp(ə)l"
   },
   {
     "name": "Expectation",
     "trans": [
       "期望"
-    ]
+    ],
+    "usphone": "ˌekspekˈteɪʃn",
+    "ukphone": "ˌekspekˈteɪʃ(ə)n"
   },
   {
     "name": "Expectation Maximization",
@@ -1451,7 +1572,8 @@
     "name": "Expert System",
     "trans": [
       "专家系统"
-    ]
+    ],
+    "ukphone": "ˌekspɜːt ˈsɪstəm"
   },
   {
     "name": "Exploding Gradient",
@@ -1469,19 +1591,25 @@
     "name": "Factor",
     "trans": [
       "因子"
-    ]
+    ],
+    "usphone": "ˈfæktər",
+    "ukphone": "ˈfæktə(r)"
   },
   {
     "name": "Factorization",
     "trans": [
       "因子分解"
-    ]
+    ],
+    "usphone": "ˌfæktərəˈzeɪʃən",
+    "ukphone": "ˌfæktəraɪˈzeɪʃən"
   },
   {
     "name": "Feature",
     "trans": [
       "特征"
-    ]
+    ],
+    "usphone": "ˈfiːtʃər",
+    "ukphone": "ˈfiːtʃə(r)"
   },
   {
     "name": "Feature Engineering",
@@ -1518,7 +1646,8 @@
     "trans": [
       "前馈"
     ],
-    "speakAs": "Feed-forward"
+    "speakAs": "Feed-forward",
+    "ukphone": "fiːdˈfɔːwəd"
   },
   {
     "name": "Feedforward Neural Network",
@@ -1537,20 +1666,26 @@
     "name": "Filter",
     "trans": [
       "滤波器"
-    ]
+    ],
+    "usphone": "ˈfɪltər",
+    "ukphone": "ˈfɪltə(r)"
   },
   {
     "name": "Fine-Tuning",
     "trans": [
       "微调"
     ],
-    "speakAs": "Fine Tuning"
+    "speakAs": "Fine Tuning",
+    "usphone": "ˌfaɪn ˈtuːnɪŋ",
+    "ukphone": "ˌfaɪn ˈtjuːnɪŋ"
   },
   {
     "name": "Fluctuation",
     "trans": [
       "振荡"
-    ]
+    ],
+    "usphone": "ˌflʌktʃuˈeɪʃn",
+    "ukphone": "ˌflʌktʃuˈeɪʃ(ə)n"
   },
   {
     "name": "Forget Gate",
@@ -1592,7 +1727,9 @@
     "name": "Functional",
     "trans": [
       "泛函"
-    ]
+    ],
+    "usphone": "ˈfʌŋkʃən(ə)l",
+    "ukphone": "ˈfʌŋkʃən(ə)l"
   },
   {
     "name": "Functional Neuron",
@@ -1665,7 +1802,9 @@
     "name": "Generalize",
     "trans": [
       "泛化"
-    ]
+    ],
+    "usphone": "ˈdʒen(ə)rəlaɪz",
+    "ukphone": "ˈdʒenrəlaɪz"
   },
   {
     "name": "Generalized Lagrange Function",
@@ -1701,7 +1840,9 @@
     "name": "Generator",
     "trans": [
       "生成器"
-    ]
+    ],
+    "usphone": "ˈdʒenəreɪtər",
+    "ukphone": "ˈdʒenəreɪtə(r)"
   },
   {
     "name": "Generator Network",
@@ -1713,7 +1854,8 @@
     "name": "Genetic Algorithm",
     "trans": [
       "遗传算法"
-    ]
+    ],
+    "usphone": "dʒəˈnetɪk ˈælɡərɪðəm"
   },
   {
     "name": "Gibbs Distribution",
@@ -1749,7 +1891,9 @@
     "name": "Gradient",
     "trans": [
       "梯度"
-    ]
+    ],
+    "usphone": "ˈɡreɪdiənt",
+    "ukphone": "ˈɡreɪdiənt"
   },
   {
     "name": "Gradient Clipping",
@@ -1761,13 +1905,15 @@
     "name": "Gradient Descent",
     "trans": [
       "梯度下降"
-    ]
+    ],
+    "usphone": "ˈɡreɪdiənt dɪˈsent"
   },
   {
     "name": "Gradient Descent Method",
     "trans": [
       "梯度下降法"
-    ]
+    ],
+    "usphone": "ˈɡreɪdiənt dɪˈsent ˈmeθəd"
   },
   {
     "name": "Gradient Exploding Problem",
@@ -1779,7 +1925,9 @@
     "name": "Gram Matrix",
     "trans": [
       "Gram 矩阵"
-    ]
+    ],
+    "usphone": "ɡræm ˈmeɪtrɪks",
+    "ukphone": "ɡræm ˈmeɪtrɪks"
   },
   {
     "name": "Graph Convolutional Network",
@@ -1809,7 +1957,8 @@
     "name": "Ground Truth",
     "trans": [
       "真实值"
-    ]
+    ],
+    "usphone": "ɡraʊnd truːθ"
   },
   {
     "name": "Hadamard Product",
@@ -1821,7 +1970,8 @@
     "name": "Hamming Distance",
     "trans": [
       "汉明距离"
-    ]
+    ],
+    "usphone": "ˈhæmɪŋ ˈdɪstəns"
   },
   {
     "name": "Hard Margin",
@@ -1895,7 +2045,9 @@
     "name": "Hypothesis",
     "trans": [
       "假设"
-    ]
+    ],
+    "usphone": "haɪˈpɑːθəsɪs",
+    "ukphone": "haɪˈpɒθəsɪs"
   },
   {
     "name": "Hypothesis Space",
@@ -1913,7 +2065,8 @@
     "name": "Identity Matrix",
     "trans": [
       "单位矩阵"
-    ]
+    ],
+    "usphone": "aɪˈdentəti ˈmeɪtrɪks"
   },
   {
     "name": "Imitation Learning",
@@ -1961,13 +2114,16 @@
     "name": "Induction",
     "trans": [
       "归纳"
-    ]
+    ],
+    "usphone": "ɪnˈdʌkʃ(ə)n",
+    "ukphone": "ɪnˈdʌkʃ(ə)n"
   },
   {
     "name": "Inductive Bias",
     "trans": [
       "归纳偏好"
-    ]
+    ],
+    "usphone": "ɪnˈdʌktɪv ˈbaɪəs"
   },
   {
     "name": "Inductive Learning",
@@ -1985,7 +2141,9 @@
     "name": "Inference",
     "trans": [
       "推断"
-    ]
+    ],
+    "usphone": "ˈɪnfərəns",
+    "ukphone": "ˈɪnfərəns"
   },
   {
     "name": "Information Entropy",
@@ -2009,7 +2167,9 @@
     "name": "Instance",
     "trans": [
       "示例"
-    ]
+    ],
+    "usphone": "ˈɪnstəns",
+    "ukphone": "ˈɪnstəns"
   },
   {
     "name": "Internal Covariate Shift",
@@ -2122,7 +2282,9 @@
     "name": "Label",
     "trans": [
       "标签/标记"
-    ]
+    ],
+    "usphone": "ˈleɪb(ə)l",
+    "ukphone": "ˈleɪb(ə)l"
   },
   {
     "name": "Label Space",
@@ -2207,13 +2369,17 @@
     "name": "Learner",
     "trans": [
       "学习器"
-    ]
+    ],
+    "usphone": "ˈlɜːrnər",
+    "ukphone": "ˈlɜːnə(r)"
   },
   {
     "name": "Learning",
     "trans": [
       "学习"
-    ]
+    ],
+    "usphone": "ˈlɜːrnɪŋ",
+    "ukphone": "ˈlɜːnɪŋ"
   },
   {
     "name": "Learning By Analogy",
@@ -2255,7 +2421,9 @@
     "name": "Likelihood",
     "trans": [
       "似然"
-    ]
+    ],
+    "usphone": "ˈlaɪklihʊd",
+    "ukphone": "ˈlaɪklihʊd"
   },
   {
     "name": "Linear Chain Conditional Random Field",
@@ -2303,7 +2471,8 @@
     "name": "Link Function",
     "trans": [
       "联系函数"
-    ]
+    ],
+    "usphone": "lɪŋk ˈfʌŋkʃn"
   },
   {
     "name": "Local Markov Property",
@@ -2410,7 +2579,8 @@
     "name": "Machine Learning",
     "trans": [
       "机器学习"
-    ]
+    ],
+    "ukphone": "məˌʃiːn ˈlɜːnɪŋ"
   },
   {
     "name": "Macron-R",
@@ -2423,13 +2593,16 @@
     "name": "Manhattan Distance",
     "trans": [
       "曼哈顿距离"
-    ]
+    ],
+    "usphone": "ˌmænˈhætn ˈdɪstəns"
   },
   {
     "name": "Manifold",
     "trans": [
       "流形"
-    ]
+    ],
+    "usphone": "ˈmænɪfoʊld",
+    "ukphone": "ˈmænɪfəʊld"
   },
   {
     "name": "Manifold Assumption",
@@ -2447,7 +2620,9 @@
     "name": "Margin",
     "trans": [
       "间隔"
-    ]
+    ],
+    "usphone": "ˈmɑːrdʒɪn",
+    "ukphone": "ˈmɑːdʒɪn"
   },
   {
     "name": "Marginal Distribution",
@@ -2465,7 +2640,9 @@
     "name": "Marginalization",
     "trans": [
       "边缘化"
-    ]
+    ],
+    "usphone": "ˌmɑːrdʒɪnələˈzeɪʃn",
+    "ukphone": "ˌmɑːdʒɪnəlaɪˈzeɪʃn"
   },
   {
     "name": "Markov Chain",
@@ -2507,13 +2684,17 @@
     "name": "Mask",
     "trans": [
       "掩码"
-    ]
+    ],
+    "usphone": "mæsk",
+    "ukphone": "mɑːsk"
   },
   {
     "name": "Matrix",
     "trans": [
       "矩阵"
-    ]
+    ],
+    "usphone": "ˈmeɪtrɪks",
+    "ukphone": "ˈmeɪtrɪks"
   },
   {
     "name": "Matrix Inversion",
@@ -2531,7 +2712,8 @@
     "name": "Maximal Clique",
     "trans": [
       "最大团"
-    ]
+    ],
+    "usphone": "ˈmæksɪml kliːk"
   },
   {
     "name": "Maximum Entropy Model",
@@ -2543,7 +2725,8 @@
     "name": "Maximum Likelihood Estimation",
     "trans": [
       "极大似然估计"
-    ]
+    ],
+    "usphone": "ˈmæksɪməm ˈlaɪklihʊd ˌestɪˈmeɪʃn"
   },
   {
     "name": "Maximum Margin",
@@ -2574,7 +2757,8 @@
     "trans": [
       "平均场"
     ],
-    "speakAs": "Mean Field"
+    "speakAs": "Mean Field",
+    "usphone": "miːn fiːld"
   },
   {
     "name": "Memory Network",
@@ -2643,7 +2827,9 @@
     "name": "Model",
     "trans": [
       "模型"
-    ]
+    ],
+    "usphone": "ˈmɑːd(ə)l",
+    "ukphone": "ˈmɒd(ə)l"
   },
   {
     "name": "Model Selection",
@@ -2673,7 +2859,9 @@
     "name": "Moralization",
     "trans": [
       "道德化"
-    ]
+    ],
+    "usphone": "ˌmɔːrələˈzeɪʃən",
+    "ukphone": "ˌmɒrəlaɪˈzeɪʃən"
   },
   {
     "name": "Multi-Class Classification",
@@ -2777,7 +2965,8 @@
     "name": "Naive Bayes",
     "trans": [
       "朴素贝叶斯"
-    ]
+    ],
+    "usphone": "naɪˈiːv beɪz"
   },
   {
     "name": "Nearest Neighbor Classifier",
@@ -2807,7 +2996,8 @@
     "name": "Neural Network",
     "trans": [
       "神经网络"
-    ]
+    ],
+    "ukphone": "ˌnjʊərəl ˈnetwɜːk"
   },
   {
     "name": "Neural Turing Machine",
@@ -2819,7 +3009,9 @@
     "name": "Neuron",
     "trans": [
       "神经元"
-    ]
+    ],
+    "usphone": "ˈnʊrɑːn",
+    "ukphone": "ˈnjʊərɒn"
   },
   {
     "name": "Newton Method",
@@ -2878,19 +3070,24 @@
     "name": "Norm",
     "trans": [
       "范数"
-    ]
+    ],
+    "usphone": "nɔːrm",
+    "ukphone": "nɔːm"
   },
   {
     "name": "Normal Distribution",
     "trans": [
       "正态分布"
-    ]
+    ],
+    "ukphone": "ˌnɔːml dɪstrɪˈbjuːʃn"
   },
   {
     "name": "Normalization",
     "trans": [
       "规范化"
-    ]
+    ],
+    "usphone": "ˌnɔːrmələˈzeɪʃn",
+    "ukphone": "ˌnɔːməlaɪˈzeɪʃ(ə)n"
   },
   {
     "name": "Nuclear Norm",
@@ -2932,7 +3129,9 @@
     "name": "Odds",
     "trans": [
       "几率"
-    ]
+    ],
+    "usphone": "ɑːdz",
+    "ukphone": "ɒdz"
   },
   {
     "name": "Off-Policy",
@@ -2979,7 +3178,8 @@
     "name": "Optimizer",
     "trans": [
       "优化器"
-    ]
+    ],
+    "ukphone": "ˈɒptɪmaɪzə"
   },
   {
     "name": "Ordinal Attribute",
@@ -2991,7 +3191,9 @@
     "name": "Orthogonal",
     "trans": [
       "正交"
-    ]
+    ],
+    "usphone": "ɔːrˈθɑːgənəl",
+    "ukphone": "ɔːˈθɒɡən(ə)l"
   },
   {
     "name": "Orthogonal Matrix",
@@ -3010,7 +3212,9 @@
     "name": "Outlier",
     "trans": [
       "异常点"
-    ]
+    ],
+    "usphone": "ˈaʊtlaɪər",
+    "ukphone": "ˈaʊtlaɪə(r)"
   },
   {
     "name": "Over-Parameterized",
@@ -3030,7 +3234,8 @@
     "name": "Oversampling",
     "trans": [
       "过采样"
-    ]
+    ],
+    "ukphone": "əʊvəˈsɑːmplɪŋ"
   },
   {
     "name": "Pac-Learnable",
@@ -3043,7 +3248,9 @@
     "name": "Padding",
     "trans": [
       "填充"
-    ]
+    ],
+    "usphone": "ˈpædɪŋ",
+    "ukphone": "ˈpædɪŋ"
   },
   {
     "name": "Pairwise Markov Property",
@@ -3061,7 +3268,9 @@
     "name": "Parameter",
     "trans": [
       "参数"
-    ]
+    ],
+    "usphone": "pəˈræmɪtər",
+    "ukphone": "pəˈræmɪtə(r)"
   },
   {
     "name": "Parameter Estimation",
@@ -3118,7 +3327,9 @@
     "trans": [
       "感知机"
     ],
-    "speakAs": "Per-ceptron"
+    "speakAs": "Per-ceptron",
+    "usphone": "pərˈseptrɑːn",
+    "ukphone": "pəˈseptrɒn"
   },
   {
     "name": "Performance Measure",
@@ -3131,7 +3342,9 @@
     "trans": [
       "困惑度"
     ],
-    "speakAs": "Perplexity"
+    "speakAs": "Perplexity",
+    "usphone": "pərˈpleksəti",
+    "ukphone": "pəˈpleksəti"
   },
   {
     "name": "Pointer Network",
@@ -3143,7 +3356,9 @@
     "name": "Policy",
     "trans": [
       "策略"
-    ]
+    ],
+    "usphone": "ˈpɑːləsi",
+    "ukphone": "ˈpɒləsi"
   },
   {
     "name": "Policy Gradient",
@@ -3167,7 +3382,9 @@
     "name": "Pooling",
     "trans": [
       "汇聚"
-    ]
+    ],
+    "usphone": "ˈpuːlɪŋ",
+    "ukphone": "ˈpuːlɪŋ"
   },
   {
     "name": "Pooling Layer",
@@ -3192,7 +3409,8 @@
     "name": "Potential Function",
     "trans": [
       "势函数"
-    ]
+    ],
+    "usphone": "pəˈtenʃl ˈfʌŋkʃn"
   },
   {
     "name": "Power Method",
@@ -3205,13 +3423,16 @@
     "trans": [
       "预训练"
     ],
-    "speakAs": "Pre Training"
+    "speakAs": "Pre Training",
+    "usphone": "ˈpriː ˈtreɪnɪŋ"
   },
   {
     "name": "Precision",
     "trans": [
       "查准率/准确率"
-    ]
+    ],
+    "usphone": "prɪˈsɪʒ(ə)n",
+    "ukphone": "prɪˈsɪʒ(ə)n"
   },
   {
     "name": "Prepruning",
@@ -3241,7 +3462,9 @@
     "name": "Prior",
     "trans": [
       "先验"
-    ]
+    ],
+    "usphone": "ˈpraɪər",
+    "ukphone": "ˈpraɪə(r)"
   },
   {
     "name": "Probabilistic Context-Free Grammar",
@@ -3303,7 +3526,9 @@
     "name": "Pruning",
     "trans": [
       "剪枝"
-    ]
+    ],
+    "usphone": "ˈpruːnɪŋ",
+    "ukphone": "ˈpruːnɪŋ"
   },
   {
     "name": "Quadratic Loss Function",
@@ -3327,7 +3552,8 @@
     "name": "Radial Basis Function",
     "trans": [
       "径向基函数"
-    ]
+    ],
+    "usphone": "ˈreɪdiəl ˈbeɪsɪs ˈfʌŋkʃn"
   },
   {
     "name": "Random Forest",
@@ -3339,7 +3565,8 @@
     "name": "Random Sampling",
     "trans": [
       "随机采样"
-    ]
+    ],
+    "usphone": "ˈrændəm ˈsæmplɪŋ"
   },
   {
     "name": "Random Search",
@@ -3357,19 +3584,23 @@
     "name": "Random Walk",
     "trans": [
       "随机游走"
-    ]
+    ],
+    "usphone": "ˈrændəm wɔːk"
   },
   {
     "name": "Recall",
     "trans": [
       "查全率/召回率"
-    ]
+    ],
+    "usphone": "rɪˈkɔːl",
+    "ukphone": "rɪˈkɔːl"
   },
   {
     "name": "Receptive Field",
     "trans": [
       "感受野"
-    ]
+    ],
+    "usphone": "rɪˈseptɪv fiːld"
   },
   {
     "name": "Reconstruction Error",
@@ -3400,13 +3631,17 @@
     "name": "Regression",
     "trans": [
       "回归"
-    ]
+    ],
+    "usphone": "rɪˈɡreʃn",
+    "ukphone": "rɪˈɡreʃn"
   },
   {
     "name": "Regularization",
     "trans": [
       "正则化"
-    ]
+    ],
+    "usphone": "ˌreɡjələrɪˈzeɪʃn",
+    "ukphone": "ˌreɡjʊlərɪˈzeɪʃən"
   },
   {
     "name": "Regularizer",
@@ -3424,7 +3659,8 @@
     "name": "Relative Entropy",
     "trans": [
       "相对熵"
-    ]
+    ],
+    "usphone": "ˈrelətɪv ˈentrəpi"
   },
   {
     "name": "Reparameterization",
@@ -3437,7 +3673,9 @@
     "name": "Representation",
     "trans": [
       "表示"
-    ]
+    ],
+    "usphone": "ˌreprɪzenˈteɪʃ(ə)n",
+    "ukphone": "ˌreprɪzenˈteɪʃ(ə)n"
   },
   {
     "name": "Representation Learning",
@@ -3491,13 +3729,16 @@
     "name": "Reward",
     "trans": [
       "奖励"
-    ]
+    ],
+    "usphone": "rɪˈwɔːrd",
+    "ukphone": "rɪˈwɔːd"
   },
   {
     "name": "Ridge Regression",
     "trans": [
       "岭回归"
-    ]
+    ],
+    "usphone": "rɪdʒ rɪˈɡreʃn"
   },
   {
     "name": "Right Singular Vector",
@@ -3509,13 +3750,17 @@
     "name": "Risk",
     "trans": [
       "风险"
-    ]
+    ],
+    "usphone": "rɪsk",
+    "ukphone": "rɪsk"
   },
   {
     "name": "Robustness",
     "trans": [
       "稳健性"
-    ]
+    ],
+    "usphone": "roʊˈbʌstnəs",
+    "ukphone": "rəʊˈbʌstnəs"
   },
   {
     "name": "Root Node",
@@ -3533,13 +3778,16 @@
     "name": "Saddle Point",
     "trans": [
       "鞍点"
-    ]
+    ],
+    "usphone": "ˈsædl pɔɪnt"
   },
   {
     "name": "Sample",
     "trans": [
       "样本"
-    ]
+    ],
+    "usphone": "ˈsæmp(ə)l",
+    "ukphone": "ˈsɑːmp(ə)l"
   },
   {
     "name": "Sample Complexity",
@@ -3557,7 +3805,9 @@
     "name": "Scalar",
     "trans": [
       "标量"
-    ]
+    ],
+    "usphone": "ˈskeɪlər",
+    "ukphone": "ˈskeɪlə(r)"
   },
   {
     "name": "Selective Ensemble",
@@ -3590,7 +3840,8 @@
     "trans": [
       "自训练"
     ],
-    "speakAs": "Self Training"
+    "speakAs": "Self Training",
+    "usphone": "self ˈtreɪnɪŋ"
   },
   {
     "name": "Semi-Definite Programming",
@@ -3638,7 +3889,8 @@
     "name": "Sentiment Analysis",
     "trans": [
       "情感分析"
-    ]
+    ],
+    "usphone": "ˈsentɪmənt əˈnæləsɪs"
   },
   {
     "name": "Separating Hyperplane",
@@ -3682,7 +3934,8 @@
     "name": "Simulated Annealing",
     "trans": [
       "模拟退火"
-    ]
+    ],
+    "usphone": "ˈsɪmjuleɪtɪd əˈniːlɪŋ"
   },
   {
     "name": "Simultaneous Localization And Mapping",
@@ -3713,7 +3966,9 @@
     "name": "Smoothing",
     "trans": [
       "平滑"
-    ]
+    ],
+    "usphone": "ˈsmuːðɪŋ",
+    "ukphone": "ˈsmuːðɪŋ"
   },
   {
     "name": "Soft Margin",
@@ -3759,7 +4014,9 @@
     "name": "Span",
     "trans": [
       "张成子空间"
-    ]
+    ],
+    "usphone": "spæn",
+    "ukphone": "spæn"
   },
   {
     "name": "Sparse Coding",
@@ -3777,13 +4034,17 @@
     "name": "Sparsity",
     "trans": [
       "稀疏性"
-    ]
+    ],
+    "usphone": "ˈspɑːrsəti",
+    "ukphone": "ˈspɑːsətɪ"
   },
   {
     "name": "Specialization",
     "trans": [
       "特化"
-    ]
+    ],
+    "usphone": "ˌspeʃələˈzeɪʃ(ə)n",
+    "ukphone": "ˌspeʃəlaɪˈzeɪʃ(ə)n"
   },
   {
     "name": "Splitting Variable",
@@ -3807,7 +4068,9 @@
     "name": "State",
     "trans": [
       "状态"
-    ]
+    ],
+    "usphone": "steɪt",
+    "ukphone": "steɪt"
   },
   {
     "name": "State Value Function",
@@ -3850,13 +4113,15 @@
     "name": "Stochastic Gradient Descent",
     "trans": [
       "随机梯度下降"
-    ]
+    ],
+    "usphone": "stəˈkæstɪk ˈɡreɪdiənt dɪˈsent"
   },
   {
     "name": "Stochastic Matrix",
     "trans": [
       "随机矩阵"
-    ]
+    ],
+    "usphone": "stəˈkæstɪk ˈmeɪtrɪks"
   },
   {
     "name": "Stochastic Process",
@@ -3874,7 +4139,9 @@
     "name": "Stride",
     "trans": [
       "步幅"
-    ]
+    ],
+    "usphone": "straɪd",
+    "ukphone": "straɪd"
   },
   {
     "name": "Structural Risk",
@@ -3892,7 +4159,9 @@
     "name": "Subsample",
     "trans": [
       "子采样"
-    ]
+    ],
+    "usphone": "ˈsʌbˌsæmpl",
+    "ukphone": "ˈsʌbsɑːmpəl"
   },
   {
     "name": "Subsampling",
@@ -3910,7 +4179,9 @@
     "name": "Subspace",
     "trans": [
       "子空间"
-    ]
+    ],
+    "usphone": "ˈsʌbˌspeɪs",
+    "ukphone": "ˈsʌbˌspeɪs"
   },
   {
     "name": "Supervised Learning",
@@ -3958,7 +4229,9 @@
     "name": "Symbolism",
     "trans": [
       "符号主义"
-    ]
+    ],
+    "usphone": "ˈsɪmbəlɪzəm",
+    "ukphone": "ˈsɪmbəlɪzəm"
   },
   {
     "name": "Tangent Propagation",
@@ -3983,7 +4256,9 @@
     "name": "Tensor",
     "trans": [
       "张量"
-    ]
+    ],
+    "usphone": "ˈtensər; ˈtensɔːr",
+    "ukphone": "ˈtensə(r); ˈtensɔː(r)"
   },
   {
     "name": "Test Error",
@@ -4001,13 +4276,17 @@
     "name": "Test Set",
     "trans": [
       "测试集"
-    ]
+    ],
+    "usphone": "test set",
+    "ukphone": "test set"
   },
   {
     "name": "Threshold",
     "trans": [
       "阈值"
-    ]
+    ],
+    "usphone": "ˈθreʃhoʊld",
+    "ukphone": "ˈθreʃhəʊld"
   },
   {
     "name": "Threshold Logic Unit",
@@ -4050,13 +4329,16 @@
     "name": "Time Step",
     "trans": [
       "时间步"
-    ]
+    ],
+    "usphone": "taɪm step"
   },
   {
     "name": "Token",
     "trans": [
       "词元"
-    ]
+    ],
+    "usphone": "ˈtoʊkən",
+    "ukphone": "ˈtəʊkən"
   },
   {
     "name": "Tokenize",
@@ -4074,7 +4356,9 @@
     "name": "Tokenizer",
     "trans": [
       "词元分析器"
-    ]
+    ],
+    "usphone": "ˈtoʊkənˌaɪzər",
+    "ukphone": "ˈtəʊkənaɪzə(r)"
   },
   {
     "name": "Topic Model",
@@ -4092,13 +4376,17 @@
     "name": "Trace",
     "trans": [
       "迹"
-    ]
+    ],
+    "usphone": "treɪs",
+    "ukphone": "treɪs"
   },
   {
     "name": "Training",
     "trans": [
       "训练"
-    ]
+    ],
+    "usphone": "ˈtreɪnɪŋ",
+    "ukphone": "ˈtreɪnɪŋ"
   },
   {
     "name": "Training Error",
@@ -4140,7 +4428,9 @@
     "name": "Transformer",
     "trans": [
       "Transformer"
-    ]
+    ],
+    "usphone": "trænsˈfɔːrmər",
+    "ukphone": "trænsˈfɔːmə(r)"
   },
   {
     "name": "Transformer Model",
@@ -4152,7 +4442,9 @@
     "name": "Transpose",
     "trans": [
       "转置"
-    ]
+    ],
+    "usphone": "trænˈspoʊz",
+    "ukphone": "trænˈspəʊz"
   },
   {
     "name": "Transposed Convolution",
@@ -4170,7 +4462,9 @@
     "name": "Trigram",
     "trans": [
       "三元语法"
-    ]
+    ],
+    "usphone": "ˈtraɪˌɡræm",
+    "ukphone": "ˈtraɪɡræm"
   },
   {
     "name": "Turing Machine",
@@ -4213,7 +4507,9 @@
     "name": "Unit",
     "trans": [
       "单元"
-    ]
+    ],
+    "usphone": "ˈjuːnɪt",
+    "ukphone": "ˈjuːnɪt"
   },
   {
     "name": "Universal Approximation Theorem",
@@ -4318,7 +4614,9 @@
     "name": "Variance",
     "trans": [
       "方差"
-    ]
+    ],
+    "usphone": "ˈveriəns",
+    "ukphone": "ˈveəriəns"
   },
   {
     "name": "Variational Autoencoder",
@@ -4337,7 +4635,9 @@
     "name": "Vector",
     "trans": [
       "向量"
-    ]
+    ],
+    "usphone": "ˈvektər",
+    "ukphone": "ˈvektə(r)"
   },
   {
     "name": "Vector Space Model",
@@ -4361,13 +4661,17 @@
     "name": "Vocabulary",
     "trans": [
       "词表"
-    ]
+    ],
+    "usphone": "vəˈkæbjəleri; voʊˈkæbjəleri",
+    "ukphone": "vəˈkæbjələri; vəʊˈkæbjələri"
   },
   {
     "name": "Warp",
     "trans": [
       "线程束"
-    ]
+    ],
+    "usphone": "wɔːrp",
+    "ukphone": "wɔːp"
   },
   {
     "name": "Weak Learner",
@@ -4385,13 +4689,16 @@
     "name": "Weight",
     "trans": [
       "权重"
-    ]
+    ],
+    "usphone": "weɪt",
+    "ukphone": "weɪt"
   },
   {
     "name": "Weight Decay",
     "trans": [
       "权重衰减"
-    ]
+    ],
+    "usphone": "weɪt dɪˈkeɪ"
   },
   {
     "name": "Weight Sharing",
@@ -4409,7 +4716,9 @@
     "name": "Whitening",
     "trans": [
       "白化"
-    ]
+    ],
+    "usphone": "ˈwaɪtnɪŋ",
+    "ukphone": "ˈwaɪtənɪŋ"
   },
   {
     "name": "Winner-Take-All",

@@ -3,7 +3,9 @@
     "name": "Accuracy",
     "trans": [
       "准确率"
-    ]
+    ],
+    "usphone": "ˈækjərəsi; ˈækjʊrəsi",
+    "ukphone": "ˈækjərəsi; ˈækjʊrəsi"
   },
   {
     "name": "Activation Function",
@@ -28,7 +30,8 @@
     "name": "Artificial Intelligence",
     "trans": [
       "人工智能"
-    ]
+    ],
+    "ukphone": "ˌɑːtɪfɪʃ(ə)l ɪnˈtelɪdʒəns"
   },
   {
     "name": "Artificial Neural Network",
@@ -40,7 +43,9 @@
     "name": "Attention",
     "trans": [
       "注意力"
-    ]
+    ],
+    "usphone": "əˈtenʃ(ə)n",
+    "ukphone": "əˈtenʃ(ə)n"
   },
   {
     "name": "Back Propagation",
@@ -52,13 +57,17 @@
     "name": "Bagging",
     "trans": [
       "袋装"
-    ]
+    ],
+    "usphone": "ˈbæɡɪŋ",
+    "ukphone": "ˈbæɡɪŋ"
   },
   {
     "name": "Baseline",
     "trans": [
       "基准"
-    ]
+    ],
+    "usphone": "ˈbeɪslaɪn",
+    "ukphone": "ˈbeɪslaɪn"
   },
   {
     "name": "Bayesian Inference",
@@ -82,32 +91,42 @@
     "name": "Bias",
     "trans": [
       "偏差/偏置"
-    ]
+    ],
+    "usphone": "ˈbaɪəs",
+    "ukphone": "ˈbaɪəs"
   },
   {
     "name": "Biased",
     "trans": [
       "有偏"
-    ]
+    ],
+    "usphone": "ˈbaɪəst",
+    "ukphone": "ˈbaɪəst"
   },
   {
     "name": "Boosting",
     "trans": [
       "Boosting（一种模型训练加速方式）"
-    ]
+    ],
+    "usphone": "ˈbuːstɪŋ",
+    "ukphone": "ˈbuːstɪŋ"
   },
   {
     "name": "Bottom-Up",
     "trans": [
       "自下而上"
     ],
-    "speakAs": "Bottom Up"
+    "speakAs": "Bottom Up",
+    "usphone": "ˌbɑːtəm ˈʌp",
+    "ukphone": "ˌbɒtəm ˈʌp"
   },
   {
     "name": "Classification",
     "trans": [
       "分类"
-    ]
+    ],
+    "usphone": "ˌklæsɪfɪˈkeɪʃ(ə)n",
+    "ukphone": "ˌklæsɪfɪˈkeɪʃ(ə)n"
   },
   {
     "name": "Classification And Regression Tree",
@@ -119,7 +138,9 @@
     "name": "Cluster",
     "trans": [
       "簇"
-    ]
+    ],
+    "usphone": "ˈklʌstər",
+    "ukphone": "ˈklʌstə(r)"
   },
   {
     "name": "Computer Vision",
@@ -131,7 +152,8 @@
     "name": "Confusion Matrix",
     "trans": [
       "混淆矩阵"
-    ]
+    ],
+    "usphone": "kənˈfjuːʒn ˈmeɪtrɪks"
   },
   {
     "name": "Conjugate Gradient",
@@ -143,7 +165,9 @@
     "name": "Correlation",
     "trans": [
       "相关系数"
-    ]
+    ],
+    "usphone": "ˌkɔːrəˈleɪʃ(ə)n",
+    "ukphone": "ˌkɒrəˈleɪʃ(ə)n"
   },
   {
     "name": "Cost Function",
@@ -155,7 +179,9 @@
     "name": "Covariance",
     "trans": [
       "协方差"
-    ]
+    ],
+    "usphone": "koʊˈveriəns",
+    "ukphone": "kəʊˈveərɪəns"
   },
   {
     "name": "Covariance Matrix",
@@ -173,19 +199,22 @@
     "name": "Data Mining",
     "trans": [
       "数据挖掘"
-    ]
+    ],
+    "usphone": "ˈdeɪtə maɪnɪŋ; ˈdætə maɪnɪŋ"
   },
   {
     "name": "Data Set",
     "trans": [
       "数据集"
-    ]
+    ],
+    "usphone": "ˈdætə set; ˈdeɪtə set"
   },
   {
     "name": "Decision Tree",
     "trans": [
       "决策树"
-    ]
+    ],
+    "usphone": "dɪˈsɪʒn triː"
   },
   {
     "name": "Deep Learning",
@@ -209,7 +238,8 @@
     "name": "Dimension Reduction",
     "trans": [
       "降维"
-    ]
+    ],
+    "usphone": "dɪˈmenʃn rɪˈdʌkʃn; daɪˈmenʃn rɪˈdʌkʃn"
   },
   {
     "name": "Dimensionality Reduction Algorithm",
@@ -234,7 +264,9 @@
     "name": "Estimator",
     "trans": [
       "估计/估计量"
-    ]
+    ],
+    "usphone": "ˈestəˌmeɪtər",
+    "ukphone": "ˈestɪmeɪtə(r)"
   },
   {
     "name": "Feature Engineering",
@@ -300,13 +332,15 @@
     "name": "Genetic Algorithm",
     "trans": [
       "遗传算法"
-    ]
+    ],
+    "usphone": "dʒəˈnetɪk ˈælɡərɪðəm"
   },
   {
     "name": "Gradient Descent",
     "trans": [
       "梯度下降"
-    ]
+    ],
+    "usphone": "ˈɡreɪdiənt dɪˈsent"
   },
   {
     "name": "Grid Search",
@@ -318,20 +352,24 @@
     "name": "Ground Truth",
     "trans": [
       "真实值"
-    ]
+    ],
+    "usphone": "ɡraʊnd truːθ"
   },
   {
     "name": "Hyperplane",
     "trans": [
       "超平面"
     ],
-    "speakAs": "Hyper-plane"
+    "speakAs": "Hyper-plane",
+    "usphone": "ˈhaɪpərˌpleɪn",
+    "ukphone": "ˈhaɪpəˌpleɪn"
   },
   {
     "name": "Inductive Bias",
     "trans": [
       "归纳偏好"
-    ]
+    ],
+    "usphone": "ɪnˈdʌktɪv ˈbaɪəs"
   },
   {
     "name": "Information Gain",
@@ -349,7 +387,9 @@
     "name": "Iteration",
     "trans": [
       "迭代"
-    ]
+    ],
+    "usphone": "ˌɪtəˈreɪʃn",
+    "ukphone": "ˌɪtəˈreɪʃn"
   },
   {
     "name": "K-Fold Cross Validation",
@@ -388,7 +428,9 @@
     "name": "Label",
     "trans": [
       "标签/标记"
-    ]
+    ],
+    "usphone": "ˈleɪb(ə)l",
+    "ukphone": "ˈleɪb(ə)l"
   },
   {
     "name": "Lazy Learning",
@@ -449,13 +491,16 @@
     "name": "Machine Learning",
     "trans": [
       "机器学习"
-    ]
+    ],
+    "ukphone": "məˌʃiːn ˈlɜːnɪŋ"
   },
   {
     "name": "Margin",
     "trans": [
       "间隔"
-    ]
+    ],
+    "usphone": "ˈmɑːrdʒɪn",
+    "ukphone": "ˈmɑːdʒɪn"
   },
   {
     "name": "Meta-Learning",
@@ -468,7 +513,9 @@
     "name": "Metric",
     "trans": [
       "指标"
-    ]
+    ],
+    "usphone": "ˈmetrɪk",
+    "ukphone": "ˈmetrɪk"
   },
   {
     "name": "Model Predictive Control",
@@ -500,7 +547,8 @@
     "name": "Natural Language Processing",
     "trans": [
       "自然语言处理"
-    ]
+    ],
+    "ukphone": "ˌnætʃrəl ˈlæŋɡwɪdʒ prəʊˈsesɪŋ"
   },
   {
     "name": "Neural Model",
@@ -512,13 +560,16 @@
     "name": "Neural Network",
     "trans": [
       "神经网络"
-    ]
+    ],
+    "ukphone": "ˌnjʊərəl ˈnetwɜːk"
   },
   {
     "name": "Noise",
     "trans": [
       "噪声"
-    ]
+    ],
+    "usphone": "nɔɪz",
+    "ukphone": "nɔɪz"
   },
   {
     "name": "Non-Parametric",
@@ -531,7 +582,9 @@
     "name": "Normalization",
     "trans": [
       "规范化"
-    ]
+    ],
+    "usphone": "ˌnɔːrmələˈzeɪʃn",
+    "ukphone": "ˌnɔːməlaɪˈzeɪʃ(ə)n"
   },
   {
     "name": "Occam's Razor",
@@ -550,13 +603,17 @@
     "name": "Orthogonal",
     "trans": [
       "正交"
-    ]
+    ],
+    "usphone": "ɔːrˈθɑːgənəl",
+    "ukphone": "ɔːˈθɒɡən(ə)l"
   },
   {
     "name": "Outlier",
     "trans": [
       "异常点"
-    ]
+    ],
+    "usphone": "ˈaʊtlaɪər",
+    "ukphone": "ˈaʊtlaɪə(r)"
   },
   {
     "name": "Output Layer",
@@ -601,13 +658,17 @@
     "trans": [
       "感知机"
     ],
-    "speakAs": "Per-ceptron"
+    "speakAs": "Per-ceptron",
+    "usphone": "pərˈseptrɑːn",
+    "ukphone": "pəˈseptrɒn"
   },
   {
     "name": "Precision",
     "trans": [
       "查准率/准确率"
-    ]
+    ],
+    "usphone": "prɪˈsɪʒ(ə)n",
+    "ukphone": "prɪˈsɪʒ(ə)n"
   },
   {
     "name": "Principal Component Analysis",
@@ -632,13 +693,15 @@
     "trans": [
       "量子力学"
     ],
-    "speakAs": "Quantum Mechanics"
+    "speakAs": "Quantum Mechanics",
+    "ukphone": "ˌkwɒntəm məˈkænɪks"
   },
   {
     "name": "Radial Basis Function",
     "trans": [
       "径向基函数"
-    ]
+    ],
+    "usphone": "ˈreɪdiəl ˈbeɪsɪs ˈfʌŋkʃn"
   },
   {
     "name": "Random Forest",
@@ -650,13 +713,16 @@
     "name": "Random Sampling",
     "trans": [
       "随机采样"
-    ]
+    ],
+    "usphone": "ˈrændəm ˈsæmplɪŋ"
   },
   {
     "name": "Recall",
     "trans": [
       "查全率/召回率"
-    ]
+    ],
+    "usphone": "rɪˈkɔːl",
+    "ukphone": "rɪˈkɔːl"
   },
   {
     "name": "Receiver Operating Characteristic",
@@ -682,7 +748,9 @@
     "name": "Regression",
     "trans": [
       "回归"
-    ]
+    ],
+    "usphone": "rɪˈɡreʃn",
+    "ukphone": "rɪˈɡreʃn"
   },
   {
     "name": "Reinforcement Learning",
@@ -700,7 +768,9 @@
     "name": "Robustness",
     "trans": [
       "稳健性"
-    ]
+    ],
+    "usphone": "roʊˈbʌstnəs",
+    "ukphone": "rəʊˈbʌstnəs"
   },
   {
     "name": "Sequence-To-Sequence",
@@ -714,19 +784,24 @@
     "trans": [
       "Sigmoid（一种激活函数）"
     ],
-    "speakAs": "Sig-moid"
+    "speakAs": "Sig-moid",
+    "usphone": "ˈsɪɡˌmɔɪd",
+    "ukphone": "ˈsɪɡmɒɪd"
   },
   {
     "name": "Simulated Annealing",
     "trans": [
       "模拟退火"
-    ]
+    ],
+    "usphone": "ˈsɪmjuleɪtɪd əˈniːlɪŋ"
   },
   {
     "name": "Singular",
     "trans": [
       "奇异的"
-    ]
+    ],
+    "usphone": "ˈsɪŋɡjələr",
+    "ukphone": "ˈsɪŋɡjələ(r)"
   },
   {
     "name": "Softmax Function",
@@ -740,7 +815,9 @@
     "trans": [
       "语音识别"
     ],
-    "speakAs": "Speech Recognition"
+    "speakAs": "Speech Recognition",
+    "usphone": "ˈspiːtʃ rekəɡnɪʃn",
+    "ukphone": "ˈspiːtʃ rekəɡnɪʃən"
   },
   {
     "name": "Statistical Learning",
@@ -777,20 +854,26 @@
     "name": "Test Set",
     "trans": [
       "测试集"
-    ]
+    ],
+    "usphone": "test set",
+    "ukphone": "test set"
   },
   {
     "name": "Threshold",
     "trans": [
       "阈值"
-    ]
+    ],
+    "usphone": "ˈθreʃhoʊld",
+    "ukphone": "ˈθreʃhəʊld"
   },
   {
     "name": "Top-Down",
     "trans": [
       "自顶向下"
     ],
-    "speakAs": "Top Down"
+    "speakAs": "Top Down",
+    "usphone": "ˌtɑːp ˈdaʊn",
+    "ukphone": "ˌtɒp ˈdaʊn"
   },
   {
     "name": "Training Sample",
@@ -808,7 +891,9 @@
     "name": "Trajectory",
     "trans": [
       "轨迹"
-    ]
+    ],
+    "usphone": "trəˈdʒektəri",
+    "ukphone": "trəˈdʒektəri"
   },
   {
     "name": "Transfer Learning",
@@ -860,7 +945,9 @@
     "name": "Variance",
     "trans": [
       "方差"
-    ]
+    ],
+    "usphone": "ˈveriəns",
+    "ukphone": "ˈveəriəns"
   },
   {
     "name": "Variational Autoencoder",
@@ -873,7 +960,9 @@
     "name": "Weight",
     "trans": [
       "权重"
-    ]
+    ],
+    "usphone": "weɪt",
+    "ukphone": "weɪt"
   },
   {
     "name": "Word Embedding",
@@ -942,7 +1031,8 @@
     "trans": [
       "自适应采样"
     ],
-    "speakAs": "Adaptive Sampling"
+    "speakAs": "Adaptive Sampling",
+    "usphone": "əˈdæptɪv ˈsæmplɪŋ"
   },
   {
     "name": "Admet Evaluation",
@@ -1012,7 +1102,9 @@
     "trans": [
       "自动化"
     ],
-    "speakAs": "Automation"
+    "speakAs": "Automation",
+    "usphone": "ˌɔːtəˈmeɪʃ(ə)n",
+    "ukphone": "ˌɔːtəˈmeɪʃ(ə)n"
   },
   {
     "name": "Autonomous Decision-Making",
@@ -1145,7 +1237,8 @@
     "trans": [
       "黑盒子"
     ],
-    "speakAs": "Black Box"
+    "speakAs": "Black Box",
+    "ukphone": "ˌblæk ˈbɒks"
   },
   {
     "name": "Black-Box Attack",
@@ -1338,7 +1431,8 @@
     "trans": [
       "计算机科学"
     ],
-    "speakAs": "Computer Science"
+    "speakAs": "Computer Science",
+    "ukphone": "kəmˌpjuːtə ˈsaɪəns"
   },
   {
     "name": "Computer Simulations",
@@ -1359,7 +1453,9 @@
     "trans": [
       "约束"
     ],
-    "speakAs": "Constraint"
+    "speakAs": "Constraint",
+    "usphone": "kənˈstreɪnt",
+    "ukphone": "kənˈstreɪnt"
   },
   {
     "name": "Core-Loss Spectrum",
@@ -1428,14 +1524,16 @@
     "trans": [
       "数据清洗"
     ],
-    "speakAs": "Data Cleaning"
+    "speakAs": "Data Cleaning",
+    "usphone": "ˈdætə ˈkliːnɪŋ; ˈdeɪtə ˈkliːnɪŋ"
   },
   {
     "name": "Data Collection",
     "trans": [
       "数据采集"
     ],
-    "speakAs": "Data Collection"
+    "speakAs": "Data Collection",
+    "usphone": "ˈdeɪtə kəˈlekʃn"
   },
   {
     "name": "Data Considerations",
@@ -1477,14 +1575,16 @@
     "trans": [
       "数据标签"
     ],
-    "speakAs": "Data Labels"
+    "speakAs": "Data Labels",
+    "usphone": "ˈdeɪtə ˈleɪblz; ˈdætə ˈleɪblz"
   },
   {
     "name": "Data Leakage",
     "trans": [
       "数据泄露"
     ],
-    "speakAs": "Data Leakage"
+    "speakAs": "Data Leakage",
+    "usphone": "ˈdeɪtə ˈliːkɪdʒ; ˈdætə ˈliːkɪdʒ"
   },
   {
     "name": "Data Pre-Processing",
@@ -1512,21 +1612,24 @@
     "trans": [
       "数据缩减"
     ],
-    "speakAs": "Data Reduction"
+    "speakAs": "Data Reduction",
+    "usphone": "ˈdætə rɪˈdʌkʃn; ˈdeɪtə rɪˈdʌkʃn"
   },
   {
     "name": "Data Representation",
     "trans": [
       "数据表示"
     ],
-    "speakAs": "Data Representation"
+    "speakAs": "Data Representation",
+    "usphone": "ˈdeɪtə ˌreprɪzenˈteɪʃn; ˈdætə ˌreprɪzenˈteɪʃn"
   },
   {
     "name": "Data Selection",
     "trans": [
       "数据选择"
     ],
-    "speakAs": "Data Selection"
+    "speakAs": "Data Selection",
+    "usphone": "ˈdeɪtə sɪˈlekʃn; ˈdætə sɪˈlekʃn"
   },
   {
     "name": "Data Sources",
@@ -1554,7 +1657,9 @@
     "trans": [
       "数据驱动"
     ],
-    "speakAs": "Data Driven"
+    "speakAs": "Data Driven",
+    "usphone": "ˈdeɪtə drɪvn; ˈdætə drɪvn",
+    "ukphone": "ˈdeɪtə drɪvn; ˈdɑːtə drɪvn"
   },
   {
     "name": "Data-Driven Decision-Making",
@@ -1582,14 +1687,18 @@
     "trans": [
       "数据挖掘"
     ],
-    "speakAs": "Data Mining"
+    "speakAs": "Data Mining",
+    "usphone": "ˈdeɪtə maɪnɪŋˌˈdætə maɪnɪŋ",
+    "ukphone": "ˈdeɪtə maɪnɪŋ; ˈdɑːtə maɪnɪŋ"
   },
   {
     "name": "Database",
     "trans": [
       "数据库"
     ],
-    "speakAs": "Database"
+    "speakAs": "Database",
+    "usphone": "ˈdeɪtəbeɪs",
+    "ukphone": "ˈdeɪtəbeɪs"
   },
   {
     "name": "DE Algorithm",
@@ -1610,7 +1719,8 @@
     "trans": [
       "树状图"
     ],
-    "speakAs": "Dendrogram"
+    "speakAs": "Dendrogram",
+    "ukphone": "ˈdendrə(ʊ)græm"
   },
   {
     "name": "Density Functional Theory",
@@ -1631,7 +1741,9 @@
     "trans": [
       "描述符"
     ],
-    "speakAs": "Descriptor"
+    "speakAs": "Descriptor",
+    "usphone": "dɪˈskrɪptər",
+    "ukphone": "dɪˈskrɪptə(r)"
   },
   {
     "name": "DFT Calculations",
@@ -1652,7 +1764,8 @@
     "trans": [
       "差分进化"
     ],
-    "speakAs": "Differential Evolution"
+    "speakAs": "Differential Evolution",
+    "usphone": "ˌdɪfəˈrenʃl ˌiːvəˈluːʃn"
   },
   {
     "name": "Dimensionality Reduction",
@@ -1687,14 +1800,18 @@
     "trans": [
       "离散化"
     ],
-    "speakAs": "Discretization"
+    "speakAs": "Discretization",
+    "usphone": "dɪsˈkrɪtɪˈzeʃən",
+    "ukphone": "dɪskriːtʌɪˈzeɪʃ(ə)n"
   },
   {
     "name": "Distillation",
     "trans": [
       "蒸馏"
     ],
-    "speakAs": "Distillation"
+    "speakAs": "Distillation",
+    "usphone": "ˌdɪstɪˈleɪʃ(ə)n",
+    "ukphone": "ˌdɪstɪˈleɪʃn"
   },
   {
     "name": "Dynamic Datasets",
@@ -1729,14 +1846,16 @@
     "trans": [
       "特征函数"
     ],
-    "speakAs": "Eigen-function"
+    "speakAs": "Eigen-function",
+    "ukphone": "ˈaɪgənˌfʌn(k)ʃ(ə)n"
   },
   {
     "name": "Electronegativity",
     "trans": [
       "电负性"
     ],
-    "speakAs": "Electronegativity"
+    "speakAs": "Electronegativity",
+    "ukphone": "ɪˌlektrəʊˌneɡəˈtɪvɪti"
   },
   {
     "name": "Elman",
@@ -1869,7 +1988,8 @@
     "trans": [
       "面部识别"
     ],
-    "speakAs": "Facial Recognition"
+    "speakAs": "Facial Recognition",
+    "usphone": "ˈfeɪʃl ˌrekəɡˈnɪʃn"
   },
   {
     "name": "FAIR Data Principles",
@@ -1883,7 +2003,8 @@
     "trans": [
       "假阴性"
     ],
-    "speakAs": "False Negatives"
+    "speakAs": "False Negatives",
+    "usphone": "fɔːls ˈneɡətɪvz"
   },
   {
     "name": "False Positives",
@@ -1925,14 +2046,18 @@
     "trans": [
       "特征"
     ],
-    "speakAs": "Features"
+    "speakAs": "Features",
+    "usphone": "fitʃər",
+    "ukphone": "ˈfiːtʃəz"
   },
   {
     "name": "Feed Back",
     "trans": [
       "反馈"
     ],
-    "speakAs": "Feed Back"
+    "speakAs": "Feed Back",
+    "usphone": "fiːd bæk",
+    "ukphone": "fiːd bæk"
   },
   {
     "name": "Feed-Forward Neural Networks",
@@ -1953,21 +2078,24 @@
     "trans": [
       "最终评估"
     ],
-    "speakAs": "Final Evaluation"
+    "speakAs": "Final Evaluation",
+    "usphone": "ˈfaɪnl ɪˌvæljuˈeɪʃn"
   },
   {
     "name": "Findable",
     "trans": [
       "Accessible"
     ],
-    "speakAs": "Findable"
+    "speakAs": "Findable",
+    "usphone": "ˈfaɪndəbl"
   },
   {
     "name": "First-Principles",
     "trans": [
       "第一性原理"
     ],
-    "speakAs": "First Principles"
+    "speakAs": "First Principles",
+    "ukphone": "ˌfɜːst ˈprɪnsəplz"
   },
   {
     "name": "Flow Rate",
@@ -2002,7 +2130,8 @@
     "trans": [
       "模糊逻辑"
     ],
-    "speakAs": "Fuzzy Logic"
+    "speakAs": "Fuzzy Logic",
+    "ukphone": "ˌfʌzi ˈlɒdʒɪk"
   },
   {
     "name": "Fuzzy Neural Networks",
@@ -2051,7 +2180,8 @@
     "trans": [
       "通用智能"
     ],
-    "speakAs": "General Intelligence"
+    "speakAs": "General Intelligence",
+    "usphone": "ˈdʒenrəl ɪnˈtelɪdʒəns"
   },
   {
     "name": "Generalized Gradient Approximation",
@@ -2177,7 +2307,8 @@
     "trans": [
       "异构数据"
     ],
-    "speakAs": "Heterogeneous Data"
+    "speakAs": "Heterogeneous Data",
+    "usphone": "ˌhetərəˈdʒiːniəs ˈdeɪtə"
   },
   {
     "name": "Hidden Layers",
@@ -2198,14 +2329,16 @@
     "trans": [
       "高通量"
     ],
-    "speakAs": "High Throughput"
+    "speakAs": "High Throughput",
+    "usphone": "haɪ ˈθruːpʊt"
   },
   {
     "name": "High Throughput Screening",
     "trans": [
       "高通量筛选"
     ],
-    "speakAs": "High Throughput Screening"
+    "speakAs": "High Throughput Screening",
+    "usphone": "haɪ ˈθruːpʊt ˈskriːnɪŋ"
   },
   {
     "name": "High Variance Models",
@@ -2240,7 +2373,8 @@
     "trans": [
       "高通量"
     ],
-    "speakAs": "High Throughput"
+    "speakAs": "High Throughput",
+    "usphone": "haɪ ˈθruːpʊt"
   },
   {
     "name": "Higher-Dimensional Space",
@@ -2261,7 +2395,9 @@
     "trans": [
       "同质化"
     ],
-    "speakAs": "Homogenization"
+    "speakAs": "Homogenization",
+    "usphone": "hoʊˈmɑːdʒənɪˌzeɪʃn",
+    "ukphone": "həʊmədʒənaɪˈzeɪʃ(ə)n"
   },
   {
     "name": "Homomorphic Encryption",
@@ -2344,7 +2480,8 @@
     "name": "Image Classification",
     "trans": [
       "图像分类"
-    ]
+    ],
+    "usphone": "ˈɪmɪdʒ ˌklæsɪfɪˈkeɪʃn"
   },
   {
     "name": "Image Classifier",
@@ -2356,7 +2493,8 @@
     "name": "Image Recognition",
     "trans": [
       "图像识别"
-    ]
+    ],
+    "usphone": "ˈɪmɪdʒ ˌrekəɡˈnɪʃn"
   },
   {
     "name": "Informative Priors",
@@ -2384,7 +2522,8 @@
     "trans": [
       "智能机器"
     ],
-    "speakAs": "Intelligent Machine"
+    "speakAs": "Intelligent Machine",
+    "usphone": "ɪnˈtelɪdʒənt məˈʃiːn"
   },
   {
     "name": "Intermediate Neurons",
@@ -2412,7 +2551,8 @@
     "trans": [
       "可解释性"
     ],
-    "speakAs": "Interpretability"
+    "speakAs": "Interpretability",
+    "ukphone": "ɪnˌtɜːprɪˈtəbɪlɪti"
   },
   {
     "name": "Inverse Neural Modeling",
@@ -2440,7 +2580,8 @@
     "trans": [
       "联合分布"
     ],
-    "speakAs": "Joint Distribution"
+    "speakAs": "Joint Distribution",
+    "usphone": "dʒɔɪnt ˌdɪstrɪˈbjuːʃn"
   },
   {
     "name": "Jordan-Elman Neural Networks",
@@ -2502,7 +2643,8 @@
     "name": "Kernels",
     "trans": [
       "内核"
-    ]
+    ],
+    "usphone": "ˈkɜːrnl"
   },
   {
     "name": "Kinetic Curve",
@@ -2572,7 +2714,8 @@
     "trans": [
       "激光器"
     ],
-    "speakAs": "Lasers"
+    "speakAs": "Lasers",
+    "usphone": "ˈlezər"
   },
   {
     "name": "Lasso Regression",
@@ -2613,7 +2756,9 @@
     "name": "Linear",
     "trans": [
       "线性的"
-    ]
+    ],
+    "usphone": "ˈlɪniər",
+    "ukphone": "ˈlɪniə(r)"
   },
   {
     "name": "Linear Dimension Reduction Methods",
@@ -2682,7 +2827,9 @@
     "name": "Mae",
     "trans": [
       "平均绝对误差"
-    ]
+    ],
+    "usphone": "meɪ",
+    "ukphone": "meɪ"
   },
   {
     "name": "Mahalanobis Distances",
@@ -2694,7 +2841,9 @@
     "name": "Matrices",
     "trans": [
       "矩阵"
-    ]
+    ],
+    "usphone": "ˈmeɪtrɪsiːz",
+    "ukphone": "ˈmeɪtrɪsiːz"
   },
   {
     "name": "Matthews Correlation Coefficient",
@@ -2743,7 +2892,9 @@
     "trans": [
       "合并"
     ],
-    "speakAs": "Merging"
+    "speakAs": "Merging",
+    "usphone": "ˈmɜːrdʒɪŋ",
+    "ukphone": "ˈmɜːdʒɪŋ"
   },
   {
     "name": "Message Passing Neural Networks",
@@ -2771,7 +2922,9 @@
     "trans": [
       "挖掘"
     ],
-    "speakAs": "Mining"
+    "speakAs": "Mining",
+    "usphone": "ˈmaɪnɪŋ",
+    "ukphone": "ˈmaɪnɪŋ"
   },
   {
     "name": "Mining Out",
@@ -2785,7 +2938,8 @@
     "trans": [
       "缺失值"
     ],
-    "speakAs": "Missing Values"
+    "speakAs": "Missing Values",
+    "usphone": "ˈmɪsɪŋ ˈvæljuːz"
   },
   {
     "name": "ML Algorithm",
@@ -3092,14 +3246,17 @@
     "trans": [
       "无噪的"
     ],
-    "speakAs": "Noise Free"
+    "speakAs": "Noise Free",
+    "usphone": "nɔɪz friː"
   },
   {
     "name": "Non-Linear",
     "trans": [
       "非线性"
     ],
-    "speakAs": "Non Linear"
+    "speakAs": "Non Linear",
+    "usphone": "ˌnɑːn ˈlɪniər",
+    "ukphone": "ˌnɒn ˈlɪniə(r)"
   },
   {
     "name": "Non-Linear Correlation",
@@ -3183,7 +3340,9 @@
     "trans": [
       "开源"
     ],
-    "speakAs": "Open Source"
+    "speakAs": "Open Source",
+    "usphone": "ˌoʊpən ˈsɔːrs",
+    "ukphone": "ˌəʊpən ˈsɔːs"
   },
   {
     "name": "Open-Source Dataset",
@@ -3204,21 +3363,26 @@
     "trans": [
       "预测"
     ],
-    "speakAs": "Prediction"
+    "speakAs": "Prediction",
+    "usphone": "prɪˈdɪkʃn",
+    "ukphone": "prɪˈdɪkʃ(ə)n"
   },
   {
     "name": "Prediction Accuracy",
     "trans": [
       "预测准确率"
     ],
-    "speakAs": "Prediction Accuracy"
+    "speakAs": "Prediction Accuracy",
+    "usphone": "prɪˈdɪkʃn ˈækjərəsi"
   },
   {
     "name": "Predictor",
     "trans": [
       "预测器/决策函数"
     ],
-    "speakAs": "Predictor"
+    "speakAs": "Predictor",
+    "usphone": "prɪˈdɪktər",
+    "ukphone": "prɪˈdɪktə(r)"
   },
   {
     "name": "Protein Folding",
@@ -3239,14 +3403,16 @@
     "trans": [
       "量子理论"
     ],
-    "speakAs": "Quantum Theory"
+    "speakAs": "Quantum Theory",
+    "ukphone": "ˈkwɒntəm θɪəri"
   },
   {
     "name": "Random Selection",
     "trans": [
       "随机选择"
     ],
-    "speakAs": "Random Selection"
+    "speakAs": "Random Selection",
+    "usphone": "ˈrændəm sɪˈlekʃn"
   },
   {
     "name": "Raw Datasets",
@@ -3267,14 +3433,18 @@
     "trans": [
       "缩放"
     ],
-    "speakAs": "Scaling"
+    "speakAs": "Scaling",
+    "usphone": "ˈskeɪlɪŋ",
+    "ukphone": "ˈskeɪlɪŋ"
   },
   {
     "name": "Simulation",
     "trans": [
       "仿真"
     ],
-    "speakAs": "Simulation"
+    "speakAs": "Simulation",
+    "usphone": "ˌsɪmjuˈleɪʃ(ə)n",
+    "ukphone": "ˌsɪmjuˈleɪʃ(ə)n"
   },
   {
     "name": "The Global Minimum",
@@ -3302,7 +3472,9 @@
     "trans": [
       "工作流"
     ],
-    "speakAs": "Workflow"
+    "speakAs": "Workflow",
+    "usphone": "ˈwɜːrkfloʊ",
+    "ukphone": "ˈwɜːkfləʊ"
   },
   {
     "name": "Sequence-Function",
