@@ -8,7 +8,6 @@ import {
   pronunciationConfigAtom,
   randomConfigAtom,
 } from '@/store'
-import type { InfoPanelType } from '@/typings'
 import type { PronunciationType } from '@/typings'
 import { useAtomValue } from 'jotai'
 import mixpanel from 'mixpanel-browser'
@@ -21,15 +20,6 @@ export function recordStarAction(action: starAction) {
     action,
   }
   mixpanel.track('star', props)
-}
-
-export type openInfoPanelLocation = 'footer' | 'resultScreen'
-export function recordOpenInfoPanelAction(type: InfoPanelType, location: openInfoPanelLocation) {
-  const props = {
-    type,
-    location,
-  }
-  mixpanel.track('openInfoPanel', props)
 }
 
 export type shareType = 'open' | 'download'
@@ -53,24 +43,6 @@ export function recordErrorBookAction(type: errorBookType) {
   }
 
   mixpanel.track('error-book', props)
-}
-
-export type donateCardInfo = {
-  type: 'donate' | 'dismiss'
-  chapterNumber: number
-  wordNumber: number
-  sumWrongCount: number
-  dayFromFirstWord: number
-  dayFromQwerty: number
-  amount: number
-}
-
-export function reportDonateCard(info: donateCardInfo) {
-  const props = {
-    ...info,
-  }
-
-  mixpanel.track('donate-card', props)
 }
 
 /**
