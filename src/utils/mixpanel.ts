@@ -10,7 +10,6 @@ import {
 } from '@/store'
 import type { PronunciationType } from '@/typings'
 import { useAtomValue } from 'jotai'
-import mixpanel from 'mixpanel-browser'
 import { useCallback } from 'react'
 
 export type starAction = 'star' | 'dismiss'
@@ -19,12 +18,14 @@ export function recordStarAction(action: starAction) {
   const props = {
     action,
   }
-  mixpanel.track('star', props)
+  // 上游 Mixpanel 追踪已移除（自用部署不再上报学习行为）
+  void props
 }
 
 export type shareType = 'open' | 'download'
 export function recordShareAction(type: shareType) {
-  mixpanel.track('share', { type })
+  // 上游 Mixpanel 追踪已移除
+  void type
 }
 
 export type analysisType = 'open'
@@ -32,8 +33,8 @@ export function recordAnalysisAction(type: analysisType) {
   const props = {
     type,
   }
-
-  mixpanel.track('analysis', props)
+  // 上游 Mixpanel 追踪已移除
+  void props
 }
 
 export type errorBookType = 'open' | 'detail'
@@ -41,8 +42,8 @@ export function recordErrorBookAction(type: errorBookType) {
   const props = {
     type,
   }
-
-  mixpanel.track('error-book', props)
+  // 上游 Mixpanel 追踪已移除
+  void props
 }
 
 /**
@@ -108,7 +109,8 @@ export function useMixPanelWordLogUploader(typingState: TypingState) {
         pronunciationAuto: pronunciationConfig.isOpen,
         pronunciationOption: pronunciationConfig.isOpen === false ? 'none' : pronunciationConfig.type,
       }
-      mixpanel.track('Word', props)
+      // 上游 Mixpanel 追踪已移除
+      void props
     },
     [
       typingState,
@@ -153,7 +155,8 @@ export function useMixPanelChapterLogUploader(typingState: TypingState) {
       pronunciationAuto: pronunciationConfig.isOpen,
       pronunciationOption: pronunciationConfig.isOpen === false ? 'none' : pronunciationConfig.type,
     }
-    mixpanel.track('Chapter', props)
+    // 上游 Mixpanel 追踪已移除
+    void props
   }, [
     typingState,
     currentChapter,
@@ -186,7 +189,8 @@ export function recordDataAction({
     chapterCount,
   }
 
-  mixpanel.track('dataAction', props)
+  // 上游 Mixpanel 追踪已移除
+  void props
 }
 
 export function getUtcStringForMixpanel() {

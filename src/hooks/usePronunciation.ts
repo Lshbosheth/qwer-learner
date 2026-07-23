@@ -2,7 +2,7 @@ import { pronunciationConfigAtom } from '@/store'
 import type { PronunciationType } from '@/typings'
 import { addHowlListener } from '@/utils'
 import { romajiToHiragana } from '@/utils/kana'
-import { playMiMoTTS } from '@/utils/mimoTTS'
+import { fetchMiMoTTS, playMiMoTTS } from '@/utils/mimoTTS'
 import noop from '@/utils/noop'
 import type { Howl } from 'howler'
 import { useAtomValue } from 'jotai'
@@ -67,8 +67,8 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
   // 记录当前单词 MiMo 是否失败，失败后回退到有道
   const mimoFailedRef = useRef(false)
 
-  // 英语发音（us/uk）优先使用 MiMo TTS，其他语言用有道
-  const useMiMoPrimary = pronunciationConfig.type === 'us' || pronunciationConfig.type === 'uk'
+  // 美音(us)优先使用 MiMo TTS 作为主通道；英音(uk)走有道真实英音；其它语言用有道
+  const useMiMoPrimary = pronunciationConfig.type === 'us'
 
   const [play, { stop, sound }] = useSound(generateWordSoundSrc(word, pronunciationConfig.type), {
     html5: true,
@@ -87,7 +87,7 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     }
   }, [word, pronunciationConfig.type])
 
-  // 浏览器内置 Web Speech API（最终兆底）
+  // 浏览器内置 Web Speech API（最终兜底）
   const speakBrowserTTS = useCallback(() => {
     if (typeof window === 'undefined' || !window.speechSynthesis) return
     const u = new SpeechSynthesisUtterance(word)
@@ -106,6 +106,8 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     const controller = playMiMoTTS(word, {
       volume: pronunciationConfig.volume,
       rate: pronunciationConfig.rate,
+      loop,
+      accent: 'us',
       onstart: () => setIsPlaying(true),
       onend: () => setIsPlaying(false),
       onerror: () => {
@@ -116,7 +118,7 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
       },
     })
     mimoControllerRef.current = controller
-  }, [word, pronunciationConfig.volume, pronunciationConfig.rate, play])
+  }, [word, pronunciationConfig.volume, pronunciationConfig.rate, loop, play])
 
   const playWrapped = useCallback(() => {
     if (useMiMoPrimary && !mimoFailedRef.current) {
@@ -156,13 +158,13 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     unListens.push(
       addHowlListener(sound, 'playerror', () => {
         setIsPlaying(false)
-        // 有道也失败，用浏览器 TTS 兆底
+        // 有道也失败，用浏览器 TTS 兜底
         speakBrowserTTS()
       }),
     )
 
     const onLoadError = () => {
-      // 有道加载失败，用浏览器 TTS 兆底
+      // 有道加载失败，用浏览器 TTS 兜底
       speakBrowserTTS()
     }
     ;(sound as Howl).on('loaderror', onLoadError)
@@ -180,9 +182,17 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
 
 export function usePrefetchPronunciationSound(word: string | undefined) {
   const pronunciationConfig = useAtomValue(pronunciationConfigAtom)
+  // 美音主通道走 MiMo：预取下一个词的 MiMo 音频，避免为 MiMo 单词创建无效有道请求
+  const useMiMoPrimary = pronunciationConfig.type === 'us'
 
   useEffect(() => {
     if (!word) return
+
+    if (useMiMoPrimary) {
+      // 预热 MiMo 缓存；并发请求会被去重，失败也无妨（实际播放时再取）
+      void fetchMiMoTTS(word, { accent: 'us' })
+      return
+    }
 
     const soundUrl = generateWordSoundSrc(word, pronunciationConfig.type)
     if (soundUrl === '') return
@@ -206,5 +216,5 @@ export function usePrefetchPronunciationSound(word: string | undefined) {
         head.removeChild(audio)
       }
     }
-  }, [pronunciationConfig.type, word])
+  }, [pronunciationConfig.type, word, useMiMoPrimary])
 }

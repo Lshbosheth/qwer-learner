@@ -34,3 +34,8 @@ stats.html
 /blob-report/
 /playwright/.cache/
 playwright-report
+.vercel
+.env*.local
+
+# WorkBuddy agent memory / workspace data (never commit)
+.workbuddy/

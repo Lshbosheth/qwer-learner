@@ -23,13 +23,24 @@ export default defineConfig({
   reporter: [['list'], ['html']],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: 'https://qwerty.kaiyi.cool',
+    /* Base URL to use in actions like `await page.goto('/')`. 默认指向本地 Vite，
+       线上 smoke test 通过环境变量 PLAYWRIGHT_BASE_URL 显式覆盖。 */
+    baseURL: process.env.PLAYWRIGHT_BASE_URL || 'http://127.0.0.1:5173',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
   },
   timeout: 30 * 1000, // default 30s
+
+  /* 本地 E2E 默认启动 Vite dev server；CI/线上通过 PLAYWRIGHT_BASE_URL 指向已部署地址并复用。 */
+  webServer: process.env.PLAYWRIGHT_BASE_URL
+    ? undefined
+    : {
+        command: 'npm run dev',
+        url: 'http://127.0.0.1:5173',
+        reuseExistingServer: !process.env.CI,
+        timeout: 120 * 1000,
+      },
 
   /* Configure projects for major browsers */
   projects: [

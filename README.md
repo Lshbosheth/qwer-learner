@@ -329,3 +329,17 @@ JS API 来自于[react-code-game](https://github.com/webzhd/react-code-game) ，
 ## 🌟 Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/Realkai42/qwerty-learner.svg)](https://starchart.cc/Realkai42/qwerty-learner)
+
+---
+
+## 定制版说明（本仓库）
+
+本仓库是基于上游 [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) 的定制版本，主要改动：
+
+- **MiMo TTS 主发音通道**：英语美音优先走小米 MiMo TTS，失败回退有道 / Web Speech（服务端代理注入密钥，前端不携带明文 key）。
+- **AI 每日词汇**：新增独立的「AI 每日」词表分类，每日一个 JSON 词表（见 `public/dicts/ai_daily_*.json`）。
+- **页面裁剪**：移除了原版的捐赠、社群与外部推广入口；词典数据来源与上游许可证归属请参见上游仓库。
+
+> 上游项目采用其自有开源许可证。若公开部署本定制版，请保留上游许可证、数据来源说明与仓库链接，并遵守相应许可证要求。
+
+词表维护参见 `scripts/ai-daily.mjs`（`npm run ai-daily validate` / `new <YYYY-MM-DD>`）。

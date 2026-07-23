@@ -61,8 +61,10 @@
     "dev": "vite",
     "start": "vite",
     "build": "cross-env CI=false vite build --base=./",
-    "test": "echo \"No tests\"",
+    "test": "vitest run",
+    "test:unit": "vitest run",
     "test:e2e": "playwright test",
+    "ai-daily": "node scripts/ai-daily.mjs",
     "lint": "eslint .",
     "prettier": "prettier --write .",
     "prepare": "husky install"
@@ -122,6 +124,7 @@
     "tailwindcss": "^3.3.1",
     "typescript-plugin-css-modules": "^5.0.1",
     "unplugin-icons": "^0.16.1",
-    "vite": "^4.1.1"
+    "vite": "^4.1.1",
+    "vitest": "^1.6.0"
   }
 }

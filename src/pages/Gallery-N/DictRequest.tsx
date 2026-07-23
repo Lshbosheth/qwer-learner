@@ -48,7 +48,7 @@ export default function DictRequest() {
             ，按照指引为开源项目贡献新的词典内容。我们非常欢迎社区贡献！
           </p>
 
-          {/* 
+          {/*
             <div className="rounded-lg bg-gradient-to-r from-blue-50 to-indigo-50 p-4 shadow-sm dark:from-gray-800 dark:to-gray-700">
               <h4 className="mb-3 font-semibold text-gray-900 dark:text-white">🚀 尝试 QwertyLearner.ai</h4>
               <p className="mb-3 text-sm text-gray-600 dark:text-gray-300">
