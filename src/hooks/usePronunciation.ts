@@ -1,14 +1,9 @@
 import { pronunciationConfigAtom } from '@/store'
 import type { PronunciationType } from '@/typings'
-import { addHowlListener } from '@/utils'
 import { romajiToHiragana } from '@/utils/kana'
-import { fetchMiMoTTS, playMiMoTTS } from '@/utils/mimoTTS'
-import noop from '@/utils/noop'
-import type { Howl } from 'howler'
+import { playMiMoTTS } from '@/utils/mimoTTS'
 import { useAtomValue } from 'jotai'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import useSound from 'use-sound'
-import type { HookOptions } from 'use-sound/dist/types'
 
 const pronunciationApi = 'https://dict.youdao.com/dictvoice?audio='
 export function generateWordSoundSrc(word: string, pronunciation: Exclude<PronunciationType, false>): string {
@@ -63,27 +58,25 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
   const pronunciationConfig = useAtomValue(pronunciationConfigAtom)
   const loop = useMemo(() => (typeof isLoop === 'boolean' ? isLoop : pronunciationConfig.isLoop), [isLoop, pronunciationConfig.isLoop])
   const [isPlaying, setIsPlaying] = useState(false)
+  const youdaoAudioRef = useRef<HTMLAudioElement | null>(null)
   const mimoControllerRef = useRef<{ stop: () => void } | null>(null)
-  // 记录当前单词 MiMo 是否失败，失败后回退到有道
-  const mimoFailedRef = useRef(false)
-
-  // 美音(us)优先使用 MiMo TTS 作为主通道；英音(uk)走有道真实英音；其它语言用有道
-  const useMiMoPrimary = pronunciationConfig.type === 'us'
-
-  const [play, { stop, sound }] = useSound(generateWordSoundSrc(word, pronunciationConfig.type), {
-    html5: true,
-    format: ['mp3'],
-    loop,
-    volume: pronunciationConfig.volume,
-    rate: pronunciationConfig.rate,
-  } as HookOptions)
+  // audio.onerror 与 play().catch() 可能针对同一次失败同时触发，避免重复启动兜底音频。
+  const fallbackStartedRef = useRef(false)
 
   // 切换单词/发音类型时重置状态
   useEffect(() => {
-    mimoFailedRef.current = false
+    fallbackStartedRef.current = false
     return () => {
+      if (youdaoAudioRef.current) {
+        youdaoAudioRef.current.onerror = null
+        youdaoAudioRef.current.pause()
+        youdaoAudioRef.current = null
+      }
       mimoControllerRef.current?.stop()
       mimoControllerRef.current = null
+      if (typeof window !== 'undefined' && window.speechSynthesis) {
+        window.speechSynthesis.cancel()
+      }
     }
   }, [word, pronunciationConfig.type])
 
@@ -101,7 +94,7 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     window.speechSynthesis.speak(u)
   }, [word, pronunciationConfig.type, pronunciationConfig.rate, pronunciationConfig.volume])
 
-  // MiMo TTS 播放（英语主发音源）
+  // MiMo TTS 仅作为美音的第二通道；MiMo 也失败时才使用浏览器 TTS。
   const speakMiMo = useCallback(() => {
     const controller = playMiMoTTS(word, {
       volume: pronunciationConfig.volume,
@@ -112,87 +105,91 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
       onend: () => setIsPlaying(false),
       onerror: () => {
         setIsPlaying(false)
-        // MiMo 失败，标记并回退到有道
-        mimoFailedRef.current = true
-        play()
+        speakBrowserTTS()
       },
     })
     mimoControllerRef.current = controller
-  }, [word, pronunciationConfig.volume, pronunciationConfig.rate, loop, play])
+  }, [word, pronunciationConfig.volume, pronunciationConfig.rate, loop, speakBrowserTTS])
 
-  const playWrapped = useCallback(() => {
-    if (useMiMoPrimary && !mimoFailedRef.current) {
-      // 英语优先用 MiMo TTS
+  const fallbackFromYoudao = useCallback(() => {
+    if (fallbackStartedRef.current) return
+    fallbackStartedRef.current = true
+    setIsPlaying(false)
+    if (youdaoAudioRef.current) {
+      youdaoAudioRef.current.onerror = null
+      youdaoAudioRef.current.pause()
+      youdaoAudioRef.current = null
+    }
+
+    if (pronunciationConfig.type === 'us') {
       speakMiMo()
     } else {
-      // 其他语言或 MiMo 失败后用有道
-      play()
+      speakBrowserTTS()
     }
-  }, [useMiMoPrimary, play, speakMiMo])
+  }, [pronunciationConfig.type, speakBrowserTTS, speakMiMo])
+
+  const playWrapped = useCallback(() => {
+    // 每次朗读都先尝试有道；只有有道加载或播放失败才进入兜底链路。
+    fallbackStartedRef.current = false
+    if (youdaoAudioRef.current) {
+      youdaoAudioRef.current.onerror = null
+      youdaoAudioRef.current.pause()
+      youdaoAudioRef.current.currentTime = 0
+      youdaoAudioRef.current = null
+    }
+    mimoControllerRef.current?.stop()
+    mimoControllerRef.current = null
+    if (typeof window !== 'undefined' && window.speechSynthesis) {
+      window.speechSynthesis.cancel()
+    }
+
+    const soundUrl = generateWordSoundSrc(word, pronunciationConfig.type)
+    if (!soundUrl) {
+      fallbackFromYoudao()
+      return
+    }
+
+    const audio = new Audio(soundUrl)
+    audio.volume = pronunciationConfig.volume
+    audio.playbackRate = pronunciationConfig.rate
+    audio.loop = loop
+    audio.onplay = () => setIsPlaying(true)
+    audio.onended = () => setIsPlaying(false)
+    audio.onerror = () => {
+      if (youdaoAudioRef.current === audio) fallbackFromYoudao()
+    }
+    youdaoAudioRef.current = audio
+    audio.play().catch(() => {
+      if (youdaoAudioRef.current === audio) fallbackFromYoudao()
+    })
+  }, [fallbackFromYoudao, loop, pronunciationConfig.rate, pronunciationConfig.type, pronunciationConfig.volume, word])
 
   const stopWrapped = useCallback(() => {
+    // 停止有道
+    if (youdaoAudioRef.current) {
+      youdaoAudioRef.current.onerror = null
+      youdaoAudioRef.current.pause()
+      youdaoAudioRef.current.currentTime = 0
+      youdaoAudioRef.current = null
+    }
     // 停止 MiMo
     mimoControllerRef.current?.stop()
-    // 停止有道
-    stop()
+    mimoControllerRef.current = null
     // 停止浏览器 TTS
     if (typeof window !== 'undefined' && window.speechSynthesis) {
       window.speechSynthesis.cancel()
     }
     setIsPlaying(false)
-  }, [stop])
-
-  useEffect(() => {
-    if (!sound) return
-    sound.loop(loop)
-    return noop
-  }, [loop, sound])
-
-  useEffect(() => {
-    if (!sound) return
-    const unListens: Array<() => void> = []
-
-    unListens.push(addHowlListener(sound, 'play', () => setIsPlaying(true)))
-    unListens.push(addHowlListener(sound, 'end', () => setIsPlaying(false)))
-    unListens.push(addHowlListener(sound, 'pause', () => setIsPlaying(false)))
-    unListens.push(
-      addHowlListener(sound, 'playerror', () => {
-        setIsPlaying(false)
-        // 有道也失败，用浏览器 TTS 兜底
-        speakBrowserTTS()
-      }),
-    )
-
-    const onLoadError = () => {
-      // 有道加载失败，用浏览器 TTS 兜底
-      speakBrowserTTS()
-    }
-    ;(sound as Howl).on('loaderror', onLoadError)
-
-    return () => {
-      ;(sound as Howl).off('loaderror', onLoadError)
-      setIsPlaying(false)
-      unListens.forEach((unListen) => unListen())
-      ;(sound as Howl).unload()
-    }
-  }, [sound, speakBrowserTTS])
+  }, [])
 
   return { play: playWrapped, stop: stopWrapped, isPlaying }
 }
 
 export function usePrefetchPronunciationSound(word: string | undefined) {
   const pronunciationConfig = useAtomValue(pronunciationConfigAtom)
-  // 美音主通道走 MiMo：预取下一个词的 MiMo 音频，避免为 MiMo 单词创建无效有道请求
-  const useMiMoPrimary = pronunciationConfig.type === 'us'
 
   useEffect(() => {
     if (!word) return
-
-    if (useMiMoPrimary) {
-      // 预热 MiMo 缓存；并发请求会被去重，失败也无妨（实际播放时再取）
-      void fetchMiMoTTS(word, { accent: 'us' })
-      return
-    }
 
     const soundUrl = generateWordSoundSrc(word, pronunciationConfig.type)
     if (soundUrl === '') return
@@ -207,7 +204,7 @@ export function usePrefetchPronunciationSound(word: string | undefined) {
 
       // 不要给 audio 设置 crossOrigin：有道 dictvoice 不返回
       // Access-Control-Allow-Origin，设了 'anonymous' 会让预加载被 CORS 拦截而永远失败
-      // （跨域媒体元素不读数据时不要求 CORS，实际播放走 use-sound 的不带 crossOrigin 的 audio 元素）。
+      // （跨域媒体元素不读数据时不要求 CORS，实际播放也使用不带 crossOrigin 的 audio 元素）。
       audio.style.display = 'none'
 
       head.appendChild(audio)
@@ -216,5 +213,5 @@ export function usePrefetchPronunciationSound(word: string | undefined) {
         head.removeChild(audio)
       }
     }
-  }, [pronunciationConfig.type, word, useMiMoPrimary])
+  }, [pronunciationConfig.type, word])
 }

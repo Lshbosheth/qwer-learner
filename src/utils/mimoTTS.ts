@@ -1,9 +1,9 @@
 /**
  * MiMo TTS 工具模块
  *
- * 发音链路（英语）：MiMo（美音主通道）→ 有道（兜底 / 英音）→ 浏览器 Web Speech
- *   - 美音(us)：优先 MiMo；MiMo 失败回退有道 type=2；再失败回退 Web Speech(en-US)
- *   - 英音(uk)：走有道 type=1（真实英音）。MiMo 单一英文音色不可控口音，不在 uk 下启用
+ * 发音链路（英语）：有道（主通道）→ MiMo（美音兜底）→ 浏览器 Web Speech
+ *   - 美音(us)：优先有道 type=2；有道失败回退 MiMo；再失败回退 Web Speech(en-US)
+ *   - 英音(uk)：走有道 type=1（真实英音），失败后直接回退 Web Speech(en-GB)
  * 其它语言（ja/zh/de/...）：仍走有道 / Web Speech，不经过 MiMo。
  *
  * API: POST https://api.xiaomimimo.com/v1/chat/completions
