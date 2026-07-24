@@ -16,6 +16,14 @@ module.exports = {
       parserOptions: { sourceType: 'script' },
     },
     {
+      // Vercel serverless functions use ESM (export default handler)
+      files: ['api/**/*.js'],
+      env: { node: true },
+      extends: ['eslint:recommended'],
+      parser: 'espree',
+      parserOptions: { sourceType: 'module', ecmaVersion: 'latest' },
+    },
+    {
       files: ['vite.config.ts'],
       env: { node: true },
       extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
