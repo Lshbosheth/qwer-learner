@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-  QWERTY Learner
+  QWER Learner
 </h1>
 <p align="center">
   Design for people want to memorize words and practice typings.
@@ -30,28 +30,28 @@
 
 ## 📸 Online Access
 
-We have deployed QWERTY Learner on many platforms. You can try QWERTY Learner in following ways.
+We have deployed QWER Learner on many platforms. You can try QWER Learner in following ways.
 
-- Vercel: <https://qwerty.kaiyi.cool/>, or <https://qwerty-learner.vercel.app/>.
+- Vercel: <https://qwer.lshbosheth.cn/>, or <https://qwer.lshbosheth.cn/>.
 - GitHub Pages: <https://kaiyiwing.github.io/qwerty-learner/>.
-- Gitee Pages (recommended for people in mainland China): <https://kaiyiwing.gitee.io/qwerty-learner/>.
+- Gitee Pages (recommended for people in mainland China): <https://kaiyiwing.gitee.io/qwer-learner/>.
 
-QWERTY Learner also has a Visual Studio Code plugin. With a single click and you will be able to practice anytime.
+QWER Learner also has a Visual Studio Code plugin. With a single click and you will be able to practice anytime.
 
 - Plugin: [VSCode Plugin Market](https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner)
 - Project: [GitHub](https://github.com/Kaiyiwing/qwerty-learner-vscode)
 
 ## ✨ Design Goals
 
-QWERTY Learner is designed for people who type English in their daily work and English is not their mother tongue. It is common for them to type faster in their native language than in English. This is mainly because they have built a strong [muscle memory][mm] in their years of experience of typing in native languages. Their muscle memory of English words and phrases is relatively weak. Therefore, people tend to “forget the words” when typing in English.
+QWER Learner is designed for people who type English in their daily work and English is not their mother tongue. It is common for them to type faster in their native language than in English. This is mainly because they have built a strong [muscle memory][mm] in their years of experience of typing in native languages. Their muscle memory of English words and phrases is relatively weak. Therefore, people tend to “forget the words” when typing in English.
 
-In order to consolidate English typing skills, you have to keep memorizing words. QWERTY Learner combines vocabulary memorization with typing practice, so you can consolidate muscle memory while reciting words.
+In order to consolidate English typing skills, you have to keep memorizing words. QWER Learner combines vocabulary memorization with typing practice, so you can consolidate muscle memory while reciting words.
 
 To avoid forming incorrect muscle memory, the software requires people to re-enter the entire word if they made any mistakes. This ensures that people form a correct muscle memory.
 
-QWERTY Learner is very useful for people who are going to take computer-based English tests , for example, TOEFL, GRE, and so on.
+QWER Learner is very useful for people who are going to take computer-based English tests , for example, TOEFL, GRE, and so on.
 
-QWERTY Learner is also helpful for developers. It has built-in dictionaries of words and phrases which are common in code and documentations. We believe these dictionaries will improve developers’ typing speed. Besides, It also has built-in API dictionaries of many languages, which helps developers quickly familiarize with common APIs. More and more APIs are coming soon.
+QWER Learner is also helpful for developers. It has built-in dictionaries of words and phrases which are common in code and documentations. We believe these dictionaries will improve developers’ typing speed. Besides, It also has built-in API dictionaries of many languages, which helps developers quickly familiarize with common APIs. More and more APIs are coming soon.
 
 <div align="center">
   <img src="https://github.com/Kaiyiwing/qwerty-learner/blob/master/docs/coder.png"/>
@@ -63,19 +63,19 @@ QWERTY Learner is also helpful for developers. It has built-in dictionaries of w
 
 ### Built-in Dictionaries
 
-QWERTY Learner has many built-in dictionaries (word banks) for different purposes (examination, learning, and grading). Besides, it also provides dictionaries for developers learning APIs and common words and phrases used by programming languages and libraries.
+QWER Learner has many built-in dictionaries (word banks) for different purposes (examination, learning, and grading). Besides, it also provides dictionaries for developers learning APIs and common words and phrases used by programming languages and libraries.
 
 Our goal is to be the best solution for word memorization and typing practice. Therefore, contribution of more dictionaries is welcome.
 
 ### IPA and Pronunciation
 
-While typing, QWERTY Learner shows the [IPA][ipa] of current word and reads the word. This helps people memorize pronunciation and spelling together.
+While typing, QWER Learner shows the [IPA][ipa] of current word and reads the word. This helps people memorize pronunciation and spelling together.
 
 [ipa]: https://en.wikipedia.org/wiki/International_Phonetic_Alphabet
 
 ### Dictation Mode
 
-After people finish a chapter, QWERTY Learner will ask if people are willing to dictate the chapter. This is intended to consolidate words learned in the chapter.
+After people finish a chapter, QWER Learner will ask if people are willing to dictate the chapter. This is intended to consolidate words learned in the chapter.
 
 <div align=center>
   <img src="https://github.com/Kaiyiwing/qwerty-learner/blob/master/docs/phonetic.jpeg"/>
@@ -83,7 +83,7 @@ After people finish a chapter, QWERTY Learner will ask if people are willing to 
 
 ### Speed and Accuracy
 
-QWERTY Learner counts how many strokes people have typed and shows the speed and accuracy in real time. By doing so, people can acknowledge how much they have improved.
+QWER Learner counts how many strokes people have typed and shows the speed and accuracy in real time. By doing so, people can acknowledge how much they have improved.
 
 <div align=center>
   <img src="https://github.com/Kaiyiwing/qwerty-learner/blob/master/docs/dictation.png"/>
@@ -132,9 +132,9 @@ If you want to contribute your own API thesaurus, please have a look at [issue #
 
 The project is still in the early stages of development. We are adding new features progressively. If you have any ideas and suggestions for the software, please feel free to ask in issues. We are glad to hear.
 
-The current progress and future plans are described in [this issue][issue-42]. The issue also contains comments on suggestions and developing features. If you are interested in the future of QWERTY Learner, feel free to join the discussion.
+The current progress and future plans are described in [this issue][issue-42]. The issue also contains comments on suggestions and developing features. If you are interested in the future of QWER Learner, feel free to join the discussion.
 
-If you like the idea of QWERTY Learner, please feel free to submit PRs. We would be grateful for your contributions.
+If you like the idea of QWER Learner, please feel free to submit PRs. We would be grateful for your contributions.
 
 [issue-42]: https://github.com/Kaiyiwing/qwerty-learner/issues/42
 
@@ -150,7 +150,7 @@ After all, thanks for your contribution! 🎉
 
 ## ☕️ Buy Me A Coffee
 
-Currently, QWERTY Learner is mainly maintained by three people in their spare time. In the future, we hope to purchase a separate domain and host an backend server for data synchronization. Therefore, if you like QWERTY Learner, please consider donation. This will definitely motivate us on the way of making QWERTY Learner better!
+Currently, QWER Learner is mainly maintained by three people in their spare time. In the future, we hope to purchase a separate domain and host an backend server for data synchronization. Therefore, if you like QWER Learner, please consider donation. This will definitely motivate us on the way of making QWER Learner better!
 
 <img src="https://github.com/Kaiyiwing/qwerty-learner/blob/master/docs/alipay.png" width="200px"/>
 

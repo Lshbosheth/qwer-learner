@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-  Qwerty Learner
+  Qwer Learner
 </h1>
 
 <p align="center">
@@ -28,9 +28,9 @@
 
 ## 📸 オンラインアクセス
 
-Vercel: <https://qwerty.kaiyi.cool/> , <https://qwerty-learner.vercel.app/>
+Vercel: <https://qwer.lshbosheth.cn/> , <https://qwer.lshbosheth.cn/>
 GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
-Gitee Pages: <https://kaiyiwing.gitee.io/qwerty-learner/>
+Gitee Pages: <https://kaiyiwing.gitee.io/qwer-learner/>
 
 国内ユーザーは Gitee を使用することをお勧めします
 <br/>
@@ -208,7 +208,7 @@ MacOS ユーザーの場合、[install.sh](scripts/install.sh) スクリプト�
 
 現在、プロジェクトは開発初期段階にあり、新機能が継続的に追加されています。ソフトウェアに関する機能や提案がある場合は、Issues で提案してください。
 
-プロジェクトの進捗と将来の計画は [Issue](https://github.com/Realkai42/qwerty-learner/issues/42) で詳しく説明されています。内部には将来の機能に関する意見募集なども含まれています。Qwerty Learner の将来に興味がある場合は、議論に参加してください。
+プロジェクトの進捗と将来の計画は [Issue](https://github.com/Realkai42/qwerty-learner/issues/42) で詳しく説明されています。内部には将来の機能に関する意見募集なども含まれています。Qwer Learner の将来に興味がある場合は、議論に参加してください。
 
 このソフトウェアの設計思想が気に入った場合は、pr を提出してください。ご支援いただき、誠にありがとうございます！
 <br />
@@ -228,7 +228,7 @@ MacOS ユーザーの場合、[install.sh](scripts/install.sh) スクリプト�
 
 ## ☕️ コーヒーを買ってください
 
-Qwerty Learner をご利用いただき、誠にありがとうございます。現在、このウェブサイトは 3 人のメンバーが余暇を利用して維持しています。将来的には、独自のドメインを購入し（現在は vercel を使用してデプロイ）、国内ユーザーのアクセスとクラウド同期データのためにサーバーを購入する予定です。
+Qwer Learner をご利用いただき、誠にありがとうございます。現在、このウェブサイトは 3 人のメンバーが余暇を利用して維持しています。将来的には、独自のドメインを購入し（現在は vercel を使用してデプロイ）、国内ユーザーのアクセスとクラウド同期データのためにサーバーを購入する予定です。
 
 このソフトウェアが気に入った場合、将来のサポートに感謝します！
 

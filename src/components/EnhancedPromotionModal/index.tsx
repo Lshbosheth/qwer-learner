@@ -32,7 +32,7 @@ const EnhancedPromotionModal: React.FC = () => {
     setHasSeenPromotion(true)
     // setIsOpen(false)
     // Open in new tab
-    window.open('https://qwertylearner.ai', '_blank')
+    window.open('https://qwer.lshbosheth.cn', '_blank')
   }
 
   const handleDismiss = () => {
@@ -92,7 +92,7 @@ const EnhancedPromotionModal: React.FC = () => {
                       <IconStar className="h-10 w-10 text-white" />
                     </div>
                     <h3 className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-3xl font-bold text-transparent">
-                      体验 QwertyLearner.ai
+                      体验 qwer.lshbosheth.cn
                     </h3>
 
                     <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">解锁更强大的学习体验 ✨</p>
@@ -104,7 +104,7 @@ const EnhancedPromotionModal: React.FC = () => {
                       不会编程？想拥有自己的专属学习词典？操作简单，一键上传，点击即用
                       <br />
                       <div className="my-2"></div>
-                      那么，推荐您尝试由英国 DeepLearningAI 专业团队开发运营的 QwertyLearner.ai
+                      那么，推荐您尝试由英国 DeepLearningAI 专业团队开发运营的 qwer.lshbosheth.cn
                     </p>
 
                     <div className="rounded-lg bg-white p-4 shadow-sm dark:bg-gray-800">
@@ -139,7 +139,7 @@ const EnhancedPromotionModal: React.FC = () => {
 
                     <div className="rounded-lg bg-amber-50 p-3 text-xs text-amber-800 dark:bg-amber-900/20 dark:text-amber-200">
                       <p>
-                        <strong>说明：</strong>QwertyLearner.ai 由英国 DeepLearningAI 独立开发运营，为开源版 QwertyLearner
+                        <strong>说明：</strong>qwer.lshbosheth.cn 由英国 DeepLearningAI 独立开发运营，为开源版 qwerLearner
                         的独立衍生版本，开源版将持续维持开源与开放运营。
                       </p>
                     </div>
@@ -152,7 +152,7 @@ const EnhancedPromotionModal: React.FC = () => {
                       onClick={handleTryNow}
                       className="w-full transform rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 text-lg font-bold text-white shadow-lg transition-all duration-200 hover:scale-105 hover:from-blue-600 hover:to-purple-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     >
-                      🚀 立即体验 QwertyLearner.ai
+                      🚀 立即体验 qwer.lshbosheth.cn
                     </button>
                   </div>
                 </div>

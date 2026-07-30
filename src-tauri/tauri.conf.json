@@ -6,7 +6,7 @@
     "distDir": "../build"
   },
   "package": {
-    "productName": "qwerty-learner",
+    "productName": "qwer-learner",
     "version": "0.1.0"
   },
   "tauri": {
@@ -22,7 +22,7 @@
       },
       "externalBin": [],
       "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"],
-      "identifier": "com.litongjava.qwerty.learner",
+      "identifier": "com.litongjava.qwer.learner",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -51,7 +51,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "qwerty-learner",
+        "title": "qwer-learner",
         "width": 800
       }
     ]

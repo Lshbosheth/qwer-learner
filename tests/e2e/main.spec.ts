@@ -4,7 +4,7 @@ test.describe('Main page', () => {
   test('has title', async ({ page }) => {
     await page.goto('/')
 
-    await expect(await page.locator('h1').getByText('Qwerty Learner').isVisible()).toBeTruthy()
+    await expect(await page.locator('h1').getByText('Qwer Learner').isVisible()).toBeTruthy()
   })
 
   // you should run 'yarn update:snapshots' before this test, create base snapshots for visual comparison

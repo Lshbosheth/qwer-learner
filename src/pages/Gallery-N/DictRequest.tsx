@@ -50,13 +50,13 @@ export default function DictRequest() {
 
           {/*
             <div className="rounded-lg bg-gradient-to-r from-blue-50 to-indigo-50 p-4 shadow-sm dark:from-gray-800 dark:to-gray-700">
-              <h4 className="mb-3 font-semibold text-gray-900 dark:text-white">🚀 尝试 QwertyLearner.ai</h4>
+              <h4 className="mb-3 font-semibold text-gray-900 dark:text-white">🚀 尝试 qwer.lshbosheth.cn</h4>
               <p className="mb-3 text-sm text-gray-600 dark:text-gray-300">
                 不会编程？想拥有自己的专属学习词典？操作简单，一键上传，点击即用
                 <br />
                 <div className="my-2"></div>
                 那么，推荐您尝试由英国 DeepLearningAI 专业团队开发运营的
-                <span className="mx-1 font-semibold text-blue-600 dark:text-blue-400">QwertyLearner.ai</span>
+                <span className="mx-1 font-semibold text-blue-600 dark:text-blue-400">qwer.lshbosheth.cn</span>
               </p>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center">
@@ -86,18 +86,18 @@ export default function DictRequest() {
               </div>
               <button
                 onClick={() => {
-                  window.open('https://qwertylearner.ai', '_blank')
+                  window.open('https://qwer.lshbosheth.cn', '_blank')
                   onClosePanel()
                 }}
                 className="mt-4 w-full transform rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 px-4 py-2 text-sm font-semibold text-white transition-all duration-200 hover:scale-105 hover:from-blue-600 hover:to-purple-700 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
               >
-                🚀 体验 QwertyLearner.ai
+                🚀 体验 qwer.lshbosheth.cn
               </button>
             </div>
 
             <div className="rounded-lg bg-amber-50 p-3 text-xs text-amber-800 dark:bg-amber-900/20 dark:text-amber-200">
               <p>
-                <strong>说明：</strong>QwertyLearner.ai 由英国 DeepLearningAI 独立开发运营，为开源版 QwertyLearner
+                <strong>说明：</strong>qwer.lshbosheth.cn 由英国 DeepLearningAI 独立开发运营，为开源版 qwerLearner
                 的独立衍生版本，开源版将持续维持开源与开放运营。
               </p>
             </div>

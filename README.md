@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-  Qwerty Learner
+  Qwer Learner
 </h1>
 
 <p align="center">
@@ -32,7 +32,7 @@
 
 ## 📸 在线访问
 
-**首选部署**: <https://qwerty.kaiyi.cool/>
+**首选部署**: <https://qwer.lshbosheth.cn/>
 GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 
 镜像仓库:
@@ -165,7 +165,7 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 ### 手动安装
 
 1. 在命令行中执行 `git clone https://github.com/RealKai42/qwerty-learner.git` 将项目拉取到本地, 如果不使用 git 可能因为缺少依赖而无法运行
-2. 在命令行中执行 `cd qwerty-learner`，进入项目根目录，执行`yarn install`来下载依赖。
+2. 在命令行中执行 `cd qwer-learner`，进入项目根目录，执行`yarn install`来下载依赖。
 3. 执行`yarn start`来启动项目，项目默认地址为`http://localhost:5173/`
 4. 在浏览器中打开`http://localhost:5173/`来访问项目。
 
@@ -241,7 +241,7 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 
 目前项目处于开发初期，新功能正在持续添加中，如果你对软件有任何功能与建议，欢迎在 Issues 中提出
 
-项目的进展与未来计划在 [Issue](https://github.com/Realkai42/qwerty-learner/issues/42) 中详细介绍，内部也包含对未来功能的意见征询等，如果对 Qwerty Learner 的未来感兴趣，欢迎参与讨论。
+项目的进展与未来计划在 [Issue](https://github.com/Realkai42/qwerty-learner/issues/42) 中详细介绍，内部也包含对未来功能的意见征询等，如果对 Qwer Learner 的未来感兴趣，欢迎参与讨论。
 
 如果你也喜欢本软件的设计思想，欢迎提交 pr，非常感谢你对我们的支持！
 <br />
@@ -261,7 +261,7 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 
 ## ☕️ Buy us a coffe
 
-非常感谢大家使用 Qwerty Learner, 目前该网站由三个人用业余时间在维护，我们希望在未来购买独立的域名(目前使用 vercel 部署)，并购买服务器以方便国内用户访问与云同步存储数据。
+非常感谢大家使用 Qwer Learner, 目前该网站由三个人用业余时间在维护，我们希望在未来购买独立的域名(目前使用 vercel 部署)，并购买服务器以方便国内用户访问与云同步存储数据。
 
 如果您喜欢我们软件，非常感谢您对我们未来的支持!
 

@@ -127,7 +127,7 @@ useEffect(() => {
 #### 12. 自动化测试目前不能保护定制功能
 
 - `package.json` 的 `test` 仍是 `echo "No tests"`。
-- Playwright 的 `baseURL` 指向上游 `https://qwerty.kaiyi.cool`，不是本地或当前部署，因此即使测试通过也无法证明定制版正常。
+- Playwright 的 `baseURL` 指向上游 `https://qwer.lshbosheth.cn`，不是本地或当前部署，因此即使测试通过也无法证明定制版正常。
 - 未覆盖 MiMo、AI 每日词汇、第二轮重复章节以及 fallback 链路。
 - 修改：
   - 给 `mimoTTS.ts` 加单元测试，mock fetch、Audio、URL API。

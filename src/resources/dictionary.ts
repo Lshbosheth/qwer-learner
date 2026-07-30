@@ -927,7 +927,7 @@ const internationalExam: DictionaryResource[] = [
   {
     id: 'IELTS-oral-900',
     name: '雅思口语 900 beta版',
-    description: '雅思口语 900 句, 需在 qwerty 设置中调小英语字体',
+    description: '雅思口语 900 句, 需在 qwer 设置中调小英语字体',
     category: '国际考试',
     tags: ['IELTS'],
     url: '/dicts/IELTS-oral-900.json',

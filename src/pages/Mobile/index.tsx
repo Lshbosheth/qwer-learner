@@ -68,14 +68,14 @@ const MobilePage: React.FC = () => {
     <div className="flex w-screen flex-col bg-white lg:mx-auto lg:max-w-7xl">
       <header className="fixed left-0 right-0 top-0 z-50 flex items-center justify-between border-b border-gray-100/50 bg-white/80 px-6 py-6 backdrop-blur-xl lg:px-12">
         <div className="flex items-center">
-          <img src={logo} className="mr-4 h-10 w-10 lg:h-12 lg:w-12" alt="Qwerty Learner Logo" />
+          <img src={logo} className="mr-4 h-10 w-10 lg:h-12 lg:w-12" alt="Qwer Learner Logo" />
           <div className="flex flex-col">
-            <h1 className="text-lg font-semibold tracking-tight text-indigo-500 lg:text-xl">Qwerty Learner</h1>
+            <h1 className="text-lg font-semibold tracking-tight text-indigo-500 lg:text-xl">Qwer Learner</h1>
             <span className="text-xs font-normal text-gray-500">官方网站</span>
           </div>
         </div>
         <a
-          href="https://qwerty.kaiyi.cool/"
+          href="https://qwer.lshbosheth.cn/"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden items-center gap-2 rounded-xl bg-gray-900 px-6 py-3 text-sm font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-lg md:flex"
@@ -91,7 +91,7 @@ const MobilePage: React.FC = () => {
           </svg>
         </a>
         <a
-          href="https://qwerty.kaiyi.cool/"
+          href="https://qwer.lshbosheth.cn/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1 rounded-xl bg-gray-900 px-4 py-2.5 text-sm text-white transition-all duration-200 hover:bg-gray-800 md:hidden"
@@ -113,7 +113,7 @@ const MobilePage: React.FC = () => {
         <div className="mx-auto max-w-7xl">
           <ol className="flex items-center space-x-2 text-sm text-gray-500" itemScope itemType="https://schema.org/BreadcrumbList">
             <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-              <a href="https://qwerty.kaiyi.cool/" className="transition-colors hover:text-indigo-600" itemProp="item">
+              <a href="https://qwer.lshbosheth.cn/" className="transition-colors hover:text-indigo-600" itemProp="item">
                 <span itemProp="name">首页</span>
               </a>
               <meta itemProp="position" content="1" />
@@ -125,7 +125,7 @@ const MobilePage: React.FC = () => {
             </li>
             <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
               <span className="font-medium text-gray-900" itemProp="name">
-                Qwerty Learner 官网
+                Qwer Learner 官网
               </span>
               <meta itemProp="position" content="2" />
             </li>
@@ -180,7 +180,7 @@ const MobilePage: React.FC = () => {
 
             {/* CTA按钮 */}
             <a
-              href="https://qwerty.kaiyi.cool/"
+              href="https://qwer.lshbosheth.cn/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 rounded-full bg-gray-900 px-10 py-5 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-gray-800 hover:shadow-2xl"
@@ -205,18 +205,18 @@ const MobilePage: React.FC = () => {
               >
                 <img
                   src={hotImg}
-                  alt="Qwerty Learner 英语学习软件热门词库界面 - CET 四六级雅思托福词汇在线练习"
+                  alt="Qwer Learner 英语学习软件热门词库界面 - CET 四六级雅思托福词汇在线练习"
                   className="w-full flex-shrink-0"
                 />
                 <img
                   src={directoryImg}
-                  alt="Qwerty Learner 免费英语学习软件词库目录 - 支持程序员技术英语学习"
+                  alt="Qwer Learner 免费英语学习软件词库目录 - 支持程序员技术英语学习"
                   className="w-full flex-shrink-0"
                 />
-                <img src={indexImg} alt="Qwerty Learner 英语打字练习软件主界面 - 在线英语单词记忆训练" className="w-full flex-shrink-0" />
+                <img src={indexImg} alt="Qwer Learner 英语打字练习软件主界面 - 在线英语单词记忆训练" className="w-full flex-shrink-0" />
                 <img
                   src={hotImg}
-                  alt="Qwerty Learner 英语学习软件热门词库界面 - CET 四六级雅思托福词汇在线练习"
+                  alt="Qwer Learner 英语学习软件热门词库界面 - CET 四六级雅思托福词汇在线练习"
                   className="w-full flex-shrink-0"
                 />
               </div>
@@ -236,16 +236,16 @@ const MobilePage: React.FC = () => {
 
         <section className="mt-24 bg-gray-50/30 px-6 py-24 lg:mt-32 lg:px-24" itemScope itemType="https://schema.org/Product">
           <div className="mx-auto max-w-7xl">
-            <meta itemProp="name" content="Qwerty Learner" />
+            <meta itemProp="name" content="Qwer Learner" />
             <meta itemProp="description" content="为键盘工作者设计的英语学习软件，结合打字练习与单词记忆" />
-            <meta itemProp="brand" content="Qwerty Learner" />
+            <meta itemProp="brand" content="Qwer Learner" />
 
             {/* Offers Schema */}
             <div itemProp="offers" itemScope itemType="https://schema.org/Offer">
               <meta itemProp="price" content="0" />
               <meta itemProp="priceCurrency" content="USD" />
               <meta itemProp="availability" content="https://schema.org/InStock" />
-              <meta itemProp="url" content="https://qwerty.kaiyi.cool/" />
+              <meta itemProp="url" content="https://qwer.lshbosheth.cn/" />
             </div>
 
             {/* Aggregate Rating */}
@@ -353,7 +353,7 @@ const MobilePage: React.FC = () => {
                 <img
                   className="w-full object-contain"
                   src={detail[activeIndex].img}
-                  alt={`Qwerty Learner ${detail[activeIndex].title} 功能展示 - 英语学习软件特色功能截图`}
+                  alt={`Qwer Learner ${detail[activeIndex].title} 功能展示 - 英语学习软件特色功能截图`}
                 />
               </div>
             </div>
@@ -681,7 +681,7 @@ const MobilePage: React.FC = () => {
                 </p>
               </div>
               <a
-                href="https://qwerty.kaiyi.cool/"
+                href="https://qwer.lshbosheth.cn/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
@@ -841,7 +841,7 @@ const MobilePage: React.FC = () => {
               </div>
               <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                 <a
-                  href="https://qwerty.kaiyi.cool/"
+                  href="https://qwer.lshbosheth.cn/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
@@ -1080,7 +1080,7 @@ const MobilePage: React.FC = () => {
                 </p>
               </div>
               <a
-                href="https://qwerty.kaiyi.cool/"
+                href="https://qwer.lshbosheth.cn/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
@@ -1117,7 +1117,7 @@ const MobilePage: React.FC = () => {
             </p>
             <div className="flex flex-col items-center gap-4 sm:flex-row">
               <a
-                href="https://qwerty.kaiyi.cool/"
+                href="https://qwer.lshbosheth.cn/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:shadow-3xl group relative overflow-hidden rounded-full bg-white px-12 py-5 text-xl font-semibold text-gray-900 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-105"
