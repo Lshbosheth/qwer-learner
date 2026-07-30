@@ -1,0 +1,152 @@
+[
+  {
+    "name": "training",
+    "trans": [
+      "n. 训练（用数据调整模型参数的过程，区别于推理 inference）"
+    ],
+    "usphone": "ˈtreɪnɪŋ",
+    "ukphone": "ˈtreɪnɪŋ",
+    "example": "Training a model on clean data is critical for quality.",
+    "exampleTrans": "用干净的数据训练模型对质量至关重要。"
+  },
+  {
+    "name": "dataset",
+    "trans": [
+      "n. 数据集（用于训练或评测模型的样本集合）"
+    ],
+    "usphone": "ˈdeɪtəset",
+    "ukphone": "ˈdeɪtəset",
+    "example": "We split the dataset into train and validation sets.",
+    "exampleTrans": "我们把数据集划分为训练集和验证集。"
+  },
+  {
+    "name": "encoder",
+    "trans": [
+      "n. 编码器（Transformer 中将输入编码为隐藏表示的模块）"
+    ],
+    "usphone": "ɪnˈkoʊdər",
+    "ukphone": "ɪnˈkəʊdə(r)",
+    "example": "The encoder maps the sentence into a dense vector.",
+    "exampleTrans": "编码器把句子映射成一个稠密向量。"
+  },
+  {
+    "name": "decoder",
+    "trans": [
+      "n. 解码器（Transformer 中根据编码生成输出的模块）"
+    ],
+    "usphone": "diːˈkoʊdər",
+    "ukphone": "diːˈkəʊdə(r)",
+    "example": "The decoder generates text token by token.",
+    "exampleTrans": "解码器逐词元地生成文本。"
+  },
+  {
+    "name": "reflection",
+    "trans": [
+      "n. 反思（Agent 复盘自身行为以改进策略的机制）"
+    ],
+    "usphone": "rɪˈflekʃ(ə)n",
+    "ukphone": "rɪˈflekʃ(ə)n",
+    "example": "Reflection helps the agent correct mistakes in the next loop.",
+    "exampleTrans": "反思让智能体在下一轮中修正错误。"
+  },
+  {
+    "name": "ReAct",
+    "trans": [
+      "n. ReAct（“推理+行动”框架，让 Agent 交替思考与调用工具）"
+    ],
+    "usphone": "",
+    "ukphone": "",
+    "example": "ReAct prompts the model to think, act, then observe.",
+    "exampleTrans": "ReAct 让模型先思考、再行动、然后观察。"
+  },
+  {
+    "name": "schema",
+    "trans": [
+      "n. 模式 / 结构定义（描述工具或函数参数格式的规范，如 JSON Schema）"
+    ],
+    "usphone": "ˈskiːmə",
+    "ukphone": "ˈskiːmə",
+    "example": "The tool's schema tells the model what arguments to pass.",
+    "exampleTrans": "工具的 schema 告诉模型该传哪些参数。"
+  },
+  {
+    "name": "index",
+    "trans": [
+      "n. 索引（RAG 中用于快速检索的向量 / 关键词结构）"
+    ],
+    "usphone": "ˈɪndeks",
+    "ukphone": "ˈɪndeks",
+    "example": "We build a vector index over the knowledge base.",
+    "exampleTrans": "我们对知识库建立向量索引。"
+  },
+  {
+    "name": "reranking",
+    "trans": [
+      "n. 重排序（RAG 中对初检结果按相关性重新打分排序）"
+    ],
+    "usphone": "",
+    "ukphone": "",
+    "example": "Reranking improves the top results fed into the model.",
+    "exampleTrans": "重排序能提升送入模型的前几条结果质量。"
+  },
+  {
+    "name": "buffer",
+    "trans": [
+      "n. 缓冲（Agent 中暂存近期对话 / 状态的记忆区）"
+    ],
+    "usphone": "ˈbʌfər",
+    "ukphone": "ˈbʌfə(r)",
+    "example": "A memory buffer keeps the last few turns in context.",
+    "exampleTrans": "记忆缓冲保留了最近几轮对话在上下文中。"
+  },
+  {
+    "name": "short-term memory",
+    "trans": [
+      "n. 短期记忆（Agent 当前会话内临时保存的上下文）"
+    ],
+    "usphone": "ˌʃɔːrt ˈtɜːrm ˈmeməri",
+    "ukphone": "ˌʃɔːt ˈtɜːm ˈmeməri",
+    "example": "Short-term memory holds the conversation within one session.",
+    "exampleTrans": "短期记忆保存单次会话内的对话内容。"
+  },
+  {
+    "name": "orchestration",
+    "trans": [
+      "n. 编排（协调多个 Agent / 工具 / 步骤协同工作）"
+    ],
+    "usphone": "ˌɔːrkɪˈstreɪʃn",
+    "ukphone": "ˌɔːkɪˈstreɪʃn",
+    "example": "Orchestration coordinates the agents in a complex pipeline.",
+    "exampleTrans": "编排让复杂流水线中的多个智能体协同。"
+  },
+  {
+    "name": "zero-shot",
+    "trans": [
+      "adj./n. 零样本（不给示例直接让模型完成任务）"
+    ],
+    "usphone": "ˈzɪroʊ ʃɑːt",
+    "ukphone": "ˈzɪərəʊ ʃɒt",
+    "example": "Zero-shot prompting works well for common tasks.",
+    "exampleTrans": "零样本提示在常见任务上表现良好。"
+  },
+  {
+    "name": "system prompt",
+    "trans": [
+      "n. 系统提示词（设定模型角色与规则的隐藏指令）"
+    ],
+    "usphone": "ˈsɪstəm prɑːmpt",
+    "ukphone": "ˈsɪstəm prɒmpt",
+    "example": "The system prompt defines the assistant's persona.",
+    "exampleTrans": "系统提示词定义了助手的角色设定。"
+  },
+  {
+    "name": "refactor",
+    "trans": [
+      "v./n. 重构（在不改变行为的前提下改进代码结构）"
+    ],
+    "usphone": "",
+    "ukphone": "",
+    "example": "We refactored the agent loop to make it easier to test.",
+    "exampleTrans": "我们重构了智能体的循环逻辑，使其更易测试。"
+  }
+]

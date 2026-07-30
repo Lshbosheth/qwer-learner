@@ -1,0 +1,152 @@
+[
+  {
+    "name": "temperature",
+    "trans": [
+      "n. 采样温度（控制生成随机性的超参数，越高越发散、越低越确定）"
+    ],
+    "usphone": "ˈtempərətʃər",
+    "ukphone": "ˈtemprətʃə(r)",
+    "example": "A low temperature makes the model's output more deterministic.",
+    "exampleTrans": "较低的采样温度会让模型输出更确定。"
+  },
+  {
+    "name": "multimodal",
+    "trans": [
+      "adj. 多模态的（能同时处理文本、图像、音频等多种输入）"
+    ],
+    "usphone": "ˌmʌltiˈmoʊdəl",
+    "ukphone": "ˌmʌltɪˈməʊdəl",
+    "example": "The multimodal model can answer questions about an uploaded image.",
+    "exampleTrans": "这个多模态模型能回答关于上传图片的问题。"
+  },
+  {
+    "name": "positional encoding",
+    "trans": [
+      "n. 位置编码（为词元注入顺序信息，弥补自注意力无位置感知的缺陷）"
+    ],
+    "usphone": "ˌpoʊzɪʃənl ɪnˈkoʊdɪŋ",
+    "ukphone": "ˌpɒzɪʃənl ɪnˈkəʊdɪŋ",
+    "example": "Positional encoding tells the model where each token sits in the sequence.",
+    "exampleTrans": "位置编码告诉模型每个词元在序列中的位置。"
+  },
+  {
+    "name": "multi-head attention",
+    "trans": [
+      "n. 多头注意力（并行多组注意力以捕捉不同子空间的关系）"
+    ],
+    "usphone": "ˌmʌlti ˈhed əˈtenʃ(ə)n",
+    "ukphone": "ˌmʌlti ˈhed əˈtenʃ(ə)n",
+    "example": "Multi-head attention lets the model focus on syntax and semantics at once.",
+    "exampleTrans": "多头注意力让模型同时关注句法和语义。"
+  },
+  {
+    "name": "observation",
+    "trans": [
+      "n. 观察（Agent 在行动后从环境获取的结果反馈）"
+    ],
+    "usphone": "ˌɑːbzərˈveɪʃ(ə)n",
+    "ukphone": "ˌɒbzəˈveɪʃ(ə)n",
+    "example": "After the tool call, the observation showed the fetched page content.",
+    "exampleTrans": "工具调用后，观察结果返回了抓取的页面内容。"
+  },
+  {
+    "name": "endpoint",
+    "trans": [
+      "n. 端点（API 暴露的可调用网络地址）"
+    ],
+    "usphone": "ˈendˌpɔɪnt",
+    "ukphone": "ˈendˌpɔɪnt",
+    "example": "The agent posts the request to the search endpoint.",
+    "exampleTrans": "智能体把请求发往搜索端点。"
+  },
+  {
+    "name": "JSON",
+    "trans": [
+      "n. JSON（轻量级数据交换格式，常用于工具参数与模型输出）"
+    ],
+    "usphone": "ˈdʒeɪsən",
+    "ukphone": "ˈdʒeɪsən",
+    "example": "The function call returns its arguments as a JSON object.",
+    "exampleTrans": "函数调用以 JSON 对象的形式返回参数。"
+  },
+  {
+    "name": "query",
+    "trans": [
+      "n. 查询（用户问题或检索请求）；v. 查询"
+    ],
+    "usphone": "ˈkwɪri",
+    "ukphone": "ˈkwɪəri",
+    "example": "The retriever ranks documents by their similarity to the query.",
+    "exampleTrans": "检索器按文档与查询的相似度排序。"
+  },
+  {
+    "name": "hybrid search",
+    "trans": [
+      "n. 混合检索（结合向量语义检索与关键词检索以提升召回）"
+    ],
+    "usphone": "ˈhaɪbrɪd sɜːrtʃ",
+    "ukphone": "ˈhaɪbrɪd sɜːtʃ",
+    "example": "Hybrid search combines dense vectors with keyword matching.",
+    "exampleTrans": "混合检索把稠密向量检索与关键词匹配结合起来。"
+  },
+  {
+    "name": "summary memory",
+    "trans": [
+      "n. 摘要记忆（把过长的历史压缩成摘要以节省上下文）"
+    ],
+    "usphone": "ˈsʌməri ˈmeməri",
+    "ukphone": "ˈsʌməri ˈmeməri",
+    "example": "Summary memory condenses earlier turns into a short recap.",
+    "exampleTrans": "摘要记忆把先前的对话压缩成简短回顾。"
+  },
+  {
+    "name": "node",
+    "trans": [
+      "n. 节点（工作流图中的一个处理单元或步骤）"
+    ],
+    "usphone": "noʊd",
+    "ukphone": "nəʊd",
+    "example": "Each node in the workflow performs a single transformation.",
+    "exampleTrans": "工作流中的每个节点执行一种变换。"
+  },
+  {
+    "name": "prompt template",
+    "trans": [
+      "n. 提示词模板（带占位符、可复用的提示骨架）"
+    ],
+    "usphone": "prɑːmpt ˈtemplət",
+    "ukphone": "prɒmpt ˈtemplət",
+    "example": "We fill the prompt template with the user's question at runtime.",
+    "exampleTrans": "我们在运行时把用户问题填入提示词模板。"
+  },
+  {
+    "name": "prompt injection",
+    "trans": [
+      "n. 提示注入（通过输入操纵模型绕过系统指令的攻击）"
+    ],
+    "usphone": "prɑːmpt ɪnˈdʒekʃ(ə)n",
+    "ukphone": "prɒmpt ɪnˈdʒekʃ(ə)n",
+    "example": "Prompt injection tricked the assistant into ignoring its rules.",
+    "exampleTrans": "提示注入诱使助手无视自身规则。"
+  },
+  {
+    "name": "async",
+    "trans": [
+      "adj./adv. 异步的（非阻塞地并发执行，常用于 I/O 与并发调用）"
+    ],
+    "usphone": "əˈsɪŋk",
+    "ukphone": "əˈsɪŋk",
+    "example": "Use async calls to fetch multiple tools in parallel.",
+    "exampleTrans": "用异步调用并行获取多个工具结果。"
+  },
+  {
+    "name": "runtime",
+    "trans": [
+      "n. 运行时（程序执行阶段，也指语言运行环境如 Node runtime）"
+    ],
+    "usphone": "ˈrʌntaɪm",
+    "ukphone": "ˈrʌntaɪm",
+    "example": "A runtime error crashed the agent before it returned an answer.",
+    "exampleTrans": "一个运行时错误在智能体返回答案前让它崩溃了。"
+  }
+]

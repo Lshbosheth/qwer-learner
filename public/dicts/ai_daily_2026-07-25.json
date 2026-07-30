@@ -1,0 +1,122 @@
+[
+  {
+    "name": "parameters",
+    "trans": ["n. 模型的可学习权重/超参数，决定模型行为与输出"],
+    "usphone": "pəˈræmɪtərz",
+    "ukphone": "pəˈræmɪtəz",
+    "example": "The model has over 7 billion parameters.",
+    "exampleTrans": "该模型拥有超过 70 亿个参数。"
+  },
+  {
+    "name": "overfitting",
+    "trans": ["n./v. 过拟合：模型在训练集上表现好但在新数据上泛化差"],
+    "usphone": "",
+    "ukphone": "",
+    "example": "Overfitting occurs when the model memorizes the training data.",
+    "exampleTrans": "当模型死记训练数据时就会发生过拟合。"
+  },
+  {
+    "name": "self-attention",
+    "trans": ["n. 自注意力：序列中每个位置关注自身其他位置以建模依赖关系"],
+    "usphone": "ˈself əˈtenʃ(ə)n",
+    "ukphone": "ˈself əˈtenʃ(ə)n",
+    "example": "Self-attention lets the model weigh all tokens in a sentence at once.",
+    "exampleTrans": "自注意力让模型一次性权衡句中所有词元。"
+  },
+  {
+    "name": "agentic",
+    "trans": ["adj. 具自主行动能力的（agent-like），指能自行规划与调用工具的智能体特性"],
+    "usphone": "",
+    "ukphone": "",
+    "example": "Agentic workflows can complete tasks with minimal human input.",
+    "exampleTrans": "智能体式工作流能在极少人工干预下完成任务。"
+  },
+  {
+    "name": "tool use",
+    "trans": ["n. 工具使用：Agent 调用外部工具/API 获取信息或执行动作的能力"],
+    "usphone": "tuːl juːz",
+    "ukphone": "tuːl juːz",
+    "example": "Tool use enables the assistant to fetch live weather data.",
+    "exampleTrans": "工具使用让助手能获取实时天气数据。"
+  },
+  {
+    "name": "argument",
+    "trans": ["n. 参数/实参：调用函数或工具时传入的具体取值"],
+    "usphone": "ˈɑːrɡjumənt",
+    "ukphone": "ˈɑːɡjumənt",
+    "example": "The API rejected the request due to a missing argument.",
+    "exampleTrans": "由于缺少一个参数，该 API 拒绝了请求。"
+  },
+  {
+    "name": "retriever",
+    "trans": ["n. 检索器：从知识库中找出与查询最相关文档的组件"],
+    "usphone": "rɪˈtriːvər",
+    "ukphone": "rɪˈtriːvə(r)",
+    "example": "A dense retriever improves the relevance of retrieved passages.",
+    "exampleTrans": "稠密检索器能提升召回片段的相关性。"
+  },
+  {
+    "name": "augmentation",
+    "trans": ["n. 增强（RAG 中的 Augmentation）：将检索内容注入生成上下文"],
+    "usphone": "ˌɔːɡmenˈteɪʃ(ə)n",
+    "ukphone": "ˌɔːɡmenˈteɪʃ(ə)n",
+    "example": "Retrieval-augmented generation relies on context augmentation.",
+    "exampleTrans": "检索增强生成依赖于上下文增强。"
+  },
+  {
+    "name": "working memory",
+    "trans": ["n. 工作记忆：Agent 在单次任务执行中临时保存的中间状态/上下文"],
+    "usphone": "ˈwɜːrkɪŋ ˈmeməri",
+    "ukphone": "ˈwɜːkɪŋ ˈmeməri",
+    "example": "The agent keeps the plan in its working memory while executing steps.",
+    "exampleTrans": "执行步骤时，智能体把计划保存在工作记忆中。"
+  },
+  {
+    "name": "trigger",
+    "trans": ["n./v. 触发器/触发：启动工作流或某一步骤运行的事件或条件"],
+    "usphone": "ˈtrɪɡər",
+    "ukphone": "ˈtrɪɡə(r)",
+    "example": "A new email can trigger the automation workflow.",
+    "exampleTrans": "一封新邮件可以触发该自动化工作流。"
+  },
+  {
+    "name": "graph",
+    "trans": ["n. 图：用节点和边表示步骤及其依赖关系的工作流结构"],
+    "usphone": "ɡræf",
+    "ukphone": "ɡrɑːf",
+    "example": "The pipeline is modeled as a directed acyclic graph.",
+    "exampleTrans": "该流水线被建模为有向无环图。"
+  },
+  {
+    "name": "delimiter",
+    "trans": ["n. 分隔符：在 prompt 中标记文本边界（如 ``` 或 ###）的特殊符号"],
+    "usphone": "dɪˈlɪmɪtər",
+    "ukphone": "dɪˈlɪmɪtə(r)",
+    "example": "Use a delimiter to separate the instructions from the input text.",
+    "exampleTrans": "用分隔符把指令与输入文本隔开。"
+  },
+  {
+    "name": "role prompt",
+    "trans": ["n. 角色提示：通过设定身份（如“你是资深翻译”）来约束模型语气与行为"],
+    "usphone": "roʊl prɒmpt",
+    "ukphone": "rəʊl prɒmpt",
+    "example": "A role prompt like 'You are a helpful tutor' shapes the response style.",
+    "exampleTrans": "像“你是一位耐心的导师”这样的角色提示会塑造回答风格。"
+  },
+  {
+    "name": "framework",
+    "trans": ["n. 框架：提供通用结构与工具的软件开发基础（如 React、LangChain）"],
+    "usphone": "ˈfreɪmwɜːrk",
+    "ukphone": "ˈfreɪmwɜːk",
+    "example": "LangChain is a popular framework for building LLM apps.",
+    "exampleTrans": "LangChain 是构建大语言模型应用的热门框架。"
+  },
+  {
+    "name": "benchmark",
+    "trans": ["n./v. 基准测试：用于衡量模型或系统性能的标准任务与指标"],
+    "usphone": "ˈbentʃmɑːrk",
+    "ukphone": "ˈbentʃmɑːk",
+    "example": "We benchmark the model on common reasoning datasets.",
+    "exampleTrans": "我们在常用推理数据集上对该模型做基准测试。"
+  }
+]

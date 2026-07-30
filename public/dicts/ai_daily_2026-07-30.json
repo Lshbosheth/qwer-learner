@@ -1,0 +1,122 @@
+[
+  {
+    "name": "alignment",
+    "trans": ["n. 对齐（使模型行为与人类意图/价值观一致的过程，如 RLHF）"],
+    "usphone": "əˈlaɪnmənt",
+    "ukphone": "əˈlaɪnmənt",
+    "example": "Alignment research aims to keep powerful models helpful and safe.",
+    "exampleTrans": "对齐研究旨在让强大的模型保持有用且安全。"
+  },
+  {
+    "name": "sampling",
+    "trans": ["n. 采样（从模型输出分布中按策略选取下一个 token 的过程）"],
+    "usphone": "ˈsæmplɪŋ",
+    "ukphone": "ˈsɑːmplɪŋ",
+    "example": "Lower temperature makes sampling more deterministic and repetitive.",
+    "exampleTrans": "更低的 temperature 会让采样更确定、更重复。"
+  },
+  {
+    "name": "attention mask",
+    "trans": ["n. 注意力掩码（屏蔽填充/未来 token 以控制注意力可见范围的张量）"],
+    "usphone": "əˈtenʃən mæsk",
+    "ukphone": "əˈtenʃən mæsk",
+    "example": "A causal attention mask prevents the decoder from looking at future tokens.",
+    "exampleTrans": "因果注意力掩码会阻止解码器看到未来的 token。"
+  },
+  {
+    "name": "positional embedding",
+    "trans": ["n. 位置嵌入（把 token 在序列中的位置信息编码进向量的表示）"],
+    "usphone": "pəˈzɪʃənl ɪmˈbedɪŋ",
+    "ukphone": "pəˈzɪʃənl ɪmˈbedɪŋ",
+    "example": "Positional embeddings let the transformer understand word order.",
+    "exampleTrans": "位置嵌入让 transformer 能够理解词语的顺序。"
+  },
+  {
+    "name": "human-in-the-loop",
+    "trans": ["adj./n. 人在回路（由人类在关键步骤审核或决策的人机协作模式）"],
+    "usphone": "ˈhjuːmən ɪn ðə luːp",
+    "ukphone": "ˈhjuːmən ɪn ðə luːp",
+    "example": "For high-risk tasks we keep a human-in-the-loop to approve each action.",
+    "exampleTrans": "对于高风险任务，我们保持人在回路，由人类审批每一步操作。"
+  },
+  {
+    "name": "trajectory",
+    "trans": ["n. 轨迹（Agent 在任务执行过程中走过的完整步骤与状态序列）"],
+    "usphone": "trəˈdʒektəri",
+    "ukphone": "trəˈdʒektəri",
+    "example": "The agent's trajectory included three tool calls before it answered.",
+    "exampleTrans": "该 Agent 在给出答案前，轨迹中包含三次工具调用。"
+  },
+  {
+    "name": "webhook",
+    "trans": ["n. Webhook（由事件触发的回调 HTTP 请求，用于系统间实时通知）"],
+    "usphone": "ˈwebhʊk",
+    "ukphone": "ˈwebhʊk",
+    "example": "The agent registers a webhook to receive task completion events.",
+    "exampleTrans": "该 Agent 注册了一个 webhook 以接收任务完成事件。"
+  },
+  {
+    "name": "request",
+    "trans": ["n./v. 请求（客户端向服务端发起的调用，常指 API/HTTP 请求）"],
+    "usphone": "rɪˈkwest",
+    "ukphone": "rɪˈkwest",
+    "example": "The tool sends a POST request with the arguments as JSON.",
+    "exampleTrans": "该工具发送一个 POST 请求，将参数以 JSON 形式传入。"
+  },
+  {
+    "name": "metadata",
+    "trans": ["n. 元数据（描述文档/分块属性的附加信息，如来源、时间、标签）"],
+    "usphone": "ˈmetədeɪtə",
+    "ukphone": "ˈmetədeɪtə",
+    "example": "Storing metadata per chunk improves RAG filtering and citation.",
+    "exampleTrans": "为每个分块存储元数据，有助于提升 RAG 的过滤与引用能力。"
+  },
+  {
+    "name": "cache",
+    "trans": ["n./v. 缓存（暂存高频访问结果以加速读取的中间存储）"],
+    "usphone": "kæʃ",
+    "ukphone": "kæʃ",
+    "example": "We cache embeddings to avoid recomputing them on every query.",
+    "exampleTrans": "我们缓存嵌入向量，避免每次查询都重新计算。"
+  },
+  {
+    "name": "cron",
+    "trans": ["n. 定时任务（基于时间表达式周期性触发的工作流调度器）"],
+    "usphone": "ˈkrɑːn",
+    "ukphone": "ˈkrɒn",
+    "example": "A cron job runs the daily vocabulary generation every morning.",
+    "exampleTrans": "一个 cron 任务每天早晨运行每日词汇生成。"
+  },
+  {
+    "name": "tree-of-thought",
+    "trans": ["n. 思维树（ToT，让模型沿多分支推理并回溯的提示策略）"],
+    "usphone": "triː əv θɔːt",
+    "ukphone": "triː əv θɔːt",
+    "example": "Tree-of-thought explores several reasoning paths before choosing one.",
+    "exampleTrans": "思维树在做出选择前，会探索多条推理路径。"
+  },
+  {
+    "name": "role-playing",
+    "trans": ["n. 角色扮演（在提示中让模型扮演特定身份以引导输出的技巧）"],
+    "usphone": "ˈroʊlˌpleɪɪŋ",
+    "ukphone": "ˈrəʊlˌpleɪɪŋ",
+    "example": "Role-playing prompts can make the assistant adopt an expert persona.",
+    "exampleTrans": "角色扮演式提示能让助手采用专家口吻作答。"
+  },
+  {
+    "name": "lint",
+    "trans": ["v./n. 静态检查（用工具扫描代码风格与潜在错误的开发步骤）"],
+    "usphone": "lɪnt",
+    "ukphone": "lɪnt",
+    "example": "Run lint before commit to catch unused imports and style issues.",
+    "exampleTrans": "提交前运行 lint，以发现未使用的导入和风格问题。"
+  },
+  {
+    "name": "build",
+    "trans": ["v./n. 构建（把源码编译/打包为可运行产物的开发步骤）"],
+    "usphone": "bɪld",
+    "ukphone": "bɪld",
+    "example": "The CI pipeline runs tests and build on every pull request.",
+    "exampleTrans": "CI 流水线会在每个 PR 上运行测试与构建。"
+  }
+]

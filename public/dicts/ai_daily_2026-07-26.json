@@ -1,0 +1,122 @@
+[
+  {
+    "name": "epoch",
+    "trans": ["n. 轮次，训练时完整遍历一次整个数据集"],
+    "usphone": "ˈepək",
+    "ukphone": "ˈiːpɒk",
+    "example": "We trained the model for 50 epochs.",
+    "exampleTrans": "我们把模型训练了 50 个轮次。"
+  },
+  {
+    "name": "loss",
+    "trans": ["n. 损失，衡量模型预测与真实值差距的函数输出值"],
+    "usphone": "lɔːs",
+    "ukphone": "lɒs",
+    "example": "The training loss dropped below 0.1 after fine-tuning.",
+    "exampleTrans": "微调后训练损失降到了 0.1 以下。"
+  },
+  {
+    "name": "layer normalization",
+    "trans": ["n. 层归一化，Transformer 中稳定隐藏层分布的训练技巧"],
+    "usphone": "ˈleɪər ˌnɔːrmələˈzeɪʃən",
+    "ukphone": "ˈleɪə ˌnɔːməlaɪˈzeɪʃən",
+    "example": "Layer normalization is applied before the feed-forward sublayer.",
+    "exampleTrans": "在 Feed-Forward 子层之前会做层归一化。"
+  },
+  {
+    "name": "feed-forward",
+    "trans": ["adj. 前馈的，指 Transformer 中逐位置独立变换的神经网络子层"],
+    "usphone": "fiːd ˈfɔːrwərd",
+    "ukphone": "fiːd ˈfɔːwəd",
+    "example": "Each transformer block contains a feed-forward network.",
+    "exampleTrans": "每个 Transformer 模块都包含一个前馈网络。"
+  },
+  {
+    "name": "agent loop",
+    "trans": ["n. 智能体循环，Agent 重复 感知—思考—行动 的执行流程"],
+    "usphone": "ˈeɪdʒənt luːp",
+    "ukphone": "ˈeɪdʒənt luːp",
+    "example": "The agent loop continues until the task is solved.",
+    "exampleTrans": "智能体循环会一直进行，直到任务被解决。"
+  },
+  {
+    "name": "goal",
+    "trans": ["n. 目标，Agent 要达成的最终结果"],
+    "usphone": "ɡoʊl",
+    "ukphone": "ɡəʊl",
+    "example": "The planner breaks the goal into smaller subtasks.",
+    "exampleTrans": "规划器把目标拆解成更小的子任务。"
+  },
+  {
+    "name": "invocation",
+    "trans": ["n. 调用，指 Agent 发起一次工具或函数调用"],
+    "usphone": "ˌɪnvəˈkeɪʃn",
+    "ukphone": "ˌɪnvəˈkeɪʃn",
+    "example": "Each tool invocation returns a structured result.",
+    "exampleTrans": "每次工具调用都会返回一个结构化结果。"
+  },
+  {
+    "name": "response",
+    "trans": ["n. 响应，模型或工具返回的输出"],
+    "usphone": "rɪˈspɑːns",
+    "ukphone": "rɪˈspɒns",
+    "example": "The API returns the model response as JSON.",
+    "exampleTrans": "API 以 JSON 形式返回模型响应。"
+  },
+  {
+    "name": "corpus",
+    "trans": ["n. 语料库，RAG 中文档集合的总称"],
+    "usphone": "ˈkɔːrpəs",
+    "ukphone": "ˈkɔːpəs",
+    "example": "We indexed the corpus for semantic search.",
+    "exampleTrans": "我们对语料库建立索引以支持语义检索。"
+  },
+  {
+    "name": "top-k",
+    "trans": ["n. 取前 k，检索时返回相似度最高的 k 个结果"],
+    "usphone": "tɑːp keɪ",
+    "ukphone": "tɒp keɪ",
+    "example": "The retriever returns the top-k chunks for each query.",
+    "exampleTrans": "检索器为每个查询返回相似度最高的前 k 个片段。"
+  },
+  {
+    "name": "episodic memory",
+    "trans": ["n. 情景记忆，Agent 记录具体经历片段的长期记忆"],
+    "usphone": "ˌepɪˈsɑːdɪk ˈmeməri",
+    "ukphone": "ˌepɪˈsɒdɪk ˈmeməri",
+    "example": "Episodic memory helps the agent avoid repeating past mistakes.",
+    "exampleTrans": "情景记忆让智能体避免重复过去的错误。"
+  },
+  {
+    "name": "DAG",
+    "trans": ["n. 有向无环图，工作流中任务依赖关系的一种表示"],
+    "usphone": "",
+    "ukphone": "",
+    "example": "The pipeline is defined as a DAG of processing nodes.",
+    "exampleTrans": "该流水线被定义为处理节点的有向无环图。"
+  },
+  {
+    "name": "instruction",
+    "trans": ["n. 指令，Prompt 中告诉模型要做什么的自然语言描述"],
+    "usphone": "ɪnˈstrʌkʃ(ə)n",
+    "ukphone": "ɪnˈstrʌkʃ(ə)n",
+    "example": "Clear instructions improve the model's output quality.",
+    "exampleTrans": "清晰的指令能提升模型的输出质量。"
+  },
+  {
+    "name": "prompt chaining",
+    "trans": ["n. 提示链，把多个 Prompt 串联让输出逐级加工"],
+    "usphone": "prɑːmpt ˈtʃeɪnɪŋ",
+    "ukphone": "prɒmpt ˈtʃeɪnɪŋ",
+    "example": "Prompt chaining splits a complex task into sequential steps.",
+    "exampleTrans": "提示链把一个复杂任务拆成顺序执行的步骤。"
+  },
+  {
+    "name": "variable",
+    "trans": ["n. 变量，程序中存储可变数据的命名单元"],
+    "usphone": "ˈveriəb(ə)l",
+    "ukphone": "ˈveəriəb(ə)l",
+    "example": "Declare the variable before using it in the loop.",
+    "exampleTrans": "在循环中使用变量前要先声明它。"
+  }
+]

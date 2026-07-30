@@ -1,0 +1,122 @@
+[
+  {
+    "name": "generalization",
+    "trans": ["n. 泛化能力（模型对未见过数据的适应能力）"],
+    "usphone": "ˌdʒen(ə)rələˈzeɪʃ(ə)n",
+    "ukphone": "ˌdʒen(ə)rəlaɪˈzeɪʃ(ə)n",
+    "example": "Good generalization requires training on diverse data.",
+    "exampleTrans": "良好的泛化能力需要多样化数据的训练。"
+  },
+  {
+    "name": "compute",
+    "trans": ["n. 算力 / 计算资源（训练或推理所需的计算量）"],
+    "usphone": "kəmˈpjuːt",
+    "ukphone": "kəmˈpjuːt",
+    "example": "Training large models demands massive compute.",
+    "exampleTrans": "训练大模型需要海量算力。"
+  },
+  {
+    "name": "attention head",
+    "trans": ["n. 注意力头（多头注意力中的单个注意力子空间）"],
+    "usphone": "əˈtenʃn hed",
+    "ukphone": "əˈtenʃn hed",
+    "example": "Each attention head focuses on a different relationship in the sentence.",
+    "exampleTrans": "每个注意力头关注句子中不同的关系。"
+  },
+  {
+    "name": "hidden state",
+    "trans": ["n. 隐状态（模型各层之间传递的中间表示）"],
+    "usphone": "ˈhɪdn steɪt",
+    "ukphone": "ˈhɪdn steɪt",
+    "example": "The hidden state encodes the contextual meaning of each token.",
+    "exampleTrans": "隐状态编码了每个 token 的上下文含义。"
+  },
+  {
+    "name": "task decomposition",
+    "trans": ["n. 任务分解（将复杂任务拆解为可执行的子任务）"],
+    "usphone": "tɑːsk ˌdiːkɒmpəˈzɪʃn",
+    "ukphone": "tɑːsk ˌdiːkɒmpəˈzɪʃn",
+    "example": "Task decomposition lets the agent solve problems step by step.",
+    "exampleTrans": "任务分解让智能体能逐步解决问题。"
+  },
+  {
+    "name": "sub-agent",
+    "trans": ["n. 子智能体（由主智能体调度以处理局部任务的代理）"],
+    "usphone": "sʌb ˈeɪdʒənt",
+    "ukphone": "sʌb ˈeɪdʒənt",
+    "example": "The planner delegates research to a sub-agent.",
+    "exampleTrans": "规划器把调研任务委派给一个子智能体。"
+  },
+  {
+    "name": "protocol",
+    "trans": ["n. 协议（智能体间或工具调用的通信规范，如 MCP）"],
+    "usphone": "ˈproʊtəkɑːl",
+    "ukphone": "ˈprəʊtəkɒl",
+    "example": "The protocol defines how tools are discovered and called.",
+    "exampleTrans": "该协议规定了工具如何被发现与调用。"
+  },
+  {
+    "name": "dense retrieval",
+    "trans": ["n. 稠密检索（用向量表示做语义匹配的 RAG 检索方式）"],
+    "usphone": "dens rɪˈtriːvl",
+    "ukphone": "dens rɪˈtriːvl",
+    "example": "Dense retrieval finds relevant passages by semantic similarity.",
+    "exampleTrans": "稠密检索通过语义相似度找到相关片段。"
+  },
+  {
+    "name": "document",
+    "trans": ["n. 文档（RAG 中被切分与检索的知识载体）"],
+    "usphone": "ˈdɑːkjumənt",
+    "ukphone": "ˈdɒkjumənt",
+    "example": "The pipeline splits each document into searchable chunks.",
+    "exampleTrans": "该流程把每份文档切分为可检索的片段。"
+  },
+  {
+    "name": "external memory",
+    "trans": ["n. 外部记忆（长期保存在模型之外的知识存储）"],
+    "usphone": "ɪkˈstɜːnl ˈmeməri",
+    "ukphone": "ɪkˈstɜːnl ˈmeməri",
+    "example": "External memory lets the agent recall facts across sessions.",
+    "exampleTrans": "外部记忆让智能体能跨会话回忆事实。"
+  },
+  {
+    "name": "state machine",
+    "trans": ["n. 状态机（用状态与转移描述工作流的控制模型）"],
+    "usphone": "steɪt məˈʃiːn",
+    "ukphone": "steɪt məˈʃiːn",
+    "example": "We model the pipeline as a state machine with clear transitions.",
+    "exampleTrans": "我们把该流程建模为一个带明确转移的状态机。"
+  },
+  {
+    "name": "parallelism",
+    "trans": ["n. 并行（同时执行多个任务以提升吞吐）"],
+    "usphone": "ˈpærəlelɪzəm",
+    "ukphone": "ˈpærəlelɪzəm",
+    "example": "Parallelism speeds up both training and inference.",
+    "exampleTrans": "并行能加速训练与推理。"
+  },
+  {
+    "name": "in-context learning",
+    "trans": ["n. 上下文学习（模型仅通过提示中的示例完成任务，无需微调）"],
+    "usphone": "ɪn ˈkɒntekst ˈlɜːnɪŋ",
+    "ukphone": "ɪn ˈkɒntekst ˈlɜːnɪŋ",
+    "example": "In-context learning enables few-shot adaptation at inference time.",
+    "exampleTrans": "上下文学习让模型在推理时即可进行少样本适配。"
+  },
+  {
+    "name": "compiler",
+    "trans": ["n. 编译器（将源代码翻译为可执行代码的工具）"],
+    "usphone": "kəmˈpaɪlər",
+    "ukphone": "kəmˈpaɪlə(r)",
+    "example": "The compiler caught the type error before runtime.",
+    "exampleTrans": "编译器在运行前就捕获了类型错误。"
+  },
+  {
+    "name": "library",
+    "trans": ["n. 库（可复用的代码集合，如用于调用模型的 SDK）"],
+    "usphone": "ˈlaɪbreri",
+    "ukphone": "ˈlaɪbrəri",
+    "example": "We wrapped the API in a small library for reuse.",
+    "exampleTrans": "我们把该 API 封装成一个可复用的小库。"
+  }
+]

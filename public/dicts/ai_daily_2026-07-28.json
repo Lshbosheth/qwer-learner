@@ -1,0 +1,152 @@
+[
+  {
+    "name": "gradient",
+    "trans": [
+      "n. 梯度（反向传播中计算损失对各参数的偏导数，指导模型更新方向）"
+    ],
+    "usphone": "ˈɡreɪdiənt",
+    "ukphone": "ˈɡreɪdiənt",
+    "example": "We clip the gradient to prevent unstable training.",
+    "exampleTrans": "我们对梯度做裁剪，以防训练不稳定。"
+  },
+  {
+    "name": "quantization",
+    "trans": [
+      "n. 量化（用更低精度表示模型权重，压缩体积并加速推理）"
+    ],
+    "usphone": "ˌkwɑːntɪˈzeɪʃən",
+    "ukphone": "ˌkwɒntɪˈzeɪʃən",
+    "example": "Quantization shrinks the model so it runs on mobile devices.",
+    "exampleTrans": "量化缩小了模型体积，使其能在移动端运行。"
+  },
+  {
+    "name": "tokenizer",
+    "trans": [
+      "n. 分词器（把文本切分为词元 token 的组件，模型输入的前置步骤）"
+    ],
+    "usphone": "ˈtoʊkənˌaɪzər",
+    "ukphone": "ˈtəʊkənaɪzə(r)",
+    "example": "The tokenizer splits the sentence into subword tokens.",
+    "exampleTrans": "分词器把句子切分成子词词元。"
+  },
+  {
+    "name": "beam search",
+    "trans": [
+      "n. 束搜索（解码时保留 k 条最优候选序列的生成策略）"
+    ],
+    "usphone": "biːm sɜːrtʃ",
+    "ukphone": "biːm sɜːtʃ",
+    "example": "Beam search balances diversity and quality during text generation.",
+    "exampleTrans": "束搜索在文本生成时兼顾多样性与质量。"
+  },
+  {
+    "name": "action",
+    "trans": [
+      "n. 动作（Agent 在规划后执行的具体操作，如调用工具）"
+    ],
+    "usphone": "ˈækʃ(ə)n",
+    "ukphone": "ˈækʃ(ə)n",
+    "example": "The agent selects the next action based on the observation.",
+    "exampleTrans": "智能体根据观察结果选择下一步动作。"
+  },
+  {
+    "name": "guardrail",
+    "trans": [
+      "n. 护栏 / 安全约束（限制模型或 Agent 行为边界、避免有害输出的机制）"
+    ],
+    "usphone": "ˈɡɑːrdreɪl",
+    "ukphone": "ˈɡɑːdreɪl",
+    "example": "We add guardrails to stop the agent from deleting files.",
+    "exampleTrans": "我们加上护栏，防止智能体误删文件。"
+  },
+  {
+    "name": "sandbox",
+    "trans": [
+      "n. 沙箱（隔离运行工具 / 代码的安全环境，出错不影响主机）"
+    ],
+    "usphone": "ˈsændbɑːks",
+    "ukphone": "ˈsændbɒks",
+    "example": "The tool runs inside a sandbox with no access to secrets.",
+    "exampleTrans": "该工具在沙箱中运行，无法访问密钥。"
+  },
+  {
+    "name": "grounding",
+    "trans": [
+      "n. 事实依据 / 接地（让回答基于检索到的真实资料，降低幻觉）"
+    ],
+    "usphone": "ˈɡraʊndɪŋ",
+    "ukphone": "ˈɡraʊndɪŋ",
+    "example": "Grounding the answer in retrieved docs reduced hallucinations.",
+    "exampleTrans": "让回答基于检索文档，减少了幻觉。"
+  },
+  {
+    "name": "passage",
+    "trans": [
+      "n. 段落 / 文本片段（RAG 检索与召回的基本单元）"
+    ],
+    "usphone": "ˈpæsɪdʒ",
+    "ukphone": "ˈpæsɪdʒ",
+    "example": "The retriever returns the most relevant passages for the query.",
+    "exampleTrans": "检索器返回与查询最相关的段落。"
+  },
+  {
+    "name": "semantic memory",
+    "trans": [
+      "n. 语义记忆（Agent 持久保存的通用事实与概念，区别于情景记忆）"
+    ],
+    "usphone": "sɪˈmæntɪk ˈmeməri",
+    "ukphone": "sɪˈmæntɪk ˈmeməri",
+    "example": "Semantic memory stores general knowledge across sessions.",
+    "exampleTrans": "语义记忆跨会话保存通用知识。"
+  },
+  {
+    "name": "schedule",
+    "trans": [
+      "n./v. 调度 / 定时（按设定的时间或条件触发工作流执行）"
+    ],
+    "usphone": "ˈskedʒuːl",
+    "ukphone": "ˈʃedjuːl",
+    "example": "A cron schedule runs the data pipeline every midnight.",
+    "exampleTrans": "一条 cron 定时规则在每天午夜跑数据流水线。"
+  },
+  {
+    "name": "output format",
+    "trans": [
+      "n. 输出格式（约束模型返回结构化的约定，如 JSON）"
+    ],
+    "usphone": "ˈaʊtpʊt ˈfɔːrmæt",
+    "ukphone": "ˈaʊtpʊt ˈfɔːmæt",
+    "example": "We enforce a JSON output format for reliable tool parsing.",
+    "exampleTrans": "我们强制使用 JSON 输出格式，以便工具稳定解析。"
+  },
+  {
+    "name": "self-consistency",
+    "trans": [
+      "n. 自一致性（多次采样取多数答案，提升推理准确率的技巧）"
+    ],
+    "usphone": "self ˌkɑːnsɪˈstensi",
+    "ukphone": "self ˌkɒnsɪˈstensi",
+    "example": "Self-consistency voting improves accuracy on math reasoning.",
+    "exampleTrans": "自一致性投票提升了数学推理的准确率。"
+  },
+  {
+    "name": "deploy",
+    "trans": [
+      "v./n. 部署（把训练好的模型或应用上线到生产环境）"
+    ],
+    "usphone": "dɪˈplɔɪ",
+    "ukphone": "dɪˈplɔɪ",
+    "example": "We deploy the model behind an API endpoint for users.",
+    "exampleTrans": "我们把模型部署在 API 端点后供用户调用。"
+  },
+  {
+    "name": "package",
+    "trans": [
+      "n. 包 / 依赖包（可复用的代码单元，通过包管理器安装）"
+    ],
+    "usphone": "ˈpækɪdʒ",
+    "ukphone": "ˈpækɪdʒ",
+    "example": "Install the package before importing the agent framework.",
+    "exampleTrans": "在引入智能体框架前先安装这个包。"
+  }
+]

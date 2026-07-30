@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/mimo-tts/(.*)",
+      "destination": "/api/mimo-tts"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

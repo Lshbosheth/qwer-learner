@@ -1,0 +1,122 @@
+[
+  {
+    "name": "logits",
+    "trans": ["n. 对数几率 / 原始输出分数（模型最后一层未归一化的输出值）"],
+    "usphone": "ˈloʊdʒɪts",
+    "ukphone": "ˈlɒdʒɪts",
+    "example": "The softmax is applied to the logits to produce a probability distribution.",
+    "exampleTrans": "对 logits 应用 softmax 得到概率分布。"
+  },
+  {
+    "name": "scaling law",
+    "trans": ["n. 缩放定律（模型性能随参数量/数据量/算力呈幂律提升的经验规律）"],
+    "usphone": "ˈskeɪlɪŋ lɔː",
+    "ukphone": "ˈskeɪlɪŋ lɔː",
+    "example": "Scaling laws suggest bigger models keep improving with more data.",
+    "exampleTrans": "缩放定律表明，更大的模型在更多数据上会持续变好。"
+  },
+  {
+    "name": "residual connection",
+    "trans": ["n. 残差连接（跨层直连，缓解深层网络的梯度消失）"],
+    "usphone": "rɪˈzɪdʒuəl kəˈnekʃən",
+    "ukphone": "rɪˈzɪdʒuəl kəˈnekʃən",
+    "example": "Residual connections let very deep networks train without vanishing gradients.",
+    "exampleTrans": "残差连接让极深网络能在不出现梯度消失的情况下训练。"
+  },
+  {
+    "name": "cross-attention",
+    "trans": ["n. 交叉注意力（解码器对编码器输出做注意力，实现跨序列对齐）"],
+    "usphone": "krɔːs əˈtenʃən",
+    "ukphone": "krɒs əˈtenʃən",
+    "example": "Cross-attention aligns the decoder with the encoded source sequence.",
+    "exampleTrans": "交叉注意力将解码器与编码后的源序列对齐。"
+  },
+  {
+    "name": "planner",
+    "trans": ["n. 规划器（Agent 中负责拆解目标、生成行动步骤的模块）"],
+    "usphone": "ˈplænər",
+    "ukphone": "ˈplænə(r)",
+    "example": "The planner breaks the user goal into a sequence of subtasks.",
+    "exampleTrans": "规划器把用户目标拆分成一串子任务。"
+  },
+  {
+    "name": "tool call",
+    "trans": ["n. 工具调用（模型请求执行外部函数/API 的动作）"],
+    "usphone": "tuːl kɔːl",
+    "ukphone": "tuːl kɔːl",
+    "example": "The model emitted a tool call to fetch the latest stock price.",
+    "exampleTrans": "模型发出一次工具调用以获取最新股价。"
+  },
+  {
+    "name": "MCP",
+    "trans": ["abbr. Model Context Protocol（连接模型与外部工具/数据源的开放协议）"],
+    "usphone": "ˌem siː ˈpiː",
+    "ukphone": "ˌem siː ˈpiː",
+    "example": "MCP lets an agent plug into databases and APIs through one standard.",
+    "exampleTrans": "MCP 让 Agent 通过统一标准接入数据库与 API。"
+  },
+  {
+    "name": "semantic search",
+    "trans": ["n. 语义检索（按含义而非关键词匹配召回相关文本）"],
+    "usphone": "sɪˈmæntɪk sɜːrtʃ",
+    "ukphone": "sɪˈmæntɪk sɜːtʃ",
+    "example": "Semantic search finds relevant docs even with different wording.",
+    "exampleTrans": "语义检索即使措辞不同也能找到相关文档。"
+  },
+  {
+    "name": "vector store",
+    "trans": ["n. 向量库（存储嵌入向量并支持相似度检索的数据库）"],
+    "usphone": "ˈvektər stɔːr",
+    "ukphone": "ˈvektə stɔː",
+    "example": "The retrieved chunks come from a vector store of embeddings.",
+    "exampleTrans": "检索到的片段来自存放嵌入向量的向量库。"
+  },
+  {
+    "name": "context",
+    "trans": ["n. 上下文（喂给模型的历史与背景信息，常指上下文窗口内的内容）"],
+    "usphone": "ˈkɑːntekst",
+    "ukphone": "ˈkɒntekst",
+    "example": "Keep the relevant context within the model's context window.",
+    "exampleTrans": "把相关上下文保持在模型的上下文窗口内。"
+  },
+  {
+    "name": "scratchpad",
+    "trans": ["n. 暂存区 / 草稿板（Agent 边推理边记录中间步骤的工作记忆）"],
+    "usphone": "ˈskrætʃpæd",
+    "ukphone": "ˈskrætʃpæd",
+    "example": "The agent writes intermediate thoughts to its scratchpad.",
+    "exampleTrans": "Agent 把中间思考写入它的暂存区。"
+  },
+  {
+    "name": "automation",
+    "trans": ["n. 自动化（将重复流程交给系统无人值守执行）"],
+    "usphone": "ˌɔːtəˈmeɪʃ(ə)n",
+    "ukphone": "ˌɔːtəˈmeɪʃ(ə)n",
+    "example": "Workflow automation saves hours of manual data entry.",
+    "exampleTrans": "工作流自动化节省了大量手工录入时间。"
+  },
+  {
+    "name": "prompt engineering",
+    "trans": ["n. 提示工程（设计与优化输入提示以引导模型行为）"],
+    "usphone": "prɑːmpt ˌendʒɪˈnɪrɪŋ",
+    "ukphone": "prɒmpt endʒɪˈnɪərɪŋ",
+    "example": "Prompt engineering is often cheaper than fine-tuning for small tasks.",
+    "exampleTrans": "对小规模任务，提示工程常比微调更省钱。"
+  },
+  {
+    "name": "repository",
+    "trans": ["n. 代码仓库（存放项目源码与版本历史的 Git 仓库）"],
+    "usphone": "rɪˈpɑːzətɔːri",
+    "ukphone": "rɪˈpɒzət(ə)ri",
+    "example": "Clone the repository and install the dependencies.",
+    "exampleTrans": "克隆仓库并安装依赖。"
+  },
+  {
+    "name": "concurrency",
+    "trans": ["n. 并发（多个任务在同一时段交替或并行推进）"],
+    "usphone": "kənˈkɜːrənsi",
+    "ukphone": "kənˈkʌrənsɪ",
+    "example": "Async code improves concurrency without spawning many threads.",
+    "exampleTrans": "异步代码在不创建大量线程的情况下提升并发能力。"
+  }
+]

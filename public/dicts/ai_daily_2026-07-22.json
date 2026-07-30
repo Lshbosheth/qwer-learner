@@ -1,0 +1,152 @@
+[
+  {
+    "name": "model",
+    "trans": [
+      "n. 模型（指训练得到的 AI 参数整体，如大语言模型 LLM）"
+    ],
+    "usphone": "ˈmɑːd(ə)l",
+    "ukphone": "ˈmɒd(ə)l",
+    "example": "We fine-tuned the base model on our domain data.",
+    "exampleTrans": "我们用领域数据微调了基础模型。"
+  },
+  {
+    "name": "pretraining",
+    "trans": [
+      "n. 预训练（在大规模无标注语料上先训练模型）"
+    ],
+    "usphone": "ˌpriːˈtreɪnɪŋ",
+    "ukphone": "ˌpriːˈtreɪnɪŋ",
+    "example": "Pretraining teaches the model general language patterns.",
+    "exampleTrans": "预训练让模型学到通用的语言规律。"
+  },
+  {
+    "name": "transformer",
+    "trans": [
+      "n. Transformer（主流大模型的基础神经网络架构）"
+    ],
+    "usphone": "trænsˈfɔːrmər",
+    "ukphone": "trænsˈfɔːmə(r)",
+    "example": "Most modern LLMs are built on the Transformer architecture.",
+    "exampleTrans": "现代大语言模型大多基于 Transformer 架构。"
+  },
+  {
+    "name": "planning",
+    "trans": [
+      "n. 规划（Agent 将任务拆解为步骤的能力）"
+    ],
+    "usphone": "ˈplænɪŋ",
+    "ukphone": "ˈplænɪŋ",
+    "example": "The agent's planning module broke the goal into subtasks.",
+    "exampleTrans": "智能体的规划模块把目标拆成了子任务。"
+  },
+  {
+    "name": "multi-agent",
+    "trans": [
+      "n. 多智能体（多个 Agent 协作完成复杂任务）"
+    ],
+    "usphone": "ˈmʌlti ˈeɪdʒənt",
+    "ukphone": "ˈmʌlti ˈeɪdʒənt",
+    "example": "A multi-agent system divides work among specialized agents.",
+    "exampleTrans": "多智能体系统把工作分给多个专职智能体。"
+  },
+  {
+    "name": "function calling",
+    "trans": [
+      "n. 函数调用（模型输出参数以调用预定义函数）"
+    ],
+    "usphone": "ˈfʌŋkʃ(ə)n ˈkɔːlɪŋ",
+    "ukphone": "ˈfʌŋkʃ(ə)n ˈkɔːlɪŋ",
+    "example": "Function calling lets the model trigger backend APIs safely.",
+    "exampleTrans": "函数调用让模型能安全地触发后端 API。"
+  },
+  {
+    "name": "chunk",
+    "trans": [
+      "n. 分块（把长文档切成可检索的片段）"
+    ],
+    "usphone": "tʃʌŋk",
+    "ukphone": "tʃʌŋk",
+    "example": "We chunk the document before embedding it for RAG.",
+    "exampleTrans": "我们在做 RAG 嵌入前先把文档分块。"
+  },
+  {
+    "name": "vector database",
+    "trans": [
+      "n. 向量数据库（存储并检索嵌入向量的数据库）"
+    ],
+    "usphone": "ˈvektər ˈdeɪtəbeɪs",
+    "ukphone": "ˈvektə ˈdeɪtəbeɪs",
+    "example": "A vector database enables fast similarity search over embeddings.",
+    "exampleTrans": "向量数据库能对嵌入做快速相似度检索。"
+  },
+  {
+    "name": "long-term memory",
+    "trans": [
+      "n. 长期记忆（Agent 跨会话持久保存的信息）"
+    ],
+    "usphone": "ˈlɔːŋ tɜːrm ˈmeməri",
+    "ukphone": "ˈlɒŋ tɜːm ˈmeməri",
+    "example": "Long-term memory lets the agent recall facts from past sessions.",
+    "exampleTrans": "长期记忆让智能体能回忆起过往会话中的信息。"
+  },
+  {
+    "name": "pipeline",
+    "trans": [
+      "n. 流水线（把多个处理步骤串成自动流程）"
+    ],
+    "usphone": "ˈpaɪplaɪn",
+    "ukphone": "ˈpaɪplaɪn",
+    "example": "Our training pipeline includes cleaning, tokenizing and training.",
+    "exampleTrans": "我们的训练流水线包含清洗、分词和训练。"
+  },
+  {
+    "name": "few-shot",
+    "trans": [
+      "adj./n. 少样本（在提示中给少量示例引导模型）"
+    ],
+    "usphone": "fjuː ʃɑːt",
+    "ukphone": "fjuː ʃɒt",
+    "example": "Few-shot prompting improves accuracy on niche tasks.",
+    "exampleTrans": "少样本提示能提升冷门任务的准确率。"
+  },
+  {
+    "name": "chain-of-thought",
+    "trans": [
+      "n. 思维链（让模型逐步推理的提示技巧）"
+    ],
+    "usphone": "tʃeɪn əv θɔːt",
+    "ukphone": "tʃeɪn əv θɔːt",
+    "example": "Chain-of-thought prompting makes the model show its reasoning.",
+    "exampleTrans": "思维链提示让模型展现出推理过程。"
+  },
+  {
+    "name": "dependency",
+    "trans": [
+      "n. 依赖（项目所引用的外部库 / 包）"
+    ],
+    "usphone": "dɪˈpendənsi",
+    "ukphone": "dɪˈpendənsi",
+    "example": "Lock the dependency versions to avoid breaking changes.",
+    "exampleTrans": "锁定依赖版本以避免破坏性变更。"
+  },
+  {
+    "name": "debug",
+    "trans": [
+      "v./n. 调试（查找并修复程序错误）"
+    ],
+    "usphone": "ˌdiːˈbʌɡ",
+    "ukphone": "ˌdiːˈbʌɡ",
+    "example": "We debug the agent's loop when it gets stuck.",
+    "exampleTrans": "智能体卡住时，我们调试它的循环逻辑。"
+  },
+  {
+    "name": "reasoning",
+    "trans": [
+      "n. 推理（模型进行逻辑推导的过程）"
+    ],
+    "usphone": "ˈriːzənɪŋ",
+    "ukphone": "ˈriːzənɪŋ",
+    "example": "The model's reasoning improved after reinforcement training.",
+    "exampleTrans": "经过强化训练，模型的推理能力提升了。"
+  }
+]
