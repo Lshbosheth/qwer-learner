@@ -1,0 +1,152 @@
+[
+  {
+    "name": "batch size",
+    "trans": [
+      "n. 批大小（一次训练迭代送入模型的样本数量，影响显存占用与收敛稳定性）"
+    ],
+    "usphone": "bætʃ saɪz",
+    "ukphone": "bætʃ saɪz",
+    "example": "A larger batch size stabilizes training but needs more GPU memory.",
+    "exampleTrans": "更大的批大小能让训练更稳定，但需要更多显存。"
+  },
+  {
+    "name": "RLHF",
+    "trans": [
+      "abbr. 基于人类反馈的强化学习（Reinforcement Learning from Human Feedback，用人类偏好微调模型以对齐其行为）"
+    ],
+    "usphone": "ˌɑːr ˌel ˌeɪtʃ ˈef",
+    "ukphone": "ˌɑː(r) ˌel ˌeɪtʃ ˈef",
+    "example": "RLHF is the key step that makes chat models follow instructions politely.",
+    "exampleTrans": "RLHF 是让聊天模型礼貌遵从指令的关键步骤。"
+  },
+  {
+    "name": "softmax",
+    "trans": [
+      "n. softmax 函数（将分数归一化为概率分布，常用于分类与生成模型的末层）"
+    ],
+    "usphone": "ˈsɔːft mæks",
+    "ukphone": "ˈsɒft mæks",
+    "example": "The softmax over the logits gives the next-token probability distribution.",
+    "exampleTrans": "对 logits 做 softmax 就得到下一个词元的概率分布。"
+  },
+  {
+    "name": "vocab",
+    "trans": [
+      "n. 词表（模型可识别的全部词元集合，决定 tokenizer 的覆盖范围）"
+    ],
+    "usphone": "ˈvoʊkæb",
+    "ukphone": "ˈvəʊkæb",
+    "example": "A larger vocab lets the tokenizer represent rare words with fewer tokens.",
+    "exampleTrans": "更大的词表能让分词器用更少的词元表示生僻词。"
+  },
+  {
+    "name": "environment",
+    "trans": [
+      "n. 环境（Agent 在其中感知状态、执行动作并获取反馈的外部世界）"
+    ],
+    "usphone": "ɪnˈvaɪrənmənt",
+    "ukphone": "ɪnˈvaɪrənmənt",
+    "example": "The agent observes the environment and decides the next action.",
+    "exampleTrans": "智能体观察环境并决定下一步动作。"
+  },
+  {
+    "name": "reward",
+    "trans": [
+      "n. 奖励（衡量 Agent 某步行为好坏的标量信号，用于强化学习优化）"
+    ],
+    "usphone": "rɪˈwɔːrd",
+    "ukphone": "rɪˈwɔːd",
+    "example": "The reward model scores how helpful the agent's response is.",
+    "exampleTrans": "奖励模型对智能体回答的有用程度打分。"
+  },
+  {
+    "name": "payload",
+    "trans": [
+      "n. 负载 / 有效数据（API 或工具请求中携带的实际参数或数据体）"
+    ],
+    "usphone": "ˈpeɪloʊd",
+    "ukphone": "ˈpeɪləʊd",
+    "example": "The tool call's payload contains the query and the maximum number of results.",
+    "exampleTrans": "工具调用的负载中包含查询内容与最大返回条数。"
+  },
+  {
+    "name": "authentication",
+    "trans": [
+      "n. 身份认证（调用 API 前校验调用方权限的机制，如 API Key / Token）"
+    ],
+    "usphone": "ɔːˌθentɪˈkeɪʃn",
+    "ukphone": "ɔːˌθentɪˈkeɪʃn",
+    "example": "The agent adds an API key to the header for authentication.",
+    "exampleTrans": "智能体在请求头中加入 API Key 完成身份认证。"
+  },
+  {
+    "name": "recall",
+    "trans": [
+      "n. 召回（从知识库中找到相关文档的能力，衡量检索是否漏掉关键信息）"
+    ],
+    "usphone": "rɪˈkɔːl",
+    "ukphone": "rɪˈkɔːl",
+    "example": "High recall ensures the retriever does not miss relevant passages.",
+    "exampleTrans": "高召回率保证检索器不会漏掉相关片段。"
+  },
+  {
+    "name": "overlap",
+    "trans": [
+      "n. 重叠（相邻分块之间保留的重复内容，避免切断语义）"
+    ],
+    "usphone": "ˌoʊvərˈlæp",
+    "ukphone": "ˌəʊvəˈlæp",
+    "example": "We set a 100-token overlap so chunks share context at their borders.",
+    "exampleTrans": "我们设置了 100 词元的重叠，让相邻分块在边界处共享上下文。"
+  },
+  {
+    "name": "truncation",
+    "trans": [
+      "n. 截断（上下文超过窗口上限时，丢弃最早内容以腾出空间）"
+    ],
+    "usphone": "ˈtrʌŋkeɪʃn",
+    "ukphone": "trʌŋˈkeɪʃn",
+    "example": "Without summarization, the conversation suffers truncation of early context.",
+    "exampleTrans": "不做摘要的话，对话会因截断而丢失早期上下文。"
+  },
+  {
+    "name": "context compression",
+    "trans": [
+      "n. 上下文压缩（把冗长历史精简为要点，节省上下文窗口）"
+    ],
+    "usphone": "ˈkɑːntekst kəmˈpreʃn",
+    "ukphone": "ˈkɒntekst kəmˈpreʃn",
+    "example": "Context compression keeps only the key facts before the next LLM call.",
+    "exampleTrans": "上下文压缩在下次调用大模型前只保留关键事实。"
+  },
+  {
+    "name": "retry",
+    "trans": [
+      "n./v. 重试（某个步骤失败后按策略再次执行，提升流程健壮性）"
+    ],
+    "usphone": "ˌriːˈtraɪ",
+    "ukphone": "ˌriːˈtraɪ",
+    "example": "The workflow will retry the failed tool call up to three times.",
+    "exampleTrans": "工作流会对失败的工具调用最多重试三次。"
+  },
+  {
+    "name": "constraint",
+    "trans": [
+      "n. 约束（在提示中限定输出格式、长度或内容边界的规则）"
+    ],
+    "usphone": "kənˈstreɪnt",
+    "ukphone": "kənˈstreɪnt",
+    "example": "Add a constraint like 'answer in under 50 words' to keep replies short.",
+    "exampleTrans": "加上“回答不超过 50 词”这样的约束，可让回复更简短。"
+  },
+  {
+    "name": "module",
+    "trans": [
+      "n. 模块（可独立导入复用、封装特定功能的代码单元）"
+    ],
+    "usphone": "ˈmɑːdʒuːl",
+    "ukphone": "ˈmɒdjuːl",
+    "example": "We split the agent into a planner module and a tool module.",
+    "exampleTrans": "我们把智能体拆分为规划模块和工具模块。"
+  }
+]
