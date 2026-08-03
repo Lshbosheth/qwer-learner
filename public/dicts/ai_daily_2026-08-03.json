@@ -1,0 +1,122 @@
+[
+  {
+    "name": "weights",
+    "trans": ["n. 权重（模型中可学习、训练时更新的参数）"],
+    "usphone": "weɪts",
+    "ukphone": "weɪts",
+    "example": "The model's weights are updated during training to minimize the loss.",
+    "exampleTrans": "模型的权重在训练过程中被更新，以最小化损失。"
+  },
+  {
+    "name": "distillation",
+    "trans": ["n. 蒸馏（知识蒸馏，用大模型指导小模型训练）"],
+    "usphone": "ˌdɪstɪˈleɪʃ(ə)n",
+    "ukphone": "ˌdɪstɪˈleɪʃn",
+    "example": "Knowledge distillation trains a small model to mimic a larger teacher model.",
+    "exampleTrans": "知识蒸馏训练小模型去模仿更大的教师模型。"
+  },
+  {
+    "name": "dropout",
+    "trans": ["n. 丢弃（训练中随机屏蔽神经元以防过拟合）"],
+    "usphone": "ˈdrɑːpaʊt",
+    "ukphone": "ˈdrɒpaʊt",
+    "example": "Applying dropout to hidden layers helps prevent overfitting.",
+    "exampleTrans": "在隐藏层应用 dropout 有助于防止过拟合。"
+  },
+  {
+    "name": "encoder-decoder",
+    "trans": ["n. 编码器-解码器（先编码再解码的模型架构）"],
+    "usphone": "ɪnˈkoʊdər diˈkoʊdər",
+    "ukphone": "ɪnˈkəʊdə dɪˈkəʊdə",
+    "example": "The encoder-decoder architecture is widely used in translation tasks.",
+    "exampleTrans": "编码器-解码器架构在机器翻译任务中被广泛使用。"
+  },
+  {
+    "name": "policy",
+    "trans": ["n. 策略（智能体将状态映射为动作的行动规则）"],
+    "usphone": "ˈpɑːləsi",
+    "ukphone": "ˈpɒləsi",
+    "example": "The agent learns a policy that maps states to actions.",
+    "exampleTrans": "智能体学习一个将状态映射到动作的策略。"
+  },
+  {
+    "name": "autonomy",
+    "trans": ["n. 自主性（智能体独立决策与行动的能力）"],
+    "usphone": "ɔːˈtɑːnəmi",
+    "ukphone": "ɔːˈtɒnəmi",
+    "example": "Higher autonomy lets the agent complete tasks with less human input.",
+    "exampleTrans": "更高的自主性让智能体以更少的人工干预完成任务。"
+  },
+  {
+    "name": "SDK",
+    "trans": ["n. 软件开发工具包（调用外部服务/工具的开发套件）"],
+    "usphone": "",
+    "ukphone": "",
+    "example": "The agent calls a third-party SDK to send notifications.",
+    "exampleTrans": "智能体调用第三方 SDK 来发送通知。"
+  },
+  {
+    "name": "integration",
+    "trans": ["n. 集成（将工具或外部系统接入工作流）"],
+    "usphone": "ˌɪntɪˈɡreɪʃ(ə)n",
+    "ukphone": "ˌɪntɪˈɡreɪʃ(ə)n",
+    "example": "Tool integration lets the agent query a database directly.",
+    "exampleTrans": "工具集成让智能体能够直接查询数据库。"
+  },
+  {
+    "name": "vector",
+    "trans": ["n. 向量（文本经嵌入后得到的数值表示）"],
+    "usphone": "ˈvektər",
+    "ukphone": "ˈvektə(r)",
+    "example": "Each document is converted into a vector for similarity search.",
+    "exampleTrans": "每篇文档都被转换为向量以进行相似度检索。"
+  },
+  {
+    "name": "similarity",
+    "trans": ["n. 相似度（衡量两个向量或文本接近程度的指标）"],
+    "usphone": "ˌsɪməˈlærəti",
+    "ukphone": "ˌsɪməˈlærəti",
+    "example": "Retrieval ranks passages by their similarity to the query.",
+    "exampleTrans": "检索依据段落与查询之间的相似度进行排序。"
+  },
+  {
+    "name": "conversation history",
+    "trans": ["n. 对话历史（智能体记忆中保存的过往交互内容）"],
+    "usphone": "ˌkɑːnvɚˈseɪʃən ˈhɪstəri",
+    "ukphone": "ˌkɒnvəˈseɪʃən ˈhɪstəri",
+    "example": "The agent uses the conversation history to keep track of context.",
+    "exampleTrans": "智能体利用对话历史来保持对上下文的跟踪。"
+  },
+  {
+    "name": "step",
+    "trans": ["n. 步骤（工作流或智能体执行中的一个可执行单元）"],
+    "usphone": "step",
+    "ukphone": "step",
+    "example": "Each step in the workflow can call a different tool.",
+    "exampleTrans": "工作流中的每一步都可以调用不同的工具。"
+  },
+  {
+    "name": "one-shot",
+    "trans": ["adj./n. 单次样本（仅提供一个示例的提示方式）"],
+    "usphone": "wʌn ʃɑːt",
+    "ukphone": "wʌn ʃɒt",
+    "example": "With one-shot prompting the model sees a single example before answering.",
+    "exampleTrans": "在单次提示中，模型在回答前只看到一个示例。"
+  },
+  {
+    "name": "interface",
+    "trans": ["n. 接口（程序或模块之间交互的约定与边界）"],
+    "usphone": "ˈɪntərfeɪs",
+    "ukphone": "ˈɪntəfeɪs",
+    "example": "The API exposes a clean interface for sending requests.",
+    "exampleTrans": "该 API 暴露了一个简洁的接口用于发送请求。"
+  },
+  {
+    "name": "exception",
+    "trans": ["n. 异常（程序运行期间出现的错误或意外情况）"],
+    "usphone": "ɪkˈsepʃn",
+    "ukphone": "ɪkˈsepʃ(ə)n",
+    "example": "Wrap the tool call in a try block to catch any exception.",
+    "exampleTrans": "将工具调用放入 try 块中，以捕获任何异常。"
+  }
+]
