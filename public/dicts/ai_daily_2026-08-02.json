@@ -1,0 +1,152 @@
+[
+  {
+    "name": "gradient descent",
+    "trans": [
+      "n. 梯度下降（沿损失梯度反方向更新参数以最小化损失的核心优化算法）"
+    ],
+    "usphone": "ˈɡreɪdiənt dɪˈsent",
+    "ukphone": "ˈɡreɪdiənt dɪˈsent",
+    "example": "Gradient descent updates weights by stepping opposite the gradient.",
+    "exampleTrans": "梯度下降沿着梯度的反方向更新权重。"
+  },
+  {
+    "name": "regularization",
+    "trans": [
+      "n. 正则化（在损失中加惩罚项以抑制过拟合、提升泛化的技术）"
+    ],
+    "usphone": "ˌreɡjələrɪˈzeɪʃn",
+    "ukphone": "ˌreɡjʊlərɪˈzeɪʃən",
+    "example": "Weight decay is a common regularization technique in fine-tuning.",
+    "exampleTrans": "权重衰减是微调中常用的正则化技术。"
+  },
+  {
+    "name": "attention span",
+    "trans": [
+      "n. 注意力跨度（模型一次能关联到的上下文距离，决定长程依赖能力）"
+    ],
+    "usphone": "əˈtenʃ(ə)n spæn",
+    "ukphone": "əˈtenʃ(ə)n spæn",
+    "example": "A longer attention span helps the model link distant tokens.",
+    "exampleTrans": "更长的注意力跨度有助于模型关联距离较远的词元。"
+  },
+  {
+    "name": "critic",
+    "trans": [
+      "n. 评判模型（对 Agent 输出打分或指出问题、辅助改进的组件）"
+    ],
+    "usphone": "ˈkrɪtɪk",
+    "ukphone": "ˈkrɪtɪk",
+    "example": "The critic scores the agent's plan before it is executed.",
+    "exampleTrans": "评判模型在智能体执行前对其计划打分。"
+  },
+  {
+    "name": "feedback loop",
+    "trans": [
+      "n. 反馈回路（把输出结果回灌给系统、驱动自我修正的闭环）"
+    ],
+    "usphone": "ˈfiːdbæk luːp",
+    "ukphone": "ˈfiːdbæk luːp",
+    "example": "A feedback loop lets the agent improve after each failed attempt.",
+    "exampleTrans": "反馈回路让智能体在每次失败后持续改进。"
+  },
+  {
+    "name": "timeout",
+    "trans": [
+      "n. 超时（调用在限定时间内未返回即中止，防止流程无限挂起）"
+    ],
+    "usphone": "ˈtaɪmaʊt",
+    "ukphone": "ˈtaɪmaʊt",
+    "example": "We set a 10-second timeout on each tool call.",
+    "exampleTrans": "我们给每次工具调用设置了 10 秒超时。"
+  },
+  {
+    "name": "OAuth",
+    "trans": [
+      "abbr. 开放授权（OAuth，第三方在不泄露密码前提下获取有限访问权限的协议）"
+    ],
+    "usphone": "ˈoʊæθ",
+    "ukphone": "ˈoʊæθ",
+    "example": "The agent uses OAuth to access the user's calendar safely.",
+    "exampleTrans": "智能体用 OAuth 安全地访问用户的日历。"
+  },
+  {
+    "name": "knowledge graph",
+    "trans": [
+      "n. 知识图谱（以实体-关系三元组表示知识、可增强 RAG 检索的结构化库）"
+    ],
+    "usphone": "ˈnɑːlɪdʒ ɡræf",
+    "ukphone": "ˈnɒlɪdʒ ɡrɑːf",
+    "example": "A knowledge graph supplies structured facts to ground the answer.",
+    "exampleTrans": "知识图谱提供结构化事实，为回答提供依据。"
+  },
+  {
+    "name": "citation",
+    "trans": [
+      "n. 引用（RAG 在答案中标注信息来源，便于溯源与可信度校验）"
+    ],
+    "usphone": "saɪˈteɪʃ(ə)n",
+    "ukphone": "saɪˈteɪʃ(ə)n",
+    "example": "The generator adds a citation for every retrieved claim.",
+    "exampleTrans": "生成器为每一条检索到的论断都加上引用。"
+  },
+  {
+    "name": "context length",
+    "trans": [
+      "n. 上下文长度（模型支持的上下文窗口最大 token 数，决定可处理文本量）"
+    ],
+    "usphone": "ˈkɑːntekst leŋkθ",
+    "ukphone": "ˈkɒntekst leŋθ",
+    "example": "The new model doubles the context length to one million tokens.",
+    "exampleTrans": "新模型把上下文长度翻倍到了一百万词元。"
+  },
+  {
+    "name": "memory bank",
+    "trans": [
+      "n. 记忆库（Agent 长期存储事实/经验的外部存储，跨会话持久化）"
+    ],
+    "usphone": "ˈmeməri bæŋk",
+    "ukphone": "ˈmeməri bæŋk",
+    "example": "The agent writes key facts to a memory bank for later recall.",
+    "exampleTrans": "智能体把关键事实写入记忆库，以便日后回忆。"
+  },
+  {
+    "name": "checkpoint",
+    "trans": [
+      "n. 检查点（训练/流程中保存的快照，用于恢复或版本回退）"
+    ],
+    "usphone": "ˈtʃekpɔɪnt",
+    "ukphone": "ˈtʃekpɔɪnt",
+    "example": "We resume training from the last checkpoint after a crash.",
+    "exampleTrans": "崩溃后我们从最近的检查点恢复训练。"
+  },
+  {
+    "name": "rollback",
+    "trans": [
+      "n./v. 回滚（把系统恢复到上一稳定状态，用于出错时撤销变更）"
+    ],
+    "usphone": "ˈroʊlbæk",
+    "ukphone": "ˈrəʊlbæk",
+    "example": "The workflow triggers a rollback if the deploy health check fails.",
+    "exampleTrans": "若部署健康检查失败，工作流会触发回滚。"
+  },
+  {
+    "name": "clarifying question",
+    "trans": [
+      "n. 澄清问题（模型/智能体在不确定时反问以明确需求，减少误解）"
+    ],
+    "usphone": "ˈklærəfaɪɪŋ ˈkwestʃ(ə)n",
+    "ukphone": "ˈklærəfaɪɪŋ ˈkwestʃ(ə)n",
+    "example": "The assistant asks a clarifying question before writing the code.",
+    "exampleTrans": "助手在写代码前会先提出澄清问题。"
+  },
+  {
+    "name": "serialization",
+    "trans": [
+      "n. 序列化（把对象转为可传输/存储格式如 JSON 的过程，反向称反序列化）"
+    ],
+    "usphone": "ˌsɪriələˈzeɪʃn",
+    "ukphone": "ˌsɪəriəlaɪˈzeɪʃn",
+    "example": "Serialization turns the tool result into JSON for the model.",
+    "exampleTrans": "序列化把工具结果转为 JSON 交给模型。"
+  }
+]

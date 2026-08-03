@@ -1,0 +1,152 @@
+[
+  {
+    "name": "evaluation",
+    "trans": [
+      "n. 评估（用指标/基准衡量模型或系统表现的过程，区别于单纯训练）"
+    ],
+    "usphone": "ɪˌvæljuˈeɪʃ(ə)n",
+    "ukphone": "ɪˌvæljuˈeɪʃn",
+    "example": "We run evaluation on a held-out set after every fine-tuning run.",
+    "exampleTrans": "每次微调后我们都在留出集上做评估。"
+  },
+  {
+    "name": "loss function",
+    "trans": [
+      "n. 损失函数（衡量模型预测与真实标签差距、指导优化的目标函数）"
+    ],
+    "usphone": "lɔːs ˈfʌŋkʃ(ə)n",
+    "ukphone": "lɒs ˈfʌŋkʃ(ə)n",
+    "example": "We chose a cross-entropy loss function for the classification task.",
+    "exampleTrans": "我们为分类任务选择了交叉熵损失函数。"
+  },
+  {
+    "name": "subword",
+    "trans": [
+      "n. 子词（介于字与词之间的切分单元，BPE 等分词器的常见粒度）"
+    ],
+    "usphone": "ˈsʌbwɜːrd",
+    "ukphone": "ˈsʌbwɜːd",
+    "example": "Subword tokenization handles rare words by splitting them into pieces.",
+    "exampleTrans": "子词分词把生僻词拆成片段，从而处理它们。"
+  },
+  {
+    "name": "byte-pair encoding",
+    "trans": [
+      "n. 字节对编码（BPE，按频率合并字节对来构建子词词表的分词算法）"
+    ],
+    "usphone": "baɪt per ɪnˈkoʊdɪŋ",
+    "ukphone": "baɪt peə ɪnˈkəʊdɪŋ",
+    "example": "Byte-pair encoding is the tokenizer behind many popular LLMs.",
+    "exampleTrans": "字节对编码是许多主流大模型所用的分词算法。"
+  },
+  {
+    "name": "orchestrator",
+    "trans": [
+      "n. 编排器（负责调度多个 Agent/工具/步骤协同完成复杂任务的组件）"
+    ],
+    "usphone": "ˈɔːrkɪstreɪtər",
+    "ukphone": "ˈɔːkɪstreɪtə(r)",
+    "example": "The orchestrator routes subtasks to the right specialized agents.",
+    "exampleTrans": "编排器把子任务分派给合适的专职智能体。"
+  },
+  {
+    "name": "exploration",
+    "trans": [
+      "n. 探索（Agent/强化学习中尝试新动作以发现更优策略的行为）"
+    ],
+    "usphone": "ˌekspləˈreɪʃ(ə)n",
+    "ukphone": "ˌekspləˈreɪʃ(ə)n",
+    "example": "Balancing exploration and exploitation helps the agent learn faster.",
+    "exampleTrans": "在探索与利用之间取得平衡，能让智能体学得更快。"
+  },
+  {
+    "name": "header",
+    "trans": [
+      "n. 请求头（HTTP 请求中携带元数据如认证、内容类型的键值对）"
+    ],
+    "usphone": "ˈhedər",
+    "ukphone": "ˈhedə(r)",
+    "example": "The agent puts the bearer token in the Authorization header.",
+    "exampleTrans": "智能体把 bearer token 放进 Authorization 请求头。"
+  },
+  {
+    "name": "rate limit",
+    "trans": [
+      "n. 速率限制（API 对单位时间内的调用次数设限，防止滥用与过载）"
+    ],
+    "usphone": "reɪt ˈlɪmɪt",
+    "ukphone": "reɪt ˈlɪmɪt",
+    "example": "The client backs off when it hits the API rate limit.",
+    "exampleTrans": "客户端在触达 API 速率限制时会退避重试。"
+  },
+  {
+    "name": "relevance",
+    "trans": [
+      "n. 相关性（检索结果与题干/需求的匹配程度，RAG 质量的核心指标）"
+    ],
+    "usphone": "ˈreləvəns",
+    "ukphone": "ˈreləvəns",
+    "example": "Reranking improves the relevance of the top retrieved passages.",
+    "exampleTrans": "重排序能提升召回片段顶部结果的相关性。"
+  },
+  {
+    "name": "BM25",
+    "trans": [
+      "n. BM25（经典词频-逆文档频率排序算法，常用于 RAG 的稀疏/关键词检索）"
+    ],
+    "usphone": "ˌbiː ˌem ˈtwenti faɪv",
+    "ukphone": "ˌbiː ˌem ˈtwenti faɪv",
+    "example": "We blend BM25 with dense vectors in a hybrid retriever.",
+    "exampleTrans": "我们在混合检索器里把 BM25 与稠密向量结合起来。"
+  },
+  {
+    "name": "KV cache",
+    "trans": [
+      "n. KV 缓存（推理时缓存已算好的键/值向量，避免重复计算以加速生成）"
+    ],
+    "usphone": "ˌkeɪ ˈviː kæʃ",
+    "ukphone": "ˌkeɪ ˈviː kæʃ",
+    "example": "The KV cache grows with sequence length and saves recomputation.",
+    "exampleTrans": "KV 缓存随序列长度增长，并省去了重复计算。"
+  },
+  {
+    "name": "sliding window",
+    "trans": [
+      "n. 滑动窗口（在长文本上逐段平移截取上下文，避免超出上下文窗口）"
+    ],
+    "usphone": "ˈslaɪdɪŋ ˈwɪndoʊ",
+    "ukphone": "ˈslaɪdɪŋ ˈwɪndəʊ",
+    "example": "A sliding window keeps only the most recent messages in context.",
+    "exampleTrans": "滑动窗口只把最近的若干消息保留在上下文中。"
+  },
+  {
+    "name": "branch",
+    "trans": [
+      "n./v. 分支（工作流中按条件走向不同后续步骤的路径岔口）"
+    ],
+    "usphone": "bræntʃ",
+    "ukphone": "brɑːntʃ",
+    "example": "The workflow branches to a fallback path when validation fails.",
+    "exampleTrans": "校验失败时，工作流会分支到一条兜底路径。"
+  },
+  {
+    "name": "self-refinement",
+    "trans": [
+      "n. 自我精炼（让模型审视并改进自身初稿输出的提示策略）"
+    ],
+    "usphone": "self rɪˈfaɪnmənt",
+    "ukphone": "self rɪˈfaɪnmənt",
+    "example": "Self-refinement prompts the model to critique and rewrite its answer.",
+    "exampleTrans": "自我精炼会让模型先批评再重写自己的答案。"
+  },
+  {
+    "name": "recursion",
+    "trans": [
+      "n. 递归（函数调用自身的编程技法，常用于树/图的遍历与分治）"
+    ],
+    "usphone": "rɪˈkɜːrʒn",
+    "ukphone": "rɪˈkɜːʃn",
+    "example": "Recursion simplifies walking the agent's task tree step by step.",
+    "exampleTrans": "递归能简化对智能体任务树的逐步遍历。"
+  }
+]
