@@ -1,0 +1,122 @@
+[
+  {
+    "name": "perplexity",
+    "trans": ["n. 困惑度（衡量语言模型预测下一个 token 不确定性的指标，越低越好）"],
+    "usphone": "pərˈpleksəti",
+    "ukphone": "pəˈpleksəti",
+    "example": "A lower perplexity usually means the language model fits the test corpus better.",
+    "exampleTrans": "更低的困惑度通常意味着该语言模型对测试语料的拟合更好。"
+  },
+  {
+    "name": "latency",
+    "trans": ["n. 延迟（从发出请求到收到模型响应所耗的时间）"],
+    "usphone": "ˈleɪtənsi",
+    "ukphone": "ˈleɪtənsi",
+    "example": "Streaming the output reduces the perceived latency of the chatbot.",
+    "exampleTrans": "流式输出降低了聊天机器人给人的感知延迟。"
+  },
+  {
+    "name": "normalization",
+    "trans": ["n. 归一化，标准化（如 LayerNorm，用于稳定训练过程）"],
+    "usphone": "ˌnɔːrmələˈzeɪʃn",
+    "ukphone": "ˌnɔːməlaɪˈzeɪʃ(ə)n",
+    "example": "Normalization keeps the activations in a stable range across layers.",
+    "exampleTrans": "归一化让各层之间的激活值保持在稳定范围内。"
+  },
+  {
+    "name": "sequence length",
+    "trans": ["n. 序列长度（输入模型的 token 数量，直接影响显存与计算量）"],
+    "usphone": "ˈsiːkwəns leŋθ",
+    "ukphone": "ˈsiːkwəns leŋθ",
+    "example": "Attention cost grows quadratically with the sequence length.",
+    "exampleTrans": "注意力的计算开销随序列长度呈平方级增长。"
+  },
+  {
+    "name": "perception",
+    "trans": ["n. 感知（Agent 从环境中获取信息的阶段，与 planning、action 构成闭环）"],
+    "usphone": "pərˈsepʃ(ə)n",
+    "ukphone": "pəˈsepʃ(ə)n",
+    "example": "The agent's perception module turns raw page content into structured observations.",
+    "exampleTrans": "该智能体的感知模块把原始页面内容转换为结构化的观察结果。"
+  },
+  {
+    "name": "delegation",
+    "trans": ["n. 委派，任务下发（主 Agent 把子任务交给子 Agent 或工具处理）"],
+    "usphone": "ˌdelɪˈɡeɪʃn",
+    "ukphone": "ˌdelɪˈɡeɪʃn",
+    "example": "Task delegation lets the lead agent focus on planning instead of execution.",
+    "exampleTrans": "任务委派让主智能体可以专注于规划而非具体执行。"
+  },
+  {
+    "name": "signature",
+    "trans": ["n. 函数签名（工具调用中声明的名称、参数与返回类型）"],
+    "usphone": "ˈsɪɡnətʃər",
+    "ukphone": "ˈsɪɡnətʃə(r)",
+    "example": "The model reads each tool's signature before deciding which one to call.",
+    "exampleTrans": "模型在决定调用哪个工具之前会先读取每个工具的函数签名。"
+  },
+  {
+    "name": "ingestion",
+    "trans": ["n. 数据摄取（把文档加载、切分并写入向量库的过程）"],
+    "usphone": "ɪnˈdʒestʃən",
+    "ukphone": "ɪnˈdʒestʃən",
+    "example": "The ingestion pipeline parses PDFs and writes embeddings to the vector store.",
+    "exampleTrans": "数据摄取流水线解析 PDF 并把向量写入向量库。"
+  },
+  {
+    "name": "snippet",
+    "trans": ["n. 片段（检索返回的短文本或代码片段）"],
+    "usphone": "ˈsnɪpɪt",
+    "ukphone": "ˈsnɪpɪt",
+    "example": "Only the top three snippets are inserted into the final prompt.",
+    "exampleTrans": "只有排名前三的片段会被插入最终的提示词中。"
+  },
+  {
+    "name": "persistence",
+    "trans": ["n. 持久化（把对话记忆写入数据库，使其跨会话保留）"],
+    "usphone": "pərˈsɪstəns",
+    "ukphone": "pəˈsɪstəns",
+    "example": "Without persistence, the agent forgets everything once the session ends.",
+    "exampleTrans": "没有持久化，会话一结束智能体就会忘记所有内容。"
+  },
+  {
+    "name": "fallback",
+    "trans": ["n. 兜底方案，降级策略（主流程失败时自动切换的备用路径）"],
+    "usphone": "ˈfɔːlbæk",
+    "ukphone": "ˈfɔːlbæk",
+    "example": "If the primary model times out, the workflow switches to a fallback model.",
+    "exampleTrans": "如果主模型超时，工作流会切换到兜底模型。"
+  },
+  {
+    "name": "persona",
+    "trans": ["n. 人设，角色设定（在系统提示中为模型指定的身份与语气）"],
+    "usphone": "pərˈsoʊnə",
+    "ukphone": "pəˈsəʊnə",
+    "example": "Defining a clear persona keeps the assistant's tone consistent.",
+    "exampleTrans": "定义清晰的人设能让助手的语气保持一致。"
+  },
+  {
+    "name": "demonstration",
+    "trans": ["n. 示例，示范（few-shot 提示中给模型看的输入输出样例）"],
+    "usphone": "ˌdemənˈstreɪʃ(ə)n",
+    "ukphone": "ˌdemənˈstreɪʃ(ə)n",
+    "example": "Adding two demonstrations greatly improved the model's output format.",
+    "exampleTrans": "加入两个示例后，模型的输出格式有了明显改善。"
+  },
+  {
+    "name": "deprecated",
+    "trans": ["adj. 已弃用的（仍可用但不再推荐，未来版本会移除）"],
+    "usphone": "ˈdeprəkeɪtɪd",
+    "ukphone": "ˈdeprəkeɪtɪd",
+    "example": "This endpoint is deprecated and will be removed in the next major release.",
+    "exampleTrans": "该接口已被弃用，将在下一个大版本中移除。"
+  },
+  {
+    "name": "stack trace",
+    "trans": ["n. 调用栈追踪（报错时打印的函数调用链，用于定位问题）"],
+    "usphone": "stæk treɪs",
+    "ukphone": "stæk treɪs",
+    "example": "Paste the full stack trace so we can locate where the exception was thrown.",
+    "exampleTrans": "把完整的调用栈追踪贴出来，这样我们才能定位异常抛出的位置。"
+  }
+]
