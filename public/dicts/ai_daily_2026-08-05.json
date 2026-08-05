@@ -1,0 +1,122 @@
+[
+  {
+    "name": "bias",
+    "trans": ["n. 偏差，偏置；（模型的）偏见"],
+    "usphone": "ˈbaɪəs",
+    "ukphone": "ˈbaɪəs",
+    "example": "The model inherits bias from its training data.",
+    "exampleTrans": "模型会从训练数据中继承偏见。"
+  },
+  {
+    "name": "throughput",
+    "trans": ["n. 吞吐量（单位时间内处理的请求或 token 数）"],
+    "usphone": "ˈθruːpʊt",
+    "ukphone": "ˈθruːpʊt",
+    "example": "Batching requests greatly improves inference throughput.",
+    "exampleTrans": "批量处理请求可以大幅提升推理吞吐量。"
+  },
+  {
+    "name": "activation",
+    "trans": ["n. 激活值；激活函数（神经元的输出）"],
+    "usphone": "ˌæktɪˈveɪʃn",
+    "ukphone": "ˌæktɪˈveɪʃn",
+    "example": "We cache the activations to speed up backpropagation.",
+    "exampleTrans": "我们缓存激活值以加速反向传播。"
+  },
+  {
+    "name": "autoregressive",
+    "trans": ["adj. 自回归的（逐个 token 预测下一个 token）"],
+    "usphone": "ˌɔːtoʊrɪˈɡresɪv",
+    "ukphone": "ɔːtəʊˈrɪɡresɪv",
+    "example": "GPT-style models generate text in an autoregressive manner.",
+    "exampleTrans": "GPT 类模型以自回归的方式生成文本。"
+  },
+  {
+    "name": "handoff",
+    "trans": ["n. 交接，移交（把任务从一个 agent 转交给另一个）"],
+    "usphone": "ˈhændɔːf",
+    "ukphone": "ˈhændɒf",
+    "example": "The triage agent performs a handoff to the billing agent.",
+    "exampleTrans": "分流 agent 会把任务交接给账单 agent。"
+  },
+  {
+    "name": "sub-task",
+    "trans": ["n. 子任务（复杂目标拆解后的最小执行单元）"],
+    "usphone": "ˌsʌbˈtæsk",
+    "ukphone": "ˌsʌbˈtɑːsk",
+    "example": "The planner splits the goal into three sub-tasks.",
+    "exampleTrans": "规划器把目标拆分成三个子任务。"
+  },
+  {
+    "name": "structured output",
+    "trans": ["n. 结构化输出（强制模型按 JSON 等固定格式返回）"],
+    "usphone": "ˈstrʌktʃərd ˈaʊtpʊt",
+    "ukphone": "ˈstrʌktʃəd ˈaʊtpʊt",
+    "example": "Enable structured output so the response always parses as JSON.",
+    "exampleTrans": "启用结构化输出，这样返回结果总能解析为 JSON。"
+  },
+  {
+    "name": "docstring",
+    "trans": ["n. 文档字符串（函数说明，常被用作工具描述）"],
+    "usphone": "ˈdɑːkstrɪŋ",
+    "ukphone": "ˈdɒkstrɪŋ",
+    "example": "The tool description is generated from the function's docstring.",
+    "exampleTrans": "工具描述是根据函数的文档字符串生成的。"
+  },
+  {
+    "name": "keyword search",
+    "trans": ["n. 关键词检索（基于字面匹配的搜索方式）"],
+    "usphone": "ˈkiːwɜːrd sɜːrtʃ",
+    "ukphone": "ˈkiːwɜːd sɜːtʃ",
+    "example": "Hybrid retrieval combines keyword search with vector search.",
+    "exampleTrans": "混合检索把关键词检索和向量检索结合起来。"
+  },
+  {
+    "name": "precision",
+    "trans": ["n. 精确率（检索或分类结果中正确的比例）"],
+    "usphone": "prɪˈsɪʒ(ə)n",
+    "ukphone": "prɪˈsɪʒ(ə)n",
+    "example": "Reranking improves precision but adds extra latency.",
+    "exampleTrans": "重排序能提升精确率，但会增加额外延迟。"
+  },
+  {
+    "name": "session",
+    "trans": ["n. 会话（一次连续对话及其状态的生命周期）"],
+    "usphone": "ˈseʃ(ə)n",
+    "ukphone": "ˈseʃ(ə)n",
+    "example": "Each session keeps its own message history.",
+    "exampleTrans": "每个会话都保存着自己的消息历史。"
+  },
+  {
+    "name": "queue",
+    "trans": ["n. 队列；v. 排队等待（按顺序处理任务）"],
+    "usphone": "kjuː",
+    "ukphone": "kjuː",
+    "example": "Long-running jobs are pushed into a task queue.",
+    "exampleTrans": "耗时较长的作业会被推入任务队列。"
+  },
+  {
+    "name": "idempotent",
+    "trans": ["adj. 幂等的（重复执行结果不变）"],
+    "usphone": "aɪˈdempətənt",
+    "ukphone": "ˈaɪdəmˌpəʊtənt",
+    "example": "Make the retry endpoint idempotent to avoid duplicate writes.",
+    "exampleTrans": "把重试接口设计成幂等的，以避免重复写入。"
+  },
+  {
+    "name": "meta-prompt",
+    "trans": ["n. 元提示词（用于生成或优化其他提示词的提示词）"],
+    "usphone": "ˈmetə prɑːmpt",
+    "ukphone": "ˈmetə prɒmpt",
+    "example": "We use a meta-prompt to let the model rewrite its own instructions.",
+    "exampleTrans": "我们用元提示词让模型改写自己的指令。"
+  },
+  {
+    "name": "logging",
+    "trans": ["n. 日志记录（记录运行信息以便排查问题）"],
+    "usphone": "ˈlɔːɡɪŋ",
+    "ukphone": "ˈlɒɡɪŋ",
+    "example": "Turn on debug logging to trace every tool call.",
+    "exampleTrans": "打开调试日志记录，以追踪每一次工具调用。"
+  }
+]
