@@ -3989,6 +3989,18 @@ const programming: DictionaryResource[] = [
     languageCategory: 'ai',
   },
   {
+    id: 'ai-daily-2026-08-06',
+    name: '每日词汇',
+    description: 'AI/Agent/RAG 等高频专业英语，每日 15 词（2026-08-06）',
+    category: 'AI 每日词汇',
+    tags: ['每日词汇'],
+    chapterLabels: ['2026-08-06'],
+    url: '/dicts/ai_daily_2026-08-06.json',
+    length: 15,
+    language: 'en',
+    languageCategory: 'ai',
+  },
+  {
     id: 'go_keyword',
     name: 'golang-keyword',
     description: 'go语言关键字,',

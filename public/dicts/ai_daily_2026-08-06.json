@@ -1,0 +1,122 @@
+[
+  {
+    "name": "decoding",
+    "trans": ["n. 解码（模型将输出概率逐步转换为文本的生成过程）"],
+    "usphone": "diːˈkoʊdɪŋ",
+    "ukphone": "ˌdiːˈkəʊdɪŋ",
+    "example": "Greedy decoding always picks the token with the highest probability.",
+    "exampleTrans": "贪心解码总是选择概率最高的那个 token。"
+  },
+  {
+    "name": "top-p",
+    "trans": ["n. 核采样阈值（按累积概率截断候选 token 的采样参数）"],
+    "usphone": "tɑːp piː",
+    "ukphone": "tɒp piː",
+    "example": "Lower the top-p value if the model's answers feel too random.",
+    "exampleTrans": "如果模型的回答显得太随机，就把 top-p 的值调低一些。"
+  },
+  {
+    "name": "dot product",
+    "trans": ["n. 点积（注意力机制中计算 query 与 key 相似度的运算）"],
+    "usphone": "dɑːt ˈprɑːdʌkt",
+    "ukphone": "dɒt ˈprɒdʌkt",
+    "example": "Attention scores come from the dot product of queries and keys.",
+    "exampleTrans": "注意力分数来自 query 与 key 的点积。"
+  },
+  {
+    "name": "coordination",
+    "trans": ["n. 协同、协调（多个 agent 之间分工与配合的机制）"],
+    "usphone": "koʊˌɔːrdɪˈneɪʃ(ə)n",
+    "ukphone": "kəʊˌɔːdɪˈneɪʃ(ə)n",
+    "example": "Multi-agent systems need clear coordination to avoid duplicated work.",
+    "exampleTrans": "多智能体系统需要清晰的协同机制，以避免重复劳动。"
+  },
+  {
+    "name": "supervisor",
+    "trans": ["n. 主管智能体（负责分派任务并汇总下级 agent 结果的角色）"],
+    "usphone": "ˈsuːpərvaɪzər",
+    "ukphone": "ˈsuːpəvaɪzə(r)",
+    "example": "The supervisor agent routes each request to the right specialist.",
+    "exampleTrans": "主管智能体会把每个请求路由给合适的专职智能体。"
+  },
+  {
+    "name": "plugin",
+    "trans": ["n. 插件（为模型扩展外部能力的可插拔组件）"],
+    "usphone": "ˈplʌɡɪn",
+    "ukphone": "plʌgɪn",
+    "example": "Install the search plugin so the model can browse the web.",
+    "exampleTrans": "安装搜索插件，模型就能浏览网页了。"
+  },
+  {
+    "name": "wrapper",
+    "trans": ["n. 包装器、封装层（把原始 API 封装成模型可调用工具的代码）"],
+    "usphone": "ˈræpər",
+    "ukphone": "ˈræpə(r)",
+    "example": "We wrote a thin wrapper around the API to expose it as a tool.",
+    "exampleTrans": "我们给这个 API 写了一层薄封装，把它暴露成一个工具。"
+  },
+  {
+    "name": "sparse retrieval",
+    "trans": ["n. 稀疏检索（基于关键词词频匹配的检索方式，与稠密检索相对）"],
+    "usphone": "spɑːrs rɪˈtriːv(ə)l",
+    "ukphone": "spɑːs rɪˈtriːv(ə)l",
+    "example": "Sparse retrieval handles rare product codes better than embeddings.",
+    "exampleTrans": "在处理生僻的产品编号时，稀疏检索比向量嵌入表现更好。"
+  },
+  {
+    "name": "snapshot",
+    "trans": ["n. 快照（某一时刻会话状态或记忆内容的完整副本）"],
+    "usphone": "ˈsnæpʃɑːt",
+    "ukphone": "ˈsnæpʃɒt",
+    "example": "The agent saves a snapshot of its memory after every task.",
+    "exampleTrans": "该智能体在每个任务结束后都会保存一份记忆快照。"
+  },
+  {
+    "name": "event-driven",
+    "trans": ["adj. 事件驱动的（由外部事件触发流程执行的架构风格）"],
+    "usphone": "ɪˈvent ˈdrɪvn",
+    "ukphone": "ɪˈvent ˈdrɪvn",
+    "example": "An event-driven workflow starts only when a new file arrives.",
+    "exampleTrans": "事件驱动的工作流只在有新文件到达时才启动。"
+  },
+  {
+    "name": "stage",
+    "trans": ["n. 阶段（流水线中一个相对独立的处理环节）"],
+    "usphone": "steɪdʒ",
+    "ukphone": "steɪdʒ",
+    "example": "The pipeline failed at the data cleaning stage.",
+    "exampleTrans": "这条流水线在数据清洗阶段失败了。"
+  },
+  {
+    "name": "jailbreak",
+    "trans": ["n./v. 越狱（绕过模型安全限制的提示攻击手法）"],
+    "usphone": "ˈdʒeɪlbreɪk",
+    "ukphone": "ˈdʒeɪlbreɪk",
+    "example": "The new safety filter blocks most common jailbreak prompts.",
+    "exampleTrans": "新的安全过滤器能拦截大多数常见的越狱提示词。"
+  },
+  {
+    "name": "placeholder",
+    "trans": ["n. 占位符（提示词模板中待填充变量的标记）"],
+    "usphone": "ˈpleɪshoʊldər",
+    "ukphone": "ˈpleɪshəʊldə(r)",
+    "example": "Replace the placeholder with the user's actual question.",
+    "exampleTrans": "把这个占位符替换成用户的真实问题。"
+  },
+  {
+    "name": "unit test",
+    "trans": ["n. 单元测试（针对单个函数或模块的自动化测试）"],
+    "usphone": "ˈjuːnɪt test",
+    "ukphone": "ˈjuːnɪt test",
+    "example": "Write a unit test for the tool parser before refactoring it.",
+    "exampleTrans": "在重构工具解析器之前，先给它写一个单元测试。"
+  },
+  {
+    "name": "callback",
+    "trans": ["n. 回调（在特定事件发生时被自动执行的函数）"],
+    "usphone": "ˈkɔːlbæk",
+    "ukphone": "ˈkɔːlbæk",
+    "example": "Register a callback to log every token as it streams in.",
+    "exampleTrans": "注册一个回调，把流式输出的每个 token 都记录下来。"
+  }
+]
