@@ -1,0 +1,152 @@
+[
+  {
+    "name": "capability",
+    "trans": [
+      "n. 能力（模型或 agent 可完成的任务范畴）"
+    ],
+    "usphone": "ˌkeɪpəˈbɪləti",
+    "ukphone": "ˌkeɪpəˈbɪləti",
+    "example": "Tool use expands the agent’s capability beyond text.",
+    "exampleTrans": "工具调用把智能体的能力扩展到文本之外。"
+  },
+  {
+    "name": "base model",
+    "trans": [
+      "n. 基座模型（未经对齐的预训练大模型）"
+    ],
+    "usphone": "beɪs ˈmɑːd(ə)l",
+    "ukphone": "beɪs ˈmɒd(ə)l",
+    "example": "The base model is aligned with RLHF before release.",
+    "exampleTrans": "基座模型发布前会用 RLHF 对齐。"
+  },
+  {
+    "name": "attention sink",
+    "trans": [
+      "n. 注意力汇（序列起始 token 异常聚集注意力的现象）"
+    ],
+    "usphone": "əˈtenʃ(ə)n sɪŋk",
+    "ukphone": "əˈtenʃ(ə)n sɪŋk",
+    "example": "StreamingLLM keeps attention sinks to stay coherent.",
+    "exampleTrans": "StreamingLLM 保留注意力汇以维持连贯。"
+  },
+  {
+    "name": "causal",
+    "trans": [
+      "adj. 因果的（每个 token 只能看到前文的自回归特性）"
+    ],
+    "usphone": "ˈkɔːz(ə)l",
+    "ukphone": "ˈkɔːz(ə)l",
+    "example": "Causal masking prevents the model from peeking ahead.",
+    "exampleTrans": "因果掩码阻止模型偷看后文。"
+  },
+  {
+    "name": "meta-agent",
+    "trans": [
+      "n. 元智能体（负责创建/调度其他 agent 的 agent）"
+    ],
+    "usphone": "ˈmetə ˈeɪdʒənt",
+    "ukphone": "ˈmetə ˈeɪdʒənt",
+    "example": "A meta-agent spins up specialists on demand.",
+    "exampleTrans": "元智能体按需拉起专职智能体。"
+  },
+  {
+    "name": "proxy",
+    "trans": [
+      "n. 代理（在模型与外部服务之间转发的中间层）"
+    ],
+    "usphone": "ˈprɑːksi",
+    "ukphone": "ˈprɒksi",
+    "example": "The proxy adds auth and logging to every call.",
+    "exampleTrans": "代理给每次调用加上鉴权与日志。"
+  },
+  {
+    "name": "gRPC",
+    "trans": [
+      "n. gRPC（基于 HTTP/2 的高性能远程调用框架）"
+    ],
+    "usphone": "dʒiː ɑːr piː siː",
+    "ukphone": "dʒiː ɑː piː siː",
+    "example": "Internal tool calls use gRPC for low latency.",
+    "exampleTrans": "内部工具调用用 gRPC 降低延迟。"
+  },
+  {
+    "name": "document parser",
+    "trans": [
+      "n. 文档解析器（抽取文档结构与文本用于建索引）"
+    ],
+    "usphone": "ˈdɑːkjumənt ˈpɑːrsər",
+    "ukphone": "ˈdɒkjumənt ˈpɑːzə(r)",
+    "example": "The document parser keeps headings and tables intact.",
+    "exampleTrans": "文档解析器保留标题与表格结构。"
+  },
+  {
+    "name": "entity",
+    "trans": [
+      "n. 实体（文本中可抽取的人/组织/概念等对象）"
+    ],
+    "usphone": "ˈentəti",
+    "ukphone": "ˈentəti",
+    "example": "Entity extraction feeds the knowledge graph.",
+    "exampleTrans": "实体抽取为知识图谱供料。"
+  },
+  {
+    "name": "topology",
+    "trans": [
+      "n. 拓扑（工作流节点的连接结构）"
+    ],
+    "usphone": "təˈpɑːlədʒi",
+    "ukphone": "təˈpɒlədʒi",
+    "example": "The workflow topology defines how stages connect.",
+    "exampleTrans": "工作流拓扑规定了各阶段如何连接。"
+  },
+  {
+    "name": "batch",
+    "trans": [
+      "n. 批次（一次并行处理的多条样本/任务）"
+    ],
+    "usphone": "bætʃ",
+    "ukphone": "bætʃ",
+    "example": "Batch inference raises throughput on the GPU.",
+    "exampleTrans": "批推理提升了 GPU 吞吐。"
+  },
+  {
+    "name": "rubric",
+    "trans": [
+      "n. 评分量规（用于评估输出质量的细则标准）"
+    ],
+    "usphone": "ˈruːbrɪk",
+    "ukphone": "ˈruːbrɪk",
+    "example": "Grade the answer against a clear rubric.",
+    "exampleTrans": "按清晰的评分量规给答案打分。"
+  },
+  {
+    "name": "red teaming",
+    "trans": [
+      "n. 红队测试（模拟攻击以发现模型漏洞）"
+    ],
+    "usphone": "red ˈtiːmɪŋ",
+    "ukphone": "red ˈtiːmɪŋ",
+    "example": "Red teaming probes the model for unsafe outputs.",
+    "exampleTrans": "红队测试探查模型的不安全输出。"
+  },
+  {
+    "name": "thread",
+    "trans": [
+      "n. 线程（并发执行的最小单位）"
+    ],
+    "usphone": "θred",
+    "ukphone": "θred",
+    "example": "Offload I/O to a background thread.",
+    "exampleTrans": "把 I/O 卸载到后台线程。"
+  },
+  {
+    "name": "process",
+    "trans": [
+      "n. 进程（操作系统中的一个独立运行实例）"
+    ],
+    "usphone": "ˈprɑːses",
+    "ukphone": "ˈprəʊses",
+    "example": "Each worker runs as a separate process.",
+    "exampleTrans": "每个工作节点作为一个独立进程运行。"
+  }
+]

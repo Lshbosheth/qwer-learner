@@ -1,0 +1,152 @@
+[
+  {
+    "name": "post-training",
+    "trans": [
+      "n. 后训练（预训练之后用于对齐/专精的阶段）"
+    ],
+    "usphone": "poʊst ˈtreɪnɪŋ",
+    "ukphone": "pəʊst ˈtreɪnɪŋ",
+    "example": "Post-training turns a base model into a helpful assistant.",
+    "exampleTrans": "后训练把基座模型变成好用的助手。"
+  },
+  {
+    "name": "robustness",
+    "trans": [
+      "n. 鲁棒性（面对扰动或异常输入仍稳定的能力）"
+    ],
+    "usphone": "roʊˈbʌstnəs",
+    "ukphone": "rəʊˈbʌstnəs",
+    "example": "Robustness matters when inputs are messy.",
+    "exampleTrans": "输入杂乱时鲁棒性很重要。"
+  },
+  {
+    "name": "tensor",
+    "trans": [
+      "n. 张量（模型运算中的多维数组）"
+    ],
+    "usphone": "ˈtensər; ˈtensɔːr",
+    "ukphone": "ˈtensə(r); ˈtensɔː(r)",
+    "example": "Activations flow through the network as tensors.",
+    "exampleTrans": "激活以张量形式在网络中流动。"
+  },
+  {
+    "name": "function",
+    "trans": [
+      "n. 函数（可复用的一段代码逻辑）"
+    ],
+    "usphone": "ˈfʌŋkʃ(ə)n",
+    "ukphone": "ˈfʌŋkʃ(ə)n",
+    "example": "Wrap the API in a pure function for testing.",
+    "exampleTrans": "把 API 包成纯函数以便测试。"
+  },
+  {
+    "name": "merge",
+    "trans": [
+      "v./n. 合并（把分支改动并入主干）"
+    ],
+    "usphone": "mɜːrdʒ",
+    "ukphone": "mɜːdʒ",
+    "example": "Merge the feature branch after CI passes.",
+    "exampleTrans": "CI 通过后再合并特性分支。"
+  },
+  {
+    "name": "commit",
+    "trans": [
+      "v./n. 提交（把改动存入版本库）"
+    ],
+    "usphone": "kəˈmɪt",
+    "ukphone": "kəˈmɪt",
+    "example": "Commit often with clear messages.",
+    "exampleTrans": "频繁提交并写清提交说明。"
+  },
+  {
+    "name": "mock",
+    "trans": [
+      "v./n. 模拟（用假对象替代真实依赖做测试）"
+    ],
+    "usphone": "mɑːk",
+    "ukphone": "mɒk",
+    "example": "Mock the database in unit tests.",
+    "exampleTrans": "在单元测试中模拟数据库。"
+  },
+  {
+    "name": "Docker",
+    "trans": [
+      "n. Docker（把应用打包成可移植容器的工具）"
+    ],
+    "usphone": "ˈdɑːkər",
+    "ukphone": "ˈdɒkə(r)",
+    "example": "Docker keeps dev and prod environments identical.",
+    "exampleTrans": "Docker 让开发与生产环境一致。"
+  },
+  {
+    "name": "container",
+    "trans": [
+      "n. 容器（轻量、隔离的运行环境）"
+    ],
+    "usphone": "kənˈteɪnər",
+    "ukphone": "kənˈteɪnə(r)",
+    "example": "Ship the service as a container image.",
+    "exampleTrans": "把服务打包成容器镜像交付。"
+  },
+  {
+    "name": "CI/CD",
+    "trans": [
+      "n. 持续集成/持续交付（自动构建、测试与发布的流程）"
+    ],
+    "usphone": "siː aɪ ˈsiː diː",
+    "ukphone": "siː aɪ ˈsiː diː",
+    "example": "CI/CD runs tests on every push.",
+    "exampleTrans": "CI/CD 在每次推送时跑测试。"
+  },
+  {
+    "name": "shell",
+    "trans": [
+      "n. 命令行外壳（与系统交互的命令行环境）"
+    ],
+    "usphone": "ʃel",
+    "ukphone": "ʃel",
+    "example": "Run the script from a shell.",
+    "exampleTrans": "在命令行里运行脚本。"
+  },
+  {
+    "name": "type",
+    "trans": [
+      "n. 类型（变量或返回值的数据种类）"
+    ],
+    "usphone": "taɪp",
+    "ukphone": "taɪp",
+    "example": "Add a type hint to catch bugs early.",
+    "exampleTrans": "加上类型提示能尽早发现 bug。"
+  },
+  {
+    "name": "class",
+    "trans": [
+      "n. 类（封装数据与行为的代码模板）"
+    ],
+    "usphone": "klæs",
+    "ukphone": "klɑːs",
+    "example": "Define a class for the tool client.",
+    "exampleTrans": "为工具客户端定义一个类。"
+  },
+  {
+    "name": "format",
+    "trans": [
+      "n./v. 格式（数据的组织方式；或按要求排版输出）"
+    ],
+    "usphone": "ˈfɔːrmæt",
+    "ukphone": "ˈfɔːmæt",
+    "example": "Ask the model to return JSON format.",
+    "exampleTrans": "让模型返回 JSON 格式。"
+  },
+  {
+    "name": "supervised learning",
+    "trans": [
+      "n. 监督学习（用带标签数据训练模型）"
+    ],
+    "usphone": "ˈsʊpərvaɪz ˈlɜːrnɪŋ",
+    "ukphone": "ˈsuːpəvaɪzd ˈlɜːnɪŋ",
+    "example": "Supervised learning needs labeled examples.",
+    "exampleTrans": "监督学习需要带标签的样本。"
+  }
+]

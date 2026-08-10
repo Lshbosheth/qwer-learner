@@ -1,0 +1,152 @@
+[
+  {
+    "name": "modality",
+    "trans": [
+      "n. 模态（文本、图像、音频等输入/输出的数据形态）"
+    ],
+    "usphone": "moʊˈdæləti",
+    "ukphone": "məʊˈdæləti",
+    "example": "A multimodal model handles each modality with a shared backbone.",
+    "exampleTrans": "多模态模型用共享主干处理每种模态。"
+  },
+  {
+    "name": "transfer learning",
+    "trans": [
+      "n. 迁移学习（把已学知识迁移到新任务）"
+    ],
+    "usphone": "trænsˈfɜːr ˈlɜːrnɪŋ",
+    "ukphone": "trænsˈfɜː(r) ˈlɜːnɪŋ",
+    "example": "Transfer learning saves hours of training from scratch.",
+    "exampleTrans": "迁移学习省去从头训练的耗时。"
+  },
+  {
+    "name": "value",
+    "trans": [
+      "n. 值（注意力中经 key 匹配后输出的向量 V）"
+    ],
+    "usphone": "ˈvæljuː",
+    "ukphone": "ˈvæljuː",
+    "example": "The value vector carries the information passed forward.",
+    "exampleTrans": "值向量承载被向前传递的信息。"
+  },
+  {
+    "name": "RoPE",
+    "trans": [
+      "n. 旋转位置编码（用旋转矩阵注入位置信息的编码方式）"
+    ],
+    "usphone": "roʊp",
+    "ukphone": "rəʊp",
+    "example": "RoPE lets the model generalize to longer sequences.",
+    "exampleTrans": "RoPE 让模型能泛化到更长的序列。"
+  },
+  {
+    "name": "role",
+    "trans": [
+      "n. 角色（多 agent 中每个成员的职责定位）"
+    ],
+    "usphone": "roʊl",
+    "ukphone": "rəʊl",
+    "example": "Assign each agent a clear role to avoid overlap.",
+    "exampleTrans": "给每个智能体明确角色，避免职责重叠。"
+  },
+  {
+    "name": "worker",
+    "trans": [
+      "n. 工作智能体（在主管调度下执行具体子任务的 agent）"
+    ],
+    "usphone": "ˈwɜːrkər",
+    "ukphone": "ˈwɜːkə(r)",
+    "example": "The supervisor delegates subtasks to a worker.",
+    "exampleTrans": "主管把子任务下发给工作智能体。"
+  },
+  {
+    "name": "GraphQL",
+    "trans": [
+      "n. GraphQL（可按需查询字段的 API 查询语言）"
+    ],
+    "usphone": "ɡræf kjuː ˈel",
+    "ukphone": "ɡræf kjuː ˈel",
+    "example": "GraphQL returns only the fields the tool needs.",
+    "exampleTrans": "GraphQL 只返回工具需要的字段。"
+  },
+  {
+    "name": "streaming",
+    "trans": [
+      "n. 流式输出（逐 token 返回而非整段等待）"
+    ],
+    "usphone": "ˈstriːmɪŋ",
+    "ukphone": "ˈstriːmɪŋ",
+    "example": "Streaming makes the model feel more responsive.",
+    "exampleTrans": "流式输出让模型显得更跟手。"
+  },
+  {
+    "name": "query expansion",
+    "trans": [
+      "n. 查询扩展（为原查询补充同义/相关词以提升召回）"
+    ],
+    "usphone": "ˈkwɪri ɪkˈspænʃ(ə)n",
+    "ukphone": "ˈkwɪəri ɪkˈspænʃ(ə)n",
+    "example": "Query expansion improves retrieval on vague questions.",
+    "exampleTrans": "查询扩展能改善模糊问题的召回。"
+  },
+  {
+    "name": "OCR",
+    "trans": [
+      "n. 光学字符识别（把图片中的文字转成可检索文本）"
+    ],
+    "usphone": "ˌoʊ siː ˈɑːr",
+    "ukphone": "ˌəʊ siː ˈɑː",
+    "example": "OCR extracts text from scanned PDFs before indexing.",
+    "exampleTrans": "OCR 在建索引前从扫描版 PDF 提取文字。"
+  },
+  {
+    "name": "state",
+    "trans": [
+      "n. 状态（系统在某时刻的上下文快照）"
+    ],
+    "usphone": "steɪt",
+    "ukphone": "steɪt",
+    "example": "Save the state so the run can resume later.",
+    "exampleTrans": "保存状态，以便稍后恢复运行。"
+  },
+  {
+    "name": "consolidation",
+    "trans": [
+      "n. 记忆巩固（把短期信息整理进长期记忆）"
+    ],
+    "usphone": "kənˌsɑːləˈdeɪʃ(ə)n",
+    "ukphone": "kənˌsɒlɪˈdeɪʃ(ə)n",
+    "example": "Memory consolidation merges similar notes at night.",
+    "exampleTrans": "记忆巩固在空闲时合并相似的笔记。"
+  },
+  {
+    "name": "fan-in",
+    "trans": [
+      "n. 扇入（多个分支的结果汇聚到一个节点）"
+    ],
+    "usphone": "fæn ɪn",
+    "ukphone": "fæn ɪn",
+    "example": "The node fans in outputs from parallel branches.",
+    "exampleTrans": "该节点扇入各并行分支的输出。"
+  },
+  {
+    "name": "sequential",
+    "trans": [
+      "adj. 串行的（步骤依次执行、互不重叠）"
+    ],
+    "usphone": "sɪˈkwenʃ(ə)l",
+    "ukphone": "sɪˈkwenʃ(ə)l",
+    "example": "A sequential pipeline runs stages one after another.",
+    "exampleTrans": "串行流水线一个阶段接一个阶段运行。"
+  },
+  {
+    "name": "negative prompt",
+    "trans": [
+      "n. 负向提示（描述不希望模型生成的内容）"
+    ],
+    "usphone": "ˈneɡətɪv prɑːmpt",
+    "ukphone": "ˈneɡətɪv prɒmpt",
+    "example": "A negative prompt steers the model away from bad outputs.",
+    "exampleTrans": "负向提示把模型引开不良输出。"
+  }
+]

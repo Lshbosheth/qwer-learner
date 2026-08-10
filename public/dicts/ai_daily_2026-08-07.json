@@ -1,0 +1,152 @@
+[
+  {
+    "name": "emergence",
+    "trans": [
+      "n. 涌现（模型规模增长到一定程度后自发出现的新能力）"
+    ],
+    "usphone": "ɪˈmɜːrdʒəns",
+    "ukphone": "ɪˈmɜːdʒəns",
+    "example": "Emergence explains why larger models suddenly gain new skills.",
+    "exampleTrans": "涌现解释了为什么更大的模型会突然获得新能力。"
+  },
+  {
+    "name": "foundation model",
+    "trans": [
+      "n. 基础模型（海量数据预训练、可适配多种任务的通用大模型）"
+    ],
+    "usphone": "faʊnˈdeɪʃ(ə)n ˈmɑːd(ə)l",
+    "ukphone": "faʊnˈdeɪʃ(ə)n ˈmɒd(ə)l",
+    "example": "A foundation model is fine-tuned for each downstream task.",
+    "exampleTrans": "基础模型会针对每个下游任务进行微调。"
+  },
+  {
+    "name": "flash attention",
+    "trans": [
+      "n. FlashAttention（一种 IO 感知、显著降低显存占用的高效注意力算法）"
+    ],
+    "usphone": "flæʃ əˈtenʃ(ə)n",
+    "ukphone": "flæʃ əˈtenʃ(ə)n",
+    "example": "Flash attention speeds up long-context training.",
+    "exampleTrans": "FlashAttention 能加速长上下文训练。"
+  },
+  {
+    "name": "key",
+    "trans": [
+      "n. 键（注意力中用于与 query 计算相似度的向量 K）"
+    ],
+    "usphone": "kiː",
+    "ukphone": "kiː",
+    "example": "The key vector represents what a token can attend to.",
+    "exampleTrans": "键向量表示一个 token 可以关注的内容。"
+  },
+  {
+    "name": "swarm",
+    "trans": [
+      "n. 智能体集群（大量自主 agent 协同完成任务的形态）"
+    ],
+    "usphone": "swɔːrm",
+    "ukphone": "swɔːm",
+    "example": "A swarm of agents divides the work and votes on the result.",
+    "exampleTrans": "一群智能体分工并投票决定结果。"
+  },
+  {
+    "name": "controller",
+    "trans": [
+      "n. 控制器（在 agent 系统中负责调度与决策的核心模块）"
+    ],
+    "usphone": "kənˈtroʊlər",
+    "ukphone": "kənˈtrəʊlə(r)",
+    "example": "The controller picks the next action based on observations.",
+    "exampleTrans": "控制器根据观测选择下一步动作。"
+  },
+  {
+    "name": "HTTP",
+    "trans": [
+      "n. 超文本传输协议（大模型调用工具时最常用的请求协议）"
+    ],
+    "usphone": "eɪtʃ tiː tiː piː",
+    "ukphone": "eɪtʃ tiː tiː piː",
+    "example": "The tool is exposed as an HTTP endpoint.",
+    "exampleTrans": "该工具以 HTTP 接口形式暴露。"
+  },
+  {
+    "name": "REST",
+    "trans": [
+      "adj./n. 表征状态转移（一种基于 HTTP 的接口风格）"
+    ],
+    "usphone": "rest",
+    "ukphone": "rest",
+    "example": "Most web APIs follow REST conventions.",
+    "exampleTrans": "大多数 Web API 遵循 REST 风格。"
+  },
+  {
+    "name": "reranker",
+    "trans": [
+      "n. 重排器（对初检结果按相关性重新排序的模型）"
+    ],
+    "usphone": "ˈriːræŋkər",
+    "ukphone": "ˈriːræŋkə",
+    "example": "A reranker reorders the top passages before generation.",
+    "exampleTrans": "重排器在生成前对候选段落重新排序。"
+  },
+  {
+    "name": "chunk size",
+    "trans": [
+      "n. 分块大小（RAG 中文档切分的 token 数量）"
+    ],
+    "usphone": "tʃʌŋk saɪz",
+    "ukphone": "tʃʌŋk saɪz",
+    "example": "A larger chunk size keeps more context per passage.",
+    "exampleTrans": "更大的分块大小能保留更多上下文。"
+  },
+  {
+    "name": "stateful",
+    "trans": [
+      "adj. 有状态的（跨多轮交互保留上下文的）"
+    ],
+    "usphone": "ˈsteɪtfl",
+    "ukphone": "ˈsteɪtfəl",
+    "example": "A stateful agent remembers earlier turns in the chat.",
+    "exampleTrans": "有状态的智能体能记住对话中更早的轮次。"
+  },
+  {
+    "name": "forgetting",
+    "trans": [
+      "n. 遗忘（模型或记忆系统丢弃旧信息的现象）"
+    ],
+    "usphone": "fərˈɡet",
+    "ukphone": "fəˈɡetɪŋ",
+    "example": "Forgetting old facts hurts long-running agents.",
+    "exampleTrans": "遗忘旧事实会损害长时运行的智能体。"
+  },
+  {
+    "name": "task",
+    "trans": [
+      "n. 任务（工作流中待完成的一个工作单元）"
+    ],
+    "usphone": "tæsk",
+    "ukphone": "tɑːsk",
+    "example": "The planner breaks the goal into a small task list.",
+    "exampleTrans": "规划器把目标拆成一个个小任务。"
+  },
+  {
+    "name": "fan-out",
+    "trans": [
+      "n. 扇出（一个节点把工作分发给多个并行分支）"
+    ],
+    "usphone": "fæn aʊt",
+    "ukphone": "fæn aʊt",
+    "example": "The workflow fans out to three parallel sub-jobs.",
+    "exampleTrans": "该工作流扇出到三个并行的子任务。"
+  },
+  {
+    "name": "prompt compression",
+    "trans": [
+      "n. 提示压缩（在保留语义的前提下缩短提示以省 token）"
+    ],
+    "usphone": "prɑːmpt kəmˈpreʃ(ə)n",
+    "ukphone": "prɒmpt kəmˈpreʃ(ə)n",
+    "example": "Prompt compression shrinks the system prompt for long chats.",
+    "exampleTrans": "提示压缩能缩短长对话中的系统提示。"
+  }
+]
