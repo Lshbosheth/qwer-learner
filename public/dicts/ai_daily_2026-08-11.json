@@ -1,0 +1,122 @@
+[
+  {
+    "name": "generative",
+    "trans": ["adj. 生成式的，生成性的（指能生成新内容的 AI 模型）"],
+    "usphone": "ˈdʒenərətɪv",
+    "ukphone": "ˈdʒenərətɪv",
+    "example": "Generative models can produce text, images, and code from a single prompt.",
+    "exampleTrans": "生成式模型可以根据一条提示词生成文本、图像和代码。"
+  },
+  {
+    "name": "convergence",
+    "trans": ["n. 收敛（训练过程中损失趋于稳定）；趋同"],
+    "usphone": "kənˈvɜːrdʒəns",
+    "ukphone": "kənˈvɜːdʒəns",
+    "example": "A learning rate that is too high may prevent convergence during training.",
+    "exampleTrans": "学习率过高可能导致训练无法收敛。"
+  },
+  {
+    "name": "layer",
+    "trans": ["n. 层（神经网络中的计算层）"],
+    "usphone": "ˈleɪər",
+    "ukphone": "ˈleɪə(r)",
+    "example": "Each transformer layer contains an attention block and a feed-forward block.",
+    "exampleTrans": "每个 Transformer 层都包含一个注意力模块和一个前馈模块。"
+  },
+  {
+    "name": "bidirectional",
+    "trans": ["adj. 双向的（同时利用左右上下文，如 BERT 的双向编码）"],
+    "usphone": "ˌbaɪdəˈrekʃənl",
+    "ukphone": "ˌbaɪdəˈrekʃənl",
+    "example": "Unlike GPT, BERT uses bidirectional attention over the whole sentence.",
+    "exampleTrans": "与 GPT 不同，BERT 对整句使用双向注意力。"
+  },
+  {
+    "name": "collaboration",
+    "trans": ["n. 协作（多个 Agent 之间的协同工作）"],
+    "usphone": "kəˌlæbəˈreɪʃ(ə)n",
+    "ukphone": "kəˌlæbəˈreɪʃ(ə)n",
+    "example": "Multi-agent collaboration lets each agent focus on what it does best.",
+    "exampleTrans": "多智能体协作让每个 Agent 专注于自己最擅长的事。"
+  },
+  {
+    "name": "decision-making",
+    "trans": ["n. 决策（Agent 在每一步选择行动的过程）"],
+    "usphone": "dɪˈsɪʒn meɪkɪŋ",
+    "ukphone": "dɪˈsɪʒn meɪkɪŋ",
+    "example": "The agent logs its decision-making process so developers can audit it.",
+    "exampleTrans": "该 Agent 会记录自己的决策过程，便于开发者审查。"
+  },
+  {
+    "name": "client",
+    "trans": ["n. 客户端（发起工具调用或 API 请求的一方）"],
+    "usphone": "ˈklaɪənt",
+    "ukphone": "ˈklaɪənt",
+    "example": "The MCP client sends the tool call to the server and waits for a result.",
+    "exampleTrans": "MCP 客户端把工具调用发送给服务端并等待结果。"
+  },
+  {
+    "name": "return value",
+    "trans": ["n. 返回值（函数或工具执行后回传给模型的结果）"],
+    "usphone": "rɪˈtɜːrn ˈvæljuː",
+    "ukphone": "rɪˈtɜːn ˈvæljuː",
+    "example": "The return value of the tool is appended to the conversation as a new message.",
+    "exampleTrans": "工具的返回值会作为一条新消息追加到对话中。"
+  },
+  {
+    "name": "nearest neighbor",
+    "trans": ["n. 最近邻（向量检索中距离查询向量最近的条目）"],
+    "usphone": "ˈnɪrəst ˈneɪbər",
+    "ukphone": "ˈnɪərɪst ˈneɪbə(r)",
+    "example": "The vector database returns the ten nearest neighbors of the query embedding.",
+    "exampleTrans": "向量数据库返回查询向量的十个最近邻。"
+  },
+  {
+    "name": "knowledge cutoff",
+    "trans": ["n. 知识截止时间（模型训练数据的最后时间点）"],
+    "usphone": "ˈnɑːlɪdʒ ˈkʌtˌɔːf",
+    "ukphone": "ˈnɒlɪdʒ ˈkʌtɒf",
+    "example": "Use retrieval to answer questions about events after the model's knowledge cutoff.",
+    "exampleTrans": "对于模型知识截止时间之后的事件，请用检索来回答。"
+  },
+  {
+    "name": "summarization",
+    "trans": ["n. 摘要生成（把长对话历史压缩为简短记忆）"],
+    "usphone": "ˌsʌməraɪˈzeɪʃn",
+    "ukphone": "ˌsʌmərɪˈzeɪʃən",
+    "example": "When the context fills up, summarization keeps the earlier turns in a shorter form.",
+    "exampleTrans": "当上下文填满时，摘要生成会把较早的对话压缩保留。"
+  },
+  {
+    "name": "loop",
+    "trans": ["n. 循环（Agent 反复思考、行动、观察的执行环）"],
+    "usphone": "luːp",
+    "ukphone": "luːp",
+    "example": "The workflow runs in a loop until the task is marked as complete.",
+    "exampleTrans": "该工作流会循环运行，直到任务被标记为完成。"
+  },
+  {
+    "name": "conditional",
+    "trans": ["adj. 条件的，有条件的（工作流中按条件分支执行）"],
+    "usphone": "kənˈdɪʃən(ə)l",
+    "ukphone": "kənˈdɪʃən(ə)l",
+    "example": "Add a conditional edge so the graph routes failed runs to the retry node.",
+    "exampleTrans": "添加一条条件边，让图把失败的运行路由到重试节点。"
+  },
+  {
+    "name": "step-by-step",
+    "trans": ["adj. 逐步的（提示模型一步步推理的常用表述）"],
+    "usphone": "step baɪ step",
+    "ukphone": "step baɪ step",
+    "example": "Asking the model to think step-by-step often improves reasoning accuracy.",
+    "exampleTrans": "让模型逐步思考通常能提高推理准确率。"
+  },
+  {
+    "name": "boilerplate",
+    "trans": ["n. 样板代码（重复而固定的模板化代码）"],
+    "usphone": "ˈbɔɪlərpleɪt",
+    "ukphone": "ˈbɔɪləpleɪt",
+    "example": "The SDK hides most of the boilerplate needed to register a new tool.",
+    "exampleTrans": "该 SDK 隐藏了注册新工具所需的大部分样板代码。"
+  }
+]
