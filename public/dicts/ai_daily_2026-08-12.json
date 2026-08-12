@@ -1,0 +1,122 @@
+[
+  {
+    "name": "LoRA",
+    "trans": ["n. 低秩适配（Low-Rank Adaptation，一种用少量可训练参数高效微调大模型的方法）"],
+    "usphone": "ˈlɔːrə",
+    "ukphone": "ˈlɔːrə",
+    "example": "Applying LoRA lets you fine-tune a large model with far fewer trainable parameters.",
+    "exampleTrans": "使用 LoRA 可以用少得多的可训练参数来微调大模型。"
+  },
+  {
+    "name": "mixture of experts",
+    "trans": ["n. 混合专家（由多个专家子网络与门控路由组成、按 token 激活部分专家的模型架构）"],
+    "usphone": "ˈmɪkstʃər əv ˈekspɜːrts",
+    "ukphone": "ˈmɪkstʃə ɒv ˈekspɜːts",
+    "example": "A mixture of experts model activates only a subset of experts per token to save compute.",
+    "exampleTrans": "混合专家模型对每个 token 只激活部分专家子网络以节省算力。"
+  },
+  {
+    "name": "scaled dot-product attention",
+    "trans": ["n. 缩放点积注意力（Transformer 自注意力的核心计算方式）"],
+    "usphone": "skeɪld dɑːt ˈprɑːdʌkt əˈtenʃən",
+    "ukphone": "skeɪld dɒt ˈprɒdʌkt əˈtenʃən",
+    "example": "Scaled dot-product attention computes weights by dividing the dot product of queries and keys by the square root of the dimension.",
+    "exampleTrans": "缩放点积注意力将查询与键的点积除以维度的平方根来计算注意力权重。"
+  },
+  {
+    "name": "grouped-query attention",
+    "trans": ["n. 分组查询注意力（GQA，在多头注意力中让多个查询头共享键值头以提速并省显存）"],
+    "usphone": "ˈɡruːptd ˈkwɪri əˈtenʃən",
+    "ukphone": "ˈɡruːptɪd ˈkwɪəri əˈtenʃən",
+    "example": "Grouped-query attention reduces the size of the KV cache compared with multi-head attention.",
+    "exampleTrans": "相比多头注意力，分组查询注意力减小了 KV 缓存的体积。"
+  },
+  {
+    "name": "subgoal",
+    "trans": ["n. 子目标（把复杂任务拆解后得到的中间目标）"],
+    "usphone": "ˈsʌbˌɡoʊl",
+    "ukphone": "ˈsʌbˌɡəʊl",
+    "example": "The planner breaks the task into a subgoal that the agent can solve step by step.",
+    "exampleTrans": "规划器把任务拆解为智能体可以逐步解决的子目标。"
+  },
+  {
+    "name": "verifier",
+    "trans": ["n. 验证器（检查模型输出是否正确或满足约束的组件）"],
+    "usphone": "ˈverɪfaɪər",
+    "ukphone": "ˈverɪfaɪə(r)",
+    "example": "A verifier checks each candidate answer before the agent accepts it.",
+    "exampleTrans": "验证器在智能体采纳答案前会先检查每个候选回答。"
+  },
+  {
+    "name": "tool execution",
+    "trans": ["n. 工具执行（Agent 实际调用并运行外部工具或函数的过程）"],
+    "usphone": "tuːl ˌeksɪˈkjuːʃən",
+    "ukphone": "tuːl ˌeksɪˈkjuːʃ(ə)n",
+    "example": "Tool execution failures should be caught and retried with adjusted arguments.",
+    "exampleTrans": "工具执行失败应被捕获，并以调整后的参数重试。"
+  },
+  {
+    "name": "tool result",
+    "trans": ["n. 工具结果（外部工具或函数调用后返回给模型的内容）"],
+    "usphone": "tuːl rɪˈzʌlt",
+    "ukphone": "tuːl rɪˈzʌlt",
+    "example": "The model uses the tool result to decide the next action in the loop.",
+    "exampleTrans": "模型利用工具结果来决定循环中的下一步动作。"
+  },
+  {
+    "name": "query rewriting",
+    "trans": ["n. 查询改写（在检索前对用户查询进行扩写或纠错以提升召回）"],
+    "usphone": "ˈkwɪri riːˈraɪtɪŋ",
+    "ukphone": "ˈkwɪəri riːˈraɪtɪŋ",
+    "example": "Query rewriting turns a short question into a retrieval-friendly phrase.",
+    "exampleTrans": "查询改写把简短问题转换为更适合检索的短语。"
+  },
+  {
+    "name": "contextual retrieval",
+    "trans": ["n. 上下文检索（为待检索片段补充所属文档的上下文后再做嵌入）"],
+    "usphone": "kənˈtekstʃuəl rɪˈtriːvəl",
+    "ukphone": "kənˈtekstʃuəl rɪˈtriːvəl",
+    "example": "Contextual retrieval adds section context to each chunk before embedding it.",
+    "exampleTrans": "上下文检索会在嵌入前为每个片段补充所在章节的上下文。"
+  },
+  {
+    "name": "long context",
+    "trans": ["adj./n. 长上下文（模型一次能处理的超长输入序列）"],
+    "usphone": "lɔːŋ ˈkɑːntekst",
+    "ukphone": "lɒŋ ˈkɒntekst",
+    "example": "Long context models can read an entire book in a single prompt.",
+    "exampleTrans": "长上下文模型可以在一次提示中读完整本书。"
+  },
+  {
+    "name": "job",
+    "trans": ["n. 作业/任务（批处理或工作流中一个独立运行的单元）"],
+    "usphone": "dʒɑːb",
+    "ukphone": "dʒɒb",
+    "example": "The workflow scheduler starts each ETL job on a fixed cron schedule.",
+    "exampleTrans": "工作流调度器按固定 cron 计划启动每个 ETL 作业。"
+  },
+  {
+    "name": "instruction tuning",
+    "trans": ["n. 指令微调（用（指令, 回答）数据训练模型以更好遵循人类指令）"],
+    "usphone": "ɪnˈstrʌkʃən ˈtuːnɪŋ",
+    "ukphone": "ɪnˈstrʌkʃən ˈtjuːnɪŋ",
+    "example": "Instruction tuning makes a base model follow user commands more reliably.",
+    "exampleTrans": "指令微调让基础模型更可靠地遵循用户指令。"
+  },
+  {
+    "name": "prompt design",
+    "trans": ["n. 提示设计（组织措辞、结构与示例以引导模型产出的方法）"],
+    "usphone": "prɑːmpt dɪˈzaɪn",
+    "ukphone": "prɒmpt dɪˈzaɪn",
+    "example": "Good prompt design separates instructions, context, and examples clearly.",
+    "exampleTrans": "好的提示设计会清晰地区分指令、上下文与示例。"
+  },
+  {
+    "name": "code generation",
+    "trans": ["n. 代码生成（由模型根据自然语言描述产出源代码）"],
+    "usphone": "koʊd ˌdʒenəˈreɪʃən",
+    "ukphone": "kəʊd ˌdʒenəˈreɪʃən",
+    "example": "Code generation speeds up prototyping when paired with a test suite.",
+    "exampleTrans": "代码生成配合测试套件可加速原型开发。"
+  }
+]
