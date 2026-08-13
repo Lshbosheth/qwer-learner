@@ -1,0 +1,122 @@
+[
+  {
+    "name": "test-time compute",
+    "trans": ["n. 测试时算力（推理阶段投入更多计算以换取更好推理效果，如让模型多想几步）"],
+    "usphone": "test taɪm kəmˈpjuːt",
+    "ukphone": "test taɪm kəmˈpjuːt",
+    "example": "Reasoning models trade extra test-time compute for higher accuracy on hard problems.",
+    "exampleTrans": "推理模型用额外的测试时算力换取在难题上的更高准确率。"
+  },
+  {
+    "name": "next-token prediction",
+    "trans": ["n. 下一词元预测（语言模型的核心训练目标：根据上文预测下一个 token）"],
+    "usphone": "nekst ˈtoʊkən prɪˈdɪkʃn",
+    "ukphone": "nekst ˈtəʊkən prɪˈdɪkʃ(ə)n",
+    "example": "Despite its simplicity, next-token prediction is enough to learn grammar, facts and reasoning.",
+    "exampleTrans": "尽管形式简单，下一词元预测已足以让模型学到语法、事实与推理能力。"
+  },
+  {
+    "name": "linear projection",
+    "trans": ["n. 线性投影（用权重矩阵把向量映射到另一空间，如把输入投影为 Q、K、V）"],
+    "usphone": "ˈlɪniər prəˈdʒekʃ(ə)n",
+    "ukphone": "ˈlɪniə(r) prəˈdʒekʃ(ə)n",
+    "example": "Each attention head applies a separate linear projection to the input embeddings.",
+    "exampleTrans": "每个注意力头都对输入嵌入应用一个独立的线性投影。"
+  },
+  {
+    "name": "decoder-only",
+    "trans": ["adj. 仅解码器的（只用解码器堆叠的架构，GPT 类模型的典型结构）"],
+    "usphone": "diːˈkoʊdər ˈoʊnli",
+    "ukphone": "diːˈkəʊdə(r) ˈəʊnli",
+    "example": "Most modern chat models use a decoder-only architecture with causal attention.",
+    "exampleTrans": "大多数现代对话模型采用带因果注意力的仅解码器架构。"
+  },
+  {
+    "name": "goal-oriented",
+    "trans": ["adj. 目标导向的（智能体围绕既定目标自主选择行动的特性）"],
+    "usphone": "ɡoʊl ˈɔːrientɪd",
+    "ukphone": "ɡəʊl ˈɔːrientɪd",
+    "example": "A goal-oriented agent keeps calling tools until the objective is satisfied.",
+    "exampleTrans": "目标导向的智能体会持续调用工具，直到目标被满足。"
+  },
+  {
+    "name": "escalation",
+    "trans": ["n. 升级、上报（智能体在无法处理时把任务转交给人工或更高权限角色）"],
+    "usphone": "ˌeskəˈleɪʃ(ə)n",
+    "ukphone": "ˌeskəˈleɪʃ(ə)n",
+    "example": "Define a clear escalation path so the agent hands off risky actions to a human.",
+    "exampleTrans": "要定义清晰的上报路径，让智能体把有风险的操作移交给人工。"
+  },
+  {
+    "name": "tool definition",
+    "trans": ["n. 工具定义（描述工具名称、用途与参数结构的声明，供模型决定如何调用）"],
+    "usphone": "tuːl ˌdefɪˈnɪʃn",
+    "ukphone": "tuːl ˌdefɪˈnɪʃ(ə)n",
+    "example": "A vague tool definition often makes the model pass the wrong arguments.",
+    "exampleTrans": "工具定义写得含糊，往往会让模型传入错误的参数。"
+  },
+  {
+    "name": "API key",
+    "trans": ["n. API 密钥（调用接口时用于身份验证的凭证字符串）"],
+    "usphone": "ˌeɪ piː ˈaɪ kiː",
+    "ukphone": "ˌeɪ piː ˈaɪ kiː",
+    "example": "Store your API key in an environment variable instead of hard-coding it.",
+    "exampleTrans": "请把 API 密钥存放在环境变量里，而不要硬编码在代码中。"
+  },
+  {
+    "name": "cosine similarity",
+    "trans": ["n. 余弦相似度（用向量夹角余弦衡量语义接近程度，检索排序的常用指标）"],
+    "usphone": "ˈkoʊsaɪn ˌsɪməˈlærəti",
+    "ukphone": "ˈkəʊsaɪn ˌsɪməˈlærəti",
+    "example": "The retriever ranks chunks by cosine similarity to the query embedding.",
+    "exampleTrans": "检索器按文本块与查询向量的余弦相似度进行排序。"
+  },
+  {
+    "name": "metadata filtering",
+    "trans": ["n. 元数据过滤（按作者、时间、来源等字段先筛掉无关文档再做向量检索）"],
+    "usphone": "ˈmetədeɪtə ˈfɪltərɪŋ",
+    "ukphone": "ˈmetədeɪtə ˈfɪltərɪŋ",
+    "example": "Metadata filtering narrows the search to documents from the last quarter.",
+    "exampleTrans": "元数据过滤把检索范围收窄到上个季度的文档。"
+  },
+  {
+    "name": "eviction",
+    "trans": ["n. 逐出、淘汰（缓存或记忆容量不足时移除旧条目的策略）"],
+    "usphone": "ɪˈvɪkʃn",
+    "ukphone": "ɪˈvɪkʃn",
+    "example": "The memory store uses a least-recently-used eviction policy.",
+    "exampleTrans": "该记忆存储采用最近最少使用的逐出策略。"
+  },
+  {
+    "name": "throttling",
+    "trans": ["n. 限流、节流（主动限制请求速率以避免超出配额或压垮下游服务）"],
+    "usphone": "ˈθrɑːt(ə)lɪŋ",
+    "ukphone": "ˈθrɒt(ə)lɪŋ",
+    "example": "Add throttling to the workflow so parallel calls stay under the rate limit.",
+    "exampleTrans": "给工作流加上限流，让并发调用保持在速率上限之内。"
+  },
+  {
+    "name": "user prompt",
+    "trans": ["n. 用户提示词（对话中来自用户角色的输入，与系统提示词相对）"],
+    "usphone": "ˈjuːzər prɑːmpt",
+    "ukphone": "ˈjuːzə(r) prɒmpt",
+    "example": "Keep the rules in the system prompt and the task details in the user prompt.",
+    "exampleTrans": "把规则放在系统提示词里，把具体任务细节放在用户提示词里。"
+  },
+  {
+    "name": "await",
+    "trans": ["v. 等待（异步编程关键字，暂停当前协程直到 Promise 或任务完成）"],
+    "usphone": "əˈweɪt",
+    "ukphone": "əˈweɪt",
+    "example": "You must await the async call, otherwise you get a pending promise.",
+    "exampleTrans": "你必须 await 这个异步调用，否则拿到的只是一个待定的 promise。"
+  },
+  {
+    "name": "pull request",
+    "trans": ["n. 拉取请求（向主仓库提议合并代码改动、供他人评审的协作方式）"],
+    "usphone": "pʊl rɪˈkwest",
+    "ukphone": "pʊl rɪˈkwest",
+    "example": "Open a pull request and wait for review before merging into master.",
+    "exampleTrans": "先提一个拉取请求并等待评审，然后再合并到 master 分支。"
+  }
+]
