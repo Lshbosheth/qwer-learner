@@ -1,0 +1,122 @@
+[
+  {
+    "name": "stop sequence",
+    "trans": ["n. 停止序列（模型生成时遇到即终止输出的字符串）"],
+    "usphone": "stɑːp ˈsiːkwəns",
+    "ukphone": "stɒp ˈsiːkwəns",
+    "example": "Set a stop sequence so the model does not keep writing past the answer.",
+    "exampleTrans": "设置一个停止序列，让模型在给出答案后不再继续写下去。"
+  },
+  {
+    "name": "model card",
+    "trans": ["n. 模型卡片（说明模型能力、局限与适用范围的文档）"],
+    "usphone": "ˈmɑːd(ə)l kɑːrd",
+    "ukphone": "ˈmɒd(ə)l kɑːd",
+    "example": "The model card lists the training data, benchmarks and known limitations.",
+    "exampleTrans": "该模型卡片列出了训练数据、评测结果和已知局限。"
+  },
+  {
+    "name": "greedy decoding",
+    "trans": ["n. 贪心解码（每步只取概率最高的 token）"],
+    "usphone": "ˈɡriːdi diːˈkoʊdɪŋ",
+    "ukphone": "ˈɡriːdi ˌdiːˈkəʊdɪŋ",
+    "example": "Greedy decoding is fast but often produces repetitive text.",
+    "exampleTrans": "贪心解码速度快，但生成的文本往往比较重复。"
+  },
+  {
+    "name": "cross-entropy",
+    "trans": ["n. 交叉熵（语言模型训练中最常用的损失函数）"],
+    "usphone": "krɔːs ˈentrəpi",
+    "ukphone": "krɒs ˈentrəpi",
+    "example": "The model is trained to minimize the cross-entropy of the next token.",
+    "exampleTrans": "该模型通过最小化下一个 token 的交叉熵来训练。"
+  },
+  {
+    "name": "self-correction",
+    "trans": ["n. 自我纠错（智能体检查并修正自己上一步输出）"],
+    "usphone": "self kəˈrekʃn",
+    "ukphone": "self kəˈrekʃn",
+    "example": "Adding a review step gives the agent a chance at self-correction.",
+    "exampleTrans": "增加一个复查步骤，可以给智能体自我纠错的机会。"
+  },
+  {
+    "name": "termination condition",
+    "trans": ["n. 终止条件（决定智能体循环何时停止的判断规则）"],
+    "usphone": "ˌtɜːrmɪˈneɪʃ(ə)n kənˈdɪʃ(ə)n",
+    "ukphone": "ˌtɜːmɪˈneɪʃ(ə)n kənˈdɪʃn",
+    "example": "Without a clear termination condition the agent loop may run forever.",
+    "exampleTrans": "如果没有明确的终止条件，智能体循环可能会永远运行下去。"
+  },
+  {
+    "name": "tool choice",
+    "trans": ["n. 工具选择（控制模型是否以及如何调用工具的参数）"],
+    "usphone": "tuːl tʃɔɪs",
+    "ukphone": "tuːl tʃɔɪs",
+    "example": "Set tool choice to required if the model must call a function.",
+    "exampleTrans": "如果模型必须调用某个函数，就把工具选择设为 required。"
+  },
+  {
+    "name": "semantic chunking",
+    "trans": ["n. 语义切块（按语义边界而非固定长度切分文档）"],
+    "usphone": "sɪˈmæntɪk ˈtʃʌŋkɪŋ",
+    "ukphone": "sɪˈmæntɪk ˈtʃʌŋkɪŋ",
+    "example": "Semantic chunking keeps related sentences inside the same chunk.",
+    "exampleTrans": "语义切块能让相关的句子留在同一个块里。"
+  },
+  {
+    "name": "ground truth",
+    "trans": ["n. 标准答案，真实标注（评估检索或生成质量的参照）"],
+    "usphone": "ɡraʊnd truːθ",
+    "ukphone": "ɡraʊnd truːθ",
+    "example": "We compare each answer with the ground truth to measure accuracy.",
+    "exampleTrans": "我们把每个回答与标准答案比对来衡量准确率。"
+  },
+  {
+    "name": "conversation turn",
+    "trans": ["n. 对话轮次（一次用户输入与模型回复构成的单元）"],
+    "usphone": "ˌkɑːnvərˈseɪʃ(ə)n tɜːrn",
+    "ukphone": "ˌkɒnvəˈseɪʃ(ə)n tɜːn",
+    "example": "The agent keeps only the last ten conversation turns in memory.",
+    "exampleTrans": "该智能体只在记忆中保留最近十个对话轮次。"
+  },
+  {
+    "name": "compaction",
+    "trans": ["n. 压缩整理（把过长的上下文合并压缩以释放窗口空间）"],
+    "usphone": "kəmˈpækʃən",
+    "ukphone": "kəmˈpækʃən",
+    "example": "When the context fills up, compaction summarizes the older messages.",
+    "exampleTrans": "当上下文快满时，压缩整理会把较早的消息总结掉。"
+  },
+  {
+    "name": "exponential backoff",
+    "trans": ["n. 指数退避（失败后按指数增长的间隔重试）"],
+    "usphone": "ˌekspəˈnenʃl ˈbækɑːf",
+    "ukphone": "ˌekspəˈnenʃl ˈbækɒf",
+    "example": "Use exponential backoff when the API returns a rate limit error.",
+    "exampleTrans": "当接口返回限流错误时，请使用指数退避重试。"
+  },
+  {
+    "name": "context engineering",
+    "trans": ["n. 上下文工程（设计送入模型的信息组织方式）"],
+    "usphone": "ˈkɑːntekst ˌendʒɪˈnɪrɪŋ",
+    "ukphone": "ˈkɒntekst ˌendʒɪˈnɪərɪŋ",
+    "example": "Context engineering matters more than clever wording in long tasks.",
+    "exampleTrans": "在长任务中，上下文工程比措辞技巧更重要。"
+  },
+  {
+    "name": "diff",
+    "trans": ["n. 差异，变更对比；v. 比较两份文件的差异"],
+    "usphone": "dɪf",
+    "ukphone": "ˈdɪf",
+    "example": "Read the diff carefully before you commit the change.",
+    "exampleTrans": "提交改动之前请仔细阅读差异对比。"
+  },
+  {
+    "name": "side effect",
+    "trans": ["n. 副作用（函数除返回值之外对外部状态的改动）"],
+    "usphone": "saɪd ɪˈfekt",
+    "ukphone": "saɪd ɪˈfekt",
+    "example": "A pure function returns a value without any side effect.",
+    "exampleTrans": "纯函数只返回一个值，不产生任何副作用。"
+  }
+]
