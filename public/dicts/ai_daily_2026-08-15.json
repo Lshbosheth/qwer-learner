@@ -1,0 +1,152 @@
+[
+  {
+    "name": "open-weight",
+    "trans": [
+      "n. 开放权重（公开模型权重的开放许可模型）"
+    ],
+    "usphone": "ˈoʊpən weɪt",
+    "ukphone": "ˈəʊpən weɪt",
+    "example": "Open-weight models let you fine-tune and self-host the model.",
+    "exampleTrans": "开放权重模型让你能微调并自行托管。"
+  },
+  {
+    "name": "capacity",
+    "trans": [
+      "n. 模型容量（模型拟合复杂模式的表达能力）"
+    ],
+    "usphone": "kəˈpæsəti",
+    "ukphone": "kəˈpæsəti",
+    "example": "A larger capacity model can learn more intricate patterns.",
+    "exampleTrans": "容量更大的模型能学到更复杂的模式。"
+  },
+  {
+    "name": "prefix tuning",
+    "trans": [
+      "n. 前缀微调（在输入前加可训练前缀的轻量微调）"
+    ],
+    "usphone": "ˈpriːfɪks ˈtjʊnɪŋ",
+    "ukphone": "ˈpriːfɪks ˈtjuːnɪŋ",
+    "example": "Prefix tuning adds soft prompts without changing model weights.",
+    "exampleTrans": "前缀微调在不改权重的情况下加入软提示。"
+  },
+  {
+    "name": "prompt tuning",
+    "trans": [
+      "n. 提示微调（仅训练连续提示向量的轻量微调）"
+    ],
+    "usphone": "prɑːmpt ˈtjʊnɪŋ",
+    "ukphone": "prɒmpt ˈtjuːnɪŋ",
+    "example": "Prompt tuning outperforms manual prompts on small tasks.",
+    "exampleTrans": "提示微调在小任务上优于手写提示。"
+  },
+  {
+    "name": "reasoning loop",
+    "trans": [
+      "n. 推理循环（模型反复思考—行动—观察的循环）"
+    ],
+    "usphone": "ˈriːzənɪŋ luːp",
+    "ukphone": "ˈriːzənɪŋ luːp",
+    "example": "A reasoning loop helps the agent solve multi-step problems.",
+    "exampleTrans": "推理循环帮助智能体解决多步问题。"
+  },
+  {
+    "name": "action space",
+    "trans": [
+      "n. 动作空间（智能体可执行操作的集合）"
+    ],
+    "usphone": "ˈækʃ(ə)n speɪs",
+    "ukphone": "ˈækʃ(ə)n speɪs",
+    "example": "We constrain the action space to safe tool calls.",
+    "exampleTrans": "我们把动作空间限制在安全的工具调用上。"
+  },
+  {
+    "name": "tool description",
+    "trans": [
+      "n. 工具描述（说明工具用途与参数的文本）"
+    ],
+    "usphone": "tuːl dɪˈskrɪpʃn",
+    "ukphone": "tuːl dɪˈskrɪpʃn",
+    "example": "A clear tool description improves tool selection accuracy.",
+    "exampleTrans": "清晰的工具描述提升工具选择准确率。"
+  },
+  {
+    "name": "tool input schema",
+    "trans": [
+      "n. 工具入参 schema（描述工具参数的 JSON Schema）"
+    ],
+    "usphone": "tuːl ˈɪnpʊt ˈskiːmə",
+    "ukphone": "tuːl ˈɪnpʊt ˈskiːmə",
+    "example": "The tool input schema validates arguments before calling.",
+    "exampleTrans": "工具入参 schema 在调用前校验参数。"
+  },
+  {
+    "name": "query understanding",
+    "trans": [
+      "n. 查询理解（解析用户检索意图）"
+    ],
+    "usphone": "ˈkwɪri ˌʌndərˈstændɪŋ",
+    "ukphone": "ˈkwɪəri ˌʌndəˈstændɪŋ",
+    "example": "Query understanding rewrites the question for better retrieval.",
+    "exampleTrans": "查询理解改写问题以提升检索。"
+  },
+  {
+    "name": "document chunking",
+    "trans": [
+      "n. 文档切块（把长文档切分为可检索片段）"
+    ],
+    "usphone": "ˈdɑːkjumənt ˈtʃʌŋkɪŋ",
+    "ukphone": "ˈdɒkjumənt ˈtʃʌŋkɪŋ",
+    "example": "Document chunking affects both recall and context size.",
+    "exampleTrans": "文档切块影响召回率与上下文大小。"
+  },
+  {
+    "name": "token budget",
+    "trans": [
+      "n. token 预算（为各上下文部分分配的最大 token）"
+    ],
+    "usphone": "ˈtoʊkən ˈbʌdʒɪt",
+    "ukphone": "ˈtəʊkən ˈbʌdʒɪt",
+    "example": "We give the system prompt a fixed token budget.",
+    "exampleTrans": "我们给系统提示分配固定的 token 预算。"
+  },
+  {
+    "name": "context overflow",
+    "trans": [
+      "n. 上下文溢出（内容超出窗口被截断）"
+    ],
+    "usphone": "ˈkɑːntekst ˌoʊvərˈfloʊ",
+    "ukphone": "ˈkɒntekst ˌəʊvəˈfləʊ",
+    "example": "Context overflow drops the earliest messages silently.",
+    "exampleTrans": "上下文溢出会静默丢弃最早的消息。"
+  },
+  {
+    "name": "polling",
+    "trans": [
+      "n. 轮询（定时主动查询任务状态）"
+    ],
+    "usphone": "ˈpoʊlɪŋ",
+    "ukphone": "ˈpəʊlɪŋ",
+    "example": "Polling checks the batch job until it finishes.",
+    "exampleTrans": "轮询持续查询批处理任务直至完成。"
+  },
+  {
+    "name": "self-ask",
+    "trans": [
+      "n. 自问（模型先提出子问题再作答的提示法）"
+    ],
+    "usphone": "self æsk",
+    "ukphone": "self ɑːsk",
+    "example": "Self-ask decomposes hard questions into sub-questions.",
+    "exampleTrans": "自问把难题拆成子问题。"
+  },
+  {
+    "name": "linter",
+    "trans": [
+      "n. 代码检查器（静态检查代码风格与错误的工具）"
+    ],
+    "usphone": "ˈlɪntər",
+    "ukphone": "ˈlɪntə(r)",
+    "example": "Run the linter before you open a pull request.",
+    "exampleTrans": "提 PR 前先跑代码检查器。"
+  }
+]

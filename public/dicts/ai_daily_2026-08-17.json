@@ -1,0 +1,152 @@
+[
+  {
+    "name": "instruction-following",
+    "trans": [
+      "n. 指令遵循（模型按用户指令准确执行的能力）"
+    ],
+    "usphone": "ɪnˈstrʌkʃ(ə)n ˈfɑːloʊɪŋ",
+    "ukphone": "ɪnˈstrʌkʃ(ə)n ˈfɒləʊɪŋ",
+    "example": "Instruction-following is evaluated with benchmarks like MT-Bench.",
+    "exampleTrans": "指令遵循用 MT-Bench 等基准评测。"
+  },
+  {
+    "name": "reward model",
+    "trans": [
+      "n. 奖励模型（对输出质量打分用于对齐的模型）"
+    ],
+    "usphone": "rɪˈwɔːrd ˈmɑːd(ə)l",
+    "ukphone": "rɪˈwɔːd ˈmɒd(ə)l",
+    "example": "The reward model scores which answer is more helpful.",
+    "exampleTrans": "奖励模型为哪个回答更有用打分。"
+  },
+  {
+    "name": "token embedding",
+    "trans": [
+      "n. token 嵌入（词元对应的向量表示）"
+    ],
+    "usphone": "ˈtoʊkən ɪmˈbedɪŋ",
+    "ukphone": "ˈtəʊkən ɪmˈbedɪŋ",
+    "example": "The token embedding maps each id to a dense vector.",
+    "exampleTrans": "token 嵌入把每个 id 映射为稠密向量。"
+  },
+  {
+    "name": "tool selection",
+    "trans": [
+      "n. 工具选择（模型从可用工具中挑选要调用的工具）"
+    ],
+    "usphone": "tuːl sɪˈlekʃ(ə)n",
+    "ukphone": "tuːl sɪˈlekʃ(ə)n",
+    "example": "Good tool selection avoids calling irrelevant functions.",
+    "exampleTrans": "良好的工具选择能避免调用无关函数。"
+  },
+  {
+    "name": "function schema",
+    "trans": [
+      "n. 函数 schema（描述可调用函数参数的规范）"
+    ],
+    "usphone": "ˈfʌŋkʃ(ə)n ˈskiːmə",
+    "ukphone": "ˈfʌŋkʃ(ə)n ˈskiːmə",
+    "example": "The function schema defines required and optional fields.",
+    "exampleTrans": "函数 schema 定义必填与可选字段。"
+  },
+  {
+    "name": "hybrid retrieval",
+    "trans": [
+      "n. 混合检索（向量与关键词检索结合）"
+    ],
+    "usphone": "ˈhaɪbrɪd rɪˈtriːv(ə)l",
+    "ukphone": "ˈhaɪbrɪd rɪˈtriːv(ə)l",
+    "example": "Hybrid retrieval combines dense and sparse signals.",
+    "exampleTrans": "混合检索结合稠密与稀疏信号。"
+  },
+  {
+    "name": "message history",
+    "trans": [
+      "n. 消息历史（已发生的对话消息序列）"
+    ],
+    "usphone": "ˈmesɪdʒ ˈhɪstri; ˈhɪstəri",
+    "ukphone": "ˈmesɪdʒ ˈhɪstri; ˈhɪstəri",
+    "example": "The message history is trimmed to fit the window.",
+    "exampleTrans": "消息历史被裁剪以适配窗口。"
+  },
+  {
+    "name": "task graph",
+    "trans": [
+      "n. 任务图（描述任务依赖关系的有向图）"
+    ],
+    "usphone": "tæsk ɡræf",
+    "ukphone": "tɑːsk ɡrɑːf",
+    "example": "The task graph runs nodes in dependency order.",
+    "exampleTrans": "任务图按依赖顺序执行节点。"
+  },
+  {
+    "name": "step function",
+    "trans": [
+      "n. 步骤函数（把工作流建模为状态机服务）"
+    ],
+    "usphone": "step ˈfʌŋkʃ(ə)n",
+    "ukphone": "step ˈfʌŋkʃ(ə)n",
+    "example": "A step function coordinates the ingest and index stages.",
+    "exampleTrans": "步骤函数协调摄入与建索引阶段。"
+  },
+  {
+    "name": "retry policy",
+    "trans": [
+      "n. 重试策略（定义何时/如何重试失败调用）"
+    ],
+    "usphone": "ˌriːˈtraɪ ˈpɑːləsi",
+    "ukphone": "ˌriːˈtraɪ ˈpɒləsi",
+    "example": "The retry policy caps attempts at three.",
+    "exampleTrans": "重试策略最多重试三次。"
+  },
+  {
+    "name": "scaffolding",
+    "trans": [
+      "n. 脚手架（辅助模型推理的外部引导代码/结构）"
+    ],
+    "usphone": "ˈskæfəldɪŋ",
+    "ukphone": "ˈskæfəldɪŋ",
+    "example": "Scaffolding wraps the model with tool and loop code.",
+    "exampleTrans": "脚手架用工具与循环代码包裹模型。"
+  },
+  {
+    "name": "prompt caching",
+    "trans": [
+      "n. 提示缓存（缓存重复提示前缀省 token/费用）"
+    ],
+    "usphone": "prɑːmpt kæʃɪŋ",
+    "ukphone": "prɒmpt ˈkæʃɪŋ",
+    "example": "Prompt caching reuses the long system prompt cheaply.",
+    "exampleTrans": "提示缓存低成本复用超长系统提示。"
+  },
+  {
+    "name": "environment variable",
+    "trans": [
+      "n. 环境变量（进程运行时的外部配置项）"
+    ],
+    "usphone": "ɪnˈvaɪrənmənt ˈveriəb(ə)l",
+    "ukphone": "ɪnˈvaɪrənmənt ˈveəriəb(ə)l",
+    "example": "Store the API key in an environment variable.",
+    "exampleTrans": "把 API key 存到环境变量里。"
+  },
+  {
+    "name": "assertion",
+    "trans": [
+      "n. 断言（检查假设是否成立的语句）"
+    ],
+    "usphone": "əˈsɜːrʃ(ə)n",
+    "ukphone": "əˈsɜːʃ(ə)n",
+    "example": "An assertion fails the test if the result is wrong.",
+    "exampleTrans": "结果错误时断言会让测试失败。"
+  },
+  {
+    "name": "stack overflow",
+    "trans": [
+      "n. 栈溢出（调用栈过深导致的崩溃）"
+    ],
+    "usphone": "stæk ˌoʊvərˈfloʊ",
+    "ukphone": "stæk ˌəʊvəˈfləʊ",
+    "example": "Infinite recursion causes a stack overflow.",
+    "exampleTrans": "无限递归导致栈溢出。"
+  }
+]

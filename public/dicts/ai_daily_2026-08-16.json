@@ -1,0 +1,152 @@
+[
+  {
+    "name": "token limit",
+    "trans": [
+      "n. token 上限（单次请求允许的最大 token 数）"
+    ],
+    "usphone": "ˈtoʊkən ˈlɪmɪt",
+    "ukphone": "ˈtəʊkən ˈlɪmɪt",
+    "example": "The request failed because it exceeded the token limit.",
+    "exampleTrans": "请求因超出 token 上限而失败。"
+  },
+  {
+    "name": "synthetic data",
+    "trans": [
+      "n. 合成数据（由模型或程序生成的训练数据）"
+    ],
+    "usphone": "sɪnˈθetɪk ˈdeɪtə; ˈdætə",
+    "ukphone": "sɪnˈθetɪk ˈdeɪtə; ˈdɑːtə",
+    "example": "They trained the critic on synthetic data from a stronger model.",
+    "exampleTrans": "他们用更强模型生成的合成数据训练评判器。"
+  },
+  {
+    "name": "sparse attention",
+    "trans": [
+      "n. 稀疏注意力（只计算部分位置对的注意力）"
+    ],
+    "usphone": "spɑːrs əˈtenʃ(ə)n",
+    "ukphone": "spɑːs əˈtenʃ(ə)n",
+    "example": "Sparse attention reduces cost on very long sequences.",
+    "exampleTrans": "稀疏注意力降低超长序列的计算开销。"
+  },
+  {
+    "name": "attention mechanism",
+    "trans": [
+      "n. 注意力机制（按相关性加权聚合信息的核心组件）"
+    ],
+    "usphone": "əˈtenʃ(ə)n ˈmekənɪzəm",
+    "ukphone": "əˈtenʃ(ə)n ˈmekənɪzəm",
+    "example": "The attention mechanism lets the model focus on relevant tokens.",
+    "exampleTrans": "注意力机制让模型聚焦相关 token。"
+  },
+  {
+    "name": "agent framework",
+    "trans": [
+      "n. 智能体框架（搭建 Agent 的开发库/运行时）"
+    ],
+    "usphone": "ˈeɪdʒənt ˈfreɪmwɜːrk",
+    "ukphone": "ˈeɪdʒənt ˈfreɪmwɜːk",
+    "example": "The agent framework handles planning, tools and memory.",
+    "exampleTrans": "该智能体框架负责规划、工具与记忆。"
+  },
+  {
+    "name": "agent runtime",
+    "trans": [
+      "n. 智能体运行时（执行 Agent 循环并管理状态的环境）"
+    ],
+    "usphone": "ˈeɪdʒənt ˈrʌntaɪm",
+    "ukphone": "ˈeɪdʒənt ˈrʌntaɪm",
+    "example": "The agent runtime keeps conversation state between turns.",
+    "exampleTrans": "智能体运行时在轮次间保存对话状态。"
+  },
+  {
+    "name": "json schema",
+    "trans": [
+      "n. JSON Schema（描述 JSON 数据结构的规范）"
+    ],
+    "usphone": "ˈdʒeɪsən ˈskiːmə",
+    "ukphone": "ˈdʒeɪsən ˈskiːmə",
+    "example": "The API returns a JSON Schema for each tool argument.",
+    "exampleTrans": "接口为每个工具参数返回 JSON Schema。"
+  },
+  {
+    "name": "capability discovery",
+    "trans": [
+      "n. 能力发现（运行时探测工具/服务可用能力）"
+    ],
+    "usphone": "ˌkeɪpəˈbɪləti dɪˈskʌvəri",
+    "ukphone": "ˌkeɪpəˈbɪləti dɪˈskʌvəri",
+    "example": "Capability discovery lets the agent learn available tools.",
+    "exampleTrans": "能力发现让智能体知道有哪些可用工具。"
+  },
+  {
+    "name": "generative retrieval",
+    "trans": [
+      "n. 生成式检索（直接生成相关文档 ID 而非排序）"
+    ],
+    "usphone": "ˈdʒenərətɪv rɪˈtriːv(ə)l",
+    "ukphone": "ˈdʒenərətɪv rɪˈtriːv(ə)l",
+    "example": "Generative retrieval outputs document ids directly.",
+    "exampleTrans": "生成式检索直接输出文档 id。"
+  },
+  {
+    "name": "reader",
+    "trans": [
+      "n. 阅读器（RAG 中抽取/生成答案的组件）"
+    ],
+    "usphone": "ˈriːdər",
+    "ukphone": "ˈriːdə(r)",
+    "example": "The reader fuses the top passages into one answer.",
+    "exampleTrans": "阅读器把最相关片段融合为一个答案。"
+  },
+  {
+    "name": "retrieval-augmented memory",
+    "trans": [
+      "n. 检索增强记忆（用检索补充长期记忆）"
+    ],
+    "usphone": "rɪˈtriːv(ə)l ɔːɡˈmentɪd ˈmeməri",
+    "ukphone": "rɪˈtriːv(ə)l ɔːɡˈmentɪd ˈmeməri",
+    "example": "Retrieval-augmented memory recalls facts on demand.",
+    "exampleTrans": "检索增强记忆按需回忆事实。"
+  },
+  {
+    "name": "working context",
+    "trans": [
+      "n. 工作上下文（当前轮次实际送入模型的内容）"
+    ],
+    "usphone": "ˈwɜːrkɪŋ ˈkɑːntekst",
+    "ukphone": "ˈwɜːkɪŋ ˈkɒntekst",
+    "example": "Working context includes the prompt, tools and history.",
+    "exampleTrans": "工作上下文包含提示、工具与历史。"
+  },
+  {
+    "name": "expiration",
+    "trans": [
+      "n. 过期（缓存/凭证/任务失效时间）"
+    ],
+    "usphone": "ˌekspəˈreɪʃ(ə)n",
+    "ukphone": "ˌekspəˈreɪʃ(ə)n",
+    "example": "Set an expiration so stale caches are dropped.",
+    "exampleTrans": "设置过期时间以丢弃陈旧缓存。"
+  },
+  {
+    "name": "prompt versioning",
+    "trans": [
+      "n. 提示版本管理（对提示词做版本控制）"
+    ],
+    "usphone": "prɑːmpt",
+    "ukphone": "prɒmpt ˈvɜːʃənɪŋ",
+    "example": "Prompt versioning tracks which prompt shipped to prod.",
+    "exampleTrans": "提示版本管理记录上线的是哪个提示。"
+  },
+  {
+    "name": "error",
+    "trans": [
+      "n. 错误（程序运行时的异常状态）"
+    ],
+    "usphone": "ˈerər",
+    "ukphone": "ˈerə(r)",
+    "example": "The function returns an error when the input is invalid.",
+    "exampleTrans": "输入非法时函数返回错误。"
+  }
+]
