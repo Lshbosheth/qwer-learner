@@ -1,0 +1,152 @@
+[
+  {
+    "name": "optimizer",
+    "trans": [
+      "n. 优化器（训练神经网络时用于更新模型参数的算法，如 SGD、Adam）"
+    ],
+    "usphone": "ˈɑːptɪmaɪzər",
+    "ukphone": "ˈɒptɪmaɪzə",
+    "example": "The Adam optimizer converged faster than vanilla SGD on this task.",
+    "exampleTrans": "在这个任务上，Adam 优化器比原始 SGD 收敛得更快。"
+  },
+  {
+    "name": "reinforcement learning",
+    "trans": [
+      "n. 强化学习（智能体通过与环境交互、以奖励信号学习策略的机器学习范式）"
+    ],
+    "usphone": "ˌriːɪnˈfɔːrsmənt ˈlɜːrnɪŋ",
+    "ukphone": "ˌriːɪnˈfɔːsmənt ˈlɜːnɪŋ",
+    "example": "Reinforcement learning trained the agent to play the game at a superhuman level.",
+    "exampleTrans": "强化学习把该智能体训练到了超人类的游戏水平。"
+  },
+  {
+    "name": "adapter",
+    "trans": [
+      "n. 适配器（插入 Transformer 层、以少量参数微调模型的轻量模块，如 LoRA adapter）"
+    ],
+    "usphone": "əˈdæptər",
+    "ukphone": "əˈdæptə(r)",
+    "example": "We attach a small adapter to each transformer layer for efficient fine-tuning.",
+    "exampleTrans": "我们在每个 Transformer 层接入一个小适配器，以实现高效微调。"
+  },
+  {
+    "name": "attention weights",
+    "trans": [
+      "n. 注意力权重（注意力机制中衡量 token 间相关程度的分数矩阵）"
+    ],
+    "usphone": "əˈtenʃ(ə)n weɪts",
+    "ukphone": "əˈtenʃ(ə)n weɪts",
+    "example": "Visualizing the attention weights reveals which tokens the model focuses on.",
+    "exampleTrans": "可视化注意力权重能看出模型关注了哪些 token。"
+  },
+  {
+    "name": "multi-step",
+    "trans": [
+      "adj. 多步的（指需要连续多个推理或执行步骤才能完成的任务）"
+    ],
+    "usphone": "ˈmʌlti-step",
+    "ukphone": "ˈmʌlti-step",
+    "example": "Multi-step reasoning is still a major challenge for small language models.",
+    "exampleTrans": "多步推理至今仍是小语言模型的一大挑战。"
+  },
+  {
+    "name": "self-reflection",
+    "trans": [
+      "n. 自我反思（Agent 回顾自身输出并修正的元认知能力）"
+    ],
+    "usphone": "self-rɪˈflekʃ(ə)n",
+    "ukphone": "self-rɪˈflekʃ(ə)n",
+    "example": "Adding self-reflection improved the agent’s answer accuracy by 12%.",
+    "exampleTrans": "加入自我反思后，智能体的回答准确率提升了 12%。"
+  },
+  {
+    "name": "middleware",
+    "trans": [
+      "n. 中间件（位于调用方与工具/服务之间、负责鉴权、日志、限流等逻辑的软件层）"
+    ],
+    "usphone": "ˈmɪdlwer",
+    "ukphone": "ˈmɪdlweə(r)",
+    "example": "The middleware injects auth tokens before each tool call.",
+    "exampleTrans": "中间件在每次工具调用前注入鉴权令牌。"
+  },
+  {
+    "name": "routing",
+    "trans": [
+      "n. 路由（根据请求内容将其分派到合适模型、工具或服务的机制）"
+    ],
+    "usphone": "ˈraʊtɪŋ",
+    "ukphone": "ˈruːtɪŋ",
+    "example": "Request routing sends coding questions to a specialized model.",
+    "exampleTrans": "请求路由会把编程问题分派给专门的模型。"
+  },
+  {
+    "name": "indexing",
+    "trans": [
+      "n. 索引（RAG 中将文档切片向量化并建立可检索结构的过程）"
+    ],
+    "usphone": "ˈɪndeksɪŋ",
+    "ukphone": "ˈɪndeksɪŋ",
+    "example": "Indexing millions of documents takes only a few minutes with the new engine.",
+    "exampleTrans": "用新引擎为数百万文档建立索引只需几分钟。"
+  },
+  {
+    "name": "ranking",
+    "trans": [
+      "n. 排序（检索后按相关性对候选段落打分并排列的过程）"
+    ],
+    "usphone": "ˈræŋkɪŋ",
+    "ukphone": "ˈræŋkɪŋ",
+    "example": "Reranking improves the final ranking of retrieved passages.",
+    "exampleTrans": "重排序能改善检索段落的最终排序。"
+  },
+  {
+    "name": "memory",
+    "trans": [
+      "n. 记忆（Agent 用于存储、读取历史上下文以支撑长期任务的机制）"
+    ],
+    "usphone": "ˈmeməri",
+    "ukphone": "ˈmeməri",
+    "example": "The agent writes summaries to memory after every session.",
+    "exampleTrans": "智能体在每轮会话后把摘要写入记忆。"
+  },
+  {
+    "name": "parallel",
+    "trans": [
+      "adj. 并行的（多个任务或计算同时执行以提升吞吐）"
+    ],
+    "usphone": "ˈpærəlel",
+    "ukphone": "ˈpærəlel",
+    "example": "Parallel tool calls cut the total latency in half.",
+    "exampleTrans": "并行工具调用把总延迟缩短了一半。"
+  },
+  {
+    "name": "critique",
+    "trans": [
+      "n./v. 批判；评审（让模型评价并指出现有输出的问题，常用于自我改进）"
+    ],
+    "usphone": "krɪˈtiːk",
+    "ukphone": "krɪˈtiːk",
+    "example": "A critique step found three factual errors in the draft.",
+    "exampleTrans": "评审环节发现了草稿中的三处事实错误。"
+  },
+  {
+    "name": "guideline",
+    "trans": [
+      "n. 指南；准则（约束模型行为与安全边界的高层指令）"
+    ],
+    "usphone": "ˈɡaɪdlaɪn",
+    "ukphone": "ˈɡaɪdlaɪn",
+    "example": "The system prompt lists clear guidelines for refusing harmful requests.",
+    "exampleTrans": "系统提示列明了拒绝对有害请求的清晰准则。"
+  },
+  {
+    "name": "iteration",
+    "trans": [
+      "n. 迭代（重复执行某过程以逐步逼近结果；也指训练中的一轮）"
+    ],
+    "usphone": "ˌɪtəˈreɪʃn",
+    "ukphone": "ˌɪtəˈreɪʃn",
+    "example": "Each iteration of the loop refines the plan slightly.",
+    "exampleTrans": "循环的每一轮迭代都会对计划做小幅改进。"
+  }
+]
