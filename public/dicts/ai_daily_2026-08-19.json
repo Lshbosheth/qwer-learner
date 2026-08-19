@@ -1,0 +1,152 @@
+[
+  {
+    "name": "model compression",
+    "trans": [
+      "n. 模型压缩（量化、剪枝、蒸馏等在不显著损失精度下缩小模型体积、加速推理的技术）"
+    ],
+    "usphone": "ˈmɑːd(ə)l kəmˈpreʃ(ə)n",
+    "ukphone": "ˈmɒd(ə)l kəmˈpreʃ(ə)n",
+    "example": "Model compression lets large language models run on phones.",
+    "exampleTrans": "模型压缩让大语言模型能在手机上运行。"
+  },
+  {
+    "name": "safety",
+    "trans": [
+      "n. 安全性（研究如何让模型避免产生有害、错误或失控输出的领域）"
+    ],
+    "usphone": "ˈseɪfti",
+    "ukphone": "ˈseɪfti",
+    "example": "Red teaming is a common method for evaluating model safety.",
+    "exampleTrans": "红队测试是评估模型安全性的常用方法。"
+  },
+  {
+    "name": "word embedding",
+    "trans": [
+      "n. 词嵌入（将词语映射为稠密向量的表示，语义相近的词其向量也相近）"
+    ],
+    "usphone": "wɜːrd ɪmˈbedɪŋ",
+    "ukphone": "wɜːd ɪmˈbedɪŋ",
+    "example": "Word embedding captures the semantic similarity between words.",
+    "exampleTrans": "词嵌入能刻画词语之间的语义相似度。"
+  },
+  {
+    "name": "QKV",
+    "trans": [
+      "abbr. Query/Key/Value（注意力机制中用于计算注意权重的三个矩阵）"
+    ],
+    "usphone": "ˌkjuː keɪ ˈviː",
+    "ukphone": "ˌkjuː keɪ ˈviː",
+    "example": "The transformer computes attention from QKV projections.",
+    "exampleTrans": "Transformer 通过 QKV 投影计算注意力。"
+  },
+  {
+    "name": "agent state",
+    "trans": [
+      "n. 智能体状态（Agent 在任务执行过程中维护的当前上下文与内部变量）"
+    ],
+    "usphone": "ˈeɪdʒənt steɪt",
+    "ukphone": "ˈeɪdʒənt steɪt",
+    "example": "The agent state is saved before calling the next tool.",
+    "exampleTrans": "智能体状态在调用下一个工具前被保存。"
+  },
+  {
+    "name": "episode",
+    "trans": [
+      "n. 回合（智能体与环境交互的一段完整轨迹，强化学习中的基本训练单元）"
+    ],
+    "usphone": "ˈepɪsoʊd",
+    "ukphone": "ˈepɪsəʊd",
+    "example": "Each training episode ends when the task succeeds or fails.",
+    "exampleTrans": "每个训练回合在任务成功或失败时结束。"
+  },
+  {
+    "name": "connector",
+    "trans": [
+      "n. 连接器（把外部工具/服务接入 Agent 的适配层）"
+    ],
+    "usphone": "kəˈnektər",
+    "ukphone": "kəˈnektə(r)",
+    "example": "A database connector lets the agent query live records.",
+    "exampleTrans": "数据库连接器让智能体能查询实时记录。"
+  },
+  {
+    "name": "embedding model",
+    "trans": [
+      "n. 嵌入模型（把文本转为向量的模型，常用于检索与去重）"
+    ],
+    "usphone": "ɪmˈbedɪŋ ˈmɑːd(ə)l",
+    "ukphone": "ɪmˈbedɪŋ ˈmɒd(ə)l",
+    "example": "We use an embedding model to index the knowledge base.",
+    "exampleTrans": "我们用嵌入模型为知识库建立索引。"
+  },
+  {
+    "name": "contextual embedding",
+    "trans": [
+      "n. 上下文嵌入（随上下文动态变化的词语向量表示）"
+    ],
+    "usphone": "kənˈtekstʃuəl ɪmˈbedɪŋ",
+    "ukphone": "kənˈtekstʃuəl ɪmˈbedɪŋ",
+    "example": "Contextual embedding tells 'bank' apart from its two meanings.",
+    "exampleTrans": "上下文嵌入能区分 'bank' 的两种含义。"
+  },
+  {
+    "name": "persistent memory",
+    "trans": [
+      "n. 持久记忆（跨会话长期保存的 Agent 记忆，通常写入数据库）"
+    ],
+    "usphone": "pərˈsɪstənt ˈmeməri",
+    "ukphone": "pəˈsɪstənt ˈmeməri",
+    "example": "Persistent memory helps the bot remember users across days.",
+    "exampleTrans": "持久记忆让机器人能跨天记住用户。"
+  },
+  {
+    "name": "context retention",
+    "trans": [
+      "n. 上下文保持（在长对话中维持关键信息不丢失的能力）"
+    ],
+    "usphone": "ˈkɑːntekst rɪˈtenʃ(ə)n",
+    "ukphone": "ˈkɒntekst rɪˈtenʃ(ə)n",
+    "example": "Context retention degrades when the conversation gets very long.",
+    "exampleTrans": "对话过长时，上下文保持能力会下降。"
+  },
+  {
+    "name": "control flow",
+    "trans": [
+      "n. 控制流（程序或工作流中语句的执行顺序，如分支与循环）"
+    ],
+    "usphone": "kənˈtroʊl floʊ",
+    "ukphone": "kənˈtrəʊl fləʊ",
+    "example": "The agent's control flow switches between planning and acting.",
+    "exampleTrans": "智能体的控制流在规划与执行之间切换。"
+  },
+  {
+    "name": "data flow",
+    "trans": [
+      "n. 数据流（数据在模块/节点间的传递路径）"
+    ],
+    "usphone": "ˈdeɪtə; ˈdætə floʊ",
+    "ukphone": "ˈdeɪtə; ˈdɑːtə fləʊ",
+    "example": "A clear data flow makes the pipeline easier to debug.",
+    "exampleTrans": "清晰的数据流让流水线更易调试。"
+  },
+  {
+    "name": "system message",
+    "trans": [
+      "n. 系统消息（设定模型角色与规则的隐藏指令，常位于对话开头）"
+    ],
+    "usphone": "ˈsɪstəm ˈmesɪdʒ",
+    "ukphone": "ˈsɪstəm ˈmesɪdʒ",
+    "example": "The system message tells the model to act as a tutor.",
+    "exampleTrans": "系统消息让模型扮演家教角色。"
+  },
+  {
+    "name": "source code",
+    "trans": [
+      "n. 源代码（人类编写、可由编译器/解释器运行的程序文本）"
+    ],
+    "usphone": "sɔːrs koʊd",
+    "ukphone": "sɔːs kəʊd",
+    "example": "The agent can read and edit the source code of the app.",
+    "exampleTrans": "智能体能读写该应用的源代码。"
+  }
+]
