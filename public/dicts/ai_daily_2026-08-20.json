@@ -1,0 +1,152 @@
+[
+  {
+    "name": "data augmentation",
+    "trans": [
+      "n. 数据增强（通过对训练数据做变换扩充样本、提升模型泛化能力的技术）"
+    ],
+    "usphone": "ˈdeɪtə; ˈdætə ˌɔːɡmenˈteɪʃ(ə)n",
+    "ukphone": "ˈdeɪtə; ˈdɑːtə ˌɔːɡmenˈteɪʃ(ə)n",
+    "example": "Data augmentation like cropping and flipping helps prevent overfitting.",
+    "exampleTrans": "裁剪、翻转等数据增强有助于防止过拟合。"
+  },
+  {
+    "name": "unsupervised learning",
+    "trans": [
+      "n. 无监督学习（在无标签数据上训练、自动发现内在结构的学习范式）"
+    ],
+    "usphone": "ˌʌnˈsuːpɚvaɪzd ˈlɜːrnɪŋ",
+    "ukphone": "ˌʌnˈsuːpəvaɪzd ˈlɜːnɪŋ",
+    "example": "Unsupervised learning can cluster users by their behavior.",
+    "exampleTrans": "无监督学习能按用户行为将其分群。"
+  },
+  {
+    "name": "causal masking",
+    "trans": [
+      "n. 因果掩码（自回归模型中屏蔽未来 token、保证只关注上文的机制）"
+    ],
+    "usphone": "ˈkɔːz(ə)l ˈmæskɪŋ",
+    "ukphone": "ˈkɔːz(ə)l ˈmɑːskɪŋ",
+    "example": "Causal masking ensures each token only attends to previous tokens.",
+    "exampleTrans": "因果掩码确保每个 token 只能关注之前的 token。"
+  },
+  {
+    "name": "rotary embedding",
+    "trans": [
+      "n. 旋转位置编码（RoPE，用旋转矩阵把位置信息注入注意力查询与键的编码方式）"
+    ],
+    "usphone": "ˈroʊtəri ɪmˈbedɪŋ",
+    "ukphone": "ˈrəʊtəri ɪmˈbedɪŋ",
+    "example": "Rotary embedding encodes token positions by rotating query and key vectors.",
+    "exampleTrans": "旋转位置编码通过对查询与键向量做旋转来编码位置。"
+  },
+  {
+    "name": "agent communication",
+    "trans": [
+      "n. 智能体通信（多个 Agent 之间传递消息、共享状态与协调任务的机制）"
+    ],
+    "usphone": "ˈeɪdʒənt kəˌmjuːnɪˈkeɪʃn",
+    "ukphone": "ˈeɪdʒənt kəˌmjuːnɪˈkeɪʃ(ə)n",
+    "example": "Agent communication lets sub-agents divide a complex task.",
+    "exampleTrans": "智能体通信让多个子智能体分工完成复杂任务。"
+  },
+  {
+    "name": "world model",
+    "trans": [
+      "n. 世界模型（Agent 内部对环境的抽象表征，用于预测与规划）"
+    ],
+    "usphone": "wɜːrld ˈmɑːd(ə)l",
+    "ukphone": "wɜːld ˈmɒd(ə)l",
+    "example": "A world model lets the robot simulate actions before trying them.",
+    "exampleTrans": "世界模型让机器人在实际行动前先模拟。"
+  },
+  {
+    "name": "output parser",
+    "trans": [
+      "n. 输出解析器（把模型自由文本输出解析为结构化对象或函数参数的组件）"
+    ],
+    "usphone": "ˈaʊtpʊt ˈpɑːrsər",
+    "ukphone": "ˈaʊtpʊt ˈpɑːzə(r)",
+    "example": "An output parser converts the model's text into a JSON object.",
+    "exampleTrans": "输出解析器把模型的文本转换为 JSON 对象。"
+  },
+  {
+    "name": "function invocation",
+    "trans": [
+      "n. 函数调用（模型生成请求以执行某个已定义函数的行为）"
+    ],
+    "usphone": "ˈfʌŋkʃ(ə)n ˌɪnvəˈkeɪʃn",
+    "ukphone": "ˈfʌŋkʃ(ə)n ˌɪnvəˈkeɪʃn",
+    "example": "Function invocation lets the model fetch live weather data.",
+    "exampleTrans": "函数调用让模型能获取实时天气数据。"
+  },
+  {
+    "name": "vector index",
+    "trans": [
+      "n. 向量索引（用于高效近似最近邻检索的向量数据结构，如 HNSW、IVF）"
+    ],
+    "usphone": "ˈvektər ˈɪndeks",
+    "ukphone": "ˈvektə(r) ˈɪndeks",
+    "example": "A vector index speeds up similarity search over millions of embeddings.",
+    "exampleTrans": "向量索引能加速对上百万条向量的相似度检索。"
+  },
+  {
+    "name": "faithfulness",
+    "trans": [
+      "n. 忠实度（RAG 评估指标，衡量生成内容是否准确反映检索到的资料）"
+    ],
+    "usphone": "ˈfeɪθf(ə)lnəs",
+    "ukphone": "ˈfeɪθf(ə)lnəs",
+    "example": "Faithfulness measures whether the answer is supported by the retrieved docs.",
+    "exampleTrans": "忠实度衡量答案是否由检索到的文档所支撑。"
+  },
+  {
+    "name": "memory retrieval",
+    "trans": [
+      "n. 记忆检索（Agent 从长期/工作记忆中召回相关信息的操作）"
+    ],
+    "usphone": "ˈmeməri rɪˈtriːv(ə)l",
+    "ukphone": "ˈmeməri rɪˈtriːv(ə)l",
+    "example": "Memory retrieval brings past user preferences into the current reply.",
+    "exampleTrans": "记忆检索把用户过往偏好带入当前回复。"
+  },
+  {
+    "name": "workflow engine",
+    "trans": [
+      "n. 工作流引擎（驱动多步骤流程按依赖关系自动编排与执行的运行时）"
+    ],
+    "usphone": "ˈwɜːrkfloʊ ˈendʒɪn",
+    "ukphone": "ˈwɜːkfləʊ ˈendʒɪn",
+    "example": "The workflow engine runs each step only after its dependencies finish.",
+    "exampleTrans": "工作流引擎只在依赖完成后才执行每一步。"
+  },
+  {
+    "name": "prompt optimization",
+    "trans": [
+      "n. 提示词优化（通过迭代或自动搜索提升提示效果的过程）"
+    ],
+    "usphone": "prɑːmpt ˌɑːptɪməˈzeɪʃn",
+    "ukphone": "prɒmpt ˌɒptɪmaɪˈzeɪʃən",
+    "example": "Prompt optimization improved the model's accuracy by several points.",
+    "exampleTrans": "提示词优化让模型准确率提升了几个百分点。"
+  },
+  {
+    "name": "dynamic prompt",
+    "trans": [
+      "n. 动态提示（运行时根据上下文实时拼装、而非固定的提示模板）"
+    ],
+    "usphone": "daɪˈnæmɪk prɑːmpt",
+    "ukphone": "daɪˈnæmɪk prɒmpt",
+    "example": "A dynamic prompt injects the latest user data before each call.",
+    "exampleTrans": "动态提示在每次调用前注入最新用户数据。"
+  },
+  {
+    "name": "type annotation",
+    "trans": [
+      "n. 类型注解（在代码中标注变量/函数类型，便于静态检查与补全）"
+    ],
+    "usphone": "taɪp ˌænəˈteɪʃ(ə)n",
+    "ukphone": "taɪp ˌænəˈteɪʃ(ə)n",
+    "example": "Type annotations help the linter catch bugs early.",
+    "exampleTrans": "类型注解帮助 linter 尽早发现错误。"
+  }
+]
