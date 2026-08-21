@@ -1,0 +1,122 @@
+[
+  {
+    "name": "self-supervised learning",
+    "trans": ["n. 自监督学习（无需人工标注，利用数据自身结构训练模型）"],
+    "usphone": "ˈsɛlf ˈsʊpərvaɪzd ˈlɜːrnɪŋ",
+    "ukphone": "ˈsɛlf ˈsʊpərvaɪzd ˈlɜːnɪŋ",
+    "example": "Self-supervised learning powers most modern LLM pretraining.",
+    "exampleTrans": "自监督学习支撑了大多数现代大语言模型的预训练。"
+  },
+  {
+    "name": "direct preference optimization",
+    "trans": ["n. 直接偏好优化（DPO，用偏好数据直接对齐模型、无需单独奖励模型）"],
+    "usphone": "dəˈrekt ˈprefrəns ˌɑːptɪməˈzeɪʃn",
+    "ukphone": "dəˈrekt ˈprefrəns ˌɒptɪmaɪˈzeɪʃən",
+    "example": "Direct preference optimization simplifies RLHF by skipping the reward model.",
+    "exampleTrans": "直接偏好优化通过跳过奖励模型，简化了 RLHF 流程。"
+  },
+  {
+    "name": "multi-query attention",
+    "trans": ["n. 多查询注意力（MQA，多个 query 共享一组 key/value 以降低推理显存）"],
+    "usphone": "ˈmʌlti ˈkwɪri əˈtenʃ(ə)n",
+    "ukphone": "ˈmʌlti ˈkwɪəri əˈtenʃ(ə)n",
+    "example": "Multi-query attention reduces KV cache size for long-context serving.",
+    "exampleTrans": "多查询注意力可减少长上下文服务中的 KV 缓存占用。"
+  },
+  {
+    "name": "encoder-only",
+    "trans": ["adj. 仅编码器的（如 BERT 类模型，不含解码器结构）"],
+    "usphone": "ɪnˈkoʊdər ˈoʊnli",
+    "ukphone": "ɪnˈkəʊdə(r) ˈəʊnli",
+    "example": "Encoder-only models like BERT excel at classification and retrieval.",
+    "exampleTrans": "像 BERT 这样仅编码器的模型在分类与检索任务上表现出色。"
+  },
+  {
+    "name": "agent tracing",
+    "trans": ["n. 智能体追踪（记录 Agent 每一步调用、工具与耗时以便调试）"],
+    "usphone": "ˈeɪdʒənt ˈtreɪsɪŋ",
+    "ukphone": "ˈeɪdʒənt ˈtreɪsɪŋ",
+    "example": "Agent tracing helped us spot the redundant tool calls in the loop.",
+    "exampleTrans": "智能体追踪帮我们定位到循环里重复的工具调用。"
+  },
+  {
+    "name": "agent skill",
+    "trans": ["n. 智能体技能（Agent 可复用的封装能力单元，如检索、计算）"],
+    "usphone": "ˈeɪdʒənt skɪl",
+    "ukphone": "ˈeɪdʒənt skɪl",
+    "example": "We gave the agent a skill for querying the internal knowledge base.",
+    "exampleTrans": "我们为智能体配置了一个查询内部知识库的技能。"
+  },
+  {
+    "name": "tool binding",
+    "trans": ["n. 工具绑定（将函数/API 挂载为 Agent 可调用工具的过程）"],
+    "usphone": "tuːl ˈbaɪndɪŋ",
+    "ukphone": "tuːl ˈbaɪndɪŋ",
+    "example": "Tool binding maps your function signature to a callable agent tool.",
+    "exampleTrans": "工具绑定把你的函数签名映射为智能体可调用的工具。"
+  },
+  {
+    "name": "tool registry",
+    "trans": ["n. 工具注册表（集中登记 Agent 可用工具及其 schema 的目录）"],
+    "usphone": "tuːl ˈredʒɪstri",
+    "ukphone": "tuːl ˈredʒɪstri",
+    "example": "The tool registry lists every function the agent is allowed to call.",
+    "exampleTrans": "工具注册表列出了智能体被允许调用的每一个函数。"
+  },
+  {
+    "name": "vector search",
+    "trans": ["n. 向量检索（按嵌入相似度查找最邻近内容的检索方式）"],
+    "usphone": "ˈvektər sɜːrtʃ",
+    "ukphone": "ˈvektə(r) sɜːtʃ",
+    "example": "Vector search returns the most relevant documents for the user query.",
+    "exampleTrans": "向量检索为用户查询返回最相关的文档。"
+  },
+  {
+    "name": "query embedding",
+    "trans": ["n. 查询嵌入（将检索问句编码为向量以参与相似度计算）"],
+    "usphone": "ˈkwɪri ɪmˈbedɪŋ",
+    "ukphone": "ˈkwɪəri ɪmˈbedɪŋ",
+    "example": "Query embedding turns the question into a vector for nearest-neighbor search.",
+    "exampleTrans": "查询嵌入把问题转成向量，用于最近邻检索。"
+  },
+  {
+    "name": "memory store",
+    "trans": ["n. 记忆存储（Agent 持久化上下文与历史对话的外部存储）"],
+    "usphone": "ˈmeməri stɔːr",
+    "ukphone": "ˈmeməri stɔː(r)",
+    "example": "The memory store persists conversation history across sessions.",
+    "exampleTrans": "记忆存储跨会话持久化保存对话历史。"
+  },
+  {
+    "name": "data pipeline",
+    "trans": ["n. 数据流水线（对原始数据进行清洗、向量化与入库的自动化链路）"],
+    "usphone": "ˈdeɪtə ˈpaɪplaɪn",
+    "ukphone": "ˈdeɪtə ˈpaɪplaɪn",
+    "example": "A robust data pipeline feeds clean chunks into the vector index.",
+    "exampleTrans": "稳健的数据流水线把清洗后的文本块送入向量索引。"
+  },
+  {
+    "name": "prompt pattern",
+    "trans": ["n. 提示词模式（可复用的提示设计范式，如角色设定、分步推理）"],
+    "usphone": "prɑːmpt ˈpætərn",
+    "ukphone": "prɒmpt ˈpæt(ə)n",
+    "example": "The prompt pattern of role-plus-rules improved output consistency.",
+    "exampleTrans": "“角色+规则”的提示词模式提升了输出的一致性。"
+  },
+  {
+    "name": "dependency injection",
+    "trans": ["n. 依赖注入（将组件依赖在外部传入而非内部硬编码的编程手法）"],
+    "usphone": "dɪˈpendənsi ɪnˈdʒekʃ(ə)n",
+    "ukphone": "dɪˈpendənsi ɪnˈdʒekʃ(ə)n",
+    "example": "Dependency injection makes the agent's tools easy to swap in tests.",
+    "exampleTrans": "依赖注入让智能体的工具在测试中易于替换。"
+  },
+  {
+    "name": "static analysis",
+    "trans": ["n. 静态分析（不运行代码即检查语法、类型与潜在缺陷的方法）"],
+    "usphone": "ˈstætɪk əˈnæləsɪs",
+    "ukphone": "ˈstætɪk əˈnæləsɪs",
+    "example": "Static analysis caught the type error before we shipped the SDK.",
+    "exampleTrans": "静态分析在我们发布 SDK 前就捕获了类型错误。"
+  }
+]
