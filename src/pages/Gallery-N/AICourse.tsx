@@ -19,14 +19,15 @@ function MonthCourseCard({ month }: { month: Dictionary }) {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <div
-          className="group flex h-28 w-72 cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-zinc-50 p-4 text-left shadow-lg hover:bg-white focus:outline-none dark:bg-gray-800 dark:hover:bg-gray-700"
+          className="group flex h-32 w-72 cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-zinc-50 p-4 text-left shadow-lg hover:bg-white focus:outline-none dark:bg-gray-800 dark:hover:bg-gray-700"
           role="button"
         >
           <div className="relative ml-1 mt-2 flex h-full w-full flex-col items-start justify-start">
             <h1 className="mb-1.5 text-xl font-normal text-gray-800 group-hover:text-indigo-400 dark:text-gray-200">{monthTitle}</h1>
-            <p className="mb-1 max-w-full truncate whitespace-nowrap text-gray-600 dark:text-gray-200">{month.description}</p>
-            <p className="mb-0.5 font-bold text-gray-600 dark:text-gray-200">{month.length} 词</p>
-            <p className="mb-0.5 font-bold text-gray-600 dark:text-gray-200">{dayCount} 天</p>
+            <p className="mb-1 text-sm text-gray-600 dark:text-gray-200">{month.description}</p>
+            <p className="mb-0.5 text-sm font-bold text-gray-600 dark:text-gray-200">
+              {month.length} 词 · {dayCount} 天
+            </p>
           </div>
         </div>
       </DialogTrigger>
