@@ -14,7 +14,6 @@
  *   node scripts/ai-daily.mjs new <YYYY-MM-DD>
  *   node scripts/ai-daily.mjs register [--write]
  */
-
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -150,7 +149,14 @@ function checkRegistration(month, days, length, registryContent) {
   const hasName = registryContent.includes(`name: '每日词汇'`)
   const hasUrl = registryContent.includes(`url: '${url}'`)
   const hasTag = registryContent.includes(`tags: ['每日词汇']`)
-  const hasChapterLabel = registryContent.includes(`chapterLabels: [${days.map((d) => `'${d}'`).join(', ')}]`)
+  // chapterLabels 跨格式比对：抽取实际标签集合与期望集合比较（忽略换行/缩进/空格）
+  const block = registryContent.match(new RegExp(`id: '${id}'[\\s\\S]*?chapterLabels: \\[([\\s\\S]*?)\\]`))
+  let hasChapterLabel = false
+  if (block) {
+    const actual = [...block[1].matchAll(/'([^']+)'/g)].map((m) => m[1]).sort()
+    const expected = [...days].sort()
+    hasChapterLabel = actual.length === expected.length && actual.every((d, i) => d === expected[i])
+  }
   const hasCat = registryContent.includes(`category: 'AI 每日词汇'`)
   const hasLangCat = registryContent.includes(`languageCategory: 'ai',`)
   if (!(hasId && hasName && hasUrl && hasTag && hasChapterLabel && hasCat && hasLangCat)) {
