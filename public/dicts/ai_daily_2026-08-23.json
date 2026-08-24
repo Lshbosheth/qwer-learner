@@ -1,0 +1,152 @@
+[
+  {
+    "name": "domain adaptation",
+    "trans": [
+      "n. 领域自适应（将模型从源领域迁移到目标领域以减少分布差异）"
+    ],
+    "usphone": "doʊˈmeɪn ˌædæpˈteɪʃ(ə)n",
+    "ukphone": "dəˈmeɪn ˌædæpˈteɪʃn",
+    "example": "Domain adaptation helps the classifier work on a new data distribution.",
+    "exampleTrans": "领域自适应让分类器能适配新的数据分布。"
+  },
+  {
+    "name": "catastrophic forgetting",
+    "trans": [
+      "n. 灾难性遗忘（模型学新知识时丢失旧知识的现象）"
+    ],
+    "usphone": "ˌkætəˈstrɑːfɪk fərˈɡetɪŋ",
+    "ukphone": "ˌkætəˈstrɒfɪk fəˈɡetɪŋ",
+    "example": "Catastrophic forgetting is a key challenge in continual learning.",
+    "exampleTrans": "灾难性遗忘是持续学习中的核心难题。"
+  },
+  {
+    "name": "residual stream",
+    "trans": [
+      "n. 残差流（Transformer 各层间传递隐藏状态的“主干”通道）"
+    ],
+    "usphone": "rɪˈzɪdʒuəl striːm",
+    "ukphone": "rɪˈzɪdjuəl striːm",
+    "example": "Mechanism analyses often read from the residual stream.",
+    "exampleTrans": "机制可解释性分析常从残差流中读取信息。"
+  },
+  {
+    "name": "transformer block",
+    "trans": [
+      "n. Transformer 块（注意力+前馈组成的重复结构单元）"
+    ],
+    "usphone": "trænsˈfɔːrmər blɑːk",
+    "ukphone": "trænsˈfɔːmə(r) blɒk",
+    "example": "A transformer block stacks self-attention and a feed-forward layer.",
+    "exampleTrans": "一个 Transformer 块堆叠了自注意力与前馈层。"
+  },
+  {
+    "name": "agent harness",
+    "trans": [
+      "n. 智能体运行框架（编排 Agent 循环与工具的底层运行时）"
+    ],
+    "usphone": "ˈeɪdʒənt ˈhɑːrnɪs",
+    "ukphone": "ˈeɪdʒənt ˈhɑːnɪs",
+    "example": "The agent harness loops between reasoning and tool use.",
+    "exampleTrans": "智能体运行框架在推理与工具调用之间循环。"
+  },
+  {
+    "name": "agent executor",
+    "trans": [
+      "n. 智能体执行器（实际运行 Agent 计划/动作的组件）"
+    ],
+    "usphone": "ˈeɪdʒənt ɪɡˈzekjətər",
+    "ukphone": "ˈeɪdʒənt ɪɡˈzekjətə(r)",
+    "example": "The agent executor runs each planned step and collects results.",
+    "exampleTrans": "智能体执行器运行计划中的每一步并收集结果。"
+  },
+  {
+    "name": "tool output",
+    "trans": [
+      "n. 工具输出（工具被调用后返回给 Agent 的结果）"
+    ],
+    "usphone": "tuːl ˈaʊtpʊt",
+    "ukphone": "tuːl ˈaʊtpʊt",
+    "example": "The agent feeds the tool output back into the next reasoning step.",
+    "exampleTrans": "智能体把工具输出回灌到下一步推理中。"
+  },
+  {
+    "name": "semantic retrieval",
+    "trans": [
+      "n. 语义检索（按含义而非关键词匹配返回相关内容）"
+    ],
+    "usphone": "sɪˈmæntɪk rɪˈtriːv(ə)l",
+    "ukphone": "sɪˈmæntɪk rɪˈtriːv(ə)l",
+    "example": "Semantic retrieval finds answers that share meaning, not just words.",
+    "exampleTrans": "语义检索返回含义相近而非仅字面匹配的内容。"
+  },
+  {
+    "name": "memory compression",
+    "trans": [
+      "n. 记忆压缩（对长上下文/历史做摘要以节省 token）"
+    ],
+    "usphone": "ˈmeməri kəmˈpreʃ(ə)n",
+    "ukphone": "ˈmeməri kəmˈpreʃ(ə)n",
+    "example": "Memory compression summarizes old turns to fit the context window.",
+    "exampleTrans": "记忆压缩对旧轮次做摘要，以塞进上下文窗口。"
+  },
+  {
+    "name": "rolling memory",
+    "trans": [
+      "n. 滚动记忆（仅保留最近 N 轮、自动丢弃更早内容的记忆）"
+    ],
+    "usphone": "ˈroʊlɪŋ ˈmeməri",
+    "ukphone": "ˈrəʊlɪŋ ˈmeməri",
+    "example": "Rolling memory keeps the latest exchanges and drops the oldest.",
+    "exampleTrans": "滚动记忆保留最近的对话并丢弃最早的。"
+  },
+  {
+    "name": "event loop",
+    "trans": [
+      "n. 事件循环（异步调度回调与 I/O 的单线程运行机制）"
+    ],
+    "usphone": "ɪˈvent luːp",
+    "ukphone": "ɪˈvent luːp",
+    "example": "The agent runs inside an event loop waiting for tool responses.",
+    "exampleTrans": "智能体运行在事件循环中，等待工具响应。"
+  },
+  {
+    "name": "state flow",
+    "trans": [
+      "n. 状态流（随步骤推进在状态间迁移的执行模型）"
+    ],
+    "usphone": "steɪt floʊ",
+    "ukphone": "steɪt fləʊ",
+    "example": "We model the pipeline as a state flow of processing stages.",
+    "exampleTrans": "我们把流水线建模为处理阶段间的状态流。"
+  },
+  {
+    "name": "prompt strategy",
+    "trans": [
+      "n. 提示策略（针对任务选择提示结构与技巧的整体方案）"
+    ],
+    "usphone": "prɑːmpt ˈstrætədʒi",
+    "ukphone": "prɒmpt ˈstrætədʒi",
+    "example": "Our prompt strategy chains role, rules, and examples.",
+    "exampleTrans": "我们的提示策略串联了角色、规则与示例。"
+  },
+  {
+    "name": "regression test",
+    "trans": [
+      "n. 回归测试（验证改动未破坏已有功能）"
+    ],
+    "usphone": "rɪˈɡreʃn test",
+    "ukphone": "rɪˈɡreʃn test",
+    "example": "Regression tests run on every commit to catch breakage.",
+    "exampleTrans": "回归测试在每次提交时运行，以捕获破坏。"
+  },
+  {
+    "name": "integration test",
+    "trans": [
+      "n. 集成测试（验证多个模块协同工作的测试）"
+    ],
+    "usphone": "ˌɪntɪˈɡreɪʃ(ə)n test",
+    "ukphone": "ˌɪntɪˈɡreɪʃ(ə)n test",
+    "example": "Integration tests exercise the agent with its real tool servers.",
+    "exampleTrans": "集成测试用真实工具服务器端到端验证智能体。"
+  }
+]

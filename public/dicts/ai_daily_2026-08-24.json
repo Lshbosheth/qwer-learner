@@ -1,0 +1,152 @@
+[
+  {
+    "name": "semi-supervised learning",
+    "trans": [
+      "n. 半监督学习（同时使用有标签与无标签数据训练）"
+    ],
+    "usphone": "ˈsemi ˈsʊpərvaɪzd ˈlɜːrnɪŋ",
+    "ukphone": "ˈsemi ˈsʊpərvaɪzd ˈlɜːnɪŋ",
+    "example": "Semi-supervised learning leverages unlabeled text at scale.",
+    "exampleTrans": "半监督学习大规模利用无标签文本。"
+  },
+  {
+    "name": "causal attention",
+    "trans": [
+      "n. 因果注意力（只能看到当前及之前位置的单向注意力）"
+    ],
+    "usphone": "ˈkɔːz(ə)l əˈtenʃ(ə)n",
+    "ukphone": "ˈkɔːz(ə)l əˈtenʃ(ə)n",
+    "example": "Causal attention prevents the decoder from peeking ahead.",
+    "exampleTrans": "因果注意力防止解码器“偷看”未来位置。"
+  },
+  {
+    "name": "agent replay",
+    "trans": [
+      "n. 智能体重放（回放历史轨迹用于调试或训练）"
+    ],
+    "usphone": "ˈeɪdʒənt ˈriːpleɪ",
+    "ukphone": "ˈeɪdʒənt ˈriːpleɪ",
+    "example": "Agent replay helped us reproduce the failed run offline.",
+    "exampleTrans": "智能体重放帮我们在离线环境复现失败的运行。"
+  },
+  {
+    "name": "tool annotation",
+    "trans": [
+      "n. 工具注解（用注释/装饰器声明函数可被 Agent 调用）"
+    ],
+    "usphone": "tuːl ˌænəˈteɪʃ(ə)n",
+    "ukphone": "tuːl ˌænəˈteɪʃ(ə)n",
+    "example": "A tool annotation exposes the function's schema to the agent.",
+    "exampleTrans": "工具注解把函数 schema 暴露给智能体。"
+  },
+  {
+    "name": "tool dispatch",
+    "trans": [
+      "n. 工具分发（按名称/路由把调用派发到具体工具实现）"
+    ],
+    "usphone": "tuːl dɪˈspætʃ",
+    "ukphone": "tuːl dɪˈspætʃ",
+    "example": "Tool dispatch routes the call to the right backend function.",
+    "exampleTrans": "工具分发把调用路由到正确的后端函数。"
+  },
+  {
+    "name": "passage retrieval",
+    "trans": [
+      "n. 段落检索（以文本片段为单位的召回）"
+    ],
+    "usphone": "ˈpæsɪdʒ rɪˈtriːv(ə)l",
+    "ukphone": "ˈpæsɪdʒ rɪˈtriːv(ə)l",
+    "example": "Passage retrieval returns the most relevant chunks to cite.",
+    "exampleTrans": "段落检索返回最相关的文本块用于引用。"
+  },
+  {
+    "name": "retrieval strategy",
+    "trans": [
+      "n. 检索策略（决定如何召回与排序候选内容的方法）"
+    ],
+    "usphone": "rɪˈtriːv(ə)l ˈstrætədʒi",
+    "ukphone": "rɪˈtriːv(ə)l ˈstrætədʒi",
+    "example": "The retrieval strategy blends vector and keyword signals.",
+    "exampleTrans": "检索策略融合了向量与关键词信号。"
+  },
+  {
+    "name": "memory layer",
+    "trans": [
+      "n. 记忆层（网络中专门负责读写记忆的参数/模块）"
+    ],
+    "usphone": "ˈmeməri ˈleɪər",
+    "ukphone": "ˈmeməri ˈleɪə(r)",
+    "example": "A memory layer lets the model write facts for later use.",
+    "exampleTrans": "记忆层让模型把事实写下来供后续使用。"
+  },
+  {
+    "name": "conversation memory",
+    "trans": [
+      "n. 对话记忆（保存多轮对话上下文供延续交流）"
+    ],
+    "usphone": "ˌkɑːnvərˈseɪʃ(ə)n ˈmeməri",
+    "ukphone": "ˌkɒnvəˈseɪʃ(ə)n ˈmeməri",
+    "example": "Conversation memory gives the bot continuity across turns.",
+    "exampleTrans": "对话记忆让机器人在多轮间保持连贯。"
+  },
+  {
+    "name": "workflow execution",
+    "trans": [
+      "n. 工作流执行（按定义运行整条流水线的过程）"
+    ],
+    "usphone": "ˈwɜːrkfloʊ ˌeksɪˈkjuːʃ(ə)n",
+    "ukphone": "ˈwɜːkfləʊ ˌeksɪˈkjuːʃ(ə)n",
+    "example": "Workflow execution failed on the third node and retried.",
+    "exampleTrans": "工作流执行在第三个节点失败并重试。"
+  },
+  {
+    "name": "task queue",
+    "trans": [
+      "n. 任务队列（缓冲待处理任务、按序消费的队列）"
+    ],
+    "usphone": "tæsk kjuː",
+    "ukphone": "tɑːsk kjuː",
+    "example": "A task queue decouples request intake from agent workers.",
+    "exampleTrans": "任务队列把请求接入与智能体工作解耦。"
+  },
+  {
+    "name": "contextual prompt",
+    "trans": [
+      "n. 上下文提示（结合背景信息的提示写法）"
+    ],
+    "usphone": "kənˈtekstʃuəl prɑːmpt",
+    "ukphone": "kənˈtekstʃuəl prɒmpt",
+    "example": "A contextual prompt injects retrieved docs before the question.",
+    "exampleTrans": "上下文提示在问题前注入检索到的文档。"
+  },
+  {
+    "name": "prompt format",
+    "trans": [
+      "n. 提示格式（提示的结构化排版与占位约定）"
+    ],
+    "usphone": "prɑːmpt ˈfɔːrmæt",
+    "ukphone": "prɒmpt ˈfɔːmæt",
+    "example": "A consistent prompt format improves model reliability.",
+    "exampleTrans": "一致的提示格式提升了模型稳定性。"
+  },
+  {
+    "name": "test case",
+    "trans": [
+      "n. 测试用例（针对特定输入验证预期输出的最小单元）"
+    ],
+    "usphone": "test keɪs",
+    "ukphone": "test keɪs",
+    "example": "Each test case asserts one behavior of the parser.",
+    "exampleTrans": "每个测试用例断言解析器的一种行为。"
+  },
+  {
+    "name": "type checking",
+    "trans": [
+      "n. 类型检查（在编译/静态分析阶段校验变量类型是否正确）"
+    ],
+    "usphone": "taɪp ˈtʃekɪŋ",
+    "ukphone": "taɪp ˈtʃekɪŋ",
+    "example": "Type checking caught a mismatch before runtime.",
+    "exampleTrans": "类型检查在运行前就捕获了类型不匹配。"
+  }
+]

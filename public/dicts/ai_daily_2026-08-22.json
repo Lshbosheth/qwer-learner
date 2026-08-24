@@ -1,0 +1,152 @@
+[
+  {
+    "name": "contrastive learning",
+    "trans": [
+      "n. 对比学习（通过样本间相似/不相似关系训练的表征学习方法）"
+    ],
+    "usphone": "kənˈtræstɪv ˈlɜːrnɪŋ",
+    "ukphone": "kənˈtrɑːstɪv ˈlɜːnɪŋ",
+    "example": "Contrastive learning pulls positive pairs closer in the embedding space.",
+    "exampleTrans": "对比学习把正样本对在嵌入空间中拉得更近。"
+  },
+  {
+    "name": "curriculum learning",
+    "trans": [
+      "n. 课程学习（由易到难逐步训练，提升收敛与泛化）"
+    ],
+    "usphone": "kəˈrɪkjələm ˈlɜːrnɪŋ",
+    "ukphone": "kəˈrɪkjələm ˈlɜːnɪŋ",
+    "example": "Curriculum learning trains the model on easy samples before hard ones.",
+    "exampleTrans": "课程学习先让模型在简单样本上训练，再过渡到困难样本。"
+  },
+  {
+    "name": "attention score",
+    "trans": [
+      "n. 注意力分数（softmax 前的 query-key 匹配权重）"
+    ],
+    "usphone": "əˈtenʃ(ə)n skɔːr",
+    "ukphone": "əˈtenʃ(ə)n skɔː(r)",
+    "example": "The attention score decides how much each token attends to the others.",
+    "exampleTrans": "注意力分数决定每个 token 对其他 token 的关注程度。"
+  },
+  {
+    "name": "query vector",
+    "trans": [
+      "n. 查询向量（注意力中代表“提问方”的向量）"
+    ],
+    "usphone": "ˈkwɪri ˈvektər",
+    "ukphone": "ˈkwɪəri ˈvektə(r)",
+    "example": "The query vector is compared against key vectors to compute attention.",
+    "exampleTrans": "查询向量与键向量比较以计算注意力。"
+  },
+  {
+    "name": "agent observability",
+    "trans": [
+      "n. 智能体可观测性（对 Agent 内部状态与调用的可视化监控）"
+    ],
+    "usphone": "ˈeɪdʒənt əbˌzɜːvəˈbɪləti",
+    "ukphone": "ˈeɪdʒənt əbˌzɜːvəˈbɪləti",
+    "example": "Agent observability lets us trace every LLM call in production.",
+    "exampleTrans": "智能体可观测性让我们可以追踪生产环境中每一次大模型调用。"
+  },
+  {
+    "name": "agent lifecycle",
+    "trans": [
+      "n. 智能体生命周期（从创建、运行到终止与回收的全过程）"
+    ],
+    "usphone": "ˈeɪdʒənt ˈlaɪfˌsaɪkl",
+    "ukphone": "ˈeɪdʒənt laɪfˈsaɪkəl",
+    "example": "We monitor the agent lifecycle to clean up idle sessions.",
+    "exampleTrans": "我们监控智能体生命周期，以清理空闲会话。"
+  },
+  {
+    "name": "tool protocol",
+    "trans": [
+      "n. 工具协议（约定 Agent 与外部工具通信的接口规范，如 MCP）"
+    ],
+    "usphone": "tuːl ˈproʊtəkɑːl",
+    "ukphone": "tuːl ˈprəʊtəkɒl",
+    "example": "The tool protocol standardizes how agents invoke external functions.",
+    "exampleTrans": "工具协议规范了智能体调用外部函数的方式。"
+  },
+  {
+    "name": "tool server",
+    "trans": [
+      "n. 工具服务器（托管可被 Agent 远程调用的工具服务）"
+    ],
+    "usphone": "tuːl ˈsɜːrvər",
+    "ukphone": "tuːl ˈsɜːvə(r)",
+    "example": "A tool server exposes database and search tools over MCP.",
+    "exampleTrans": "工具服务器通过 MCP 暴露数据库与搜索等工具。"
+  },
+  {
+    "name": "hybrid indexing",
+    "trans": [
+      "n. 混合索引（同时维护向量与关键字索引以提升检索召回）"
+    ],
+    "usphone": "ˈhaɪbrɪd ˈɪndeksɪŋ",
+    "ukphone": "ˈhaɪbrɪd ˈɪndeksɪŋ",
+    "example": "Hybrid indexing combines dense vectors with keyword inverted lists.",
+    "exampleTrans": "混合索引将稠密向量与关键词倒排表结合。"
+  },
+  {
+    "name": "embedding store",
+    "trans": [
+      "n. 嵌入存储（专门保存向量嵌入的数据库组件）"
+    ],
+    "usphone": "ɪmˈbedɪŋ stɔːr",
+    "ukphone": "ɪmˈbedɪŋ stɔː(r)",
+    "example": "The embedding store powers nearest-neighbor lookups at scale.",
+    "exampleTrans": "嵌入存储支撑大规模的近邻检索。"
+  },
+  {
+    "name": "context state",
+    "trans": [
+      "n. 上下文状态（Agent 当前轮次所持有的上下文快照）"
+    ],
+    "usphone": "ˈkɑːntekst steɪt",
+    "ukphone": "ˈkɒntekst steɪt",
+    "example": "We snapshot the context state before each tool call.",
+    "exampleTrans": "我们在每次工具调用前快照上下文状态。"
+  },
+  {
+    "name": "workflow node",
+    "trans": [
+      "n. 工作流节点（流水线中一个可执行步骤的单元）"
+    ],
+    "usphone": "ˈwɜːrkfloʊ noʊd",
+    "ukphone": "ˈwɜːkfləʊ nəʊd",
+    "example": "Each workflow node can call a model or a tool.",
+    "exampleTrans": "每个工作流节点都可以调用模型或工具。"
+  },
+  {
+    "name": "prompt refinement",
+    "trans": [
+      "n. 提示词精修（迭代改写提示以提升输出质量）"
+    ],
+    "usphone": "prɑːmpt rɪˈfaɪnmənt",
+    "ukphone": "prɒmpt rɪˈfaɪnmənt",
+    "example": "Prompt refinement turned the vague ask into a precise instruction.",
+    "exampleTrans": "提示词精修把模糊的需求改成了精确指令。"
+  },
+  {
+    "name": "prompt technique",
+    "trans": [
+      "n. 提示技术（系统性提升模型表现的提示设计方法）"
+    ],
+    "usphone": "prɑːmpt tekˈniːk",
+    "ukphone": "prɒmpt tekˈniːk",
+    "example": "Few-shot is a classic prompt technique for classification.",
+    "exampleTrans": "少样本是分类任务中经典的提示技术。"
+  },
+  {
+    "name": "code review",
+    "trans": [
+      "n. 代码评审（人工或自动检查代码质量与正确性的环节）"
+    ],
+    "usphone": "koʊd rɪˈvjuː",
+    "ukphone": "kəʊd rɪˈvjuː",
+    "example": "Code review caught a bug before it reached production.",
+    "exampleTrans": "代码评审在缺陷进入生产环境前就发现了它。"
+  }
+]
