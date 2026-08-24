@@ -9,26 +9,27 @@ import { useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 function buildAICourse() {
-  const days = getAIDailyDictionaries()
-  const dates = days.map((dictionary) => getAIDailyDate(dictionary) ?? '')
-  const total = days.reduce((sum, dictionary) => sum + dictionary.length, 0)
+  const months = getAIDailyDictionaries()
+  const monthLabels = months.map((dictionary) => getAIDailyDate(dictionary) ?? '')
+  const totalDays = months.reduce((sum, dictionary) => sum + (dictionary.chapterLabels?.length ?? 1), 0)
+  const total = months.reduce((sum, dictionary) => sum + dictionary.length, 0)
   const course: Dictionary = {
     id: 'ai-daily',
     name: AI_DAILY_TAG,
-    description: `AI/Agent/RAG 等高频专业英语，每日更新（已累计 ${days.length} 天，共 ${total} 词）`,
+    description: `AI/Agent/RAG 等高频专业英语，每日更新（已累计 ${totalDays} 天，共 ${total} 词）`,
     category: 'AI 每日词汇',
     tags: [AI_DAILY_TAG],
-    url: days[0]?.url ?? '',
+    url: months[0]?.url ?? '',
     length: total,
     language: 'en',
     languageCategory: 'ai',
-    chapterCount: days.length,
+    chapterCount: months.length,
   }
-  return { course, days, dates }
+  return { course, months, monthLabels, totalDays }
 }
 
 export default function AICourse() {
-  const { course, days, dates } = useMemo(buildAICourse, [])
+  const { course, months, monthLabels, totalDays } = useMemo(buildAICourse, [])
   const currentDictId = useAtomValue(currentDictIdAtom)
   const setCurrentDictId = useSetAtom(currentDictIdAtom)
   const setCurrentChapter = useSetAtom(currentChapterAtom)
@@ -36,13 +37,13 @@ export default function AICourse() {
   const navigate = useNavigate()
   const [open, setOpen] = useState(false)
 
-  const currentDayIndex = days.findIndex((dictionary) => dictionary.id === currentDictId)
-  const activeChapterIndex = currentDayIndex >= 0 ? currentDayIndex : Math.max(days.length - 1, 0)
+  const currentMonthIndex = months.findIndex((dictionary) => dictionary.id === currentDictId)
+  const activeChapterIndex = currentMonthIndex >= 0 ? currentMonthIndex : Math.max(months.length - 1, 0)
 
   const onChapterChange = (index: number) => {
-    const day = days[index]
-    if (!day) return
-    setCurrentDictId(day.id)
+    const month = months[index]
+    if (!month) return
+    setCurrentDictId(month.id)
     setCurrentChapter(0)
     setReviewModeInfo((old) => ({ ...old, isReviewMode: false }))
     setOpen(false)
@@ -62,15 +63,15 @@ export default function AICourse() {
               <h1 className="mb-1.5 text-xl font-normal text-gray-800 group-hover:text-indigo-400 dark:text-gray-200">{course.name}</h1>
               <p className="mb-1 max-w-full truncate whitespace-nowrap text-gray-600 dark:text-gray-200">{course.description}</p>
               <p className="mb-0.5 font-bold text-gray-600 dark:text-gray-200">{course.length} 词</p>
-              <p className="mb-0.5 font-bold text-gray-600 dark:text-gray-200">{days.length} 天</p>
+              <p className="mb-0.5 font-bold text-gray-600 dark:text-gray-200">{totalDays} 天</p>
             </div>
           </div>
         </DialogTrigger>
         <DialogContent className="w-[60rem] max-w-none !rounded-[20px]">
           <DictDetail
             dictionary={course}
-            chapterLabels={dates}
-            chapterDictIDs={days.map((dictionary) => dictionary.id)}
+            chapterLabels={monthLabels}
+            chapterDictIDs={months.map((dictionary) => dictionary.id)}
             onChapterChange={onChapterChange}
             activeChapterIndex={activeChapterIndex}
           />

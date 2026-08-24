@@ -1,6 +1,7 @@
 import { CHAPTER_LENGTH } from '@/constants'
 import { currentChapterAtom, currentDictInfoAtom, reviewModeInfoAtom } from '@/store'
 import type { Word, WordWithIndex } from '@/typings/index'
+import { AI_DAILY_WORDS_PER_DAY, isAIDailyDictionary } from '@/utils/aiDaily'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import { useAtom, useAtomValue } from 'jotai'
 import { useMemo } from 'react'
@@ -20,6 +21,8 @@ export function useWordList(): UseWordListResult {
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom)
   const { isReviewMode, reviewRecord } = useAtomValue(reviewModeInfoAtom)
 
+  const isAIDaily = isAIDailyDictionary(currentDictInfo)
+
   // Reset current chapter to 0, when currentChapter is greater than chapterCount.
   if (currentChapter >= currentDictInfo.chapterCount) {
     setCurrentChapter(0)
@@ -35,7 +38,13 @@ export function useWordList(): UseWordListResult {
     } else if (isReviewMode) {
       newWords = reviewRecord?.words ?? []
     } else if (wordList) {
-      newWords = wordList.slice(currentChapter * CHAPTER_LENGTH, (currentChapter + 1) * CHAPTER_LENGTH)
+      if (isAIDaily) {
+        // 按月聚合词表：每个章节 = 一天（固定 15 词），按天偏移切片
+        const start = currentChapter * AI_DAILY_WORDS_PER_DAY
+        newWords = wordList.slice(start, start + AI_DAILY_WORDS_PER_DAY)
+      } else {
+        newWords = wordList.slice(currentChapter * CHAPTER_LENGTH, (currentChapter + 1) * CHAPTER_LENGTH)
+      }
     } else {
       newWords = []
     }
@@ -56,7 +65,7 @@ export function useWordList(): UseWordListResult {
         trans,
       }
     })
-  }, [isFirstChapter, isReviewMode, wordList, reviewRecord?.words, currentChapter])
+  }, [isFirstChapter, isReviewMode, wordList, reviewRecord?.words, currentChapter, isAIDaily])
 
   return { words, isLoading, error }
 }

@@ -3,6 +3,8 @@ import type { Dictionary } from '@/typings'
 
 export const AI_DAILY_PREFIX = 'ai-daily-'
 export const AI_DAILY_TAG = '每日词汇'
+// 每日词表每天固定 15 词，按月聚合后按天分章
+export const AI_DAILY_WORDS_PER_DAY = 15
 
 export function isAIDailyDictionary(dictionary: Dictionary): boolean {
   return dictionary.languageCategory === 'ai' && dictionary.id.startsWith(AI_DAILY_PREFIX)
@@ -17,5 +19,6 @@ export function getAIDailyDictionaries(): Dictionary[] {
 }
 
 export function getChapterLabel(dictionary: Dictionary, chapterIndex: number): string {
-  return getAIDailyDate(dictionary) ?? dictionary.chapterLabels?.[chapterIndex] ?? `第 ${chapterIndex + 1} 章`
+  // 优先使用按月聚合后的章节标签（具体日期），无则回退到 id 中的年月
+  return dictionary.chapterLabels?.[chapterIndex] ?? getAIDailyDate(dictionary) ?? `第 ${chapterIndex + 1} 章`
 }

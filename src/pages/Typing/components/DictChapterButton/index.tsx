@@ -1,6 +1,6 @@
 import Tooltip from '@/components/Tooltip'
-import { currentChapterAtom, currentDictIdAtom, currentDictInfoAtom, isReviewModeAtom } from '@/store'
-import { getAIDailyDate, getAIDailyDictionaries, getChapterLabel, isAIDailyDictionary } from '@/utils/aiDaily'
+import { currentChapterAtom, currentDictInfoAtom, isReviewModeAtom } from '@/store'
+import { getChapterLabel, isAIDailyDictionary } from '@/utils/aiDaily'
 import range from '@/utils/range'
 import { Listbox, Transition } from '@headlessui/react'
 import { useAtom, useAtomValue } from 'jotai'
@@ -11,12 +11,10 @@ import IconCheck from '~icons/tabler/check'
 export const DictChapterButton = () => {
   const currentDictInfo = useAtomValue(currentDictInfoAtom)
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom)
-  const [, setCurrentDictId] = useAtom(currentDictIdAtom)
-  const dailyDictionaries = getAIDailyDictionaries()
   const isAIDaily = isAIDailyDictionary(currentDictInfo)
-  const currentDailyIndex = dailyDictionaries.findIndex((dictionary) => dictionary.id === currentDictInfo.id)
-  const chapterCount = isAIDaily ? dailyDictionaries.length : currentDictInfo.chapterCount
-  const selectedChapter = isAIDaily ? currentDailyIndex : currentChapter
+  // 按月聚合后：AI 每日的章节 = 当月天数（chapterLabels），在当月词库内按天切换
+  const chapterCount = currentDictInfo.chapterCount
+  const selectedChapter = currentChapter
   const isReviewMode = useAtomValue(isReviewModeAtom)
 
   const handleKeyDown: React.KeyboardEventHandler<HTMLButtonElement> = (event) => {
@@ -26,10 +24,7 @@ export const DictChapterButton = () => {
   }
   const handleChapterChange = (index: number) => {
     if (isAIDaily) {
-      const dictionary = dailyDictionaries[index]
-      if (!dictionary) return
-      setCurrentDictId(dictionary.id)
-      setCurrentChapter(0)
+      setCurrentChapter(index)
       return
     }
     setCurrentChapter(index)
@@ -64,7 +59,7 @@ export const DictChapterButton = () => {
                             <IconCheck className="focus:outline-none" />
                           </span>
                         ) : null}
-                        <span>{isAIDaily ? getAIDailyDate(dailyDictionaries[index]) : `第 ${index + 1} 章`}</span>
+                        <span>{getChapterLabel(currentDictInfo, index)}</span>
                       </div>
                     )}
                   </Listbox.Option>

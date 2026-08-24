@@ -77,11 +77,7 @@ const ResultScreen = () => {
   }, [state.chapterData.userInputLogs, state.chapterData.words])
 
   const dailyDictionaries = getAIDailyDictionaries()
-  const currentDailyIndex = dailyDictionaries.findIndex((dictionary) => dictionary.id === currentDictInfo.id)
-  const isLastChapter = useMemo(() => {
-    if (isAIDailyDictionary(currentDictInfo)) return currentDailyIndex >= dailyDictionaries.length - 1
-    return currentChapter >= currentDictInfo.chapterCount - 1
-  }, [currentChapter, currentDailyIndex, currentDictInfo, dailyDictionaries.length])
+  const isLastChapter = useMemo(() => currentChapter >= currentDictInfo.chapterCount - 1, [currentChapter, currentDictInfo])
 
   const correctRate = useMemo(() => {
     const chapterLength = state.chapterData.words.length
@@ -148,17 +144,22 @@ const ResultScreen = () => {
     })
     if (!isLastChapter) {
       if (isAIDailyDictionary(currentDictInfo)) {
-        const nextDictionary = dailyDictionaries[currentDailyIndex + 1]
-        if (!nextDictionary) return
-        setCurrentDictId(nextDictionary.id)
-        setCurrentChapter(0)
+        // 当月内跳到下一天；到月末则进入下一个月词库的第 1 天
+        if (currentChapter < currentDictInfo.chapterCount - 1) {
+          setCurrentChapter((old) => old + 1)
+        } else {
+          const idx = dailyDictionaries.findIndex((d) => d.id === currentDictInfo.id)
+          const nextMonth = dailyDictionaries[idx + 1]
+          if (!nextMonth) return
+          setCurrentDictId(nextMonth.id)
+          setCurrentChapter(0)
+        }
       } else {
         setCurrentChapter((old) => old + 1)
       }
       dispatch({ type: TypingStateActionType.NEXT_CHAPTER })
     }
   }, [
-    currentDailyIndex,
     currentDictInfo,
     dailyDictionaries,
     dispatch,
