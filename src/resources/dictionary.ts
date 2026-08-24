@@ -3799,7 +3799,7 @@ const programming: DictionaryResource[] = [
   {
     id: 'ai-daily-2026-07',
     name: '每日词汇',
-    description: 'AI/Agent/RAG 高频专业英语词库',
+    description: 'AI/Agent/RAG 高频专业英语词库（每日 15 词）',
     category: 'AI 每日词汇',
     tags: ['每日词汇'],
     chapterLabels: [
@@ -3823,7 +3823,7 @@ const programming: DictionaryResource[] = [
   {
     id: 'ai-daily-2026-08',
     name: '每日词汇',
-    description: 'AI/Agent/RAG 高频专业英语词库',
+    description: 'AI/Agent/RAG 高频专业英语词库（每日 15 词）',
     category: 'AI 每日词汇',
     tags: ['每日词汇'],
     chapterLabels: [
