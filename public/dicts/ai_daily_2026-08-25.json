@@ -1,0 +1,152 @@
+[
+  {
+    "name": "supervised fine-tuning",
+    "trans": [
+      "n. 监督微调（在标注数据上继续训练预训练模型以适配特定任务）"
+    ],
+    "usphone": "ˈsuːpərvaɪzd faɪn ˈtjʊnɪŋ",
+    "ukphone": "ˈsuːpəvaɪzd faɪn ˈtjuːnɪŋ",
+    "example": "Supervised fine-tuning adapts a pretrained model to specific downstream tasks.",
+    "exampleTrans": "监督微调让预训练模型适配特定的下游任务。"
+  },
+  {
+    "name": "pruning",
+    "trans": [
+      "n. 剪枝（移除模型中冗余参数以压缩体积、加速推理）"
+    ],
+    "usphone": "ˈpruːnɪŋ",
+    "ukphone": "ˈpruːnɪŋ",
+    "example": "Pruning reduces model size with only a small drop in accuracy.",
+    "exampleTrans": "剪枝能在精度小幅下降的情况下显著减小模型体积。"
+  },
+  {
+    "name": "serving",
+    "trans": [
+      "n. 模型服务（将训练好的模型部署为可在线推理的接口）"
+    ],
+    "usphone": "ˈsɜːrvɪŋ",
+    "ukphone": "ˈsɜːvɪŋ",
+    "example": "We containerized the model for low-latency serving in production.",
+    "exampleTrans": "我们将模型容器化，用于生产环境低延迟的在线服务。"
+  },
+  {
+    "name": "tokenization",
+    "trans": [
+      "n. 分词 / 标记化（将文本切分为模型可处理的 token 序列）"
+    ],
+    "usphone": "ˌtoʊkənaɪˈzeɪʃ(ə)n",
+    "ukphone": "ˌtəʊkənaɪˈzeɪʃ(ə)n",
+    "example": "Tokenization splits the sentence into subword tokens before encoding.",
+    "exampleTrans": "编码前，分词会把句子切分为子词 token。"
+  },
+  {
+    "name": "rollout",
+    "trans": [
+      "n. 推出 / 展开（逐步上线模型或智能体，也指推理采样的展开）"
+    ],
+    "usphone": "ˈroʊlaʊt",
+    "ukphone": "ˈrəʊlaʊt",
+    "example": "The team staged the model rollout across regions to limit risk.",
+    "exampleTrans": "团队分阶段在各地区上线模型以控制风险。"
+  },
+  {
+    "name": "simulation",
+    "trans": [
+      "n. 仿真 / 模拟（在虚拟环境中测试智能体行为）"
+    ],
+    "usphone": "ˌsɪmjuˈleɪʃ(ə)n",
+    "ukphone": "ˌsɪmjuˈleɪʃ(ə)n",
+    "example": "Simulation lets agents practice tool use before real deployment.",
+    "exampleTrans": "仿真让智能体在真实部署前先练习工具调用。"
+  },
+  {
+    "name": "authorization",
+    "trans": [
+      "n. 授权（确认调用方是否有权访问某 API 或工具）"
+    ],
+    "usphone": "ˌɔːθərəˈzeɪʃ(ə)n",
+    "ukphone": "ˌɔːθəraɪˈzeɪʃ(ə)n",
+    "example": "Tool calls require authorization via a scoped access token.",
+    "exampleTrans": "工具调用需要经过作用域受限的访问令牌授权。"
+  },
+  {
+    "name": "chunking",
+    "trans": [
+      "n. 分块（将长文档切分为适配上下文窗口的片段）"
+    ],
+    "usphone": "ˈtʃʌŋkɪŋ",
+    "ukphone": "ˈtʃʌŋkɪŋ",
+    "example": "Chunking splits long documents into overlapping sections for retrieval.",
+    "exampleTrans": "分块会把长文档切成互相重叠的片段以便检索。"
+  },
+  {
+    "name": "stateless",
+    "trans": [
+      "adj. 无状态的（组件不保存历史上下文，每次请求独立）"
+    ],
+    "usphone": "ˈsteɪtləs",
+    "ukphone": "ˈsteɪtləs",
+    "example": "A stateless API handles each request without remembering prior calls.",
+    "exampleTrans": "无状态 API 处理每次请求时不会记住之前的调用。"
+  },
+  {
+    "name": "batching",
+    "trans": [
+      "n. 批处理（将多个请求合并为一批以提升吞吐）"
+    ],
+    "usphone": "ˈbætʃɪŋ",
+    "ukphone": "ˈbætʃɪŋ",
+    "example": "Batching inference requests improves GPU utilization and throughput.",
+    "exampleTrans": "将推理请求批处理可提升 GPU 利用率与吞吐。"
+  },
+  {
+    "name": "configuration",
+    "trans": [
+      "n. 配置（定义模型参数、环境变量与运行选项的设置）"
+    ],
+    "usphone": "kənˌfɪɡjəˈreɪʃ(ə)n",
+    "ukphone": "kənˌfɪɡəˈreɪʃ(ə)n",
+    "example": "The agent reads its configuration from a YAML file at startup.",
+    "exampleTrans": "智能体启动时从 YAML 文件读取配置。"
+  },
+  {
+    "name": "tone",
+    "trans": [
+      "n. 语气 / 语调（提示词中指定的回答风格与口吻）"
+    ],
+    "usphone": "toʊn",
+    "ukphone": "təʊn",
+    "example": "Set the tone to formal when generating customer-facing replies.",
+    "exampleTrans": "生成面向客户的回复时，把语气设为正式。"
+  },
+  {
+    "name": "monitoring",
+    "trans": [
+      "n. 监控（持续观测模型延迟、错误率与质量指标）"
+    ],
+    "usphone": "ˈmɑːnɪtərɪŋ",
+    "ukphone": "ˈmɒnɪtərɪŋ",
+    "example": "Monitoring alerts us when latency exceeds the SLA threshold.",
+    "exampleTrans": "当延迟超过 SLA 阈值时，监控系统会告警。"
+  },
+  {
+    "name": "metric",
+    "trans": [
+      "n. 指标（衡量模型或系统表现的数值，如准确率、延迟）"
+    ],
+    "usphone": "ˈmetrɪk",
+    "ukphone": "ˈmetrɪk",
+    "example": "We track the metric for answer faithfulness on every release.",
+    "exampleTrans": "我们在每个版本都追踪回答忠实度这一指标。"
+  },
+  {
+    "name": "exploitation",
+    "trans": [
+      "n. 利用（在探索-利用权衡中选用已知较优动作）"
+    ],
+    "usphone": "ˌeksplɔɪˈteɪʃ(ə)n",
+    "ukphone": "ˌeksplɔɪˈteɪʃ(ə)n",
+    "example": "Reinforcement learning balances exploration and exploitation.",
+    "exampleTrans": "强化学习在探索与利用之间取得平衡。"
+  }
+]
