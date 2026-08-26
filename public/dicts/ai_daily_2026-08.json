@@ -3748,5 +3748,155 @@
     "ukphone": "ˌeksplɔɪˈteɪʃ(ə)n",
     "example": "Reinforcement learning balances exploration and exploitation.",
     "exampleTrans": "强化学习在探索与利用之间取得平衡。"
+  },
+  {
+    "name": "calibration",
+    "trans": [
+      "n. 校准；置信度校准（使模型输出的概率与真实正确率相符）"
+    ],
+    "usphone": "ˌkælɪˈbreɪʃn",
+    "ukphone": "ˌkælɪˈbreɪʃn",
+    "example": "Poor calibration means the model is confidently wrong.",
+    "exampleTrans": "校准不佳意味着模型会自信地给出错误答案。"
+  },
+  {
+    "name": "mixed precision",
+    "trans": [
+      "n. 混合精度（训练/推理中混用 FP16 与 FP32 以省显存、提速）"
+    ],
+    "usphone": "mɪkst prɪˈsɪʒ(ə)n",
+    "ukphone": "mɪkst prɪˈsɪʒ(ə)n",
+    "example": "Mixed precision training cuts memory usage almost in half.",
+    "exampleTrans": "混合精度训练几乎能把显存占用减半。"
+  },
+  {
+    "name": "masked language modeling",
+    "trans": [
+      "n. 掩码语言建模（遮住部分 token 让模型预测，BERT 的预训练目标）"
+    ],
+    "usphone": "mæskt ˈlæŋɡwɪdʒ ˈmɑːd(ə)lɪŋ",
+    "ukphone": "mɑːskt ˈlæŋɡwɪdʒ ˈmɒd(ə)lɪŋ",
+    "example": "BERT is pretrained with masked language modeling.",
+    "exampleTrans": "BERT 采用掩码语言建模进行预训练。"
+  },
+  {
+    "name": "weight sharing",
+    "trans": [
+      "n. 权重共享（多个层或模块复用同一组参数以减小模型体积）"
+    ],
+    "usphone": "weɪt ˈʃerɪŋ",
+    "ukphone": "weɪt ˈʃeərɪŋ",
+    "example": "Weight sharing between the embedding and output layer saves parameters.",
+    "exampleTrans": "词嵌入层与输出层之间的权重共享可以节省参数。"
+  },
+  {
+    "name": "interrupt",
+    "trans": [
+      "v./n. 中断（暂停 agent 执行以等待人工审批或输入）"
+    ],
+    "usphone": "ˌɪntəˈrʌpt",
+    "ukphone": "ˌɪntəˈrʌpt",
+    "example": "The graph will interrupt before the tool node so a human can review it.",
+    "exampleTrans": "该流程图会在工具节点前中断，以便人工审核。"
+  },
+  {
+    "name": "permission",
+    "trans": [
+      "n. 权限；许可（agent 调用工具或修改文件前需获得的授权）"
+    ],
+    "usphone": "pərˈmɪʃ(ə)n",
+    "ukphone": "pəˈmɪʃ(ə)n",
+    "example": "The agent asks for permission before writing to disk.",
+    "exampleTrans": "该 agent 在写入磁盘前会请求权限。"
+  },
+  {
+    "name": "transport",
+    "trans": [
+      "n. 传输层；通信通道（如 MCP 的 stdio 与 HTTP 传输方式）"
+    ],
+    "usphone": "ˈtrænspɔːrt",
+    "ukphone": "ˈtrænspɔːt",
+    "example": "The MCP server supports both stdio and HTTP transport.",
+    "exampleTrans": "该 MCP 服务端同时支持 stdio 与 HTTP 两种传输方式。"
+  },
+  {
+    "name": "document loader",
+    "trans": [
+      "n. 文档加载器（把 PDF、网页等外部数据读入 RAG 流水线的组件）"
+    ],
+    "usphone": "ˈdɑːkjumənt ˈloʊdər",
+    "ukphone": "ˈdɒkjumənt ˈləʊdə(r)",
+    "example": "Use a document loader to pull the PDFs into your index.",
+    "exampleTrans": "用文档加载器把这些 PDF 导入你的索引。"
+  },
+  {
+    "name": "embedding dimension",
+    "trans": [
+      "n. 嵌入维度（向量的长度，决定语义表达能力与存储成本）"
+    ],
+    "usphone": "ɪmˈbedɪŋ daɪˈmenʃn",
+    "ukphone": "ɪmˈbedɪŋ daɪˈmenʃ(ə)n",
+    "example": "This model outputs an embedding dimension of 1536.",
+    "exampleTrans": "这个模型输出的嵌入维度是 1536。"
+  },
+  {
+    "name": "recency",
+    "trans": [
+      "n. 近期性（记忆或检索排序中偏向最近发生内容的权重因素）"
+    ],
+    "usphone": "ˈriːsənsi",
+    "ukphone": "ˈriːsənsɪ",
+    "example": "Memory retrieval scores combine relevance with recency.",
+    "exampleTrans": "记忆检索的打分会把相关性与近期性结合起来。"
+  },
+  {
+    "name": "context assembly",
+    "trans": [
+      "n. 上下文组装（把提示词、记忆、检索结果拼成最终输入的过程）"
+    ],
+    "usphone": "ˈkɑːntekst əˈsembli",
+    "ukphone": "ˈkɒntekst əˈsembli",
+    "example": "Context assembly happens right before the model call.",
+    "exampleTrans": "上下文组装发生在调用模型之前的最后一步。"
+  },
+  {
+    "name": "subgraph",
+    "trans": [
+      "n. 子图（工作流中可复用、可嵌套的局部流程图）"
+    ],
+    "usphone": "ˈsʌbɡræf",
+    "ukphone": "ˈsʌbɡrɑːf",
+    "example": "Each specialist agent is wrapped as a subgraph.",
+    "exampleTrans": "每个专职 agent 都被封装成一个子图。"
+  },
+  {
+    "name": "edge",
+    "trans": [
+      "n. 边（工作流图中连接两个节点、决定执行顺序的连线）"
+    ],
+    "usphone": "edʒ",
+    "ukphone": "edʒ",
+    "example": "Add a conditional edge from the router to the tool node.",
+    "exampleTrans": "从路由节点到工具节点添加一条条件边。"
+  },
+  {
+    "name": "verbosity",
+    "trans": [
+      "n. 冗长度（控制模型回答详略程度的参数或提示要求）"
+    ],
+    "usphone": "vɜːrˈbɑːsəti",
+    "ukphone": "vɜːˈbɒsəti",
+    "example": "Lower the verbosity so the answer stays under three sentences.",
+    "exampleTrans": "降低冗长度，让回答控制在三句话以内。"
+  },
+  {
+    "name": "race condition",
+    "trans": [
+      "n. 竞态条件（并发执行顺序不确定导致的结果错误）"
+    ],
+    "usphone": "reɪs kənˈdɪʃ(ə)n",
+    "ukphone": "reɪs kənˈdɪʃn",
+    "example": "Two parallel tool calls writing the same file caused a race condition.",
+    "exampleTrans": "两个并行的工具调用写同一个文件，引发了竞态条件。"
   }
 ]
