@@ -3898,5 +3898,155 @@
     "ukphone": "reɪs kənˈdɪʃn",
     "example": "Two parallel tool calls writing the same file caused a race condition.",
     "exampleTrans": "两个并行的工具调用写同一个文件，引发了竞态条件。"
+  },
+  {
+    "name": "interpretability",
+    "trans": [
+      "n. 可解释性（理解模型为何做出某预测的能力，AI 安全与可信研究的核心议题）"
+    ],
+    "usphone": "ɪnˌtɜːrprɪˈtəbɪlɪti",
+    "ukphone": "ɪnˌtɜːprɪˈtəbɪlɪti",
+    "example": "Interpretability research aims to explain why a model produced a specific output.",
+    "exampleTrans": "可解释性研究旨在解释模型为何产生特定的输出。"
+  },
+  {
+    "name": "hyperparameter",
+    "trans": [
+      "n. 超参数（训练前人为设定、不通过反向传播学习的参数，如学习率、批大小）"
+    ],
+    "usphone": "ˌhaɪpərˈpærəmɪtər",
+    "ukphone": "ˌhaɪpəˈpærəmɪtə",
+    "example": "We tuned the learning rate and batch size, the two most important hyperparameters.",
+    "exampleTrans": "我们调优了学习率和批大小这两个最重要的超参数。"
+  },
+  {
+    "name": "RMSNorm",
+    "trans": [
+      "n. 均方根归一化（Root Mean Square Layer Normalization，Llama 等大模型常用的归一化方法）"
+    ],
+    "usphone": "",
+    "ukphone": "",
+    "example": "The Llama architecture applies RMSNorm before each attention and feed-forward block.",
+    "exampleTrans": "Llama 架构在每个注意力和前馈子层之前都应用 RMSNorm。"
+  },
+  {
+    "name": "multi-turn",
+    "trans": [
+      "adj. 多轮的（指跨越多次对话或交互步骤的任务或对话）"
+    ],
+    "usphone": "ˈmʌlti tɜːrn",
+    "ukphone": "ˈmʌlti tɜːn",
+    "example": "A multi-turn agent keeps track of the conversation to solve the task step by step.",
+    "exampleTrans": "多轮 Agent 会维护对话上下文，逐步完成任务。"
+  },
+  {
+    "name": "agent memory",
+    "trans": [
+      "n. 智能体记忆（Agent 存储历史交互、工具结果与中间状态以便后续复用的机制）"
+    ],
+    "usphone": "ˈeɪdʒənt ˈmeməri",
+    "ukphone": "ˈeɪdʒənt ˈmeməri",
+    "example": "The agent memory stores previous tool results so the agent does not call the same tool twice.",
+    "exampleTrans": "智能体记忆会保存之前的工具结果，避免 Agent 重复调用同一工具。"
+  },
+  {
+    "name": "JSON mode",
+    "trans": [
+      "n. JSON 模式（要求模型严格输出合法 JSON 的调用模式，常用于结构化工具调用）"
+    ],
+    "usphone": "ˈdʒeɪsən moʊd",
+    "ukphone": "ˈdʒeɪsən məʊd",
+    "example": "Enable JSON mode so the model returns a parseable object instead of free text.",
+    "exampleTrans": "开启 JSON 模式，让模型返回可解析的对象而非自由文本。"
+  },
+  {
+    "name": "query engine",
+    "trans": [
+      "n. 查询引擎（RAG 中把检索、重排与生成串联起来回答用户问题的组件）"
+    ],
+    "usphone": "ˈkwɪri ˈendʒɪn",
+    "ukphone": "ˈkwɪəri ˈendʒɪn",
+    "example": "The query engine retrieves relevant chunks and then asks the LLM to synthesize an answer.",
+    "exampleTrans": "查询引擎先检索相关片段，再让大模型综合生成答案。"
+  },
+  {
+    "name": "sentence transformer",
+    "trans": [
+      "n. 句向量模型（将句子或段落编码为语义向量的模型，常用于 RAG 召回与相似度）"
+    ],
+    "usphone": "ˈsentəns trænsˈfɔːrmər",
+    "ukphone": "ˈsentəns trænsˈfɔːmə(r)",
+    "example": "We embed the documents with a sentence transformer before building the vector index.",
+    "exampleTrans": "构建向量索引前，我们用句向量模型把文档编码成向量。"
+  },
+  {
+    "name": "context limit",
+    "trans": [
+      "n. 上下文上限（模型单次能处理的最大 token 数量）"
+    ],
+    "usphone": "ˈkɑːntekst ˈlɪmɪt",
+    "ukphone": "ˈkɒntekst ˈlɪmɪt",
+    "example": "The long paper exceeds the model's context limit, so we must split it into chunks.",
+    "exampleTrans": "这篇长文档超出了模型的上下文上限，因此必须切分成片段。"
+  },
+  {
+    "name": "memory retention",
+    "trans": [
+      "n. 记忆保持（系统或模型在长时间跨度内保留关键信息的能力）"
+    ],
+    "usphone": "ˈmeməri rɪˈtenʃ(ə)n",
+    "ukphone": "ˈmeməri rɪˈtenʃ(ə)n",
+    "example": "Memory retention degrades when the conversation grows beyond the context window.",
+    "exampleTrans": "当对话超出上下文窗口时，记忆保持能力会下降。"
+  },
+  {
+    "name": "scheduling",
+    "trans": [
+      "n./v. 调度（安排任务、作业或 Agent 步骤的执行顺序与时间）"
+    ],
+    "usphone": "ˈskedʒuːlɪŋ",
+    "ukphone": "ˈʃedjuːlɪŋ",
+    "example": "The orchestrator handles scheduling of the parallel subtasks across workers.",
+    "exampleTrans": "编排器负责跨工作节点调度这些并行子任务的执行。"
+  },
+  {
+    "name": "chain",
+    "trans": [
+      "n. 链（将多个处理步骤或组件按顺序串联起来的工作单元）"
+    ],
+    "usphone": "tʃeɪn",
+    "ukphone": "tʃeɪn",
+    "example": "A retrieval chain first searches the knowledge base, then passes the context to the LLM.",
+    "exampleTrans": "一条检索链先搜索知识库，再把上下文传给大模型。"
+  },
+  {
+    "name": "length penalty",
+    "trans": [
+      "n. 长度惩罚（解码时抑制过长输出的超参数，控制生成文本的长度）"
+    ],
+    "usphone": "leŋθ ˈpenəlti",
+    "ukphone": "leŋθ ˈpenəlti",
+    "example": "A higher length penalty prevents the model from rambling in its answer.",
+    "exampleTrans": "调高长度惩罚能防止模型在回答时啰嗦冗长。"
+  },
+  {
+    "name": "CLI",
+    "trans": [
+      "n. 命令行界面（Command Line Interface，通过文本命令与程序交互的方式）"
+    ],
+    "usphone": "",
+    "ukphone": "",
+    "example": "You can build and deploy the project from the CLI with a single command.",
+    "exampleTrans": "你可以用一条命令在命令行界面完成项目的构建与部署。"
+  },
+  {
+    "name": "profiling",
+    "trans": [
+      "n./v. 性能剖析（测量程序各部分的耗时与资源占用以定位瓶颈）"
+    ],
+    "usphone": "ˈproʊfaɪlɪŋ",
+    "ukphone": "ˈprəʊfaɪlɪŋ",
+    "example": "Profiling showed that embedding lookup was the main bottleneck in the pipeline.",
+    "exampleTrans": "性能剖析显示，向量查表是这条流水线的主要瓶颈。"
   }
 ]
