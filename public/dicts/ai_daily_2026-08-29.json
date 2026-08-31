@@ -1,0 +1,152 @@
+[
+  {
+    "name": "uncertainty",
+    "trans": [
+      "n. 不确定性（模型对预测缺乏信心的程度）"
+    ],
+    "usphone": "ʌnˈsɜːrt(ə)nti",
+    "ukphone": "ʌnˈsɜːt(ə)nti",
+    "example": "High uncertainty signals the model should abstain or ask.",
+    "exampleTrans": "高不确定性意味着模型应当拒答或追问。"
+  },
+  {
+    "name": "explainability",
+    "trans": [
+      "n. 可解释性（理解模型为何给出某结果的能力）"
+    ],
+    "usphone": "ɪkˌspleɪnəˈbɪləti",
+    "ukphone": "ɪkˌspleɪnəˈbɪləti",
+    "example": "Explainability matters when the model drives a medical decision.",
+    "exampleTrans": "当模型参与医疗决策时，可解释性尤为重要。"
+  },
+  {
+    "name": "pre-norm",
+    "trans": [
+      "n. 前置归一化（把层归一化放在子层之前，稳定深层训练）"
+    ],
+    "usphone": "prɪ nɔːrm",
+    "ukphone": "ˈpriː nɔːm",
+    "example": "Pre-norm is now more common than post-norm in large transformers.",
+    "exampleTrans": "在大型 transformer 中，前置归一化已比后置归一化更常见。"
+  },
+  {
+    "name": "gated linear unit",
+    "trans": [
+      "n. 门控线性单元（带门控的线性变换，如 SwiGLU）"
+    ],
+    "usphone": "ˈɡeɪtɪd ˈlɪniər ˈjuːnɪt",
+    "ukphone": "ˈɡeɪtɪd ˈlɪniə(r) ˈjuːnɪt",
+    "example": "Many LLMs replace the MLP with a gated linear unit.",
+    "exampleTrans": "许多大模型用门控线性单元替换普通 MLP。"
+  },
+  {
+    "name": "human oversight",
+    "trans": [
+      "n. 人工监督（关键步骤由人审核 agent 行为）"
+    ],
+    "usphone": "ˈhjuːmən ˈoʊvərsaɪt",
+    "ukphone": "ˈhjuːmən ˈəʊvəsaɪt",
+    "example": "High-risk actions require human oversight before execution.",
+    "exampleTrans": "高风险动作在执行前需要人工监督。"
+  },
+  {
+    "name": "agent supervision",
+    "trans": [
+      "n. agent 监督（对 agent 全程行为的监管与干预机制）"
+    ],
+    "usphone": "ˈeɪdʒənt ˌsuːpərˈvɪʒ(ə)n",
+    "ukphone": "ˈeɪdʒənt ˌsuːpərˈvɪʒ(ə)n",
+    "example": "Agent supervision logs every tool call for later audit.",
+    "exampleTrans": "agent 监督会记录每次工具调用以备审计。"
+  },
+  {
+    "name": "parallel tool calls",
+    "trans": [
+      "n. 并行工具调用（同时发起多个独立工具调用）"
+    ],
+    "usphone": "ˈpærəlel tuːl kɔːl",
+    "ukphone": "ˈpærəlel tuːl kɔːl",
+    "example": "Parallel tool calls speed up agents that fetch several sources at once.",
+    "exampleTrans": "并行工具调用能加速需要同时抓取多个来源的 agent。"
+  },
+  {
+    "name": "forced function call",
+    "trans": [
+      "n. 强制函数调用（要求模型必须调用指定函数）"
+    ],
+    "usphone": "fɔːrst ˈfʌŋkʃ(ə)n kɔːl",
+    "ukphone": "fɔːst ˈfʌŋkʃ(ə)n kɔːl",
+    "example": "Use forced function call to guarantee structured extraction.",
+    "exampleTrans": "用强制函数调用可保证结构化抽取。"
+  },
+  {
+    "name": "late chunking",
+    "trans": [
+      "n. 迟切分（先对整个文档编码再切块，保留全局上下文）"
+    ],
+    "usphone": "leɪt ˈtʃʌŋkɪŋ",
+    "ukphone": "leɪt ˈtʃʌŋkɪŋ",
+    "example": "Late chunking improves retrieval for long, related passages.",
+    "exampleTrans": "迟切分能改善长相关段落的检索效果。"
+  },
+  {
+    "name": "hypothetical document",
+    "trans": [
+      "n. 假设文档嵌入（HyDE：先生成假答案再编码检索）"
+    ],
+    "usphone": "ˌhaɪpəˈθetɪk(ə)l ˈdɑːkjumənt",
+    "ukphone": "ˌhaɪpəˈθetɪk(ə)l ˈdɒkjumənt",
+    "example": "Hypothetical document embeddings often beat querying with the raw question.",
+    "exampleTrans": "假设文档嵌入通常优于直接用原始问题检索。"
+  },
+  {
+    "name": "context pruning",
+    "trans": [
+      "n. 上下文剪枝（丢弃不重要 token 以控制长度）"
+    ],
+    "usphone": "ˈkɑːntekst ˈpruːnɪŋ",
+    "ukphone": "ˈkɒntekst ˈpruːnɪŋ",
+    "example": "Context pruning drops old turns when the window fills up.",
+    "exampleTrans": "窗口填满时，上下文剪枝会丢弃较早的轮次。"
+  },
+  {
+    "name": "retry strategy",
+    "trans": [
+      "n. 重试策略（调用失败后的重试方式与退避规则）"
+    ],
+    "usphone": "ˌriːˈtraɪ ˈstrætədʒi",
+    "ukphone": "ˌriːˈtraɪ ˈstrætədʒi",
+    "example": "A good retry strategy uses exponential backoff with jitter.",
+    "exampleTrans": "好的重试策略采用带抖动的指数退避。"
+  },
+  {
+    "name": "conditional branch",
+    "trans": [
+      "n. 条件分支（按判断结果走不同工作流路径）"
+    ],
+    "usphone": "kənˈdɪʃən(ə)l bræntʃ",
+    "ukphone": "kənˈdɪʃən(ə)l brɑːntʃ",
+    "example": "Add a conditional branch to route spam away from the agent.",
+    "exampleTrans": "加一个条件分支，把垃圾内容导流到 agent 之外。"
+  },
+  {
+    "name": "automatic prompt",
+    "trans": [
+      "n. 自动提示工程（由模型自动生成/优化提示词）"
+    ],
+    "usphone": "ˌɔːtəˈmætɪk prɑːmpt",
+    "ukphone": "ˌɔːtəˈmætɪk prɒmpt",
+    "example": "Automatic prompt optimization found a shorter prompt that works better.",
+    "exampleTrans": "自动提示优化找到了更短且效果更好的提示词。"
+  },
+  {
+    "name": "deadlock",
+    "trans": [
+      "n. 死锁（多方互相等待导致流程永久卡住）"
+    ],
+    "usphone": "ˈdedlɑːk",
+    "ukphone": "ˈdedlɒk",
+    "example": "Two agents waiting on each other’s locks caused a deadlock.",
+    "exampleTrans": "两个 agent 互相等待对方的锁，造成了死锁。"
+  }
+]

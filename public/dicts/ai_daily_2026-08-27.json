@@ -1,0 +1,152 @@
+[
+  {
+    "name": "ensemble",
+    "trans": [
+      "n. 集成/模型集成（组合多个模型以提升稳定性与准确率）"
+    ],
+    "usphone": "ɑːnˈsɑːmb(ə)l",
+    "ukphone": "ɒnˈsɒmb(ə)l",
+    "example": "An ensemble of small models can beat a single large one on this task.",
+    "exampleTrans": "在这个任务上，多个小模型的集成可以胜过单个大模型。"
+  },
+  {
+    "name": "speculative decoding",
+    "trans": [
+      "n. 推测解码（用小模型起草、大模型并行校验以加速生成）"
+    ],
+    "usphone": "ˈspekjələtɪv diːˈkoʊdɪŋ",
+    "ukphone": "ˈspekjələtɪv ˌdiːˈkəʊdɪŋ",
+    "example": "Speculative decoding cuts inference latency without changing the output.",
+    "exampleTrans": "推测解码能在不改变输出的前提下降低推理延迟。"
+  },
+  {
+    "name": "sinusoidal encoding",
+    "trans": [
+      "n. 正弦位置编码（用正弦/余弦函数注入 token 位置信息）"
+    ],
+    "usphone": "ˌsɪnəˈsɔɪdl ɪnˈkoʊdɪŋ",
+    "ukphone": "ˌsaɪnəˈsɔɪdəl ɪnˈkəʊdɪŋ",
+    "example": "The original Transformer uses sinusoidal encoding for positions.",
+    "exampleTrans": "原始 Transformer 使用正弦位置编码表示位置。"
+  },
+  {
+    "name": "relative attention",
+    "trans": [
+      "n. 相对位置注意力（按 token 间相对距离计算注意力偏置）"
+    ],
+    "usphone": "ˈrelətɪv əˈtenʃ(ə)n",
+    "ukphone": "ˈrelətɪv əˈtenʃ(ə)n",
+    "example": "Relative attention lets the model generalize across different sequence lengths.",
+    "exampleTrans": "相对位置注意力让模型能跨不同序列长度泛化。"
+  },
+  {
+    "name": "goal decomposition",
+    "trans": [
+      "n. 目标分解（把复杂目标拆成可执行的子任务）"
+    ],
+    "usphone": "ɡoʊl ˌdiːˌkɑːmpəˈzɪʃn",
+    "ukphone": "ɡəʊl ˌdiːˌkɒmpəˈzɪʃn",
+    "example": "Goal decomposition is the first step in most agent planners.",
+    "exampleTrans": "目标分解是多数 agent 规划器的第一步。"
+  },
+  {
+    "name": "task planning",
+    "trans": [
+      "n. 任务规划（为达成目标安排步骤与调用顺序）"
+    ],
+    "usphone": "tæsk ˈplænɪŋ",
+    "ukphone": "tɑːsk ˈplænɪŋ",
+    "example": "The agent uses task planning to decide which tools to call.",
+    "exampleTrans": "该 agent 通过任务规划决定调用哪些工具。"
+  },
+  {
+    "name": "function result",
+    "trans": [
+      "n. 函数结果（工具/函数调用返回给模型的值）"
+    ],
+    "usphone": "ˈfʌŋkʃ(ə)n rɪˈzʌlt",
+    "ukphone": "ˈfʌŋkʃ(ə)n rɪˈzʌlt",
+    "example": "The function result is injected back into the model context.",
+    "exampleTrans": "函数结果会被注入回模型上下文中。"
+  },
+  {
+    "name": "native function",
+    "trans": [
+      "n. 原生函数调用（模型原生支持的 function calling 能力）"
+    ],
+    "usphone": "ˈneɪtɪv ˈfʌŋkʃ(ə)n",
+    "ukphone": "ˈneɪtɪv ˈfʌŋkʃ(ə)n",
+    "example": "This provider offers native function calling without extra wrappers.",
+    "exampleTrans": "该服务商提供无需额外封装的原生函数调用。"
+  },
+  {
+    "name": "contextual compression",
+    "trans": [
+      "n. 上下文压缩（检索后压缩冗余内容以节省上下文）"
+    ],
+    "usphone": "kənˈtekstʃuəl kəmˈpreʃ(ə)n",
+    "ukphone": "kənˈtekstʃuəl kəmˈpreʃ(ə)n",
+    "example": "Contextual compression shrinks retrieved passages before they reach the prompt.",
+    "exampleTrans": "上下文压缩会在检索内容进入提示词前先压缩冗余部分。"
+  },
+  {
+    "name": "parent document",
+    "trans": [
+      "n. 父文档检索（先召回大块、再返回其小块以提升精度）"
+    ],
+    "usphone": "ˈperənt ˈdɑːkjumənt",
+    "ukphone": "ˈpeərənt ˈdɒkjumənt",
+    "example": "Parent document retrieval returns the small chunk but indexes the bigger block.",
+    "exampleTrans": "父文档检索返回小块，但用更大的块做索引。"
+  },
+  {
+    "name": "memory write",
+    "trans": [
+      "n. 记忆写入（agent 把信息存入长期/工作记忆的操作）"
+    ],
+    "usphone": "ˈmeməri raɪt",
+    "ukphone": "ˈmeməri raɪt",
+    "example": "Call memory write after the user shares a durable preference.",
+    "exampleTrans": "用户给出持久偏好后，调用记忆写入。"
+  },
+  {
+    "name": "memory read",
+    "trans": [
+      "n. 记忆读取（agent 从记忆中检索相关信息的操作）"
+    ],
+    "usphone": "ˈmeməri riːd",
+    "ukphone": "ˈmeməri riːd",
+    "example": "A memory read at the start of each turn keeps the agent grounded.",
+    "exampleTrans": "每轮开始时读取记忆，可让 agent 保持上下文一致。"
+  },
+  {
+    "name": "workflow graph",
+    "trans": [
+      "n. 工作流图（用节点与边描述步骤依赖关系的有向图）"
+    ],
+    "usphone": "ˈwɜːrkfloʊ ɡræf",
+    "ukphone": "ˈwɜːkfləʊ ɡrɑːf",
+    "example": "We render the pipeline as a workflow graph for easier debugging.",
+    "exampleTrans": "我们把流水线渲染成工作流图，便于调试。"
+  },
+  {
+    "name": "output template",
+    "trans": [
+      "n. 输出模板（规定模型输出固定格式的模板）"
+    ],
+    "usphone": "ˈaʊtpʊt ˈtemplət",
+    "ukphone": "ˈaʊtpʊt ˈtempleɪt",
+    "example": "An output template forces the model to return valid JSON.",
+    "exampleTrans": "输出模板能强制模型返回合法 JSON。"
+  },
+  {
+    "name": "garbage collection",
+    "trans": [
+      "v./n. 垃圾回收（自动释放不再使用的内存）"
+    ],
+    "usphone": "ˈɡɑːrbɪdʒ kəˈlekʃ(ə)n",
+    "ukphone": "ˈɡɑːbɪdʒ kəˈlekʃ(ə)n",
+    "example": "Long-running servers need garbage collection to avoid memory leaks.",
+    "exampleTrans": "长驻服务需要垃圾回收来避免内存泄漏。"
+  }
+]

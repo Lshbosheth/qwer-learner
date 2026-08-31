@@ -1,0 +1,152 @@
+[
+  {
+    "name": "learning rate",
+    "trans": [
+      "n. 学习率（每步更新参数的步长）"
+    ],
+    "usphone": "ˈlɜːrnɪŋ reɪt",
+    "ukphone": "ˈlɜːnɪŋ reɪt",
+    "example": "A warmup phase ramps the learning rate up gently.",
+    "exampleTrans": "预热阶段会平缓地抬升学习率。"
+  },
+  {
+    "name": "switch transformer",
+    "trans": [
+      "n. Switch Transformer（每 token 仅激活一个专家的稀疏模型）"
+    ],
+    "usphone": "swɪtʃ trænsˈfɔːrmər",
+    "ukphone": "swɪtʃ trænsˈfɔːmə(r)",
+    "example": "Switch transformer routes each token to a single expert.",
+    "exampleTrans": "Switch Transformer 把每个 token 路由到单一专家。"
+  },
+  {
+    "name": "agent topology",
+    "trans": [
+      "n. agent 拓扑（多个 agent 之间的连接与协作结构）"
+    ],
+    "usphone": "ˈeɪdʒənt təˈpɑːlədʒi",
+    "ukphone": "ˈeɪdʒənt təˈpɒlədʒi",
+    "example": "The agent topology decides who can delegate to whom.",
+    "exampleTrans": "agent 拓扑决定了谁可以委派给谁。"
+  },
+  {
+    "name": "tool validation",
+    "trans": [
+      "n. 工具校验（调用前检查参数/权限是否合法）"
+    ],
+    "usphone": "tuːl ˌvælɪˈdeɪʃn",
+    "ukphone": "tuːl ˌvælɪˈdeɪʃn",
+    "example": "Tool validation rejects malformed arguments before execution.",
+    "exampleTrans": "工具校验在执行前拒绝不合法的参数。"
+  },
+  {
+    "name": "parameter extraction",
+    "trans": [
+      "n. 参数抽取（从文本中解析出工具所需的参数）"
+    ],
+    "usphone": "pəˈræmɪtər ɪkˈstrækʃ(ə)n",
+    "ukphone": "pəˈræmɪtə(r) ɪkˈstrækʃn",
+    "example": "Parameter extraction turns the user sentence into a tool schema.",
+    "exampleTrans": "参数抽取把用户的话转成工具所需的 schema。"
+  },
+  {
+    "name": "multi-hop retrieval",
+    "trans": [
+      "n. 多跳检索（分步召回、逐跳逼近答案）"
+    ],
+    "usphone": "ˈmʌlti hɑːp rɪˈtriːv(ə)l",
+    "ukphone": "ˈmʌlti hɒp rɪˈtriːv(ə)l",
+    "example": "Multi-hop retrieval answers questions needing several facts.",
+    "exampleTrans": "多跳检索能回答需要多条事实的问题。"
+  },
+  {
+    "name": "dialogue history",
+    "trans": [
+      "n. 对话历史（已发生轮次的完整记录）"
+    ],
+    "usphone": "ˈdaɪəlɔːɡ ˈhɪstri",
+    "ukphone": "ˈdaɪəlɒɡ ˈhɪstri",
+    "example": "Compress the dialogue history when it grows past the window.",
+    "exampleTrans": "当对话历史超出窗口时，对其进行压缩。"
+  },
+  {
+    "name": "context caching",
+    "trans": [
+      "n. 上下文缓存（复用不变前缀的计算以省 token 与耗时）"
+    ],
+    "usphone": "ˈkɑːntekst kæʃɪŋ",
+    "ukphone": "ˈkɒntekst ˈkæʃɪŋ",
+    "example": "Context caching makes repeated long system prompts much cheaper.",
+    "exampleTrans": "上下文缓存让重复的长系统提示词便宜很多。"
+  },
+  {
+    "name": "state transition",
+    "trans": [
+      "n. 状态转移（工作流从一个状态切换到下一个）"
+    ],
+    "usphone": "steɪt trænˈzɪʃ(ə)n",
+    "ukphone": "steɪt trænˈzɪʃ(ə)n",
+    "example": "Each state transition is logged for observability.",
+    "exampleTrans": "每次状态转移都会被记录以便观测。"
+  },
+  {
+    "name": "compensation",
+    "trans": [
+      "n. 补偿（出错后回滚或补救的容错动作）"
+    ],
+    "usphone": "ˌkɑːmpenˈseɪʃ(ə)n",
+    "ukphone": "ˌkɒmpenˈseɪʃ(ə)n",
+    "example": "The saga uses compensation to undo a failed booking.",
+    "exampleTrans": "saga 用补偿操作撤销失败的预订。"
+  },
+  {
+    "name": "prompt prefix",
+    "trans": [
+      "n. 提示词前缀（置于输入最前、设定基调的固定文本）"
+    ],
+    "usphone": "prɑːmpt ˈpriːfɪks",
+    "ukphone": "prɒmpt ˈpriːfɪks",
+    "example": "Put the persona in the prompt prefix so it always applies.",
+    "exampleTrans": "把人设放在提示词前缀，使其始终生效。"
+  },
+  {
+    "name": "prompt suffix",
+    "trans": [
+      "n. 提示词后缀（置于输入末尾、收束格式的固定文本）"
+    ],
+    "usphone": "prɑːmpt ˈsʌfɪks",
+    "ukphone": "prɒmpt ˈsʌfɪks",
+    "example": "The prompt suffix reminds the model to output JSON only.",
+    "exampleTrans": "提示词后缀提醒模型只输出 JSON。"
+  },
+  {
+    "name": "prompt skeleton",
+    "trans": [
+      "n. 提示词骨架（保留结构的模板，仅填充变量）"
+    ],
+    "usphone": "prɑːmpt ˈskelɪt(ə)n",
+    "ukphone": "prɒmpt ˈskelɪt(ə)n",
+    "example": "Fill the prompt skeleton with today’s data before sending.",
+    "exampleTrans": "发送前用今天的数据填充提示词骨架。"
+  },
+  {
+    "name": "role definition",
+    "trans": [
+      "n. 角色定义（规定模型扮演的身份与职责）"
+    ],
+    "usphone": "roʊl ˌdefɪˈnɪʃn",
+    "ukphone": "rəʊl ˌdefɪˈnɪʃ(ə)n",
+    "example": "A crisp role definition reduces off-topic replies.",
+    "exampleTrans": "清晰的角色定义能减少跑题回复。"
+  },
+  {
+    "name": "null safety",
+    "trans": [
+      "n. 空值安全（避免对空值解引用导致崩溃）"
+    ],
+    "usphone": "nʌl ˈseɪfti",
+    "ukphone": "nʌl ˈseɪfti",
+    "example": "Null safety checks prevent the parser from crashing on empty fields.",
+    "exampleTrans": "空值安全检查可防止解析器在空字段上崩溃。"
+  }
+]

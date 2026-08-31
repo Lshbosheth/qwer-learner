@@ -1,0 +1,152 @@
+[
+  {
+    "name": "factuality",
+    "trans": [
+      "n. 事实性（回答与真实世界事实相符的程度）"
+    ],
+    "usphone": "ˌfæktʃʊˈæləti",
+    "ukphone": "ˌfæktʃʊˈæləti",
+    "example": "Factuality is evaluated against a grounded reference set.",
+    "exampleTrans": "事实性依据带标注的参考集来评估。"
+  },
+  {
+    "name": "data drift",
+    "trans": [
+      "n. 数据漂移（生产数据分布随训练数据偏移）"
+    ],
+    "usphone": "ˈdeɪtə drɪft",
+    "ukphone": "ˈdeɪtə drɪft",
+    "example": "Monitor data drift to know when to retrain the model.",
+    "exampleTrans": "监控数据漂移，以判断何时需要重新训练。"
+  },
+  {
+    "name": "universal transformer",
+    "trans": [
+      "n. 通用 Transformer（自适应计算步数的循环式 Transformer）"
+    ],
+    "usphone": "ˌjuːnɪˈvɜːrs(ə)l trænsˈfɔːrmər",
+    "ukphone": "ˌjuːnɪˈvɜːs(ə)l trænsˈfɔːmə(r)",
+    "example": "The universal transformer repeats layers until a halting signal.",
+    "exampleTrans": "通用 Transformer 会重复层，直到出现停止信号。"
+  },
+  {
+    "name": "alibi",
+    "trans": [
+      "n. ALiBi 位置偏置（不学位置编码、用距离线性偏置注入位置）"
+    ],
+    "usphone": "ˈæləbaɪ",
+    "ukphone": "ˈæləbaɪ",
+    "example": "ALiBi extrapolates to sequences longer than training.",
+    "exampleTrans": "ALiBi 能外推到比训练更长的序列。"
+  },
+  {
+    "name": "evaluator",
+    "trans": [
+      "n. 评估器（对 agent 输出打分或判定的组件/模型）"
+    ],
+    "usphone": "ɪˈvæljʊeɪtər",
+    "ukphone": "ɪˈvæljʊeɪtə",
+    "example": "The evaluator grades each candidate answer for correctness.",
+    "exampleTrans": "评估器对每份候选答案的正确性打分。"
+  },
+  {
+    "name": "cognitive architecture",
+    "trans": [
+      "n. 认知架构（组织记忆/规划/行动的 agent 总体结构）"
+    ],
+    "usphone": "ˈkɑːɡnətɪv ˈɑːrkɪtektʃər",
+    "ukphone": "ˈkɒɡnətɪv ˈɑːkɪtektʃə(r)",
+    "example": "A clear cognitive architecture makes agent behavior predictable.",
+    "exampleTrans": "清晰的认知架构让 agent 行为更可预测。"
+  },
+  {
+    "name": "tool confirmation",
+    "trans": [
+      "n. 工具确认（调用敏感工具前的人工/自动确认）"
+    ],
+    "usphone": "tuːl ˌkɑːnfərˈmeɪʃ(ə)n",
+    "ukphone": "tuːl ˌkɒnfəˈmeɪʃ(ə)n",
+    "example": "Tool confirmation prevents the agent from sending emails by accident.",
+    "exampleTrans": "工具确认可防止 agent 误发邮件。"
+  },
+  {
+    "name": "fusion retrieval",
+    "trans": [
+      "n. 融合检索（多路召回结果再融合重排）"
+    ],
+    "usphone": "ˈfjuːʒ(ə)n rɪˈtriːv(ə)l",
+    "ukphone": "ˈfjuːʒ(ə)n rɪˈtriːv(ə)l",
+    "example": "Reciprocal rank fusion combines lexical and dense results.",
+    "exampleTrans": "倒数排名融合把词法召回与稠密召回结合起来。"
+  },
+  {
+    "name": "graph retrieval",
+    "trans": [
+      "n. 图检索（在知识图谱上沿关系游走召回）"
+    ],
+    "usphone": "ɡræf rɪˈtriːv(ə)l",
+    "ukphone": "ɡrɑːf rɪˈtriːv(ə)l",
+    "example": "Graph retrieval connects entities that keyword search misses.",
+    "exampleTrans": "图检索能召回关键词搜索遗漏的实体关联。"
+  },
+  {
+    "name": "procedural memory",
+    "trans": [
+      "n. 程序性记忆（存储“怎么做”的步骤型记忆）"
+    ],
+    "usphone": "prəˈsiːdʒərəl ˈmeməri",
+    "ukphone": "prəˈsiːdʒərəl ˈmeməri",
+    "example": "Procedural memory holds the runbook the agent should follow.",
+    "exampleTrans": "程序性记忆保存 agent 应遵从的操作手册。"
+  },
+  {
+    "name": "memory gate",
+    "trans": [
+      "n. 记忆门控（控制哪些信息写入/读出记忆的机制）"
+    ],
+    "usphone": "ˈmeməri ɡeɪt",
+    "ukphone": "ˈmeməri ɡeɪt",
+    "example": "A memory gate filters noise before it reaches long-term storage.",
+    "exampleTrans": "记忆门控在信息进入长期存储前先过滤噪声。"
+  },
+  {
+    "name": "parallel branch",
+    "trans": [
+      "n. 并行分支（工作流中同时执行的独立路径）"
+    ],
+    "usphone": "ˈpærəlel bræntʃ",
+    "ukphone": "ˈpærəlel brɑːntʃ",
+    "example": "Use a parallel branch to call three APIs at the same time.",
+    "exampleTrans": "用并行分支同时调用三个 API。"
+  },
+  {
+    "name": "workflow template",
+    "trans": [
+      "n. 工作流模板（可复用的流程骨架）"
+    ],
+    "usphone": "ˈwɜːrkfloʊ ˈtemplət",
+    "ukphone": "ˈwɜːkfləʊ ˈtempleɪt",
+    "example": "Save the approval flow as a workflow template for reuse.",
+    "exampleTrans": "把审批流存为工作流模板以便复用。"
+  },
+  {
+    "name": "structured prompt",
+    "trans": [
+      "n. 结构化提示词（用固定字段组织输入的提示）"
+    ],
+    "usphone": "ˈstrʌktʃərd prɑːmpt",
+    "ukphone": "ˈstrʌktʃəd prɒmpt",
+    "example": "A structured prompt keeps the model’s output easy to parse.",
+    "exampleTrans": "结构化提示词让模型输出更易解析。"
+  },
+  {
+    "name": "memory leak",
+    "trans": [
+      "n. 内存泄漏（不再使用的内存未被释放）"
+    ],
+    "usphone": "ˈmeməri liːk",
+    "ukphone": "ˈmeməri liːk",
+    "example": "A memory leak slowed the service after a few days of uptime.",
+    "exampleTrans": "内存泄漏让服务运行几天后变慢。"
+  }
+]
