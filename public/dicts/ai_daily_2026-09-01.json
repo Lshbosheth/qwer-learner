@@ -1,0 +1,152 @@
+[
+  {
+    "name": "pre-training",
+    "trans": [
+      "n. 预训练（在下游任务之前于大规模语料上训练基础模型的过程）"
+    ],
+    "usphone": "prɪ ˈtreɪnɪŋ",
+    "ukphone": "ˈpriː ˈtreɪnɪŋ",
+    "example": "Pre-training on a large text corpus gives the model broad language understanding.",
+    "exampleTrans": "在大规模文本语料上进行预训练，使模型获得广泛的语言理解能力。"
+  },
+  {
+    "name": "nucleus sampling",
+    "trans": [
+      "n. 核采样（按累积概率截断、仅保留 top-p 词元的解码策略）"
+    ],
+    "usphone": "ˈnuːkliəs ˈsæmplɪŋ",
+    "ukphone": "ˈnjuːkliəs ˈsɑːmplɪŋ",
+    "example": "Nucleus sampling keeps only the smallest set of tokens whose probabilities sum to p.",
+    "exampleTrans": "核采样只保留累积概率达到 p 的最小词元集合。"
+  },
+  {
+    "name": "vision transformer",
+    "trans": [
+      "n. 视觉 Transformer（将图像切分为图块序列并用 Transformer 处理的视觉模型）"
+    ],
+    "usphone": "ˈvɪʒ(ə)n trænsˈfɔːrmər",
+    "ukphone": "ˈvɪʒ(ə)n trænsˈfɔːmə(r)",
+    "example": "The vision transformer treats an image as a sequence of patches.",
+    "exampleTrans": "视觉 Transformer 将图像视为图块序列来处理。"
+  },
+  {
+    "name": "patch embedding",
+    "trans": [
+      "n. 图块嵌入（将图像小块线性投影为 Transformer 可处理的向量）"
+    ],
+    "usphone": "pætʃ ɪmˈbedɪŋ",
+    "ukphone": "pætʃ ɪmˈbedɪŋ",
+    "example": "Patch embedding converts each image patch into a fixed-size vector.",
+    "exampleTrans": "图块嵌入把每个图像小块转换为固定尺寸的向量。"
+  },
+  {
+    "name": "thought",
+    "trans": [
+      "n. 思考（ReAct 等智能体在行动前生成的中间推理步骤）"
+    ],
+    "usphone": "θɔːt",
+    "ukphone": "θɔːt",
+    "example": "The agent writes a thought before deciding which tool to call.",
+    "exampleTrans": "智能体在决定调用哪个工具之前，先写出一步思考。"
+  },
+  {
+    "name": "react",
+    "trans": [
+      "n./v. ReAct（推理与行动交替的 Agent 范式）；反应"
+    ],
+    "usphone": "riˈækt",
+    "ukphone": "riˈækt",
+    "example": "ReAct interleaves reasoning traces with actions to solve tasks.",
+    "exampleTrans": "ReAct 将推理轨迹与行动交替，以完成复杂任务。"
+  },
+  {
+    "name": "method",
+    "trans": [
+      "n. 方法（HTTP 请求类型或工具/函数的调用入口）"
+    ],
+    "usphone": "ˈmeθəd",
+    "ukphone": "ˈmeθəd",
+    "example": "The API exposes a GET method to fetch the resource.",
+    "exampleTrans": "该 API 暴露一个 GET 方法来获取资源。"
+  },
+  {
+    "name": "parameter",
+    "trans": [
+      "n. 参数（模型权重或函数/工具接受的输入变量）"
+    ],
+    "usphone": "pəˈræmɪtər",
+    "ukphone": "pəˈræmɪtə(r)",
+    "example": "Fine-tuning updates the model parameters to fit new data.",
+    "exampleTrans": "微调会更新模型参数以适配新数据。"
+  },
+  {
+    "name": "lexical retrieval",
+    "trans": [
+      "n. 词典（词汇）检索（基于关键词精确匹配的 RAG 召回方式）"
+    ],
+    "usphone": "ˈleksɪk(ə)l rɪˈtriːv(ə)l",
+    "ukphone": "ˈleksɪk(ə)l rɪˈtriːv(ə)l",
+    "example": "Lexical retrieval finds documents containing the exact query keywords.",
+    "exampleTrans": "词典检索能找出包含查询关键词的文档。"
+  },
+  {
+    "name": "summary",
+    "trans": [
+      "n. 摘要（对长上下文或对话历史的压缩记忆）"
+    ],
+    "usphone": "ˈsʌməri",
+    "ukphone": "ˈsʌməri",
+    "example": "The agent stores a summary of the conversation to save context.",
+    "exampleTrans": "智能体保存对话摘要以节省上下文。"
+  },
+  {
+    "name": "asynchronous",
+    "trans": [
+      "adj. 异步的（不阻塞主流程、并发执行任务的工作方式）"
+    ],
+    "usphone": "eɪˈsɪŋkrənəs",
+    "ukphone": "eɪˈsɪŋkrənəs",
+    "example": "Asynchronous calls let the agent fetch tools without blocking.",
+    "exampleTrans": "异步调用让智能体在获取工具时不阻塞主流程。"
+  },
+  {
+    "name": "load balancing",
+    "trans": [
+      "n. 负载均衡（将请求分配到多个实例以提升吞吐）"
+    ],
+    "usphone": "loʊd ˈbælənsɪŋ",
+    "ukphone": "ləʊd ˈbælənsɪŋ",
+    "example": "Load balancing distributes inference requests across GPUs.",
+    "exampleTrans": "负载均衡把推理请求分发到多个 GPU 上。"
+  },
+  {
+    "name": "output parsing",
+    "trans": [
+      "n. 输出解析（把模型文本输出转换为结构化数据）"
+    ],
+    "usphone": "ˈaʊtpʊt ˈpɑːrsɪŋ",
+    "ukphone": "ˈaʊtpʊt ˈpɑːzɪŋ",
+    "example": "Output parsing converts the model's text into a JSON object.",
+    "exampleTrans": "输出解析把模型的文本转换为 JSON 对象。"
+  },
+  {
+    "name": "thread-safe",
+    "trans": [
+      "adj. 线程安全的（多线程并发访问下行为始终正确的代码属性）"
+    ],
+    "usphone": "θred seɪf",
+    "ukphone": "θred seɪf",
+    "example": "The shared memory cache must be thread-safe.",
+    "exampleTrans": "共享内存缓存必须是线程安全的。"
+  },
+  {
+    "name": "semantic versioning",
+    "trans": [
+      "n. 语义化版本（用 主.次.修订 号表达兼容性变化的版本规范）"
+    ],
+    "usphone": "sɪˈmæntɪk ˈvɜːrʒ(ə)nɪŋ",
+    "ukphone": "sɪˈmæntɪk ˈvɜːʃ(ə)nɪŋ",
+    "example": "We follow semantic versioning so 1.2.0 stays backward compatible with 1.0.0.",
+    "exampleTrans": "我们遵循语义化版本，因此 1.2.0 向后兼容 1.0.0。"
+  }
+]
