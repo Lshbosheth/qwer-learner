@@ -298,5 +298,155 @@
     "ukphone": "ˈmɒnəʊriːpəʊ",
     "example": "The team manages all packages in a single monorepo with shared tooling.",
     "exampleTrans": "团队用统一的工具链在单个单体仓库中管理所有包。"
+  },
+  {
+    "name": "gradient accumulation",
+    "trans": [
+      "n. 梯度累积（训练时累积多个小批次梯度后再更新参数，以节省显存）"
+    ],
+    "usphone": "ˈɡreɪdiənt əˌkjuːmjəˈleɪʃn",
+    "ukphone": "ˈɡreɪdiənt əˌkjuːmjəˈleɪʃn",
+    "example": "Gradient accumulation lets you train with an effective batch size far larger than your GPU memory allows.",
+    "exampleTrans": "梯度累积让你能用远大于显存允许的等效批大小进行训练。"
+  },
+  {
+    "name": "data parallelism",
+    "trans": [
+      "n. 数据并行（在多设备上复制模型、分散数据以并行训练）"
+    ],
+    "usphone": "ˈdeɪtə ˈpærəlelɪzəm",
+    "ukphone": "ˈdeɪtə ˈpærəlelɪzəm",
+    "example": "Data parallelism splits the training batch across GPUs to speed up model training.",
+    "exampleTrans": "数据并行把训练批次拆分到多张 GPU 上以加速模型训练。"
+  },
+  {
+    "name": "SwiGLU",
+    "trans": [
+      "n. 门控线性单元变体（Transformer 前馈层中常用的激活/门控结构）"
+    ],
+    "usphone": "",
+    "ukphone": "",
+    "example": "Many modern LLMs replace the standard feed-forward layer with a SwiGLU block.",
+    "exampleTrans": "许多现代大语言模型用 SwiGLU 块替换标准前馈层。"
+  },
+  {
+    "name": "sequence-to-sequence",
+    "trans": [
+      "adj./n. 序列到序列（编码器-解码器结构，将输入序列映射为输出序列）"
+    ],
+    "usphone": "ˈsiːkwəns tə ˈsiːkwəns",
+    "ukphone": "ˈsiːkwəns tə ˈsiːkwəns",
+    "example": "A sequence-to-sequence model translates a sentence in one language into another.",
+    "exampleTrans": "序列到序列模型把一种语言的句子翻译成另一种语言。"
+  },
+  {
+    "name": "agentic workflow",
+    "trans": [
+      "n. 智能体工作流（由自主 Agent 驱动、可多步决策完成任务的流程）"
+    ],
+    "usphone": "eɪˈdʒentɪk ˈwɜːrkfloʊ",
+    "ukphone": "eɪˈdʒentɪk ˈwɜːkfləʊ",
+    "example": "An agentic workflow can break a complex request into subtasks and execute them autonomously.",
+    "exampleTrans": "智能体工作流能把复杂请求拆成子任务并自主执行。"
+  },
+  {
+    "name": "computer use",
+    "trans": [
+      "n. 计算机操作（让 AI Agent 像人一样操作 GUI、点击与输入）"
+    ],
+    "usphone": "kəmˈpjuːtər juːz",
+    "ukphone": "kəmˈpjuːtə(r) juːz",
+    "example": "Computer use enables an agent to book a flight by clicking through a web browser.",
+    "exampleTrans": "计算机操作让智能体能通过浏览器点击来完成订机票。"
+  },
+  {
+    "name": "model context protocol",
+    "trans": [
+      "n. 模型上下文协议（MCP，连接 AI 模型与外部工具/数据源的开放标准）"
+    ],
+    "usphone": "ˈmɑːd(ə)l ˈkɑːntekst ˈproʊtəkɑːl",
+    "ukphone": "ˈmɒd(ə)l ˈkɒntekst ˈprəʊtəkɒl",
+    "example": "We exposed our database to the assistant through a Model Context Protocol server.",
+    "exampleTrans": "我们通过模型上下文协议（MCP）服务器把数据库暴露给助手。"
+  },
+  {
+    "name": "function call",
+    "trans": [
+      "n. 函数调用（模型输出结构化参数以调用预定义函数/工具）"
+    ],
+    "usphone": "ˈfʌŋkʃ(ə)n kɔːl",
+    "ukphone": "ˈfʌŋkʃ(ə)n kɔːl",
+    "example": "The model emitted a function call to fetch the current weather for the user's city.",
+    "exampleTrans": "模型发出了一个函数调用来获取用户所在城市的当前天气。"
+  },
+  {
+    "name": "hierarchical retrieval",
+    "trans": [
+      "n. 分层检索（RAG 中先检索粗粒度块、再细化到细粒度内容的策略）"
+    ],
+    "usphone": "ˌhaɪəˈrɑːrkɪkl rɪˈtriːv(ə)l",
+    "ukphone": "ˌhaɪəˈrɑːkɪk(ə)l rɪˈtriːv(ə)l",
+    "example": "Hierarchical retrieval first matches document sections, then drills down to relevant passages.",
+    "exampleTrans": "分层检索先匹配文档章节，再下钻到相关段落。"
+  },
+  {
+    "name": "memory update",
+    "trans": [
+      "n. 记忆更新（Agent 在运行中写入或修改自身记忆的机制）"
+    ],
+    "usphone": "ˈmeməri ˌʌpˈdeɪt",
+    "ukphone": "ˈmeməri ˌʌpˈdeɪt",
+    "example": "After finishing the task, the agent performed a memory update to store what it learned.",
+    "exampleTrans": "任务完成后，智能体执行了一次记忆更新，保存它学到的内容。"
+  },
+  {
+    "name": "workflow orchestration",
+    "trans": [
+      "n. 工作流编排（协调多个步骤/服务按依赖顺序自动执行）"
+    ],
+    "usphone": "ˈwɜːrkfloʊ ˌɔːrkɪˈstreɪʃn",
+    "ukphone": "ˈwɜːkfləʊ ˌɔːkɪˈstreɪʃn",
+    "example": "Workflow orchestration ensures each step runs only after its dependencies succeed.",
+    "exampleTrans": "工作流编排确保每个步骤仅在其依赖成功后运行。"
+  },
+  {
+    "name": "task pipeline",
+    "trans": [
+      "n. 任务流水线（把处理步骤串成可复用的自动化链路）"
+    ],
+    "usphone": "tæsk ˈpaɪplaɪn",
+    "ukphone": "tɑːsk ˈpaɪplaɪn",
+    "example": "The data task pipeline cleans, embeds, and indexes documents automatically.",
+    "exampleTrans": "这条数据处理流水线会自动清洗、向量化并索引文档。"
+  },
+  {
+    "name": "least-to-most",
+    "trans": [
+      "adj. 由易到难（一种提示策略：先把难题拆成简单子问题再依次求解）"
+    ],
+    "usphone": "liːst tə moʊst",
+    "ukphone": "liːst tə məʊst",
+    "example": "Least-to-most prompting decomposes a hard problem into easier subproblems solved in order.",
+    "exampleTrans": "由易到难的提示策略把一个难题拆成按顺序求解的简单子问题。"
+  },
+  {
+    "name": "version control",
+    "trans": [
+      "n. 版本控制（追踪代码/文件变更、支持协作与回滚的系统，如 Git）"
+    ],
+    "usphone": "ˈvɜːrʒ(ə)n kənˈtroʊl",
+    "ukphone": "ˈvɜːʃ(ə)n kənˈtrəʊl",
+    "example": "Version control lets the whole team collaborate on the same codebase without overwriting each other.",
+    "exampleTrans": "版本控制让整个团队能在同一代码库上协作而不互相覆盖。"
+  },
+  {
+    "name": "continuous integration",
+    "trans": [
+      "n. 持续集成（CI，频繁合并代码并自动构建/测试的开发实践）"
+    ],
+    "usphone": "kənˈtɪnjuəs ˌɪntɪˈɡreɪʃ(ə)n",
+    "ukphone": "kənˈtɪnjuəs ˌɪntɪˈɡreɪʃ(ə)n",
+    "example": "Continuous integration runs the test suite automatically on every pull request.",
+    "exampleTrans": "持续集成会在每个拉取请求上自动运行测试套件。"
   }
 ]
