@@ -448,5 +448,155 @@
     "ukphone": "kənˈtɪnjuəs ˌɪntɪˈɡreɪʃ(ə)n",
     "example": "Continuous integration runs the test suite automatically on every pull request.",
     "exampleTrans": "持续集成会在每个拉取请求上自动运行测试套件。"
+  },
+  {
+    "name": "rejection sampling",
+    "trans": [
+      "n. 拒绝采样（先从提议分布采样，再按准则拒绝部分样本；常用于解码/对齐，以平衡生成质量与多样性）"
+    ],
+    "usphone": "rɪˈdʒekt ˈsæmplɪŋ",
+    "ukphone": "rɪˈdʒekt ˈsɑːmplɪŋ",
+    "example": "Rejection sampling discards low-quality continuations by resampling until the model output passes a quality threshold.",
+    "exampleTrans": "拒绝采样会丢弃低质量的续写，反复重采样直到模型输出通过质量阈值。"
+  },
+  {
+    "name": "sparsity",
+    "trans": [
+      "n. 稀疏性（权重或注意力中大量元素接近零的现象，可用于剪枝与高效推理）"
+    ],
+    "usphone": "ˈspɑːrsəti",
+    "ukphone": "ˈspɑːsətɪ",
+    "example": "Exploiting weight sparsity lets us skip near-zero multiplications and speed up inference.",
+    "exampleTrans": "利用权重的稀疏性可以跳过接近零的乘法，从而加速推理。"
+  },
+  {
+    "name": "absolute positional encoding",
+    "trans": [
+      "n. 绝对位置编码（用位置序号本身直接编码 token 在序列中的绝对位置，如正弦位置编码）"
+    ],
+    "usphone": "ˈæbsəluːt pəˈzɪʃənəl ɪnˈkoʊdɪŋ",
+    "ukphone": "ˈæbsəluːt pəˈzɪʃənəl ɪnˈkəʊdɪŋ",
+    "example": "Absolute positional encoding injects the token's position index directly into the input embeddings.",
+    "exampleTrans": "绝对位置编码把 token 的位置序号直接注入输入嵌入中。"
+  },
+  {
+    "name": "relative positional encoding",
+    "trans": [
+      "n. 相对位置编码（编码 token 之间的相对距离而非绝对位置，如 Transformer-XL / T5 的做法）"
+    ],
+    "usphone": "ˈrelətɪv pəˈzɪʃənəl ɪnˈkoʊdɪŋ",
+    "ukphone": "ˈrelətɪv pəˈzɪʃənəl ɪnˈkəʊdɪŋ",
+    "example": "Relative positional encoding lets the model attend based on the distance between two tokens rather than their absolute indices.",
+    "exampleTrans": "相对位置编码让模型依据两个 token 之间的距离而非绝对序号来计算注意力。"
+  },
+  {
+    "name": "multi-agent system",
+    "trans": [
+      "n. 多智能体系统（由多个协作或竞争的 Agent 共同完成复杂任务的系统）"
+    ],
+    "usphone": "ˈmʌlti ˈeɪdʒənt ˈsɪstəm",
+    "ukphone": "ˈmʌlti ˈeɪdʒənt ˈsɪstəm",
+    "example": "A multi-agent system splits a research task across a planner, a writer, and a critic agent.",
+    "exampleTrans": "多智能体系统把一个研究任务拆给规划者、撰写者和评审者三个 Agent 协作完成。"
+  },
+  {
+    "name": "self-improvement",
+    "trans": [
+      "n. 自我改进（Agent 或模型通过反思、迭代或自训练不断提升自身能力）"
+    ],
+    "usphone": "self ɪmˈpruːvmənt",
+    "ukphone": "self ɪmˈpruːvmənt",
+    "example": "The agent's self-improvement loop rewrites its own failed plans after reviewing the error trace.",
+    "exampleTrans": "该智能体的自我改进循环会在查看错误轨迹后重写它自己失败的计划。"
+  },
+  {
+    "name": "toolkit",
+    "trans": [
+      "n. 工具集（Agent 可调用的一组工具/函数的集合，如 LangChain toolkit）"
+    ],
+    "usphone": "ˈtuːlkɪt",
+    "ukphone": "ˈtuːlkɪt",
+    "example": "We exposed a search-and-calculator toolkit so the assistant can answer quantitative questions.",
+    "exampleTrans": "我们开放了一个「搜索+计算器」工具集，让助手能回答量化类问题。"
+  },
+  {
+    "name": "remote procedure call",
+    "trans": [
+      "n. 远程过程调用（RPC，让程序像调用本地函数一样调用远端服务，常用于 Agent 工具后端）"
+    ],
+    "usphone": "rɪˈmoʊt prəˈsiːdʒər kɔːl",
+    "ukphone": "rɪˈməʊt prəˈsiːdʒə(r) kɔːl",
+    "example": "The tool backend is exposed as a remote procedure call over HTTP so the agent can invoke it from anywhere.",
+    "exampleTrans": "该工具后端以 HTTP 上的远程过程调用方式暴露，智能体可在任意位置调用它。"
+  },
+  {
+    "name": "self-query",
+    "trans": [
+      "n. 自查询（RAG 中让模型先根据自然语言问题生成结构化检索条件的检索策略）"
+    ],
+    "usphone": "self ˈkwɪri",
+    "ukphone": "self ˈkwɪəri",
+    "example": "Self-query rewrites the user's question into a metadata filter plus a semantic search vector.",
+    "exampleTrans": "自查询会把用户问题改写成「元数据过滤 + 语义检索向量」两部分。"
+  },
+  {
+    "name": "query transformation",
+    "trans": [
+      "n. 查询改写（RAG 中对原始问题做改写、扩展或分解以提升检索召回）"
+    ],
+    "usphone": "ˈkwɪri ˌtrænsfərˈmeɪʃ(ə)n",
+    "ukphone": "ˈkwɪəri ˌtrænsfərˈmeɪʃ(ə)n",
+    "example": "Query transformation expands a vague question into three sub-queries before retrieving documents.",
+    "exampleTrans": "查询改写会在检索文档前把一个含糊问题扩展成三个子查询。"
+  },
+  {
+    "name": "contextual memory",
+    "trans": [
+      "n. 上下文记忆（结合当前对话上下文动态读写、与情境相关的记忆机制）"
+    ],
+    "usphone": "kənˈtekstʃuəl ˈmeməri",
+    "ukphone": "kənˈtekstʃuəl ˈmeməri",
+    "example": "Contextual memory stores the user's preferences only when they are relevant to the active conversation.",
+    "exampleTrans": "上下文记忆只在用户偏好与当前对话相关时才将其存入。"
+  },
+  {
+    "name": "dataflow",
+    "trans": [
+      "n. 数据流（数据在管道各阶段间的流动与变换，常用于描述 Agent / 训练流水线）"
+    ],
+    "usphone": "ˈdeɪtə floʊ",
+    "ukphone": "ˈdeɪtə fləʊ",
+    "example": "We visualized the dataflow from raw logs through embedding to the vector index.",
+    "exampleTrans": "我们把从原始日志经向量化直到向量索引的数据流做了可视化。"
+  },
+  {
+    "name": "input format",
+    "trans": [
+      "n. 输入格式（向模型给定的输入应遵循的结构约定，常在提示中明确规定）"
+    ],
+    "usphone": "ˈɪnpʊt ˈfɔːrmæt",
+    "ukphone": "ˈɪnpʊt ˈfɔːmæt",
+    "example": "The prompt specifies the input format as a JSON object with 'question' and 'context' fields.",
+    "exampleTrans": "提示中规定输入格式为带 question 与 context 字段的 JSON 对象。"
+  },
+  {
+    "name": "system instruction",
+    "trans": [
+      "n. 系统指令（system prompt 中设定模型角色与行为边界的高层指令）"
+    ],
+    "usphone": "ˈsɪstəm ɪnˈstrʌkʃ(ə)n",
+    "ukphone": "ˈsɪstəm ɪnˈstrʌkʃ(ə)n",
+    "example": "The system instruction tells the model to act as a concise, fact-only coding assistant.",
+    "exampleTrans": "系统指令要求模型扮演一个简洁、只给事实的编程助手。"
+  },
+  {
+    "name": "generator",
+    "trans": [
+      "n. 生成器（① 模型逐 token 生成输出的部分；② 编程中按需产出值的迭代器函数）"
+    ],
+    "usphone": "ˈdʒenəreɪtər",
+    "ukphone": "ˈdʒenəreɪtə(r)",
+    "example": "The text generator streams tokens to the UI as soon as each one is produced.",
+    "exampleTrans": "文本生成器在每生成一个 token 后立刻把它流式推送到界面。"
   }
 ]
