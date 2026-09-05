@@ -598,5 +598,155 @@
     "ukphone": "ˈdʒenəreɪtə(r)",
     "example": "The text generator streams tokens to the UI as soon as each one is produced.",
     "exampleTrans": "文本生成器在每生成一个 token 后立刻把它流式推送到界面。"
+  },
+  {
+    "name": "gradient clipping",
+    "trans": [
+      "n. 梯度裁剪：训练时限制梯度大小以防梯度爆炸的优化技巧"
+    ],
+    "usphone": "ˈɡreɪdiənt ˈklɪpɪŋ",
+    "ukphone": "ˈɡreɪdiənt ˈklɪpɪŋ",
+    "example": "Gradient clipping stabilizes training when gradients become too large.",
+    "exampleTrans": "当梯度过大时，梯度裁剪能让训练更稳定。"
+  },
+  {
+    "name": "warmup",
+    "trans": [
+      "n. 预热：训练初期逐步提升学习率或模型状态的策略"
+    ],
+    "usphone": "ˈwɔːrm ʌp",
+    "ukphone": "ˈwɔːm ʌp",
+    "example": "A short warmup helps the optimizer converge without early divergence.",
+    "exampleTrans": "短暂预热能帮助优化器收敛，避免一开始就发散。"
+  },
+  {
+    "name": "feed-forward network",
+    "trans": [
+      "n. 前馈网络：信息单向传递、无循环连接的基础神经网络结构"
+    ],
+    "usphone": "fiːd ˈfɔːrwərd ˈnetwɜːrk",
+    "ukphone": "fiːd ˈfɔːwəd ˈnetwɜːk",
+    "example": "Each transformer block contains a feed-forward network after attention.",
+    "exampleTrans": "每个 Transformer 模块在注意力之后都包含一个前馈网络。"
+  },
+  {
+    "name": "position-wise feed-forward",
+    "trans": [
+      "adj./n. 逐位置前馈：在序列每个位置独立应用的前馈子层"
+    ],
+    "usphone": "pəˈzɪʃ(ə)n waɪz fiːd ˈfɔːrwərd",
+    "ukphone": "pəˈzɪʃ(ə)n waɪz fiːd ˈfɔːwəd",
+    "example": "The position-wise feed-forward layer expands then compresses each token's representation.",
+    "exampleTrans": "逐位置前馈层先把每个 token 的表示扩维再压缩。"
+  },
+  {
+    "name": "subagent",
+    "trans": [
+      "n. 子智能体：由主智能体委派子任务、可独立执行的 Agent"
+    ],
+    "usphone": "sʌbˈeɪdʒənt",
+    "ukphone": "sʌbˈeɪdʒənt",
+    "example": "The orchestrator spawns a subagent to handle the data-cleaning step.",
+    "exampleTrans": "编排器生成一个子智能体来处理数据清洗这一步。"
+  },
+  {
+    "name": "reAct",
+    "trans": [
+      "n. ReAct 范式：让大模型交替进行推理（Reason）与行动（Act）的 Agent 框架"
+    ],
+    "usphone": "riˈækt",
+    "ukphone": "riˈækt",
+    "example": "Using ReAct, the agent writes a thought then calls a tool to verify it.",
+    "exampleTrans": "使用 ReAct，智能体先写出思考再调用工具去验证它。"
+  },
+  {
+    "name": "function argument",
+    "trans": [
+      "n. 函数参数：调用工具/函数时传入的具体取值"
+    ],
+    "usphone": "ˈfʌŋkʃ(ə)n ˈɑːrɡjumənt",
+    "ukphone": "ˈfʌŋkʃ(ə)n ˈɑːɡjumənt",
+    "example": "The model emitted a function argument of type string for the query field.",
+    "exampleTrans": "模型为 query 字段生成了一个字符串类型的函数参数。"
+  },
+  {
+    "name": "schema validation",
+    "trans": [
+      "n. 模式校验：按预定义结构检查工具输入是否合法"
+    ],
+    "usphone": "ˈskiːmə ˌvælɪˈdeɪʃn",
+    "ukphone": "ˈskiːmə ˌvælɪˈdeɪʃn",
+    "example": "Schema validation rejects the call before it reaches the API.",
+    "exampleTrans": "模式校验会在调用真正抵达 API 之前拒绝非法请求。"
+  },
+  {
+    "name": "re-ranking",
+    "trans": [
+      "n. 重排序：检索初筛后用更精细模型对候选结果重新打分排序"
+    ],
+    "usphone": "riː ˈræŋkɪŋ",
+    "ukphone": "riː ˈræŋkɪŋ",
+    "example": "Re-ranking improves answer quality by re-ordering the top retrieved passages.",
+    "exampleTrans": "重排序通过重新排布检索到的片段来提升回答质量。"
+  },
+  {
+    "name": "memory slot",
+    "trans": [
+      "n. 记忆槽：智能体中用于存储某类信息的结构化记忆单元"
+    ],
+    "usphone": "ˈmeməri slɑːt",
+    "ukphone": "ˈmeməri slɒt",
+    "example": "The agent stores the user preference in a memory slot for later turns.",
+    "exampleTrans": "智能体把用户偏好存进一个记忆槽，供后续轮次使用。"
+  },
+  {
+    "name": "episodic buffer",
+    "trans": [
+      "n. 情景缓冲：临时保存近期经历/事件片段的短期记忆区"
+    ],
+    "usphone": "ˌepɪˈsɑːdɪk ˈbʌfər",
+    "ukphone": "ˌepɪˈsɒdɪk ˈbʌfə(r)",
+    "example": "The episodic buffer holds the last few interactions before they are consolidated.",
+    "exampleTrans": "情景缓冲在经历被整合前，先保存最近几次交互。"
+  },
+  {
+    "name": "parallel execution",
+    "trans": [
+      "n. 并行执行：同时运行多个工具调用或任务分支以提升吞吐"
+    ],
+    "usphone": "ˈpærəlel ˌeksɪˈkjuːʃ(ə)n",
+    "ukphone": "ˈpærəlel ˌeksɪˈkjuːʃ(ə)n",
+    "example": "Parallel execution of independent tool calls cuts total latency in half.",
+    "exampleTrans": "并行执行相互独立的工具调用可把总延迟减半。"
+  },
+  {
+    "name": "analogical prompting",
+    "trans": [
+      "n. 类比提示：给出相似样例引导模型解决新问题的提示技巧"
+    ],
+    "usphone": "ˌænəˈlɑːdʒɪkəl ˈprɑːmptɪŋ",
+    "ukphone": "ˌænəlˈɒdʒɪkəl ˈprɒmptɪŋ",
+    "example": "Analogical prompting boosts accuracy by showing a related solved case first.",
+    "exampleTrans": "类比提示先给出一个相关已解案例，从而提升准确率。"
+  },
+  {
+    "name": "contrastive prompt",
+    "trans": [
+      "n. 对比提示：通过正反示例让模型区分期望与错误输出的提示方式"
+    ],
+    "usphone": "kənˈtræstɪv prɑːmpt",
+    "ukphone": "kənˈtrɑːstɪv prɒmpt",
+    "example": "A contrastive prompt shows both a good and a bad output to steer the model.",
+    "exampleTrans": "对比提示同时给出好与坏两种输出，以此引导模型。"
+  },
+  {
+    "name": "cache miss",
+    "trans": [
+      "n. 缓存未命中：请求的数据不在缓存中、需回源读取的情况"
+    ],
+    "usphone": "kæʃ mɪs",
+    "ukphone": "kæʃ mɪs",
+    "example": "A cache miss forces the retriever to fetch embeddings from the database.",
+    "exampleTrans": "缓存未命中会迫使检索器去数据库重新拉取向量。"
   }
 ]
