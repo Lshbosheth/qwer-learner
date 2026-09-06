@@ -1,0 +1,122 @@
+[
+  {
+    "name": "teacher forcing",
+    "trans": ["n. 教师强制（训练时以真实上文而非模型预测作为解码输入的策略）"],
+    "usphone": "ˈtiːtʃər ˈfɔːrsɪŋ",
+    "ukphone": "ˈtiːtʃə(r) ˈfɔːsɪŋ",
+    "example": "Teacher forcing stabilizes RNN training by feeding ground-truth tokens at each step.",
+    "exampleTrans": "教师强制在每一步喂入真实标签词，从而稳定 RNN 的训练。"
+  },
+  {
+    "name": "label smoothing",
+    "trans": ["n. 标签平滑（将硬标签软化以防止模型过度自信的正则化方法）"],
+    "usphone": "ˈleɪb(ə)l ˈsmuːðɪŋ",
+    "ukphone": "ˈleɪb(ə)l ˈsmuːðɪŋ",
+    "example": "Label smoothing improves generalization by softening one-hot targets.",
+    "exampleTrans": "标签平滑通过软化独热目标来提升模型的泛化能力。"
+  },
+  {
+    "name": "causal language modeling",
+    "trans": ["n. 因果语言建模（基于前文预测下一个词的预训练目标）"],
+    "usphone": "ˈkɔːz(ə)l ˈlæŋɡwɪdʒ ˈmɑːd(ə)lɪŋ",
+    "ukphone": "ˈkɔːz(ə)l ˈlæŋɡwɪdʒ ˈmɒd(ə)lɪŋ",
+    "example": "Causal language modeling trains the model to predict the next token from left context.",
+    "exampleTrans": "因果语言建模让模型根据左侧上下文预测下一个词。"
+  },
+  {
+    "name": "masked self-attention",
+    "trans": ["n. 掩码自注意力（解码器中屏蔽未来位置以保因果性的注意力机制）"],
+    "usphone": "mæskt self əˈtenʃ(ə)n",
+    "ukphone": "mɑːskt self əˈtenʃ(ə)n",
+    "example": "Masked self-attention prevents the decoder from peeking at future tokens.",
+    "exampleTrans": "掩码自注意力防止解码器窥视未来的词。"
+  },
+  {
+    "name": "agent architecture",
+    "trans": ["n. 智能体架构（构建 agent 系统的整体结构与组件设计）"],
+    "usphone": "ˈeɪdʒənt ˈɑːrkɪtektʃər",
+    "ukphone": "ˈeɪdʒənt ˈɑːkɪtektʃə(r)",
+    "example": "A clean agent architecture separates planning, memory, and tool use.",
+    "exampleTrans": "清晰的智能体架构会把规划、记忆与工具调用分离开来。"
+  },
+  {
+    "name": "agent orchestration",
+    "trans": ["n. 智能体编排（协调多个 agent / 工具 / 步骤完成复杂任务）"],
+    "usphone": "ˈeɪdʒənt ˌɔːrkɪˈstreɪʃn",
+    "ukphone": "ˈeɪdʒənt ˌɔːkɪˈstreɪʃn",
+    "example": "Agent orchestration routes subtasks to the right tools and agents.",
+    "exampleTrans": "智能体编排把子任务分派给合适的工具与 agent。"
+  },
+  {
+    "name": "OpenAPI",
+    "trans": ["n. OpenAPI（描述 REST API 接口的标准规范，常用于工具调用注册）"],
+    "usphone": "ˈoʊpən ˌeɪ piː ˈaɪ",
+    "ukphone": "ˈəʊpən ˌeɪ piː ˈaɪ",
+    "example": "The tool layer exposes functions through an OpenAPI specification.",
+    "exampleTrans": "工具层通过 OpenAPI 规范对外暴露函数接口。"
+  },
+  {
+    "name": "RAG",
+    "trans": ["n. RAG / 检索增强生成（先检索相关文档再生成答案的架构）"],
+    "usphone": "ˈræɡ",
+    "ukphone": "ˈræɡ",
+    "example": "RAG reduces hallucinations by grounding answers in retrieved documents.",
+    "exampleTrans": "RAG 通过将答案锚定在检索到的文档上来减少幻觉。"
+  },
+  {
+    "name": "embedding retrieval",
+    "trans": ["n. 向量检索（用向量相似度从知识库中召回相关片段）"],
+    "usphone": "ɪmˈbedɪŋ rɪˈtriːv(ə)l",
+    "ukphone": "ɪmˈbedɪŋ rɪˈtriːv(ə)l",
+    "example": "Embedding retrieval finds the most relevant chunks for the query.",
+    "exampleTrans": "向量检索为查询找到最相关的文本片段。"
+  },
+  {
+    "name": "memory network",
+    "trans": ["n. 记忆网络（带外部可读写记忆模块的神经网络架构）"],
+    "usphone": "ˈmeməri ˈnetwɜːrk",
+    "ukphone": "ˈmeməri ˈnetwɜːk",
+    "example": "A memory network stores facts in an external memory for later recall.",
+    "exampleTrans": "记忆网络把事实存到外部记忆中，供后续回忆使用。"
+  },
+  {
+    "name": "batch processing",
+    "trans": ["n. 批处理（将多个任务 / 样本成组处理以提升吞吐）"],
+    "usphone": "bætʃ ˈprɑːsesɪŋ",
+    "ukphone": "bætʃ ˈprəʊsesɪŋ",
+    "example": "Batch processing improves GPU throughput by grouping inference requests.",
+    "exampleTrans": "批处理通过把推理请求分组来提升 GPU 吞吐。"
+  },
+  {
+    "name": "rationale",
+    "trans": ["n. 推理依据（模型给出的中间推导理由，常用于 CoT / 评判）"],
+    "usphone": "ˌræʃəˈnæl",
+    "ukphone": "ˌræʃəˈnɑːl",
+    "example": "The judge model scores the answer together with its rationale.",
+    "exampleTrans": "评判模型会连同推理依据一起对答案打分。"
+  },
+  {
+    "name": "scoring",
+    "trans": ["n. 打分（用模型对候选结果进行评分排序）"],
+    "usphone": "ˈskɔːrɪŋ",
+    "ukphone": "ˈskɔːrɪŋ",
+    "example": "LLM-as-judge scoring ranks multiple generated responses.",
+    "exampleTrans": "LLM 作为评判者对多个生成结果打分排序。"
+  },
+  {
+    "name": "interpreter",
+    "trans": ["n. 解释器（逐行执行源码的运行时，亦指代码执行环境）"],
+    "usphone": "ɪnˈtɜːrprətər",
+    "ukphone": "ɪnˈtɜːprətə(r)",
+    "example": "The REPL runs Python code through an interpreter.",
+    "exampleTrans": "REPL 通过解释器逐行运行 Python 代码。"
+  },
+  {
+    "name": "formatter",
+    "trans": ["n. 格式化工具（按规则自动排版代码的程序，如 Prettier）"],
+    "usphone": "",
+    "ukphone": "ˈfɔːmætə(r)",
+    "example": "The formatter rewrites the file to match the project's style rules.",
+    "exampleTrans": "格式化工具会重写文件以符合项目的代码风格。"
+  }
+]
