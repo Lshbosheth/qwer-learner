@@ -1,0 +1,152 @@
+[
+  {
+    "name": "early stopping",
+    "trans": [
+      "n. 早停（验证集指标不再提升时提前终止训练，防止过拟合）"
+    ],
+    "usphone": "ˈɜːrli ˈstɑːpɪŋ",
+    "ukphone": "ˈɜːli ˈstɒpɪŋ",
+    "example": "Early stopping halted training once the validation loss stopped improving.",
+    "exampleTrans": "验证集损失不再下降时，早停策略立刻终止了训练。"
+  },
+  {
+    "name": "backpropagation",
+    "trans": [
+      "n. 反向传播（沿计算图反向计算梯度以更新参数）"
+    ],
+    "usphone": "ˌbækprɑːpəˈɡeɪʃn",
+    "ukphone": "ˌbækprɒpəˈɡeɪʃn",
+    "example": "Backpropagation computes gradients layer by layer from the loss.",
+    "exampleTrans": "反向传播从损失出发逐层计算梯度。"
+  },
+  {
+    "name": "multi-latent attention",
+    "trans": [
+      "n. 多隐向量注意力（压缩 KV 为低秩隐向量的高效注意力变体）"
+    ],
+    "usphone": "ˈmʌlti ˈleɪt(ə)nt əˈtenʃ(ə)n",
+    "ukphone": "ˈmʌlti ˈleɪt(ə)nt əˈtenʃ(ə)n",
+    "example": "Multi-latent attention shrinks the KV cache by storing compressed latent vectors.",
+    "exampleTrans": "多隐向量注意力通过存储压缩后的隐向量来缩小 KV 缓存。"
+  },
+  {
+    "name": "lm head",
+    "trans": [
+      "n. 语言模型头（把隐藏状态映射到词表 logits 的输出层）"
+    ],
+    "usphone": "ˌel ˈem hed",
+    "ukphone": "ˌel ˈem hed",
+    "example": "The lm head projects the final hidden state over the whole vocabulary.",
+    "exampleTrans": "语言模型头把最后的隐藏状态投影到整个词表上。"
+  },
+  {
+    "name": "replanning",
+    "trans": [
+      "n. 重规划（根据新观察修正或重做原有计划）"
+    ],
+    "usphone": "ˌriːˈplænɪŋ",
+    "ukphone": "ˌriːˈplænɪŋ",
+    "example": "Replanning kicks in when the tool returns an unexpected result.",
+    "exampleTrans": "当工具返回意外结果时就会触发重规划。"
+  },
+  {
+    "name": "constrained decoding",
+    "trans": [
+      "n. 受限解码（用语法/规则约束生成，保证输出结构合法）"
+    ],
+    "usphone": "kənˈstreɪnd diːˈkoʊdɪŋ",
+    "ukphone": "kənˈstreɪnd ˌdiːˈkəʊdɪŋ",
+    "example": "Constrained decoding guarantees the model emits valid JSON.",
+    "exampleTrans": "受限解码保证模型输出合法的 JSON。"
+  },
+  {
+    "name": "grammar",
+    "trans": [
+      "n. 语法约束（限制模型输出必须符合的形式规则）"
+    ],
+    "usphone": "ˈɡræmər",
+    "ukphone": "ˈɡræmə(r)",
+    "example": "A JSON grammar restricts generation to syntactically valid tokens.",
+    "exampleTrans": "JSON 语法约束把生成限制在句法合法的词元上。"
+  },
+  {
+    "name": "inverted index",
+    "trans": [
+      "n. 倒排索引（词项到文档的映射，关键词检索的基础）"
+    ],
+    "usphone": "ɪnˈvɜːrtɪd ˈɪndeks",
+    "ukphone": "ɪnˈvɜːtɪd ˈɪndeks",
+    "example": "An inverted index maps every term to the documents containing it.",
+    "exampleTrans": "倒排索引把每个词项映射到包含它的文档。"
+  },
+  {
+    "name": "TF-IDF",
+    "trans": [
+      "n. TF-IDF（用词频-逆文档频率衡量词重要性的经典加权方法）"
+    ],
+    "usphone": "ˌtiː ef aɪ diː ef",
+    "ukphone": "ˌtiː ef aɪ diː ef",
+    "example": "TF-IDF still works surprisingly well as a sparse retrieval baseline.",
+    "exampleTrans": "作为稀疏检索的基线，TF-IDF 的效果依然出奇地好。"
+  },
+  {
+    "name": "associative memory",
+    "trans": [
+      "n. 联想记忆（按内容线索关联检索的记忆形式）"
+    ],
+    "usphone": "əˈsoʊsieɪtɪv ˈmeməri",
+    "ukphone": "əˈsəʊsiətɪv ˈmeməri",
+    "example": "Associative memory lets the agent recall related episodes from a partial cue.",
+    "exampleTrans": "联想记忆让 agent 能从部分线索回忆起相关经历。"
+  },
+  {
+    "name": "stream processing",
+    "trans": [
+      "n. 流式处理（数据到达即处理，而非攒批处理）"
+    ],
+    "usphone": "striːm ˈprɑːsesɪŋ",
+    "ukphone": "striːm ˈprəʊsesɪŋ",
+    "example": "Stream processing keeps latency low for real-time agent pipelines.",
+    "exampleTrans": "流式处理让实时 agent 流水线保持低延迟。"
+  },
+  {
+    "name": "event bus",
+    "trans": [
+      "n. 事件总线（在组件间异步分发事件的通道）"
+    ],
+    "usphone": "ɪˈvent bʌs",
+    "ukphone": "ɪˈvent bʌs",
+    "example": "Every tool result is published to the event bus for downstream nodes.",
+    "exampleTrans": "每个工具结果都会发布到事件总线供下游节点消费。"
+  },
+  {
+    "name": "instruction hierarchy",
+    "trans": [
+      "n. 指令层级（系统/开发者/用户指令的优先级排序）"
+    ],
+    "usphone": "ɪnˈstrʌkʃ(ə)n ˈhaɪərɑːrki",
+    "ukphone": "ɪnˈstrʌkʃ(ə)n ˈhaɪərɑːki",
+    "example": "The instruction hierarchy puts developer rules above user messages.",
+    "exampleTrans": "指令层级把开发者规则置于用户消息之上。"
+  },
+  {
+    "name": "bundler",
+    "trans": [
+      "n. 打包器（把多个模块合并成可分发产物的构建工具）"
+    ],
+    "usphone": "ˈbʌndlər",
+    "ukphone": "ˈbʌndlə(r)",
+    "example": "The bundler merges hundreds of modules into a single small file.",
+    "exampleTrans": "打包器把上百个模块合并成一个精简文件。"
+  },
+  {
+    "name": "tree shaking",
+    "trans": [
+      "n. 摇树优化（构建时删除未被使用的导出代码）"
+    ],
+    "usphone": "triː ˈʃeɪkɪŋ",
+    "ukphone": "triː ˈʃeɪkɪŋ",
+    "example": "Tree shaking removed the unused helpers from the final bundle.",
+    "exampleTrans": "摇树优化把未使用的辅助函数从最终产物里剔除了。"
+  }
+]

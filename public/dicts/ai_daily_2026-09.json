@@ -898,5 +898,755 @@
     "ukphone": "ˈfɔːmætə(r)",
     "example": "The formatter rewrites the file to match the project's style rules.",
     "exampleTrans": "格式化工具会重写文件以符合项目的代码风格。"
+  },
+  {
+    "name": "early stopping",
+    "trans": [
+      "n. 早停（验证集指标不再提升时提前终止训练，防止过拟合）"
+    ],
+    "usphone": "ˈɜːrli ˈstɑːpɪŋ",
+    "ukphone": "ˈɜːli ˈstɒpɪŋ",
+    "example": "Early stopping halted training once the validation loss stopped improving.",
+    "exampleTrans": "验证集损失不再下降时，早停策略立刻终止了训练。"
+  },
+  {
+    "name": "backpropagation",
+    "trans": [
+      "n. 反向传播（沿计算图反向计算梯度以更新参数）"
+    ],
+    "usphone": "ˌbækprɑːpəˈɡeɪʃn",
+    "ukphone": "ˌbækprɒpəˈɡeɪʃn",
+    "example": "Backpropagation computes gradients layer by layer from the loss.",
+    "exampleTrans": "反向传播从损失出发逐层计算梯度。"
+  },
+  {
+    "name": "multi-latent attention",
+    "trans": [
+      "n. 多隐向量注意力（压缩 KV 为低秩隐向量的高效注意力变体）"
+    ],
+    "usphone": "ˈmʌlti ˈleɪt(ə)nt əˈtenʃ(ə)n",
+    "ukphone": "ˈmʌlti ˈleɪt(ə)nt əˈtenʃ(ə)n",
+    "example": "Multi-latent attention shrinks the KV cache by storing compressed latent vectors.",
+    "exampleTrans": "多隐向量注意力通过存储压缩后的隐向量来缩小 KV 缓存。"
+  },
+  {
+    "name": "lm head",
+    "trans": [
+      "n. 语言模型头（把隐藏状态映射到词表 logits 的输出层）"
+    ],
+    "usphone": "ˌel ˈem hed",
+    "ukphone": "ˌel ˈem hed",
+    "example": "The lm head projects the final hidden state over the whole vocabulary.",
+    "exampleTrans": "语言模型头把最后的隐藏状态投影到整个词表上。"
+  },
+  {
+    "name": "replanning",
+    "trans": [
+      "n. 重规划（根据新观察修正或重做原有计划）"
+    ],
+    "usphone": "ˌriːˈplænɪŋ",
+    "ukphone": "ˌriːˈplænɪŋ",
+    "example": "Replanning kicks in when the tool returns an unexpected result.",
+    "exampleTrans": "当工具返回意外结果时就会触发重规划。"
+  },
+  {
+    "name": "constrained decoding",
+    "trans": [
+      "n. 受限解码（用语法/规则约束生成，保证输出结构合法）"
+    ],
+    "usphone": "kənˈstreɪnd diːˈkoʊdɪŋ",
+    "ukphone": "kənˈstreɪnd ˌdiːˈkəʊdɪŋ",
+    "example": "Constrained decoding guarantees the model emits valid JSON.",
+    "exampleTrans": "受限解码保证模型输出合法的 JSON。"
+  },
+  {
+    "name": "grammar",
+    "trans": [
+      "n. 语法约束（限制模型输出必须符合的形式规则）"
+    ],
+    "usphone": "ˈɡræmər",
+    "ukphone": "ˈɡræmə(r)",
+    "example": "A JSON grammar restricts generation to syntactically valid tokens.",
+    "exampleTrans": "JSON 语法约束把生成限制在句法合法的词元上。"
+  },
+  {
+    "name": "inverted index",
+    "trans": [
+      "n. 倒排索引（词项到文档的映射，关键词检索的基础）"
+    ],
+    "usphone": "ɪnˈvɜːrtɪd ˈɪndeks",
+    "ukphone": "ɪnˈvɜːtɪd ˈɪndeks",
+    "example": "An inverted index maps every term to the documents containing it.",
+    "exampleTrans": "倒排索引把每个词项映射到包含它的文档。"
+  },
+  {
+    "name": "TF-IDF",
+    "trans": [
+      "n. TF-IDF（用词频-逆文档频率衡量词重要性的经典加权方法）"
+    ],
+    "usphone": "ˌtiː ef aɪ diː ef",
+    "ukphone": "ˌtiː ef aɪ diː ef",
+    "example": "TF-IDF still works surprisingly well as a sparse retrieval baseline.",
+    "exampleTrans": "作为稀疏检索的基线，TF-IDF 的效果依然出奇地好。"
+  },
+  {
+    "name": "associative memory",
+    "trans": [
+      "n. 联想记忆（按内容线索关联检索的记忆形式）"
+    ],
+    "usphone": "əˈsoʊsieɪtɪv ˈmeməri",
+    "ukphone": "əˈsəʊsiətɪv ˈmeməri",
+    "example": "Associative memory lets the agent recall related episodes from a partial cue.",
+    "exampleTrans": "联想记忆让 agent 能从部分线索回忆起相关经历。"
+  },
+  {
+    "name": "stream processing",
+    "trans": [
+      "n. 流式处理（数据到达即处理，而非攒批处理）"
+    ],
+    "usphone": "striːm ˈprɑːsesɪŋ",
+    "ukphone": "striːm ˈprəʊsesɪŋ",
+    "example": "Stream processing keeps latency low for real-time agent pipelines.",
+    "exampleTrans": "流式处理让实时 agent 流水线保持低延迟。"
+  },
+  {
+    "name": "event bus",
+    "trans": [
+      "n. 事件总线（在组件间异步分发事件的通道）"
+    ],
+    "usphone": "ɪˈvent bʌs",
+    "ukphone": "ɪˈvent bʌs",
+    "example": "Every tool result is published to the event bus for downstream nodes.",
+    "exampleTrans": "每个工具结果都会发布到事件总线供下游节点消费。"
+  },
+  {
+    "name": "instruction hierarchy",
+    "trans": [
+      "n. 指令层级（系统/开发者/用户指令的优先级排序）"
+    ],
+    "usphone": "ɪnˈstrʌkʃ(ə)n ˈhaɪərɑːrki",
+    "ukphone": "ɪnˈstrʌkʃ(ə)n ˈhaɪərɑːki",
+    "example": "The instruction hierarchy puts developer rules above user messages.",
+    "exampleTrans": "指令层级把开发者规则置于用户消息之上。"
+  },
+  {
+    "name": "bundler",
+    "trans": [
+      "n. 打包器（把多个模块合并成可分发产物的构建工具）"
+    ],
+    "usphone": "ˈbʌndlər",
+    "ukphone": "ˈbʌndlə(r)",
+    "example": "The bundler merges hundreds of modules into a single small file.",
+    "exampleTrans": "打包器把上百个模块合并成一个精简文件。"
+  },
+  {
+    "name": "tree shaking",
+    "trans": [
+      "n. 摇树优化（构建时删除未被使用的导出代码）"
+    ],
+    "usphone": "triː ˈʃeɪkɪŋ",
+    "ukphone": "triː ˈʃeɪkɪŋ",
+    "example": "Tree shaking removed the unused helpers from the final bundle.",
+    "exampleTrans": "摇树优化把未使用的辅助函数从最终产物里剔除了。"
+  },
+  {
+    "name": "weight decay",
+    "trans": [
+      "n. 权重衰减（对参数施加 L2 惩罚的正则化手段）"
+    ],
+    "usphone": "weɪt dɪˈkeɪ",
+    "ukphone": "weɪt dɪˈkeɪ",
+    "example": "Weight decay discourages the optimizer from settling on huge weights.",
+    "exampleTrans": "权重衰减阻止优化器收敛到过大的权重上。"
+  },
+  {
+    "name": "cross-validation",
+    "trans": [
+      "n. 交叉验证（将数据多次切分评估以获得稳定指标）"
+    ],
+    "usphone": "krɔːs ˌvælɪˈdeɪʃn",
+    "ukphone": "krɒs ˌvælɪˈdeɪʃn",
+    "example": "Five-fold cross-validation gave a much more reliable score.",
+    "exampleTrans": "五折交叉验证给出了更可靠的分数。"
+  },
+  {
+    "name": "tensor parallel",
+    "trans": [
+      "n. 张量并行（把单层权重切分到多张卡上计算）"
+    ],
+    "usphone": "ˈtensər ˈpærəlel",
+    "ukphone": "ˈtensə(r) ˈpærəlel",
+    "example": "Tensor parallel splits each attention matrix across all GPUs.",
+    "exampleTrans": "张量并行把每个注意力矩阵切分到所有 GPU 上。"
+  },
+  {
+    "name": "pipeline parallel",
+    "trans": [
+      "n. 流水线并行（按层切分模型，各卡串行接力）"
+    ],
+    "usphone": "ˈpaɪplaɪn ˈpærəlel",
+    "ukphone": "ˈpaɪplaɪn ˈpærəlel",
+    "example": "Pipeline parallel assigns consecutive layers to different devices.",
+    "exampleTrans": "流水线并行把连续的层分配给不同的设备。"
+  },
+  {
+    "name": "web agent",
+    "trans": [
+      "n. 网页 agent（能自主浏览网页完成任务的智能体）"
+    ],
+    "usphone": "web ˈeɪdʒənt",
+    "ukphone": "web ˈeɪdʒənt",
+    "example": "A web agent booked the ticket by clicking through the site itself.",
+    "exampleTrans": "网页 agent 通过自己点击网站订好了票。"
+  },
+  {
+    "name": "browser agent",
+    "trans": [
+      "n. 浏览器 agent（在真实浏览器中操作页面的智能体）"
+    ],
+    "usphone": "ˈbraʊzər ˈeɪdʒənt",
+    "ukphone": "ˈbraʊzə(r) ˈeɪdʒənt",
+    "example": "The browser agent fills forms using real DOM interactions.",
+    "exampleTrans": "浏览器 agent 通过真实 DOM 交互来填写表单。"
+  },
+  {
+    "name": "strict mode",
+    "trans": [
+      "n. 严格模式（强制输出严格符合给定结构的调用模式）"
+    ],
+    "usphone": "strɪkt moʊd",
+    "ukphone": "strɪkt məʊd",
+    "example": "Strict mode makes the model follow the provided schema exactly.",
+    "exampleTrans": "严格模式让模型严格遵循给定的结构。"
+  },
+  {
+    "name": "query decomposition",
+    "trans": [
+      "n. 查询分解（把复杂问题拆成若干可检索的子问题）"
+    ],
+    "usphone": "ˈkwɪri ˌdiːˌkɑːmpəˈzɪʃn",
+    "ukphone": "ˈkwɪəri ˌdiːˌkɒmpəˈzɪʃn",
+    "example": "Query decomposition breaks a multi-part question into simpler sub-questions.",
+    "exampleTrans": "查询分解把多部分问题拆成更简单的子问题。"
+  },
+  {
+    "name": "parametric memory",
+    "trans": [
+      "n. 参数化记忆（固化在模型权重中的知识）"
+    ],
+    "usphone": "ˌpærəˈmetrɪk ˈmeməri",
+    "ukphone": "ˌpærəˈmetrɪk ˈmeməri",
+    "example": "Facts stored in parametric memory cost no context window.",
+    "exampleTrans": "存在参数化记忆里的事实不占用上下文窗口。"
+  },
+  {
+    "name": "extended thinking",
+    "trans": [
+      "n. 扩展思考（让模型在回答前进行更长篇幅的隐藏推理）"
+    ],
+    "usphone": "ɪkˈstendɪd ˈθɪŋkɪŋ",
+    "ukphone": "ɪkˈstendɪd ˈθɪŋkɪŋ",
+    "example": "Extended thinking trades latency for much stronger reasoning accuracy.",
+    "exampleTrans": "扩展思考用延迟换取强得多的推理准确率。"
+  },
+  {
+    "name": "message broker",
+    "trans": [
+      "n. 消息代理（在生产者与消费者间可靠中转消息的中间件）"
+    ],
+    "usphone": "ˈmesɪdʒ ˈbroʊkər",
+    "ukphone": "ˈmesɪdʒ ˈbrəʊkə(r)",
+    "example": "A message broker buffers tasks so no worker is ever idle.",
+    "exampleTrans": "消息代理缓冲任务，让 worker 永不空转。"
+  },
+  {
+    "name": "prefilling",
+    "trans": [
+      "n. 预填充（预先写好 assistant 开头以引导输出格式）"
+    ],
+    "usphone": "ˌpriːˈfɪlɪŋ",
+    "ukphone": "ˌpriːˈfɪlɪŋ",
+    "example": "Prefilling the assistant turn with “{” forces valid JSON output.",
+    "exampleTrans": "给 assistant 预填 “{” 可以强制输出合法 JSON。"
+  },
+  {
+    "name": "repetition penalty",
+    "trans": [
+      "n. 重复惩罚（降低已出现 token 概率以减少复读）"
+    ],
+    "usphone": "ˌrepəˈtɪʃ(ə)n ˈpenəlti",
+    "ukphone": "ˌrepəˈtɪʃ(ə)n ˈpenəlti",
+    "example": "A mild repetition penalty stopped the model from looping the same phrase.",
+    "exampleTrans": "轻微的重复惩罚阻止了模型反复输出同一句话。"
+  },
+  {
+    "name": "source map",
+    "trans": [
+      "n. source map（把压缩后的代码映射回源码的调试文件）"
+    ],
+    "usphone": "sɔːrs mæp",
+    "ukphone": "sɔːs mæp",
+    "example": "The source map pointed the stack trace at the original TypeScript line.",
+    "exampleTrans": "source map 把堆栈信息定位回原始的 TypeScript 行。"
+  },
+  {
+    "name": "mutex",
+    "trans": [
+      "n. 互斥锁（保证同一时刻只有一个线程进入临界区）"
+    ],
+    "usphone": "ˈmjuːteks",
+    "ukphone": "ˈmjuːteks",
+    "example": "A mutex protects the shared cache from concurrent writes.",
+    "exampleTrans": "互斥锁保护共享缓存不被并发写入。"
+  },
+  {
+    "name": "vanishing gradient",
+    "trans": [
+      "n. 梯度消失（深层网络反向传播时梯度趋近于零）"
+    ],
+    "usphone": "ˈvænɪʃɪŋ ˈɡreɪdiənt",
+    "ukphone": "ˈvænɪʃɪŋ ˈɡreɪdiənt",
+    "example": "Vanishing gradients made the early layers learn almost nothing.",
+    "exampleTrans": "梯度消失让早期层几乎学不到东西。"
+  },
+  {
+    "name": "model collapse",
+    "trans": [
+      "n. 模型崩溃（反复在自身生成数据上训练导致多样性丧失）"
+    ],
+    "usphone": "ˈmɑːd(ə)l kəˈlæps",
+    "ukphone": "ˈmɒd(ə)l kəˈlæps",
+    "example": "Training only on generated data eventually leads to model collapse.",
+    "exampleTrans": "只在生成数据上训练最终会导致模型崩溃。"
+  },
+  {
+    "name": "attention map",
+    "trans": [
+      "n. 注意力图（可视化 token 间注意力权重的矩阵）"
+    ],
+    "usphone": "əˈtenʃ(ə)n mæp",
+    "ukphone": "əˈtenʃ(ə)n mæp",
+    "example": "The attention map shows which tokens the head focused on.",
+    "exampleTrans": "注意力图展示了该注意力头关注了哪些 token。"
+  },
+  {
+    "name": "token mixing",
+    "trans": [
+      "n. 词元混合（跨 token 位置融合信息的机制）"
+    ],
+    "usphone": "ˈtoʊkən ˈmɪksɪŋ",
+    "ukphone": "ˈtəʊkən ˈmɪksɪŋ",
+    "example": "Attention performs token mixing while the MLP handles each position.",
+    "exampleTrans": "注意力负责词元混合，MLP 则逐位置处理。"
+  },
+  {
+    "name": "coding agent",
+    "trans": [
+      "n. 编码 agent（能读写代码、跑测试自主修 bug 的智能体）"
+    ],
+    "usphone": "ˈkoʊdɪŋ ˈeɪdʒənt",
+    "ukphone": "ˈkəʊdɪŋ ˈeɪdʒənt",
+    "example": "The coding agent opened a pull request after fixing the failing test.",
+    "exampleTrans": "编码 agent 修好失败的测试后直接开了个 PR。"
+  },
+  {
+    "name": "actor-critic",
+    "trans": [
+      "n. actor-critic（策略网络与价值网络互相配合的强化学习架构）"
+    ],
+    "usphone": "ˈæktər ˈkrɪtɪk",
+    "ukphone": "ˈæktə(r) ˈkrɪtɪk",
+    "example": "Actor-critic methods use the critic to reduce gradient variance.",
+    "exampleTrans": "actor-critic 方法用 critic 来降低梯度方差。"
+  },
+  {
+    "name": "MCP server",
+    "trans": [
+      "n. MCP 服务端（按 MCP 协议对外提供工具与资源的进程）"
+    ],
+    "usphone": "ˌem siː ˈpiː ˈsɜːrvər",
+    "ukphone": "ˌem siː ˈpiː ˈsɜːvə(r)",
+    "example": "An MCP server exposes your tools to any compatible client.",
+    "exampleTrans": "MCP 服务端把你的工具暴露给任何兼容的客户端。"
+  },
+  {
+    "name": "sub-query",
+    "trans": [
+      "n. 子查询（由主查询派生出的细化检索语句）"
+    ],
+    "usphone": "sʌb ˈkwɪri",
+    "ukphone": "sʌb ˈkwɪri",
+    "example": "Each sub-query targets one aspect of the original question.",
+    "exampleTrans": "每个子查询针对原始问题的一个方面。"
+  },
+  {
+    "name": "late interaction",
+    "trans": [
+      "n. 后期交互（保留多向量到打分阶段再细粒度匹配）"
+    ],
+    "usphone": "leɪt ˌɪntərˈækʃ(ə)n",
+    "ukphone": "leɪt ˌɪntərˈækʃ(ə)n",
+    "example": "Late interaction keeps per-token embeddings for finer matching.",
+    "exampleTrans": "后期交互保留逐 token 的向量以实现更细粒度的匹配。"
+  },
+  {
+    "name": "thinking budget",
+    "trans": [
+      "n. 思考预算（限制模型内部推理所用 token 上限）"
+    ],
+    "usphone": "ˈθɪŋkɪŋ ˈbʌdʒɪt",
+    "ukphone": "ˈθɪŋkɪŋ ˈbʌdʒɪt",
+    "example": "A larger thinking budget improved accuracy but doubled latency.",
+    "exampleTrans": "更大的思考预算提升了准确率，但让延迟翻倍。"
+  },
+  {
+    "name": "backpressure",
+    "trans": [
+      "n. 背压（下游处理不过来时向上游施加的限速反馈）"
+    ],
+    "usphone": "bækˈpreʃər",
+    "ukphone": "bækpˈreʃə(r)",
+    "example": "Backpressure prevents the queue from growing without bound.",
+    "exampleTrans": "背压机制防止队列无限制地增长。"
+  },
+  {
+    "name": "observability",
+    "trans": [
+      "n. 可观测性（通过日志/指标/追踪理解系统内部状态的能力）"
+    ],
+    "usphone": "əbˌzɜːrvəˈbɪləti",
+    "ukphone": "əbˌzɜːvəˈbɪləti",
+    "example": "Good observability turns agent failures into reproducible traces.",
+    "exampleTrans": "良好的可观测性把 agent 的失败变成可复现的追踪记录。"
+  },
+  {
+    "name": "frequency penalty",
+    "trans": [
+      "n. 频率惩罚（按 token 出现频次累积降低重复概率）"
+    ],
+    "usphone": "ˈfriːkwənsi ˈpenəlti",
+    "ukphone": "ˈfriːkwənsi ˈpenəlti",
+    "example": "A frequency penalty nudges the model toward fresher wording.",
+    "exampleTrans": "频率惩罚引导模型使用更新鲜的措辞。"
+  },
+  {
+    "name": "semaphore",
+    "trans": [
+      "n. 信号量（允许 N 个线程同时访问的并发计数锁）"
+    ],
+    "usphone": "ˈseməfɔːr",
+    "ukphone": "ˈseməfɔː(r)",
+    "example": "A semaphore caps how many tool calls run at the same time.",
+    "exampleTrans": "信号量限制了同一时刻并发的工具调用数量。"
+  },
+  {
+    "name": "coroutine",
+    "trans": [
+      "n. 协程（可挂起恢复的用户态轻量并发单元）"
+    ],
+    "usphone": "kəruːˈtiːn",
+    "ukphone": "ˈkəʊruːˌtiːn",
+    "example": "Each coroutine awaits the API call without blocking the event loop.",
+    "exampleTrans": "每个协程在等待 API 调用时不会阻塞事件循环。"
+  },
+  {
+    "name": "data contamination",
+    "trans": [
+      "n. 数据污染（评测集混入训练数据导致指标虚高）"
+    ],
+    "usphone": "ˈdeɪtə kənˌtæmɪˈneɪʃ(ə)n",
+    "ukphone": "ˈdeɪtə kənˌtæmɪˈneɪʃ(ə)n",
+    "example": "Data contamination inflated the benchmark score by several points.",
+    "exampleTrans": "数据污染让基准测试分数虚高了好几点。"
+  },
+  {
+    "name": "PEFT",
+    "trans": [
+      "n. PEFT / 参数高效微调（只训练少量参数适配下游任务）"
+    ],
+    "usphone": "ˌpiː iː ef ˈtiː",
+    "ukphone": "ˌpiː iː ef ˈtiː",
+    "example": "PEFT lets you adapt a large model on a single consumer GPU.",
+    "exampleTrans": "PEFT 让你用一张消费级显卡微调大模型。"
+  },
+  {
+    "name": "qk norm",
+    "trans": [
+      "n. QK 归一化（对 query/key 做归一化以稳定注意力训练）"
+    ],
+    "usphone": "ˌkjuː ˈkeɪ nɔːrm",
+    "ukphone": "ˌkjuː ˈkeɪ nɔːm",
+    "example": "Adding qk norm removed the training spikes at high learning rates.",
+    "exampleTrans": "加入 QK 归一化消除了高学习率下的训练尖刺。"
+  },
+  {
+    "name": "replay buffer",
+    "trans": [
+      "n. 回放缓冲（存放历史轨迹并抽样复用的经验池）"
+    ],
+    "usphone": "ˈriːpleɪ ˈbʌfər",
+    "ukphone": "ˈriːpleɪ ˈbʌfə(r)",
+    "example": "The agent samples past trajectories from a replay buffer.",
+    "exampleTrans": "agent 从回放缓冲里采样过去的轨迹。"
+  },
+  {
+    "name": "policy gradient",
+    "trans": [
+      "n. 策略梯度（直接对策略参数求梯度优化的强化学习方法）"
+    ],
+    "usphone": "ˈpɑːləsi ˈɡreɪdiənt",
+    "ukphone": "ˈpɒləsi ˈɡreɪdiənt",
+    "example": "Policy gradient methods optimize expected reward without a value model.",
+    "exampleTrans": "策略梯度方法无需价值模型直接优化期望收益。"
+  },
+  {
+    "name": "MCP client",
+    "trans": [
+      "n. MCP 客户端（按协议调用 MCP 服务端工具的一方）"
+    ],
+    "usphone": "ˌem siː ˈpiː ˈklaɪənt",
+    "ukphone": "ˌem siː ˈpiː ˈklaɪənt",
+    "example": "The MCP client discovers available tools after connecting.",
+    "exampleTrans": "MCP 客户端在连接后发现可用的工具。"
+  },
+  {
+    "name": "API quota",
+    "trans": [
+      "n. API 配额（单位时间内允许调用接口的次数上限）"
+    ],
+    "usphone": "ˌeɪ piː ˈaɪ ˈkwoʊtə",
+    "ukphone": "ˌeɪ piː ˈaɪ ˈkwəʊtə",
+    "example": "Hitting the API quota returns a 429 instead of a result.",
+    "exampleTrans": "触到 API 配额会返回 429 而不是结果。"
+  },
+  {
+    "name": "supporting evidence",
+    "trans": [
+      "n. 支撑证据（用来佐证答案的检索片段或引用）"
+    ],
+    "usphone": "səˈpɔːrtɪŋ ˈevɪdəns",
+    "ukphone": "səˈpɔːtɪŋ ˈevɪdəns",
+    "example": "Every claim should be backed by supporting evidence from the corpus.",
+    "exampleTrans": "每个论断都应有来自语料库的支撑证据。"
+  },
+  {
+    "name": "session memory",
+    "trans": [
+      "n. 会话记忆（仅在单次会话生命周期内保留的记忆）"
+    ],
+    "usphone": "ˈseʃ(ə)n ˈmeməri",
+    "ukphone": "ˈseʃ(ə)n ˈmeməri",
+    "example": "Session memory is cleared once the conversation ends.",
+    "exampleTrans": "会话记忆在对话结束后即被清空。"
+  },
+  {
+    "name": "dialogue state",
+    "trans": [
+      "n. 对话状态（跟踪槽位与上下文的结构化表示）"
+    ],
+    "usphone": "ˈdaɪəlɔːɡ steɪt",
+    "ukphone": "ˈdaɪəlɒɡ steɪt",
+    "example": "The dialogue state records which slots are still missing.",
+    "exampleTrans": "对话状态记录了哪些槽位仍未填充。"
+  },
+  {
+    "name": "distributed tracing",
+    "trans": [
+      "n. 分布式追踪（跨服务串联一次请求全链路的追踪）"
+    ],
+    "usphone": "dɪˈstrɪbjuːtɪd ˈtreɪsɪŋ",
+    "ukphone": "dɪˈstrɪbjuːtɪd ˈtreɪsɪŋ",
+    "example": "Distributed tracing shows which hop added the extra two seconds.",
+    "exampleTrans": "分布式追踪显示是哪一跳多花了两秒。"
+  },
+  {
+    "name": "eventual consistency",
+    "trans": [
+      "n. 最终一致性（副本短暂不一致但终会收敛）"
+    ],
+    "usphone": "ɪˈventʃuəl kənˈsɪstənsi",
+    "ukphone": "ɪˈventʃuəl kənˈsɪstənsi",
+    "example": "The vector index offers eventual consistency across replicas.",
+    "exampleTrans": "该向量索引在各个副本间提供最终一致性。"
+  },
+  {
+    "name": "presence penalty",
+    "trans": [
+      "n. 存在惩罚（对已出现过的 token 施加一次性惩罚）"
+    ],
+    "usphone": "ˈprez(ə)ns ˈpenəlti",
+    "ukphone": "ˈprez(ə)ns ˈpenəlti",
+    "example": "A presence penalty encourages the model to introduce new concepts.",
+    "exampleTrans": "存在惩罚鼓励模型引入新的概念。"
+  },
+  {
+    "name": "example selection",
+    "trans": [
+      "n. 示例选择（为少样本提示挑选最相关的示例）"
+    ],
+    "usphone": "ɪɡˈzæmp(ə)l sɪˈlekʃ(ə)n",
+    "ukphone": "ɪɡˈzɑːmp(ə)l sɪˈlekʃ(ə)n",
+    "example": "Good example selection matters more than the number of shots.",
+    "exampleTrans": "好的示例选择比示例数量更重要。"
+  },
+  {
+    "name": "closure",
+    "trans": [
+      "n. 闭包（捕获并持有外层作用域变量的函数）"
+    ],
+    "usphone": "ˈkloʊʒər",
+    "ukphone": "ˈkləʊʒə(r)",
+    "example": "The closure keeps the retry counter alive between calls.",
+    "exampleTrans": "闭包让重试计数器在多次调用之间保持存活。"
+  },
+  {
+    "name": "sycophancy",
+    "trans": [
+      "n. 谄媚（模型为迎合用户而放弃事实正确的倾向）"
+    ],
+    "usphone": "ˈsɪkəfənsi",
+    "ukphone": "ˈsɪkəfənsi",
+    "example": "Sycophancy makes the model agree with an obviously wrong premise.",
+    "exampleTrans": "谄媚倾向会让模型附和一个明显错误的前提。"
+  },
+  {
+    "name": "relative position bias",
+    "trans": [
+      "n. 相对位置偏置（按相对距离而非绝对位置注入位置信息）"
+    ],
+    "usphone": "ˈrelətɪv pəˈzɪʃ(ə)n ˈbaɪəs",
+    "ukphone": "ˈrelətɪv pəˈzɪʃ(ə)n ˈbaɪəs",
+    "example": "Relative position bias helps the model generalize to longer sequences.",
+    "exampleTrans": "相对位置偏置帮助模型泛化到更长的序列。"
+  },
+  {
+    "name": "reward hacking",
+    "trans": [
+      "n. 奖励黑客（agent 钻奖励函数漏洞而非真正完成任务）"
+    ],
+    "usphone": "rɪˈwɔːrd ˈhækɪŋ",
+    "ukphone": "rɪˈwɔːd ˈhækɪŋ",
+    "example": "Reward hacking shows up when the agent games the metric instead of the goal.",
+    "exampleTrans": "当 agent 操控指标而非达成目标时，就出现了奖励黑客。"
+  },
+  {
+    "name": "goal drift",
+    "trans": [
+      "n. 目标漂移（多步执行中逐步偏离原始任务目标）"
+    ],
+    "usphone": "ɡoʊl drɪft",
+    "ukphone": "ɡəʊl drɪft",
+    "example": "Goal drift creeps in over long agent runs without re-grounding.",
+    "exampleTrans": "长程 agent 若不重新锚定，就会逐渐出现目标漂移。"
+  },
+  {
+    "name": "credential",
+    "trans": [
+      "n. 凭据（调用外部 API 所用的密钥或令牌）"
+    ],
+    "usphone": "krəˈdenʃl",
+    "ukphone": "krəˈdenʃ(ə)l",
+    "example": "Never hard-code a credential; load it from the environment.",
+    "exampleTrans": "绝不要硬编码凭据，要从环境变量读取。"
+  },
+  {
+    "name": "JSON-RPC",
+    "trans": [
+      "n. JSON-RPC（基于 JSON 的轻量级远程过程调用协议）"
+    ],
+    "usphone": "ˈdʒeɪs(ə)n ˌɑːr piː ˈsiː",
+    "ukphone": "ˈdʒeɪs(ə)n ˌɑː piː ˈsiː",
+    "example": "The tool gateway speaks JSON-RPC over a single WebSocket.",
+    "exampleTrans": "工具网关在单个 WebSocket 上使用 JSON-RPC 通信。"
+  },
+  {
+    "name": "answer attribution",
+    "trans": [
+      "n. 答案溯源（把答案各部分归因到具体来源片段）"
+    ],
+    "usphone": "ˈænsər ˌætrɪˈbjuːʃn",
+    "ukphone": "ˈɑːnsə(r) ˌætrɪˈbjuːʃn",
+    "example": "Answer attribution links every sentence to its source passage.",
+    "exampleTrans": "答案溯源把每个句子都链接到它的来源片段。"
+  },
+  {
+    "name": "semantic similarity",
+    "trans": [
+      "n. 语义相似度（衡量两段文本含义接近程度）"
+    ],
+    "usphone": "sɪˈmæntɪk ˌsɪməˈlærəti",
+    "ukphone": "sɪˈmæntɪk ˌsɪməˈlærəti",
+    "example": "Semantic similarity catches paraphrases that keyword search misses.",
+    "exampleTrans": "语义相似度能捕捉关键词检索漏掉的同义改写。"
+  },
+  {
+    "name": "memory tiering",
+    "trans": [
+      "n. 记忆分层（按访问频率把记忆放在不同速度的层级）"
+    ],
+    "usphone": "ˈmeməri ˈtɪrɪŋ",
+    "ukphone": "ˈmeməri ˈtɪərɪŋ",
+    "example": "Memory tiering pushes cold facts to disk and keeps hot ones in context.",
+    "exampleTrans": "记忆分层把冷数据放到磁盘，热数据留在上下文里。"
+  },
+  {
+    "name": "forgetting curve",
+    "trans": [
+      "n. 遗忘曲线（记忆强度随时间衰减的规律曲线）"
+    ],
+    "usphone": "fərˈɡet kɜːrv",
+    "ukphone": "kɜːv",
+    "example": "A forgetting curve decides when a stored fact should be refreshed.",
+    "exampleTrans": "遗忘曲线决定了存储的记忆何时该被刷新。"
+  },
+  {
+    "name": "fault tolerance",
+    "trans": [
+      "n. 容错（部分组件失败时系统仍能继续服务）"
+    ],
+    "usphone": "fɔːlt ˈtɑːlərəns",
+    "ukphone": "fɔːlt ˈtɒlərəns",
+    "example": "Fault tolerance matters when half your tools are third-party APIs.",
+    "exampleTrans": "当半数工具都是第三方 API 时，容错就非常关键。"
+  },
+  {
+    "name": "majority vote",
+    "trans": [
+      "n. 多数投票（多次采样后取出现最多答案的集成策略）"
+    ],
+    "usphone": "məˈdʒɔːrəti voʊt",
+    "ukphone": "məˈdʒɒrəti vəʊt",
+    "example": "Majority vote over five samples beat a single greedy answer.",
+    "exampleTrans": "对五次采样做多数投票胜过单次贪心解码。"
+  },
+  {
+    "name": "xml tag",
+    "trans": [
+      "n. XML 标签（用标签包裹提示片段以界定结构）"
+    ],
+    "usphone": "ˌeks em ˈel tæɡ",
+    "ukphone": "ˌeks em ˈel tæɡ",
+    "example": "Wrap each document in an xml tag so the model can cite it.",
+    "exampleTrans": "把每个文档用 XML 标签包起来，模型才能引用它。"
+  },
+  {
+    "name": "lazy loading",
+    "trans": [
+      "n. 懒加载（真正需要时才加载资源）"
+    ],
+    "usphone": "ˈleɪzi ˈləʊdɪŋ",
+    "ukphone": "ˈleɪzi ˈləʊdɪŋ",
+    "example": "Lazy loading keeps the initial bundle small for slow networks.",
+    "exampleTrans": "懒加载让首屏产物在弱网下依然很小。"
+  },
+  {
+    "name": "pagination",
+    "trans": [
+      "n. 分页（把大量结果切成多页返回）"
+    ],
+    "usphone": "ˌpædʒɪˈneɪʃ(ə)n",
+    "ukphone": "ˌpædʒɪˈneɪʃ(ə)n",
+    "example": "The search endpoint uses pagination instead of dumping every hit.",
+    "exampleTrans": "搜索接口使用分页，而不是一次性返回所有命中。"
   }
 ]

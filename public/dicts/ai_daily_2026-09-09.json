@@ -1,0 +1,152 @@
+[
+  {
+    "name": "vanishing gradient",
+    "trans": [
+      "n. 梯度消失（深层网络反向传播时梯度趋近于零）"
+    ],
+    "usphone": "ˈvænɪʃɪŋ ˈɡreɪdiənt",
+    "ukphone": "ˈvænɪʃɪŋ ˈɡreɪdiənt",
+    "example": "Vanishing gradients made the early layers learn almost nothing.",
+    "exampleTrans": "梯度消失让早期层几乎学不到东西。"
+  },
+  {
+    "name": "model collapse",
+    "trans": [
+      "n. 模型崩溃（反复在自身生成数据上训练导致多样性丧失）"
+    ],
+    "usphone": "ˈmɑːd(ə)l kəˈlæps",
+    "ukphone": "ˈmɒd(ə)l kəˈlæps",
+    "example": "Training only on generated data eventually leads to model collapse.",
+    "exampleTrans": "只在生成数据上训练最终会导致模型崩溃。"
+  },
+  {
+    "name": "attention map",
+    "trans": [
+      "n. 注意力图（可视化 token 间注意力权重的矩阵）"
+    ],
+    "usphone": "əˈtenʃ(ə)n mæp",
+    "ukphone": "əˈtenʃ(ə)n mæp",
+    "example": "The attention map shows which tokens the head focused on.",
+    "exampleTrans": "注意力图展示了该注意力头关注了哪些 token。"
+  },
+  {
+    "name": "token mixing",
+    "trans": [
+      "n. 词元混合（跨 token 位置融合信息的机制）"
+    ],
+    "usphone": "ˈtoʊkən ˈmɪksɪŋ",
+    "ukphone": "ˈtəʊkən ˈmɪksɪŋ",
+    "example": "Attention performs token mixing while the MLP handles each position.",
+    "exampleTrans": "注意力负责词元混合，MLP 则逐位置处理。"
+  },
+  {
+    "name": "coding agent",
+    "trans": [
+      "n. 编码 agent（能读写代码、跑测试自主修 bug 的智能体）"
+    ],
+    "usphone": "ˈkoʊdɪŋ ˈeɪdʒənt",
+    "ukphone": "ˈkəʊdɪŋ ˈeɪdʒənt",
+    "example": "The coding agent opened a pull request after fixing the failing test.",
+    "exampleTrans": "编码 agent 修好失败的测试后直接开了个 PR。"
+  },
+  {
+    "name": "actor-critic",
+    "trans": [
+      "n. actor-critic（策略网络与价值网络互相配合的强化学习架构）"
+    ],
+    "usphone": "ˈæktər ˈkrɪtɪk",
+    "ukphone": "ˈæktə(r) ˈkrɪtɪk",
+    "example": "Actor-critic methods use the critic to reduce gradient variance.",
+    "exampleTrans": "actor-critic 方法用 critic 来降低梯度方差。"
+  },
+  {
+    "name": "MCP server",
+    "trans": [
+      "n. MCP 服务端（按 MCP 协议对外提供工具与资源的进程）"
+    ],
+    "usphone": "ˌem siː ˈpiː ˈsɜːrvər",
+    "ukphone": "ˌem siː ˈpiː ˈsɜːvə(r)",
+    "example": "An MCP server exposes your tools to any compatible client.",
+    "exampleTrans": "MCP 服务端把你的工具暴露给任何兼容的客户端。"
+  },
+  {
+    "name": "sub-query",
+    "trans": [
+      "n. 子查询（由主查询派生出的细化检索语句）"
+    ],
+    "usphone": "sʌb ˈkwɪri",
+    "ukphone": "sʌb ˈkwɪri",
+    "example": "Each sub-query targets one aspect of the original question.",
+    "exampleTrans": "每个子查询针对原始问题的一个方面。"
+  },
+  {
+    "name": "late interaction",
+    "trans": [
+      "n. 后期交互（保留多向量到打分阶段再细粒度匹配）"
+    ],
+    "usphone": "leɪt ˌɪntərˈækʃ(ə)n",
+    "ukphone": "leɪt ˌɪntərˈækʃ(ə)n",
+    "example": "Late interaction keeps per-token embeddings for finer matching.",
+    "exampleTrans": "后期交互保留逐 token 的向量以实现更细粒度的匹配。"
+  },
+  {
+    "name": "thinking budget",
+    "trans": [
+      "n. 思考预算（限制模型内部推理所用 token 上限）"
+    ],
+    "usphone": "ˈθɪŋkɪŋ ˈbʌdʒɪt",
+    "ukphone": "ˈθɪŋkɪŋ ˈbʌdʒɪt",
+    "example": "A larger thinking budget improved accuracy but doubled latency.",
+    "exampleTrans": "更大的思考预算提升了准确率，但让延迟翻倍。"
+  },
+  {
+    "name": "backpressure",
+    "trans": [
+      "n. 背压（下游处理不过来时向上游施加的限速反馈）"
+    ],
+    "usphone": "bækˈpreʃər",
+    "ukphone": "bækpˈreʃə(r)",
+    "example": "Backpressure prevents the queue from growing without bound.",
+    "exampleTrans": "背压机制防止队列无限制地增长。"
+  },
+  {
+    "name": "observability",
+    "trans": [
+      "n. 可观测性（通过日志/指标/追踪理解系统内部状态的能力）"
+    ],
+    "usphone": "əbˌzɜːrvəˈbɪləti",
+    "ukphone": "əbˌzɜːvəˈbɪləti",
+    "example": "Good observability turns agent failures into reproducible traces.",
+    "exampleTrans": "良好的可观测性把 agent 的失败变成可复现的追踪记录。"
+  },
+  {
+    "name": "frequency penalty",
+    "trans": [
+      "n. 频率惩罚（按 token 出现频次累积降低重复概率）"
+    ],
+    "usphone": "ˈfriːkwənsi ˈpenəlti",
+    "ukphone": "ˈfriːkwənsi ˈpenəlti",
+    "example": "A frequency penalty nudges the model toward fresher wording.",
+    "exampleTrans": "频率惩罚引导模型使用更新鲜的措辞。"
+  },
+  {
+    "name": "semaphore",
+    "trans": [
+      "n. 信号量（允许 N 个线程同时访问的并发计数锁）"
+    ],
+    "usphone": "ˈseməfɔːr",
+    "ukphone": "ˈseməfɔː(r)",
+    "example": "A semaphore caps how many tool calls run at the same time.",
+    "exampleTrans": "信号量限制了同一时刻并发的工具调用数量。"
+  },
+  {
+    "name": "coroutine",
+    "trans": [
+      "n. 协程（可挂起恢复的用户态轻量并发单元）"
+    ],
+    "usphone": "kəruːˈtiːn",
+    "ukphone": "ˈkəʊruːˌtiːn",
+    "example": "Each coroutine awaits the API call without blocking the event loop.",
+    "exampleTrans": "每个协程在等待 API 调用时不会阻塞事件循环。"
+  }
+]

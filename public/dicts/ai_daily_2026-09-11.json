@@ -1,0 +1,152 @@
+[
+  {
+    "name": "sycophancy",
+    "trans": [
+      "n. 谄媚（模型为迎合用户而放弃事实正确的倾向）"
+    ],
+    "usphone": "ˈsɪkəfənsi",
+    "ukphone": "ˈsɪkəfənsi",
+    "example": "Sycophancy makes the model agree with an obviously wrong premise.",
+    "exampleTrans": "谄媚倾向会让模型附和一个明显错误的前提。"
+  },
+  {
+    "name": "relative position bias",
+    "trans": [
+      "n. 相对位置偏置（按相对距离而非绝对位置注入位置信息）"
+    ],
+    "usphone": "ˈrelətɪv pəˈzɪʃ(ə)n ˈbaɪəs",
+    "ukphone": "ˈrelətɪv pəˈzɪʃ(ə)n ˈbaɪəs",
+    "example": "Relative position bias helps the model generalize to longer sequences.",
+    "exampleTrans": "相对位置偏置帮助模型泛化到更长的序列。"
+  },
+  {
+    "name": "reward hacking",
+    "trans": [
+      "n. 奖励黑客（agent 钻奖励函数漏洞而非真正完成任务）"
+    ],
+    "usphone": "rɪˈwɔːrd ˈhækɪŋ",
+    "ukphone": "rɪˈwɔːd ˈhækɪŋ",
+    "example": "Reward hacking shows up when the agent games the metric instead of the goal.",
+    "exampleTrans": "当 agent 操控指标而非达成目标时，就出现了奖励黑客。"
+  },
+  {
+    "name": "goal drift",
+    "trans": [
+      "n. 目标漂移（多步执行中逐步偏离原始任务目标）"
+    ],
+    "usphone": "ɡoʊl drɪft",
+    "ukphone": "ɡəʊl drɪft",
+    "example": "Goal drift creeps in over long agent runs without re-grounding.",
+    "exampleTrans": "长程 agent 若不重新锚定，就会逐渐出现目标漂移。"
+  },
+  {
+    "name": "credential",
+    "trans": [
+      "n. 凭据（调用外部 API 所用的密钥或令牌）"
+    ],
+    "usphone": "krəˈdenʃl",
+    "ukphone": "krəˈdenʃ(ə)l",
+    "example": "Never hard-code a credential; load it from the environment.",
+    "exampleTrans": "绝不要硬编码凭据，要从环境变量读取。"
+  },
+  {
+    "name": "JSON-RPC",
+    "trans": [
+      "n. JSON-RPC（基于 JSON 的轻量级远程过程调用协议）"
+    ],
+    "usphone": "ˈdʒeɪs(ə)n ˌɑːr piː ˈsiː",
+    "ukphone": "ˈdʒeɪs(ə)n ˌɑː piː ˈsiː",
+    "example": "The tool gateway speaks JSON-RPC over a single WebSocket.",
+    "exampleTrans": "工具网关在单个 WebSocket 上使用 JSON-RPC 通信。"
+  },
+  {
+    "name": "answer attribution",
+    "trans": [
+      "n. 答案溯源（把答案各部分归因到具体来源片段）"
+    ],
+    "usphone": "ˈænsər ˌætrɪˈbjuːʃn",
+    "ukphone": "ˈɑːnsə(r) ˌætrɪˈbjuːʃn",
+    "example": "Answer attribution links every sentence to its source passage.",
+    "exampleTrans": "答案溯源把每个句子都链接到它的来源片段。"
+  },
+  {
+    "name": "semantic similarity",
+    "trans": [
+      "n. 语义相似度（衡量两段文本含义接近程度）"
+    ],
+    "usphone": "sɪˈmæntɪk ˌsɪməˈlærəti",
+    "ukphone": "sɪˈmæntɪk ˌsɪməˈlærəti",
+    "example": "Semantic similarity catches paraphrases that keyword search misses.",
+    "exampleTrans": "语义相似度能捕捉关键词检索漏掉的同义改写。"
+  },
+  {
+    "name": "memory tiering",
+    "trans": [
+      "n. 记忆分层（按访问频率把记忆放在不同速度的层级）"
+    ],
+    "usphone": "ˈmeməri ˈtɪrɪŋ",
+    "ukphone": "ˈmeməri ˈtɪərɪŋ",
+    "example": "Memory tiering pushes cold facts to disk and keeps hot ones in context.",
+    "exampleTrans": "记忆分层把冷数据放到磁盘，热数据留在上下文里。"
+  },
+  {
+    "name": "forgetting curve",
+    "trans": [
+      "n. 遗忘曲线（记忆强度随时间衰减的规律曲线）"
+    ],
+    "usphone": "fərˈɡet kɜːrv",
+    "ukphone": "kɜːv",
+    "example": "A forgetting curve decides when a stored fact should be refreshed.",
+    "exampleTrans": "遗忘曲线决定了存储的记忆何时该被刷新。"
+  },
+  {
+    "name": "fault tolerance",
+    "trans": [
+      "n. 容错（部分组件失败时系统仍能继续服务）"
+    ],
+    "usphone": "fɔːlt ˈtɑːlərəns",
+    "ukphone": "fɔːlt ˈtɒlərəns",
+    "example": "Fault tolerance matters when half your tools are third-party APIs.",
+    "exampleTrans": "当半数工具都是第三方 API 时，容错就非常关键。"
+  },
+  {
+    "name": "majority vote",
+    "trans": [
+      "n. 多数投票（多次采样后取出现最多答案的集成策略）"
+    ],
+    "usphone": "məˈdʒɔːrəti voʊt",
+    "ukphone": "məˈdʒɒrəti vəʊt",
+    "example": "Majority vote over five samples beat a single greedy answer.",
+    "exampleTrans": "对五次采样做多数投票胜过单次贪心解码。"
+  },
+  {
+    "name": "xml tag",
+    "trans": [
+      "n. XML 标签（用标签包裹提示片段以界定结构）"
+    ],
+    "usphone": "ˌeks em ˈel tæɡ",
+    "ukphone": "ˌeks em ˈel tæɡ",
+    "example": "Wrap each document in an xml tag so the model can cite it.",
+    "exampleTrans": "把每个文档用 XML 标签包起来，模型才能引用它。"
+  },
+  {
+    "name": "lazy loading",
+    "trans": [
+      "n. 懒加载（真正需要时才加载资源）"
+    ],
+    "usphone": "ˈleɪzi ˈləʊdɪŋ",
+    "ukphone": "ˈleɪzi ˈləʊdɪŋ",
+    "example": "Lazy loading keeps the initial bundle small for slow networks.",
+    "exampleTrans": "懒加载让首屏产物在弱网下依然很小。"
+  },
+  {
+    "name": "pagination",
+    "trans": [
+      "n. 分页（把大量结果切成多页返回）"
+    ],
+    "usphone": "ˌpædʒɪˈneɪʃ(ə)n",
+    "ukphone": "ˌpædʒɪˈneɪʃ(ə)n",
+    "example": "The search endpoint uses pagination instead of dumping every hit.",
+    "exampleTrans": "搜索接口使用分页，而不是一次性返回所有命中。"
+  }
+]

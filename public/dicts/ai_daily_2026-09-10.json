@@ -1,0 +1,152 @@
+[
+  {
+    "name": "data contamination",
+    "trans": [
+      "n. 数据污染（评测集混入训练数据导致指标虚高）"
+    ],
+    "usphone": "ˈdeɪtə kənˌtæmɪˈneɪʃ(ə)n",
+    "ukphone": "ˈdeɪtə kənˌtæmɪˈneɪʃ(ə)n",
+    "example": "Data contamination inflated the benchmark score by several points.",
+    "exampleTrans": "数据污染让基准测试分数虚高了好几点。"
+  },
+  {
+    "name": "PEFT",
+    "trans": [
+      "n. PEFT / 参数高效微调（只训练少量参数适配下游任务）"
+    ],
+    "usphone": "ˌpiː iː ef ˈtiː",
+    "ukphone": "ˌpiː iː ef ˈtiː",
+    "example": "PEFT lets you adapt a large model on a single consumer GPU.",
+    "exampleTrans": "PEFT 让你用一张消费级显卡微调大模型。"
+  },
+  {
+    "name": "qk norm",
+    "trans": [
+      "n. QK 归一化（对 query/key 做归一化以稳定注意力训练）"
+    ],
+    "usphone": "ˌkjuː ˈkeɪ nɔːrm",
+    "ukphone": "ˌkjuː ˈkeɪ nɔːm",
+    "example": "Adding qk norm removed the training spikes at high learning rates.",
+    "exampleTrans": "加入 QK 归一化消除了高学习率下的训练尖刺。"
+  },
+  {
+    "name": "replay buffer",
+    "trans": [
+      "n. 回放缓冲（存放历史轨迹并抽样复用的经验池）"
+    ],
+    "usphone": "ˈriːpleɪ ˈbʌfər",
+    "ukphone": "ˈriːpleɪ ˈbʌfə(r)",
+    "example": "The agent samples past trajectories from a replay buffer.",
+    "exampleTrans": "agent 从回放缓冲里采样过去的轨迹。"
+  },
+  {
+    "name": "policy gradient",
+    "trans": [
+      "n. 策略梯度（直接对策略参数求梯度优化的强化学习方法）"
+    ],
+    "usphone": "ˈpɑːləsi ˈɡreɪdiənt",
+    "ukphone": "ˈpɒləsi ˈɡreɪdiənt",
+    "example": "Policy gradient methods optimize expected reward without a value model.",
+    "exampleTrans": "策略梯度方法无需价值模型直接优化期望收益。"
+  },
+  {
+    "name": "MCP client",
+    "trans": [
+      "n. MCP 客户端（按协议调用 MCP 服务端工具的一方）"
+    ],
+    "usphone": "ˌem siː ˈpiː ˈklaɪənt",
+    "ukphone": "ˌem siː ˈpiː ˈklaɪənt",
+    "example": "The MCP client discovers available tools after connecting.",
+    "exampleTrans": "MCP 客户端在连接后发现可用的工具。"
+  },
+  {
+    "name": "API quota",
+    "trans": [
+      "n. API 配额（单位时间内允许调用接口的次数上限）"
+    ],
+    "usphone": "ˌeɪ piː ˈaɪ ˈkwoʊtə",
+    "ukphone": "ˌeɪ piː ˈaɪ ˈkwəʊtə",
+    "example": "Hitting the API quota returns a 429 instead of a result.",
+    "exampleTrans": "触到 API 配额会返回 429 而不是结果。"
+  },
+  {
+    "name": "supporting evidence",
+    "trans": [
+      "n. 支撑证据（用来佐证答案的检索片段或引用）"
+    ],
+    "usphone": "səˈpɔːrtɪŋ ˈevɪdəns",
+    "ukphone": "səˈpɔːtɪŋ ˈevɪdəns",
+    "example": "Every claim should be backed by supporting evidence from the corpus.",
+    "exampleTrans": "每个论断都应有来自语料库的支撑证据。"
+  },
+  {
+    "name": "session memory",
+    "trans": [
+      "n. 会话记忆（仅在单次会话生命周期内保留的记忆）"
+    ],
+    "usphone": "ˈseʃ(ə)n ˈmeməri",
+    "ukphone": "ˈseʃ(ə)n ˈmeməri",
+    "example": "Session memory is cleared once the conversation ends.",
+    "exampleTrans": "会话记忆在对话结束后即被清空。"
+  },
+  {
+    "name": "dialogue state",
+    "trans": [
+      "n. 对话状态（跟踪槽位与上下文的结构化表示）"
+    ],
+    "usphone": "ˈdaɪəlɔːɡ steɪt",
+    "ukphone": "ˈdaɪəlɒɡ steɪt",
+    "example": "The dialogue state records which slots are still missing.",
+    "exampleTrans": "对话状态记录了哪些槽位仍未填充。"
+  },
+  {
+    "name": "distributed tracing",
+    "trans": [
+      "n. 分布式追踪（跨服务串联一次请求全链路的追踪）"
+    ],
+    "usphone": "dɪˈstrɪbjuːtɪd ˈtreɪsɪŋ",
+    "ukphone": "dɪˈstrɪbjuːtɪd ˈtreɪsɪŋ",
+    "example": "Distributed tracing shows which hop added the extra two seconds.",
+    "exampleTrans": "分布式追踪显示是哪一跳多花了两秒。"
+  },
+  {
+    "name": "eventual consistency",
+    "trans": [
+      "n. 最终一致性（副本短暂不一致但终会收敛）"
+    ],
+    "usphone": "ɪˈventʃuəl kənˈsɪstənsi",
+    "ukphone": "ɪˈventʃuəl kənˈsɪstənsi",
+    "example": "The vector index offers eventual consistency across replicas.",
+    "exampleTrans": "该向量索引在各个副本间提供最终一致性。"
+  },
+  {
+    "name": "presence penalty",
+    "trans": [
+      "n. 存在惩罚（对已出现过的 token 施加一次性惩罚）"
+    ],
+    "usphone": "ˈprez(ə)ns ˈpenəlti",
+    "ukphone": "ˈprez(ə)ns ˈpenəlti",
+    "example": "A presence penalty encourages the model to introduce new concepts.",
+    "exampleTrans": "存在惩罚鼓励模型引入新的概念。"
+  },
+  {
+    "name": "example selection",
+    "trans": [
+      "n. 示例选择（为少样本提示挑选最相关的示例）"
+    ],
+    "usphone": "ɪɡˈzæmp(ə)l sɪˈlekʃ(ə)n",
+    "ukphone": "ɪɡˈzɑːmp(ə)l sɪˈlekʃ(ə)n",
+    "example": "Good example selection matters more than the number of shots.",
+    "exampleTrans": "好的示例选择比示例数量更重要。"
+  },
+  {
+    "name": "closure",
+    "trans": [
+      "n. 闭包（捕获并持有外层作用域变量的函数）"
+    ],
+    "usphone": "ˈkloʊʒər",
+    "ukphone": "ˈkləʊʒə(r)",
+    "example": "The closure keeps the retry counter alive between calls.",
+    "exampleTrans": "闭包让重试计数器在多次调用之间保持存活。"
+  }
+]
