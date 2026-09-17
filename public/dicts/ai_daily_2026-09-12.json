@@ -1,0 +1,152 @@
+[
+  {
+    "name": "underfitting",
+    "trans": [
+      "n. 欠拟合（模型容量不足，连训练集都没学好）"
+    ],
+    "usphone": "ˈʌndər ˈfɪtɪŋ",
+    "ukphone": "ˈʌndə(r) ˈfɪtɪŋ",
+    "example": "Underfitting shows up when training and validation loss are both high.",
+    "exampleTrans": "训练损失和验证损失都很高时，就是欠拟合。"
+  },
+  {
+    "name": "mini-batch",
+    "trans": [
+      "n. 小批量（每次更新只用一小批样本）"
+    ],
+    "usphone": "ˈmɪni bætʃ",
+    "ukphone": "ˈmɪni bætʃ",
+    "example": "A mini-batch of 32 keeps each update fast and stable.",
+    "exampleTrans": "32 条的小批量让每次更新又快又稳。"
+  },
+  {
+    "name": "hidden dimension",
+    "trans": [
+      "n. 隐藏维度（Transformer 内部表示向量的宽度）"
+    ],
+    "usphone": "ˈhɪd(ə)n daɪˈmenʃn",
+    "ukphone": "ˈhɪd(ə)n daɪˈmenʃ(ə)n",
+    "example": "Doubling the hidden dimension quadruples most of the compute.",
+    "exampleTrans": "隐藏维度翻倍会让大部分计算量变成四倍。"
+  },
+  {
+    "name": "flash decoding",
+    "trans": [
+      "n. 闪电解码（优化 KV 读取以加速自回归解码）"
+    ],
+    "usphone": "flæʃ diːˈkoʊdɪŋ",
+    "ukphone": "flæʃ ˌdiːˈkəʊdɪŋ",
+    "example": "Flash decoding cuts memory traffic during long-context generation.",
+    "exampleTrans": "闪电解码减少了长上下文生成时的显存读写。"
+  },
+  {
+    "name": "generative agents",
+    "trans": [
+      "n. 生成式智能体（模拟人类行为的多个 LLM agent 群体）"
+    ],
+    "usphone": "ˈdʒenərətɪv ˈeɪdʒənts",
+    "ukphone": "ˈdʒenərətɪv",
+    "example": "Generative agents plan their day and remember past conversations.",
+    "exampleTrans": "生成式智能体会规划一天并记住过往对话。"
+  },
+  {
+    "name": "observation space",
+    "trans": [
+      "n. 观测空间（agent 能感知到的状态集合）"
+    ],
+    "usphone": "ˌɑːbzərˈveɪʃ(ə)n speɪs",
+    "ukphone": "ˌɒbzəˈveɪʃ(ə)n speɪs",
+    "example": "The observation space defines everything the agent is allowed to see.",
+    "exampleTrans": "观测空间定义了 agent 被允许看到的一切。"
+  },
+  {
+    "name": "websocket",
+    "trans": [
+      "n. WebSocket（支持服务端主动推送的全双工长连接）"
+    ],
+    "usphone": "web ˈsɑːkɪt",
+    "ukphone": "web ˈsɒkɪt",
+    "example": "A websocket streams tokens to the browser as they are generated.",
+    "exampleTrans": "WebSocket 把生成的 token 实时推送到浏览器。"
+  },
+  {
+    "name": "text splitter",
+    "trans": [
+      "n. 文本切分器（把长文档切成可检索片段的工具）"
+    ],
+    "usphone": "tekst ˈsplɪtər",
+    "ukphone": "tekst ˈsplɪtə(r)",
+    "example": "The text splitter breaks the paper into overlapping 500-token chunks.",
+    "exampleTrans": "文本切分器把论文切成有重叠的 500 token 片段。"
+  },
+  {
+    "name": "chunk strategy",
+    "trans": [
+      "n. 分块策略（决定如何切分文档的取舍方案）"
+    ],
+    "usphone": "tʃʌŋk ˈstrætədʒi",
+    "ukphone": "tʃʌŋk ˈstrætədʒi",
+    "example": "Your chunk strategy matters more than which embedder you pick.",
+    "exampleTrans": "分块策略比选哪个 embedding 模型更关键。"
+  },
+  {
+    "name": "fact extraction",
+    "trans": [
+      "n. 事实抽取（从对话中提炼可长期保存的事实）"
+    ],
+    "usphone": "fækt ɪkˈstrækʃ(ə)n",
+    "ukphone": "fækt ɪkˈstrækʃn",
+    "example": "Fact extraction pulls durable facts out of a long conversation.",
+    "exampleTrans": "事实抽取从长对话里提炼出可长期保存的事实。"
+  },
+  {
+    "name": "entity memory",
+    "trans": [
+      "n. 实体记忆（按人物/地点等实体组织的记忆）"
+    ],
+    "usphone": "ˈentəti ˈmeməri",
+    "ukphone": "ˈentəti ˈmeməri",
+    "example": "Entity memory keeps every fact about a person in one place.",
+    "exampleTrans": "实体记忆把关于某个人的所有事实集中存放。"
+  },
+  {
+    "name": "idempotency key",
+    "trans": [
+      "n. 幂等键（用唯一标识保证重复请求只生效一次）"
+    ],
+    "usphone": "ˌaɪdempətənsi kiː",
+    "ukphone": "ˌaɪdempətənsi kiː",
+    "example": "Pass an idempotency key so a retried call is not charged twice.",
+    "exampleTrans": "带上幂等键，重试的调用就不会被重复计费。"
+  },
+  {
+    "name": "iterative refinement",
+    "trans": [
+      "n. 迭代优化（反复生成-评估-修改直到满意）"
+    ],
+    "usphone": "ˈɪtəreɪtɪv rɪˈfaɪnmənt",
+    "ukphone": "ˈɪtərətɪv rɪˈfaɪnmənt",
+    "example": "Iterative refinement improved the answer over three feedback rounds.",
+    "exampleTrans": "迭代优化在三轮反馈后显著改进了答案。"
+  },
+  {
+    "name": "ablation",
+    "trans": [
+      "n. 消融实验（逐项去掉组件以判断其贡献）"
+    ],
+    "usphone": "əˈbleɪʃn",
+    "ukphone": "əˈbleɪʃn",
+    "example": "An ablation showed the reranker caused most of the gain.",
+    "exampleTrans": "消融实验显示收益主要来自重排序器。"
+  },
+  {
+    "name": "polyfill",
+    "trans": [
+      "n. 兼容补丁（为旧环境补齐新 API 的代码）"
+    ],
+    "usphone": "ˈpɑːlifɪl",
+    "ukphone": "ˈpɒlifɪl",
+    "example": "The polyfill lets older browsers use the new streaming API.",
+    "exampleTrans": "这个 polyfill 让旧浏览器也能用新的流式 API。"
+  }
+]

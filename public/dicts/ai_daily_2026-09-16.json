@@ -1,0 +1,152 @@
+[
+  {
+    "name": "time to first token",
+    "trans": [
+      "n. 首 token 延迟（从发出请求到收到第一个词的时间）"
+    ],
+    "usphone": "taɪm tuː fɜːrst ˈtoʊkən",
+    "ukphone": "taɪm tuː fɜːst ˈtəʊkən",
+    "example": "Time to first token matters most for chat-like experiences.",
+    "exampleTrans": "对聊天类体验来说，首 token 延迟最为关键。"
+  },
+  {
+    "name": "learning rate schedule",
+    "trans": [
+      "n. 学习率调度（训练过程中按计划调整学习率）"
+    ],
+    "usphone": "ˈlɜːrnɪŋ reɪt ˈskedʒuːl",
+    "ukphone": "ˈlɜːnɪŋ reɪt ˈʃedjuːl",
+    "example": "A cosine learning rate schedule usually beats a constant one.",
+    "exampleTrans": "余弦学习率调度通常优于固定学习率。"
+  },
+  {
+    "name": "vocabulary size",
+    "trans": [
+      "n. 词表大小（模型可输出的不同词元总数）"
+    ],
+    "usphone": "vəˈkæbjəleri saɪz",
+    "ukphone": "vəˈkæbjələri saɪz",
+    "example": "A larger vocabulary size shortens sequences but grows the lm head.",
+    "exampleTrans": "更大的词表会缩短序列，但增大输出层。"
+  },
+  {
+    "name": "backtracking",
+    "trans": [
+      "n. 回溯（发现走错时退回上一步重新选择）"
+    ],
+    "usphone": "ˈbæktrækɪŋ",
+    "ukphone": "ˈbæktrækɪŋ",
+    "example": "Backtracking lets the agent abandon a dead-end plan.",
+    "exampleTrans": "回溯让 agent 能放弃走进死胡同的计划。"
+  },
+  {
+    "name": "self-verification",
+    "trans": [
+      "n. 自我校验（模型自己检查输出是否正确）"
+    ],
+    "usphone": "self ˌverɪfɪˈkeɪʃ(ə)n",
+    "ukphone": "self ˌverɪfɪˈkeɪʃ(ə)n",
+    "example": "Self-verification caught the arithmetic error before the final answer.",
+    "exampleTrans": "自我校验在给出最终答案前发现了算术错误。"
+  },
+  {
+    "name": "stream response",
+    "trans": [
+      "n. 流式响应（边生成边返回，而非等待完整结果）"
+    ],
+    "usphone": "striːm rɪˈspɑːns",
+    "ukphone": "striːm rɪˈspɒns",
+    "example": "A stream response lets the UI render text as it arrives.",
+    "exampleTrans": "流式响应让界面能在文本到达时就开始渲染。"
+  },
+  {
+    "name": "tool chain",
+    "trans": [
+      "n. 工具链（多个工具按序串联完成复杂任务）"
+    ],
+    "usphone": "tuːl tʃeɪn",
+    "ukphone": "tuːl tʃeɪn",
+    "example": "The tool chain fetches, parses, then summarizes the page.",
+    "exampleTrans": "这条工具链依次抓取、解析再总结页面。"
+  },
+  {
+    "name": "hallucination detection",
+    "trans": [
+      "n. 幻觉检测（识别模型编造的无据内容）"
+    ],
+    "usphone": "həˌluːsɪˈneɪʃ(ə)n dɪˈtekʃ(ə)n",
+    "ukphone": "həˌluːsɪˈneɪʃ(ə)n dɪˈtekʃ(ə)n",
+    "example": "Hallucination detection flags claims absent from the sources.",
+    "exampleTrans": "幻觉检测会标记出来源中不存在的说法。"
+  },
+  {
+    "name": "memory capacity",
+    "trans": [
+      "n. 记忆容量（记忆系统可容纳的信息上限）"
+    ],
+    "usphone": "ˈmeməri kəˈpæsəti",
+    "ukphone": "ˈmeməri kəˈpæsəti",
+    "example": "Once memory capacity is hit, old entries are evicted.",
+    "exampleTrans": "记忆容量用满后，旧条目会被淘汰。"
+  },
+  {
+    "name": "autoscaling",
+    "trans": [
+      "n. 自动扩缩容（按负载自动增减实例数量）"
+    ],
+    "usphone": "ˈɔːtoʊ ˈskeɪlɪŋ",
+    "ukphone": "ˈɔːtəʊ ˈskeɪlɪŋ",
+    "example": "Autoscaling added workers when the queue grew past a threshold.",
+    "exampleTrans": "队列超过阈值时，自动扩缩容会加入更多 worker。"
+  },
+  {
+    "name": "token bucket",
+    "trans": [
+      "n. 令牌桶（允许突发但限制均速的限流算法）"
+    ],
+    "usphone": "ˈtoʊkən ˈbʌkɪt",
+    "ukphone": "ˈtəʊkən ˈbʌkɪt",
+    "example": "A token bucket allows short bursts while capping average rate.",
+    "exampleTrans": "令牌桶允许短时突发，同时限制平均速率。"
+  },
+  {
+    "name": "human evaluation",
+    "trans": [
+      "n. 人工评测（由人而非模型来评判输出质量）"
+    ],
+    "usphone": "ˈhjuːmən ɪˌvæljuˈeɪʃ(ə)n",
+    "ukphone": "ˈhjuːmən ɪˌvæljuˈeɪʃn",
+    "example": "Human evaluation still catches what automatic metrics miss.",
+    "exampleTrans": "人工评测仍能发现自动指标遗漏的问题。"
+  },
+  {
+    "name": "annotation",
+    "trans": [
+      "n. 标注（为训练或评测数据人工加标签）"
+    ],
+    "usphone": "ˌænəˈteɪʃ(ə)n",
+    "ukphone": "ˌænəˈteɪʃ(ə)n",
+    "example": "Every annotation was reviewed by a second annotator.",
+    "exampleTrans": "每条标注都由第二位标注员复核过。"
+  },
+  {
+    "name": "immutability",
+    "trans": [
+      "n. 不可变性（数据创建后不再被修改）"
+    ],
+    "usphone": "ɪˌmjuːtəˈbɪləti",
+    "ukphone": "ɪˌmjuːtəˈbɪləti",
+    "example": "Immutability makes state changes easy to trace and undo.",
+    "exampleTrans": "不可变性让状态变更易于追踪和撤销。"
+  },
+  {
+    "name": "debounce",
+    "trans": [
+      "v./n. 防抖（停止触发后延迟执行一次）"
+    ],
+    "usphone": "ˌdiːˈbaʊns",
+    "ukphone": "ˌdiːˈbaʊns",
+    "example": "Debounce the search input so it fires once, not per keystroke.",
+    "exampleTrans": "给搜索输入加防抖，让它只触发一次而非每次按键。"
+  }
+]

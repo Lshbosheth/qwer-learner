@@ -1,0 +1,152 @@
+[
+  {
+    "name": "gradient checkpointing",
+    "trans": [
+      "n. 梯度检查点（用重算换显存的训练技巧）"
+    ],
+    "usphone": "ˈɡreɪdiənt ˈtʃekpɔɪntɪŋ",
+    "ukphone": "ˈɡreɪdiənt ˈtʃekpɔɪntɪŋ",
+    "example": "Gradient checkpointing trades extra compute for a much smaller memory footprint.",
+    "exampleTrans": "梯度检查点用额外的计算换取小得多的显存占用。"
+  },
+  {
+    "name": "learned positional embedding",
+    "trans": [
+      "n. 可学习位置嵌入（把位置向量作为可训练参数）"
+    ],
+    "usphone": "ˈlɜːrnɪd pəˈzɪʃənəl ɪmˈbedɪŋ",
+    "ukphone": "ˈlɜːnɪd pəˈzɪʃənəl ɪmˈbedɪŋ",
+    "example": "A learned positional embedding cannot extrapolate past its training length.",
+    "exampleTrans": "可学习位置嵌入无法外推到超过训练长度的位置。"
+  },
+  {
+    "name": "activation function",
+    "trans": [
+      "n. 激活函数（为网络引入非线性的函数）"
+    ],
+    "usphone": "ˌæktɪˈveɪʃn ˈfʌŋkʃ(ə)n",
+    "ukphone": "ˌæktɪˈveɪʃn ˈfʌŋkʃ(ə)n",
+    "example": "The activation function decides how much signal each neuron passes on.",
+    "exampleTrans": "激活函数决定每个神经元传递多少信号。"
+  },
+  {
+    "name": "credit assignment",
+    "trans": [
+      "n. 功劳分配（判断长序列中哪些动作该被奖励）"
+    ],
+    "usphone": "ˈkredɪt əˈsaɪnmənt",
+    "ukphone": "ˈkredɪt əˈsaɪnmənt",
+    "example": "Credit assignment is hard when the reward arrives a hundred steps later.",
+    "exampleTrans": "当奖励在一百步之后才到达时，功劳分配就非常困难。"
+  },
+  {
+    "name": "tool discovery",
+    "trans": [
+      "n. 工具发现（让 agent 自动找到可用工具）"
+    ],
+    "usphone": "tuːl dɪˈskʌvəri",
+    "ukphone": "tuːl dɪˈskʌvəri",
+    "example": "Tool discovery reads the registry and lists callable functions.",
+    "exampleTrans": "工具发现读取注册表并列出可调用的函数。"
+  },
+  {
+    "name": "api versioning",
+    "trans": [
+      "n. API 版本管理（为接口演进保留多版本共存）"
+    ],
+    "usphone": "ˌeɪ piː ˈaɪ ˈvɜːʃənɪŋ",
+    "ukphone": "ˌeɪ piː ˈaɪ ˈvɜːʃənɪŋ",
+    "example": "API versioning lets old clients keep working after a redesign.",
+    "exampleTrans": "API 版本管理让旧客户端在重构后仍能使用。"
+  },
+  {
+    "name": "approximate nearest neighbor",
+    "trans": [
+      "n. 近似最近邻（牺牲少量精度换取高速检索）"
+    ],
+    "usphone": "əˈprɑːksɪmət ˈnɪrəst ˈneɪbər",
+    "ukphone": "əˈprɒksɪmət ˈnɪərɪst ˈneɪbə(r)",
+    "example": "Approximate nearest neighbor search scales to billions of vectors.",
+    "exampleTrans": "近似最近邻检索可以扩展到数十亿向量。"
+  },
+  {
+    "name": "incremental indexing",
+    "trans": [
+      "n. 增量索引（只对新增/变更文档更新索引）"
+    ],
+    "usphone": "ɪnkrəˈməntl ˈɪndeksɪŋ",
+    "ukphone": "ˌɪŋkrəˈment(ə)l ˈɪndeksɪŋ",
+    "example": "Incremental indexing avoids rebuilding the whole index nightly.",
+    "exampleTrans": "增量索引避免了每晚重建整个索引。"
+  },
+  {
+    "name": "preference memory",
+    "trans": [
+      "n. 偏好记忆（记录用户显式或隐式的偏好）"
+    ],
+    "usphone": "ˈprefrəns ˈmeməri",
+    "ukphone": "ˈprefrəns ˈmeməri",
+    "example": "Preference memory remembers that you want terse answers.",
+    "exampleTrans": "偏好记忆记得你想要简洁的回答。"
+  },
+  {
+    "name": "conflict resolution",
+    "trans": [
+      "n. 冲突消解（新旧记忆矛盾时决定保留哪个）"
+    ],
+    "usphone": "ˈkɑːnflɪkt ˌrezəˈluːʃ(ə)n",
+    "ukphone": "ˈkɒnflɪkt ˌrezəˈluːʃ(ə)n",
+    "example": "Conflict resolution keeps the most recent fact and discards the stale one.",
+    "exampleTrans": "冲突消解保留最新事实并丢弃过时的那条。"
+  },
+  {
+    "name": "leader election",
+    "trans": [
+      "n. 领导者选举（在多个节点中选出一个协调者）"
+    ],
+    "usphone": "ˈliːdər ɪˈlekʃ(ə)n",
+    "ukphone": "ˈliːdə(r) ɪˈlekʃ(ə)n",
+    "example": "Leader election picks one node to schedule all background jobs.",
+    "exampleTrans": "领导者选举选出一个节点来调度所有后台任务。"
+  },
+  {
+    "name": "health check",
+    "trans": [
+      "n. 健康检查（周期性探测服务是否存活可用）"
+    ],
+    "usphone": "helθ tʃek",
+    "ukphone": "helθ tʃek",
+    "example": "A failing health check pulls the node out of rotation.",
+    "exampleTrans": "健康检查失败会把该节点从流量中摘除。"
+  },
+  {
+    "name": "gold answer",
+    "trans": [
+      "n. 标准答案（评测时用作对照的正确答案）"
+    ],
+    "usphone": "ɡoʊld ˈænsər",
+    "ukphone": "ɡəʊld ˈɑːnsə(r)",
+    "example": "Each item ships with a gold answer written by an annotator.",
+    "exampleTrans": "每条样本都配有标注员撰写的标准答案。"
+  },
+  {
+    "name": "type narrowing",
+    "trans": [
+      "n. 类型收窄（通过判断把联合类型缩小到具体分支）"
+    ],
+    "usphone": "taɪp ˈnæroʊɪŋ",
+    "ukphone": "taɪp ˈnærəʊɪŋ",
+    "example": "Type narrowing lets you access fields only after a runtime check.",
+    "exampleTrans": "类型收窄让你在运行时检查后才能访问字段。"
+  },
+  {
+    "name": "type guard",
+    "trans": [
+      "n. 类型守卫（返回布尔值以收窄类型的函数）"
+    ],
+    "usphone": "taɪp ɡɑːrd",
+    "ukphone": "taɪp ɡɑːd",
+    "example": "A type guard tells the compiler which branch is safe.",
+    "exampleTrans": "类型守卫告诉编译器哪个分支是安全的。"
+  }
+]

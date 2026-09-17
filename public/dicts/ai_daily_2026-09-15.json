@@ -1,0 +1,152 @@
+[
+  {
+    "name": "knowledge distillation",
+    "trans": [
+      "n. 知识蒸馏（用大模型教小模型）"
+    ],
+    "usphone": "ˈnɑːlɪdʒ ˌdɪstɪˈleɪʃ(ə)n",
+    "ukphone": "ˈnɒlɪdʒ ˌdɪstɪˈleɪʃn",
+    "example": "Knowledge distillation squeezed the teacher into a model ten times smaller.",
+    "exampleTrans": "知识蒸馏把教师模型压缩成了十分之一大小。"
+  },
+  {
+    "name": "continuous batching",
+    "trans": [
+      "n. 连续批处理（动态替换已完成请求以提高吞吐）"
+    ],
+    "usphone": "kənˈtɪnjuəs ˈbætʃɪŋ",
+    "ukphone": "kənˈtɪnjuəs ˈbætʃɪŋ",
+    "example": "Continuous batching raised serving throughput by several times.",
+    "exampleTrans": "连续批处理让服务吞吐提升了好几倍。"
+  },
+  {
+    "name": "gelu",
+    "trans": [
+      "n. GELU（Transformer 常用的平滑激活函数）"
+    ],
+    "usphone": "ˈɡɛluː",
+    "ukphone": "ˈɡeluː",
+    "example": "Most modern transformers use GELU instead of ReLU.",
+    "exampleTrans": "多数现代 Transformer 用 GELU 而不是 ReLU。"
+  },
+  {
+    "name": "weight tying",
+    "trans": [
+      "n. 权重绑定（输入嵌入与输出层共享参数）"
+    ],
+    "usphone": "weɪt ˈtaɪɪŋ",
+    "ukphone": "weɪt ˈtaɪɪŋ",
+    "example": "Weight tying cuts parameter count without hurting quality.",
+    "exampleTrans": "权重绑定在不损失质量的前提下减少了参数量。"
+  },
+  {
+    "name": "value function",
+    "trans": [
+      "n. 价值函数（估计某状态下未来收益的期望）"
+    ],
+    "usphone": "ˈvæljuː ˈfʌŋkʃ(ə)n",
+    "ukphone": "ˈvæljuː ˈfʌŋkʃ(ə)n",
+    "example": "The value function tells the agent which states are worth reaching.",
+    "exampleTrans": "价值函数告诉 agent 哪些状态值得抵达。"
+  },
+  {
+    "name": "tree search",
+    "trans": [
+      "n. 树搜索（在分支路径中系统性地寻找最优解）"
+    ],
+    "usphone": "triː sɜːrtʃ",
+    "ukphone": "triː sɜːtʃ",
+    "example": "Tree search explores several action paths before committing.",
+    "exampleTrans": "树搜索在最终决定前探索多条行动路径。"
+  },
+  {
+    "name": "batch request",
+    "trans": [
+      "n. 批量请求（把多次调用合并成一次提交）"
+    ],
+    "usphone": "bætʃ rɪˈkwest",
+    "ukphone": "bætʃ rɪˈkwest",
+    "example": "A batch request cut our API calls from fifty to one.",
+    "exampleTrans": "批量请求把我们的 API 调用从五十次降到一次。"
+  },
+  {
+    "name": "document ranking",
+    "trans": [
+      "n. 文档排序（按相关性给候选文档排次序）"
+    ],
+    "usphone": "ˈdɑːkjumənt ˈræŋkɪŋ",
+    "ukphone": "ˈdɒkjumənt ˈræŋkɪŋ",
+    "example": "Document ranking decides which three passages reach the prompt.",
+    "exampleTrans": "文档排序决定哪三个片段能进入提示。"
+  },
+  {
+    "name": "rag evaluation",
+    "trans": [
+      "n. RAG 评测（分别衡量检索与生成两端质量）"
+    ],
+    "usphone": "ræɡ ɪˌvæljuˈeɪʃ(ə)n",
+    "ukphone": "ræɡ ɪˌvæljuˈeɪʃn",
+    "example": "RAG evaluation separates retrieval errors from generation errors.",
+    "exampleTrans": "RAG 评测把检索错误和生成错误分开衡量。"
+  },
+  {
+    "name": "memory decay",
+    "trans": [
+      "n. 记忆衰减（记忆强度随时间逐步减弱）"
+    ],
+    "usphone": "ˈmeməri dɪˈkeɪ",
+    "ukphone": "ˈmeməri dɪˈkeɪ",
+    "example": "Memory decay fades old facts unless they are recalled again.",
+    "exampleTrans": "除非被再次回忆，记忆衰减会让旧事实逐渐淡化。"
+  },
+  {
+    "name": "importance score",
+    "trans": [
+      "n. 重要度打分（给记忆条目打分以决定保留优先级）"
+    ],
+    "usphone": "ɪmˈpɔːrt(ə)ns skɔːr",
+    "ukphone": "ɪmˈpɔːt(ə)ns skɔː(r)",
+    "example": "An importance score decides what survives context compaction.",
+    "exampleTrans": "重要度打分决定了上下文压缩时保留哪些内容。"
+  },
+  {
+    "name": "graceful shutdown",
+    "trans": [
+      "n. 优雅关闭（停止服务前先处理完在途任务）"
+    ],
+    "usphone": "ˈɡreɪsf(ə)l ˈʃʌtdaʊn",
+    "ukphone": "ˈɡreɪsf(ə)l ˈʃʌtdaʊn",
+    "example": "Graceful shutdown finishes in-flight jobs before the process exits.",
+    "exampleTrans": "优雅关闭会在进程退出前处理完在途任务。"
+  },
+  {
+    "name": "llm judge",
+    "trans": [
+      "n. LLM 评判（用大模型给其他输出打分）"
+    ],
+    "usphone": "ˌel el ˈem dʒʌdʒ",
+    "ukphone": "ˌel el ˈem dʒʌdʒ",
+    "example": "An llm judge graded both answers against the rubric.",
+    "exampleTrans": "LLM 评判按评分标准给两个答案打了分。"
+  },
+  {
+    "name": "pairwise comparison",
+    "trans": [
+      "n. 两两比较（让评判者在两个候选间选更优者）"
+    ],
+    "usphone": "peərˈwaɪz kəmˈpærɪsn",
+    "ukphone": "ˈpeəˌwaɪz kəmˈpærɪs(ə)n",
+    "example": "Pairwise comparison is more reliable than absolute scoring.",
+    "exampleTrans": "两两比较比绝对打分更可靠。"
+  },
+  {
+    "name": "pure function",
+    "trans": [
+      "n. 纯函数（相同输入必得相同输出且无副作用）"
+    ],
+    "usphone": "pjʊr ˈfʌŋkʃ(ə)n",
+    "ukphone": "pjʊə(r) ˈfʌŋkʃ(ə)n",
+    "example": "A pure function is trivial to test and cache.",
+    "exampleTrans": "纯函数非常容易测试和缓存。"
+  }
+]

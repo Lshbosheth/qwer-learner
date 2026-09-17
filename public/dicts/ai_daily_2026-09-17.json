@@ -1,0 +1,152 @@
+[
+  {
+    "name": "chat template",
+    "trans": [
+      "n. 聊天模板（定义多轮对话角色与消息格式的结构化提示模板）"
+    ],
+    "usphone": "ˈtʃæt ˈtempleɪt",
+    "ukphone": "ˈtʃæt ˈtempleɪt",
+    "example": "The chat template wraps the system prompt, user message, and assistant reply into a single model input.",
+    "exampleTrans": "聊天模板会把系统提示、用户消息与助手回复打包成模型所需的单一输入。"
+  },
+  {
+    "name": "downstream task",
+    "trans": [
+      "n. 下游任务（用预训练或基础模型进一步微调/推理的具体应用任务）"
+    ],
+    "usphone": "ˈdaʊnstriːm tæsk",
+    "ukphone": "ˈdaʊnstriːm tɑːsk",
+    "example": "We fine-tune the base model on downstream tasks such as classification and summarization.",
+    "exampleTrans": "我们在分类、摘要等下游任务上对基础模型做微调。"
+  },
+  {
+    "name": "state space model",
+    "trans": [
+      "n. 状态空间模型（如 Mamba 等以线性递归替代注意力的序列建模架构）"
+    ],
+    "usphone": "steɪt speɪs ˈmɑːdl",
+    "ukphone": "steɪt speɪs ˈmɒdl",
+    "example": "A state space model processes tokens with a recurrent state, enabling linear-time sequence modeling.",
+    "exampleTrans": "状态空间模型用递归状态处理 token，可实现线性时间复杂度的序列建模。"
+  },
+  {
+    "name": "introspection",
+    "trans": [
+      "n. 自省 / 内省（智能体对自身推理与状态进行观察与反思的能力）"
+    ],
+    "usphone": "ˌɪntrəˈspekʃ(ə)n",
+    "ukphone": "ˌɪntrəˈspekʃ(ə)n",
+    "example": "Agent introspection helps the system detect when its plan has gone off track.",
+    "exampleTrans": "智能体内省能帮助系统发现计划已经跑偏。"
+  },
+  {
+    "name": "human feedback",
+    "trans": [
+      "n. 人类反馈（用于对齐与强化学习的人为评价信号）"
+    ],
+    "usphone": "ˈhjuːmən ˈfiːdbæk",
+    "ukphone": "ˈhjuːmən ˈfiːdbæk",
+    "example": "Reinforcement learning from human feedback aligns the model with user intent.",
+    "exampleTrans": "基于人类反馈的强化学习让模型更符合用户意图。"
+  },
+  {
+    "name": "deserialization",
+    "trans": [
+      "n. 反序列化（把字节流或 JSON 还原为程序对象的过程）"
+    ],
+    "usphone": "ˌdiːˌsɪriələˈzeɪʃn",
+    "ukphone": "ˌdiːˌsɪəriəlaɪˈzeɪʃn",
+    "example": "Tool results are returned as JSON and require deserialization before use.",
+    "exampleTrans": "工具返回的结果是 JSON，使用前需要反序列化。"
+  },
+  {
+    "name": "connection pooling",
+    "trans": [
+      "n. 连接池（复用数据库连接以降低建立开销的机制）"
+    ],
+    "usphone": "kəˈnekʃən ˈpuːlɪŋ",
+    "ukphone": "kəˈnekʃən ˈpuːlɪŋ",
+    "example": "Connection pooling reduces latency when the agent calls external APIs repeatedly.",
+    "exampleTrans": "连接池能降低智能体反复调用外部 API 时的延迟。"
+  },
+  {
+    "name": "ontology",
+    "trans": [
+      "n. 本体（知识图谱中对概念、实体及其关系的正式化定义）"
+    ],
+    "usphone": "ɑːnˈtɑːlədʒi",
+    "ukphone": "ɒnˈtɒlədʒi",
+    "example": "The RAG system uses an ontology to link entities across documents.",
+    "exampleTrans": "该 RAG 系统用本体把不同文档中的实体关联起来。"
+  },
+  {
+    "name": "provenance",
+    "trans": [
+      "n. 溯源 / 出处（记录信息来源以便核查与归因，常见于 RAG 事实溯源）"
+    ],
+    "usphone": "ˈprɑːvənəns",
+    "ukphone": "ˈprɒvənəns",
+    "example": "Provenance tracking lets users verify which documents supported each generated claim.",
+    "exampleTrans": "溯源追踪让用户能核查每条生成结论分别来自哪些文档。"
+  },
+  {
+    "name": "non-parametric memory",
+    "trans": [
+      "n. 非参数记忆（以检索外部知识存储的形式保存信息，而非写入模型权重）"
+    ],
+    "usphone": "ˌnɑːn pærəˈmetrɪk ˈmeməri",
+    "ukphone": "ˌnɒn pærəˈmetrɪk ˈmeməri",
+    "example": "RAG gives the model non-parametric memory by fetching facts from a knowledge base.",
+    "exampleTrans": "RAG 通过从知识库检索事实，为模型提供非参数记忆。"
+  },
+  {
+    "name": "continual learning",
+    "trans": [
+      "n. 持续学习（模型在不遗忘旧知识的前提下连续学习新任务）"
+    ],
+    "usphone": "kənˈtɪnjuəl ˈlɜːrnɪŋ",
+    "ukphone": "kənˈtɪnjuəl ˈlɜːnɪŋ",
+    "example": "Continual learning aims to avoid catastrophic forgetting when new data arrives.",
+    "exampleTrans": "持续学习的目标是在新数据到来时避免灾难性遗忘。"
+  },
+  {
+    "name": "saga pattern",
+    "trans": [
+      "n. saga 模式（把长事务拆为一系列可补偿的本地事务的分布式工作流模式）"
+    ],
+    "usphone": "ˈsɑːɡə ˈpætərn",
+    "ukphone": "ˈsɑːɡə ˈpætən",
+    "example": "The workflow uses the saga pattern so each step can be compensated on failure.",
+    "exampleTrans": "该工作流采用 saga 模式，使每一步在失败时可被补偿。"
+  },
+  {
+    "name": "constitutional AI",
+    "trans": [
+      "n. 宪法式 AI（以一组原则/准则约束模型行为并对自身输出做 critique 的对齐方法）"
+    ],
+    "usphone": "ˌkɑːnstɪˈtuːʃənl ˌeɪ ˈaɪ",
+    "ukphone": "ˌkɒnstɪˈtjuːʃənl ˌeɪ ˈaɪ",
+    "example": "Constitutional AI trains the model to critique its own responses against a set of principles.",
+    "exampleTrans": "宪法式 AI 训练模型依据一组原则对自身的回答做自我批评。"
+  },
+  {
+    "name": "regex",
+    "trans": [
+      "n. 正则表达式（用模式匹配字符串的领域特定语言）"
+    ],
+    "usphone": "ˈreɡeks",
+    "ukphone": "ˈreɡeks",
+    "example": "We use a regex to extract tool names from the model’s raw output.",
+    "exampleTrans": "我们用正则表达式从模型的原始输出中提取工具名。"
+  },
+  {
+    "name": "immutable",
+    "trans": [
+      "adj. 不可变的（创建后状态不可更改，常用于函数式与并发安全设计）"
+    ],
+    "usphone": "ɪˈmjuːtəb(ə)l",
+    "ukphone": "ɪˈmjuːtəb(ə)l",
+    "example": "Message history is treated as immutable to keep agent state reproducible.",
+    "exampleTrans": "消息历史被视为不可变，以保证智能体状态可复现。"
+  }
+]

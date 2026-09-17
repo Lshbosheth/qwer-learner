@@ -1,0 +1,152 @@
+[
+  {
+    "name": "stochastic gradient descent",
+    "trans": [
+      "n. 随机梯度下降（用小批样本估计梯度的优化算法）"
+    ],
+    "usphone": "stəˈkæstɪk ˈɡreɪdiənt dɪˈsent",
+    "ukphone": "stɒˈkæstɪk ˈɡreɪdiənt dɪˈsent",
+    "example": "Stochastic gradient descent trades a noisy direction for far cheaper steps.",
+    "exampleTrans": "随机梯度下降用方向上的噪声换取极低廉的单步代价。"
+  },
+  {
+    "name": "Adam",
+    "trans": [
+      "n. Adam（自适应学习率的主流优化器）"
+    ],
+    "usphone": "ˈædəm",
+    "ukphone": "ˈædəm",
+    "example": "Adam is a safe default optimizer for most transformer training.",
+    "exampleTrans": "Adam 是大多数 Transformer 训练的安全默认优化器。"
+  },
+  {
+    "name": "prefix caching",
+    "trans": [
+      "n. 前缀缓存（复用相同提示前缀的 KV 以省算力）"
+    ],
+    "usphone": "ˈpriːfɪks kæʃɪŋ",
+    "ukphone": "ˈpriːfɪks ˈkæʃɪŋ",
+    "example": "Prefix caching makes multi-turn chat much cheaper.",
+    "exampleTrans": "前缀缓存让多轮对话的开销大幅降低。"
+  },
+  {
+    "name": "belief state",
+    "trans": [
+      "n. 信念状态（agent 对世界当前状态的内部估计）"
+    ],
+    "usphone": "bɪˈliːf steɪt",
+    "ukphone": "bɪˈliːf steɪt",
+    "example": "The agent updates its belief state after every observation.",
+    "exampleTrans": "agent 每次观测后都会更新自己的信念状态。"
+  },
+  {
+    "name": "reward shaping",
+    "trans": [
+      "n. 奖励塑形（设计中间奖励以引导 agent 学习）"
+    ],
+    "usphone": "rɪˈwɔːrd ˈʃeɪpɪŋ",
+    "ukphone": "rɪˈwɔːd ˈʃeɪpɪŋ",
+    "example": "Reward shaping gives small bonuses for making progress.",
+    "exampleTrans": "奖励塑形对阶段性进展给出小额奖励。"
+  },
+  {
+    "name": "server-sent events",
+    "trans": [
+      "n. SSE / 服务端推送事件（单向流式推送的 HTTP 机制）"
+    ],
+    "usphone": "ˈsɜːrvər sent ɪˈvents",
+    "ukphone": "ˈsɜːvə(r) sent ɪˈvents",
+    "example": "Server-sent events stream the model output without a websocket.",
+    "exampleTrans": "服务端推送事件无需 WebSocket 就能流式输出模型结果。"
+  },
+  {
+    "name": "service discovery",
+    "trans": [
+      "n. 服务发现（动态定位可用服务实例）"
+    ],
+    "usphone": "ˈsɜːrvɪs dɪˈskʌvəri",
+    "ukphone": "ˈsɜːvɪs dɪˈskʌvəri",
+    "example": "Service discovery lets the gateway find healthy tool servers.",
+    "exampleTrans": "服务发现让网关能找到健康的工具服务。"
+  },
+  {
+    "name": "hnsw",
+    "trans": [
+      "n. HNSW（分层可导航小世界图，主流向量索引算法）"
+    ],
+    "usphone": "ˌeɪtʃ en es ˈdʌbəljuː",
+    "ukphone": "ˌeɪtʃ en es ˈdʌbəljuː",
+    "example": "HNSW gives fast approximate search with high recall.",
+    "exampleTrans": "HNSW 以高召回率提供快速的近似检索。"
+  },
+  {
+    "name": "user memory",
+    "trans": [
+      "n. 用户记忆（跨会话记住单个用户的长期信息）"
+    ],
+    "usphone": "ˈjuːzər ˈmeməri",
+    "ukphone": "ˈjuːzə(r) ˈmeməri",
+    "example": "User memory lets the assistant recall your preferred stack.",
+    "exampleTrans": "用户记忆让助手记住你偏好的技术栈。"
+  },
+  {
+    "name": "worker pool",
+    "trans": [
+      "n. 工作池（预先创建并复用的并发执行单元集合）"
+    ],
+    "usphone": "ˈwɜːrkər puːl",
+    "ukphone": "ˈwɜːkə(r) puːl",
+    "example": "A worker pool keeps concurrency bounded under heavy load.",
+    "exampleTrans": "工作池在高负载下把并发控制在上限内。"
+  },
+  {
+    "name": "sharding",
+    "trans": [
+      "n. 分片（把数据或负载水平拆分到多个节点）"
+    ],
+    "usphone": "ˈʃɑːrdɪŋ",
+    "ukphone": "ˈʃɑːdɪŋ",
+    "example": "Sharding the index across nodes keeps query latency flat.",
+    "exampleTrans": "把索引分片到多个节点可让查询延迟保持稳定。"
+  },
+  {
+    "name": "a/b testing",
+    "trans": [
+      "n. A/B 测试（两版方案并行对比选优）"
+    ],
+    "usphone": "ˌeɪ ˈbiː ˈtestɪŋ",
+    "ukphone": "ˌeɪ ˈbiː ˈtestɪŋ",
+    "example": "A/B testing showed the shorter prompt converted better.",
+    "exampleTrans": "A/B 测试显示更短的提示效果更好。"
+  },
+  {
+    "name": "evaluation set",
+    "trans": [
+      "n. 评测集（用于衡量模型表现的固定样本集合）"
+    ],
+    "usphone": "ɪˌvæljuˈeɪʃ(ə)n set",
+    "ukphone": "ɪˌvæljuˈeɪʃn set",
+    "example": "Hold out an evaluation set that never enters training.",
+    "exampleTrans": "留出一份永不参与训练的评测集。"
+  },
+  {
+    "name": "circular dependency",
+    "trans": [
+      "n. 循环依赖（模块之间互相引用形成环）"
+    ],
+    "usphone": "ˈsɜːrkjələr dɪˈpendənsi",
+    "ukphone": "ˈsɜːkjələ(r) dɪˈpendənsi",
+    "example": "A circular dependency made the build fail silently.",
+    "exampleTrans": "一个循环依赖让构建静默失败。"
+  },
+  {
+    "name": "breaking change",
+    "trans": [
+      "n. 破坏性变更（不兼容旧版本的接口改动）"
+    ],
+    "usphone": "ˈbreɪkɪŋ tʃeɪndʒ",
+    "ukphone": "ˈbreɪkɪŋ tʃeɪndʒ",
+    "example": "Renaming that field is a breaking change for every client.",
+    "exampleTrans": "重命名字段对全部客户端都是破坏性变更。"
+  }
+]
