@@ -1,0 +1,122 @@
+[
+  {
+    "name": "training data",
+    "trans": ["n. 训练数据（用于训练模型的大规模标注/未标注样本）"],
+    "usphone": "ˈtreɪnɪŋ ˈdeɪtə",
+    "ukphone": "ˈtreɪnɪŋ ˈdeɪtə",
+    "example": "The quality of training data directly affects model accuracy.",
+    "exampleTrans": "训练数据的质量直接影响模型的准确率。"
+  },
+  {
+    "name": "pre-trained",
+    "trans": ["adj. 预训练的（在通用语料上先训练好的基础模型）"],
+    "usphone": "priːˈtreɪnd",
+    "ukphone": "priːˈtreɪnd",
+    "example": "We fine-tune a pre-trained model instead of training from scratch.",
+    "exampleTrans": "我们微调一个预训练模型，而不是从零开始训练。"
+  },
+  {
+    "name": "causal mask",
+    "trans": ["n. 因果掩码（防止解码器注意到未来 token 的注意力遮挡）"],
+    "usphone": "ˈkɔːzl mæsk",
+    "ukphone": "ˈkɔːzl mɑːsk",
+    "example": "A causal mask ensures each token only attends to previous tokens.",
+    "exampleTrans": "因果掩码确保每个 token 只能关注之前的 token。"
+  },
+  {
+    "name": "padding",
+    "trans": ["n. 填充（用特殊符号补齐短序列到统一长度）"],
+    "usphone": "ˈpædɪŋ",
+    "ukphone": "ˈpædɪŋ",
+    "example": "Padding tokens are ignored by the attention mask.",
+    "exampleTrans": "填充 token 会被注意力掩码忽略。"
+  },
+  {
+    "name": "autonomous agent",
+    "trans": ["n. 自主智能体（无需人类逐步干预即可规划并执行任务的 AI）"],
+    "usphone": "ɔːˈtɑːnəməs ˈeɪdʒənt",
+    "ukphone": "ɔːˈtɒnəməs ˈeɪdʒənt",
+    "example": "An autonomous agent can book flights and manage your calendar.",
+    "exampleTrans": "自主智能体可以订机票并管理你的日程。"
+  },
+  {
+    "name": "planning agent",
+    "trans": ["n. 规划型智能体（先把目标拆成子任务再逐步执行）"],
+    "usphone": "ˈplænɪŋ ˈeɪdʒənt",
+    "ukphone": "ˈplænɪŋ ˈeɪdʒənt",
+    "example": "A planning agent breaks a complex goal into actionable steps.",
+    "exampleTrans": "规划型智能体会把一个复杂目标拆成可执行的步骤。"
+  },
+  {
+    "name": "API request",
+    "trans": ["n. API 请求（智能体调用外部服务时发出的接口请求）"],
+    "usphone": "ˌeɪ piː aɪ rɪˈkwest",
+    "ukphone": "ˌeɪ piː aɪ rɪˈkwɛst",
+    "example": "The agent sends an API request to fetch real-time weather.",
+    "exampleTrans": "智能体发送一个 API 请求来获取实时天气。"
+  },
+  {
+    "name": "tool schema",
+    "trans": ["n. 工具模式（描述工具名称、参数与类型的接口定义）"],
+    "usphone": "tuːl ˈskiːmə",
+    "ukphone": "tuːl ˈskiːmə",
+    "example": "A clear tool schema helps the model call functions correctly.",
+    "exampleTrans": "清晰的工具模式能帮助模型正确调用函数。"
+  },
+  {
+    "name": "document embedding",
+    "trans": ["n. 文档向量（把整篇文档编码为可检索的语义向量）"],
+    "usphone": "ˈdɑːkjumənt ɪmˈbedɪŋ",
+    "ukphone": "ˈdɒkjumənt ɪmˈbedɪŋ",
+    "example": "Document embedding enables semantic search across a knowledge base.",
+    "exampleTrans": "文档向量让知识库具备了语义检索能力。"
+  },
+  {
+    "name": "rerank",
+    "trans": ["v. 重排序（对初检结果按相关性二次打分排序）"],
+    "usphone": "ˌriːˈræŋk",
+    "ukphone": "ˌriːˈræŋk",
+    "example": "We rerank the top 100 chunks before returning the final answer.",
+    "exampleTrans": "我们会对前 100 个文本块重排序，再返回最终答案。"
+  },
+  {
+    "name": "cache hit",
+    "trans": ["n. 缓存命中（请求的数据已在缓存中，无需重新计算）"],
+    "usphone": "kæʃ hɪt",
+    "ukphone": "kæʃ hɪt",
+    "example": "A cache hit lets the model reuse a previous context window.",
+    "exampleTrans": "缓存命中让模型能复用之前的上下文窗口。"
+  },
+  {
+    "name": "scheduler",
+    "trans": ["n. 调度器（按时间或依赖关系触发任务/工作流执行的组件）"],
+    "usphone": "ˈskedʒuːlər",
+    "ukphone": "ˈʃedjuːlə(r)",
+    "example": "The scheduler triggers the nightly data pipeline at midnight.",
+    "exampleTrans": "调度器在每天午夜触发夜间数据处理流水线。"
+  },
+  {
+    "name": "few-shot prompting",
+    "trans": ["n. 少样本提示（在提示中给几个示例来引导模型输出）"],
+    "usphone": "ˈfjuː ʃɑːt ˈprɑːmptɪŋ",
+    "ukphone": "ˈfjuː ʃɒt ˈprɒmptɪŋ",
+    "example": "Few-shot prompting improves accuracy on rare classification tasks.",
+    "exampleTrans": "少样本提示能提升罕见分类任务的准确率。"
+  },
+  {
+    "name": "zero-shot prompting",
+    "trans": ["n. 零样本提示（不给示例，仅用指令让模型直接完成任务）"],
+    "usphone": "ˈzɪroʊ ʃɑːt ˈprɑːmptɪŋ",
+    "ukphone": "ˈzɪərəʊ ʃɒt ˈprɒmptɪŋ",
+    "example": "Zero-shot prompting works surprisingly well for simple instructions.",
+    "exampleTrans": "对于简单指令，零样本提示的效果出奇地好。"
+  },
+  {
+    "name": "deployment",
+    "trans": ["n. 部署（将训练好的模型或应用发布到生产环境）"],
+    "usphone": "dɪˈplɔɪmənt",
+    "ukphone": "dɪˈplɔɪmənt",
+    "example": "Model deployment requires monitoring latency and error rates.",
+    "exampleTrans": "模型部署需要监控延迟和错误率。"
+  }
+]
