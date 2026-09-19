@@ -2548,5 +2548,305 @@
     "ukphone": "ɪˈmjuːtəb(ə)l",
     "example": "Message history is treated as immutable to keep agent state reproducible.",
     "exampleTrans": "消息历史被视为不可变，以保证智能体状态可复现。"
+  },
+  {
+    "name": "training data",
+    "trans": [
+      "n. 训练数据（用于训练模型的大规模标注/未标注样本）"
+    ],
+    "usphone": "ˈtreɪnɪŋ ˈdeɪtə",
+    "ukphone": "ˈtreɪnɪŋ ˈdeɪtə",
+    "example": "The quality of training data directly affects model accuracy.",
+    "exampleTrans": "训练数据的质量直接影响模型的准确率。"
+  },
+  {
+    "name": "pre-trained",
+    "trans": [
+      "adj. 预训练的（在通用语料上先训练好的基础模型）"
+    ],
+    "usphone": "priːˈtreɪnd",
+    "ukphone": "priːˈtreɪnd",
+    "example": "We fine-tune a pre-trained model instead of training from scratch.",
+    "exampleTrans": "我们微调一个预训练模型，而不是从零开始训练。"
+  },
+  {
+    "name": "causal mask",
+    "trans": [
+      "n. 因果掩码（防止解码器注意到未来 token 的注意力遮挡）"
+    ],
+    "usphone": "ˈkɔːzl mæsk",
+    "ukphone": "ˈkɔːzl mɑːsk",
+    "example": "A causal mask ensures each token only attends to previous tokens.",
+    "exampleTrans": "因果掩码确保每个 token 只能关注之前的 token。"
+  },
+  {
+    "name": "padding",
+    "trans": [
+      "n. 填充（用特殊符号补齐短序列到统一长度）"
+    ],
+    "usphone": "ˈpædɪŋ",
+    "ukphone": "ˈpædɪŋ",
+    "example": "Padding tokens are ignored by the attention mask.",
+    "exampleTrans": "填充 token 会被注意力掩码忽略。"
+  },
+  {
+    "name": "autonomous agent",
+    "trans": [
+      "n. 自主智能体（无需人类逐步干预即可规划并执行任务的 AI）"
+    ],
+    "usphone": "ɔːˈtɑːnəməs ˈeɪdʒənt",
+    "ukphone": "ɔːˈtɒnəməs ˈeɪdʒənt",
+    "example": "An autonomous agent can book flights and manage your calendar.",
+    "exampleTrans": "自主智能体可以订机票并管理你的日程。"
+  },
+  {
+    "name": "planning agent",
+    "trans": [
+      "n. 规划型智能体（先把目标拆成子任务再逐步执行）"
+    ],
+    "usphone": "ˈplænɪŋ ˈeɪdʒənt",
+    "ukphone": "ˈplænɪŋ ˈeɪdʒənt",
+    "example": "A planning agent breaks a complex goal into actionable steps.",
+    "exampleTrans": "规划型智能体会把一个复杂目标拆成可执行的步骤。"
+  },
+  {
+    "name": "API request",
+    "trans": [
+      "n. API 请求（智能体调用外部服务时发出的接口请求）"
+    ],
+    "usphone": "ˌeɪ piː aɪ rɪˈkwest",
+    "ukphone": "ˌeɪ piː aɪ rɪˈkwɛst",
+    "example": "The agent sends an API request to fetch real-time weather.",
+    "exampleTrans": "智能体发送一个 API 请求来获取实时天气。"
+  },
+  {
+    "name": "tool schema",
+    "trans": [
+      "n. 工具模式（描述工具名称、参数与类型的接口定义）"
+    ],
+    "usphone": "tuːl ˈskiːmə",
+    "ukphone": "tuːl ˈskiːmə",
+    "example": "A clear tool schema helps the model call functions correctly.",
+    "exampleTrans": "清晰的工具模式能帮助模型正确调用函数。"
+  },
+  {
+    "name": "document embedding",
+    "trans": [
+      "n. 文档向量（把整篇文档编码为可检索的语义向量）"
+    ],
+    "usphone": "ˈdɑːkjumənt ɪmˈbedɪŋ",
+    "ukphone": "ˈdɒkjumənt ɪmˈbedɪŋ",
+    "example": "Document embedding enables semantic search across a knowledge base.",
+    "exampleTrans": "文档向量让知识库具备了语义检索能力。"
+  },
+  {
+    "name": "rerank",
+    "trans": [
+      "v. 重排序（对初检结果按相关性二次打分排序）"
+    ],
+    "usphone": "ˌriːˈræŋk",
+    "ukphone": "ˌriːˈræŋk",
+    "example": "We rerank the top 100 chunks before returning the final answer.",
+    "exampleTrans": "我们会对前 100 个文本块重排序，再返回最终答案。"
+  },
+  {
+    "name": "cache hit",
+    "trans": [
+      "n. 缓存命中（请求的数据已在缓存中，无需重新计算）"
+    ],
+    "usphone": "kæʃ hɪt",
+    "ukphone": "kæʃ hɪt",
+    "example": "A cache hit lets the model reuse a previous context window.",
+    "exampleTrans": "缓存命中让模型能复用之前的上下文窗口。"
+  },
+  {
+    "name": "scheduler",
+    "trans": [
+      "n. 调度器（按时间或依赖关系触发任务/工作流执行的组件）"
+    ],
+    "usphone": "ˈskedʒuːlər",
+    "ukphone": "ˈʃedjuːlə(r)",
+    "example": "The scheduler triggers the nightly data pipeline at midnight.",
+    "exampleTrans": "调度器在每天午夜触发夜间数据处理流水线。"
+  },
+  {
+    "name": "few-shot prompting",
+    "trans": [
+      "n. 少样本提示（在提示中给几个示例来引导模型输出）"
+    ],
+    "usphone": "ˈfjuː ʃɑːt ˈprɑːmptɪŋ",
+    "ukphone": "ˈfjuː ʃɒt ˈprɒmptɪŋ",
+    "example": "Few-shot prompting improves accuracy on rare classification tasks.",
+    "exampleTrans": "少样本提示能提升罕见分类任务的准确率。"
+  },
+  {
+    "name": "zero-shot prompting",
+    "trans": [
+      "n. 零样本提示（不给示例，仅用指令让模型直接完成任务）"
+    ],
+    "usphone": "ˈzɪroʊ ʃɑːt ˈprɑːmptɪŋ",
+    "ukphone": "ˈzɪərəʊ ʃɒt ˈprɒmptɪŋ",
+    "example": "Zero-shot prompting works surprisingly well for simple instructions.",
+    "exampleTrans": "对于简单指令，零样本提示的效果出奇地好。"
+  },
+  {
+    "name": "deployment",
+    "trans": [
+      "n. 部署（将训练好的模型或应用发布到生产环境）"
+    ],
+    "usphone": "dɪˈplɔɪmənt",
+    "ukphone": "dɪˈplɔɪmənt",
+    "example": "Model deployment requires monitoring latency and error rates.",
+    "exampleTrans": "模型部署需要监控延迟和错误率。"
+  },
+  {
+    "name": "forward pass",
+    "trans": [
+      "n. 前向传播（模型一次完整计算预测的过程）"
+    ],
+    "usphone": "ˈfɔːrwərd pæs",
+    "ukphone": "ˈfɔːwəd pɑːs",
+    "example": "During the forward pass, the neural network computes the output from the input.",
+    "exampleTrans": "在前向传播过程中，神经网络根据输入计算出输出。"
+  },
+  {
+    "name": "backbone",
+    "trans": [
+      "n. 主干网络（模型用于提取核心特征的基础结构）"
+    ],
+    "usphone": "ˈbækboʊn",
+    "ukphone": "ˈbækbəʊn",
+    "example": "The vision model uses a ResNet backbone to extract image features.",
+    "exampleTrans": "该视觉模型使用 ResNet 主干网络来提取图像特征。"
+  },
+  {
+    "name": "router",
+    "trans": [
+      "n. 路由（混合专家模型中决定将每个 token 分配给哪些专家的机制）"
+    ],
+    "usphone": "ˈruːtər; ˈraʊtər",
+    "ukphone": "ˈruːtə(r)",
+    "example": "In a Mixture-of-Experts model, the router assigns each token to the top-k experts.",
+    "exampleTrans": "在混合专家模型中，路由将每个 token 分配给前 k 个专家。"
+  },
+  {
+    "name": "expert",
+    "trans": [
+      "n. 专家（混合专家模型中并行的前馈子网络之一）"
+    ],
+    "usphone": "ˈekspɜːrt",
+    "ukphone": "ˈekspɜːt",
+    "example": "Each expert in the MoE layer specializes in a different subset of the input.",
+    "exampleTrans": "MoE 层中的每个专家都擅长处理输入的不同子集。"
+  },
+  {
+    "name": "executor",
+    "trans": [
+      "n. 执行器（负责实际运行 agent 动作或工具调用的组件）"
+    ],
+    "usphone": "ɪɡˈzekjətər",
+    "ukphone": "ɪɡˈzekjətə(r)",
+    "example": "The executor runs the selected tool and returns its result to the agent.",
+    "exampleTrans": "执行器运行被选中的工具，并将结果返回给 agent。"
+  },
+  {
+    "name": "intent",
+    "trans": [
+      "n. 意图（用户希望系统完成的隐性目标）"
+    ],
+    "usphone": "ɪnˈtent",
+    "ukphone": "ɪnˈtent",
+    "example": "The agent infers the user's intent before choosing a tool to call.",
+    "exampleTrans": "agent 在选择合适的工具调用前，会先推断用户的意图。"
+  },
+  {
+    "name": "status code",
+    "trans": [
+      "n. 状态码（HTTP 响应中表示请求结果的三位数字）"
+    ],
+    "usphone": "ˈsteɪtəs koʊd",
+    "ukphone": "ˈsteɪtəs kəʊd",
+    "example": "Check the status code to detect whether the API tool call succeeded.",
+    "exampleTrans": "检查状态码以判断 API 工具调用是否成功。"
+  },
+  {
+    "name": "dense vector",
+    "trans": [
+      "n. 稠密向量（由嵌入模型生成的语义表示，用于相似度检索）"
+    ],
+    "usphone": "dens ˈvektər",
+    "ukphone": "dens ˈvektə",
+    "example": "Each chunk is encoded into a dense vector for semantic search.",
+    "exampleTrans": "每个文本块都被编码为稠密向量，用于语义检索。"
+  },
+  {
+    "name": "sentence embedding",
+    "trans": [
+      "n. 句向量（把整句话映射为固定长度向量的嵌入表示）"
+    ],
+    "usphone": "ˈsentəns ɪmˈbedɪŋ",
+    "ukphone": "ˈsentəns ɪmˈbedɪŋ",
+    "example": "Sentence embeddings let the retriever match queries to relevant passages.",
+    "exampleTrans": "句向量使检索器能够将查询与相关段落进行匹配。"
+  },
+  {
+    "name": "time to live",
+    "trans": [
+      "n. 存活时间 / TTL（缓存或记忆条目失效前的剩余时长）"
+    ],
+    "usphone": "taɪm tə lɪv",
+    "ukphone": "taɪm tə lɪv",
+    "example": "Set a short time to live so stale conversation memory is evicted automatically.",
+    "exampleTrans": "设置一个较短的存活时间，使过期的对话记忆能被自动清除。"
+  },
+  {
+    "name": "lock",
+    "trans": [
+      "n. 锁（协调并发任务、避免资源竞争的同步原语）"
+    ],
+    "usphone": "lɑːk",
+    "ukphone": "lɒk",
+    "example": "Acquire a lock before writing to the shared buffer to avoid race conditions.",
+    "exampleTrans": "在写入共享缓冲区前先获取锁，以避免竞态条件。"
+  },
+  {
+    "name": "synchronization",
+    "trans": [
+      "n. 同步（协调多个并发任务按预期顺序协作的机制）"
+    ],
+    "usphone": "ˌsɪŋkrənəˈzeɪʃ(ə)n",
+    "ukphone": "ˌsɪŋkrənaɪˈzeɪʃ(ə)n",
+    "example": "Synchronization ensures parallel agents do not overwrite each other's outputs.",
+    "exampleTrans": "同步机制确保并行运行的 agent 不会互相覆盖输出。"
+  },
+  {
+    "name": "prompting",
+    "trans": [
+      "n. 提示（设计输入以引导大模型行为的方法）"
+    ],
+    "usphone": "ˈprɑːmptɪŋ",
+    "ukphone": "ˈprɒmptɪŋ",
+    "example": "Prompting with clear constraints improves the model's structured output.",
+    "exampleTrans": "使用清晰约束进行提示，能改善模型的结构化输出。"
+  },
+  {
+    "name": "promise",
+    "trans": [
+      "n. 承诺 / Promise（表示异步操作最终结果的 JavaScript 对象）"
+    ],
+    "usphone": "ˈprɑːmɪs",
+    "ukphone": "ˈprɒmɪs",
+    "example": "Wrap the API call in a Promise to handle success and failure asynchronously.",
+    "exampleTrans": "把 API 调用包裹在 Promise 中，以便异步处理成功与失败。"
+  },
+  {
+    "name": "iterator",
+    "trans": [
+      "n. 迭代器（按需逐个产出序列元素的对象）"
+    ],
+    "usphone": "ɪtəˈreɪtər",
+    "ukphone": "ɪtəˈreɪtə",
+    "example": "Use an iterator to stream large datasets without loading them all into memory.",
+    "exampleTrans": "使用迭代器流式处理大数据集，而无需一次性全部载入内存。"
   }
 ]
