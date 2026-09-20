@@ -2848,5 +2848,155 @@
     "ukphone": "ɪtəˈreɪtə",
     "example": "Use an iterator to stream large datasets without loading them all into memory.",
     "exampleTrans": "使用迭代器流式处理大数据集，而无需一次性全部载入内存。"
+  },
+  {
+    "name": "vocabulary",
+    "trans": [
+      "n. 词表 / 词汇表（模型可识别的全部 token 集合）"
+    ],
+    "usphone": "vəˈkæbjəleri",
+    "ukphone": "vəˈkæbjələri",
+    "example": "The tokenizer maps each word to an index in the model's vocabulary.",
+    "exampleTrans": "分词器把每个词映射到模型词表中的索引。"
+  },
+  {
+    "name": "embedding layer",
+    "trans": [
+      "n. 嵌入层（将 token 映射为稠密向量的网络层）"
+    ],
+    "usphone": "ɪmˈbedɪŋ ˈleɪər",
+    "ukphone": "ɪmˈbedɪŋ ˈleɪə(r)",
+    "example": "The embedding layer converts input token IDs into dense vectors.",
+    "exampleTrans": "嵌入层把输入的 token ID 转换成稠密向量。"
+  },
+  {
+    "name": "tool-using",
+    "trans": [
+      "n. 工具使用（Agent 调用外部工具完成任务的能力）"
+    ],
+    "usphone": "tuːl ˈjuːzɪŋ",
+    "ukphone": "tuːl ˈjuːzɪŋ",
+    "example": "Tool-using lets the agent query a database instead of guessing.",
+    "exampleTrans": "工具使用让 Agent 能查询数据库而非凭空猜测。"
+  },
+  {
+    "name": "API call",
+    "trans": [
+      "n. API 调用（通过接口请求外部服务）"
+    ],
+    "usphone": "ˌeɪ piː ˈaɪ kɔːl",
+    "ukphone": "ˌeɪ piː ˈaɪ kɔːl",
+    "example": "Each tool call is essentially an API call to a backend service.",
+    "exampleTrans": "每次工具调用本质上都是对后端服务的一次 API 调用。"
+  },
+  {
+    "name": "JSON schema",
+    "trans": [
+      "n. JSON 结构定义（描述工具参数的格式）"
+    ],
+    "usphone": "ˈdʒeɪsən ˈskiːmə",
+    "ukphone": "ˈdʒeɪsən ˈskiːmə",
+    "example": "The function's JSON schema tells the model which arguments are required.",
+    "exampleTrans": "函数的 JSON schema 告诉模型哪些参数是必填的。"
+  },
+  {
+    "name": "similarity search",
+    "trans": [
+      "n. 相似度检索（按向量距离查找相关文本）"
+    ],
+    "usphone": "ˌsɪməˈlærəti sɜːrtʃ",
+    "ukphone": "ˌsɪməˈlærəti sɜːtʃ",
+    "example": "Similarity search returns the chunks most relevant to the user query.",
+    "exampleTrans": "相似度检索返回与用户问题最相关的文本块。"
+  },
+  {
+    "name": "corpora",
+    "trans": [
+      "n. 语料库（用于检索或训练的大量文本集合，corpus 的复数）"
+    ],
+    "usphone": "ˈkɔːrpərə",
+    "ukphone": "ˈkɔːpərə",
+    "example": "We built the knowledge base from several domain corpora.",
+    "exampleTrans": "我们用多个领域语料库构建了知识库。"
+  },
+  {
+    "name": "persistent",
+    "trans": [
+      "adj. 持久的 / 可持久化的（跨会话保留的状态）"
+    ],
+    "usphone": "pərˈsɪstənt",
+    "ukphone": "pəˈsɪstənt",
+    "example": "Persistent memory survives across user sessions.",
+    "exampleTrans": "持久化记忆在用户多次会话之间都能保留。"
+  },
+  {
+    "name": "summarized memory",
+    "trans": [
+      "n. 摘要记忆（压缩历史对话以节约上下文）"
+    ],
+    "usphone": "ˈsʌməraɪzd ˈmeməri",
+    "ukphone": "ˈsʌməraɪzd ˈmeməri",
+    "example": "Summarized memory keeps the conversation brief for the context window.",
+    "exampleTrans": "摘要记忆压缩历史对话，节省上下文窗口。"
+  },
+  {
+    "name": "sequence",
+    "trans": [
+      "n. 序列 / 步骤序列（按顺序执行的一组操作）"
+    ],
+    "usphone": "ˈsiːkwəns",
+    "ukphone": "ˈsiːkwəns",
+    "example": "The workflow runs the tasks in a fixed sequence.",
+    "exampleTrans": "工作流按固定序列执行这些任务。"
+  },
+  {
+    "name": "condition",
+    "trans": [
+      "n. 条件（分支判断，决定流程走向）"
+    ],
+    "usphone": "kənˈdɪʃ(ə)n",
+    "ukphone": "kənˈdɪʃn",
+    "example": "Add a condition to skip the step when the input is empty.",
+    "exampleTrans": "加一个条件，在输入为空时跳过该步骤。"
+  },
+  {
+    "name": "template",
+    "trans": [
+      "n. 模板（含占位符的可复用提示词框架）"
+    ],
+    "usphone": "ˈtemplət",
+    "ukphone": "ˈtempleɪt",
+    "example": "A prompt template fills user input into a fixed structure.",
+    "exampleTrans": "提示词模板把用户输入填入固定结构中。"
+  },
+  {
+    "name": "prefix",
+    "trans": [
+      "n. 前缀（拼接在输入前引导模型的固定文本）"
+    ],
+    "usphone": "ˈpriːfɪks",
+    "ukphone": "ˈpriːfɪks",
+    "example": "The system adds a prefix describing the assistant's role.",
+    "exampleTrans": "系统在前面加上一段描述助手角色的前缀。"
+  },
+  {
+    "name": "breakpoint",
+    "trans": [
+      "n. 断点（调试时暂停程序执行的标记）"
+    ],
+    "usphone": "ˈbreɪkˌpɔɪnt",
+    "ukphone": "ˈbreɪkˌpɔɪnt",
+    "example": "Set a breakpoint to inspect the variable at that line.",
+    "exampleTrans": "设一个断点，在那一行检查变量的值。"
+  },
+  {
+    "name": "boolean",
+    "trans": [
+      "n./adj. 布尔值（true 或 false 的数据类型）"
+    ],
+    "usphone": "ˈbuːliən",
+    "ukphone": "ˈbuːliən",
+    "example": "The flag is a boolean that toggles debug mode.",
+    "exampleTrans": "这个标志是一个布尔值，用来开关调试模式。"
   }
 ]
