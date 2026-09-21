@@ -2998,5 +2998,155 @@
     "ukphone": "ˈbuːliən",
     "example": "The flag is a boolean that toggles debug mode.",
     "exampleTrans": "这个标志是一个布尔值，用来开关调试模式。"
+  },
+  {
+    "name": "scaling",
+    "trans": [
+      "n. 缩放 / 规模法则（scaling law：模型性能随参数、数据、算力增长而提升的规律）"
+    ],
+    "usphone": "ˈskeɪlɪŋ",
+    "ukphone": "ˈskeɪlɪŋ",
+    "example": "Scaling laws predict that bigger models with more data keep improving.",
+    "exampleTrans": "规模法则预测：更大的模型配合更多数据会持续提升表现。"
+  },
+  {
+    "name": "mask",
+    "trans": [
+      "n. 掩码 / 遮蔽（控制注意力可见范围的矩阵，如因果掩码）"
+    ],
+    "usphone": "mæsk",
+    "ukphone": "mɑːsk",
+    "example": "A causal mask prevents each token from attending to future positions.",
+    "exampleTrans": "因果掩码阻止每个 token 关注未来的位置。"
+  },
+  {
+    "name": "residual",
+    "trans": [
+      "adj./n. 残差的（残差连接，把输入直接加到层输出以缓解梯度消失）"
+    ],
+    "usphone": "rɪˈzɪdʒuəl",
+    "ukphone": "rɪˈzɪdjuəl",
+    "example": "Residual connections let deep transformers train without vanishing gradients.",
+    "exampleTrans": "残差连接让深层 transformer 能训练而不出现梯度消失。"
+  },
+  {
+    "name": "react pattern",
+    "trans": [
+      "n. ReAct 模式（让 Agent 交替进行推理 Reasoning 与行动 Acting 的提示范式）"
+    ],
+    "usphone": "riˈækt ˈpætərn",
+    "ukphone": "riˈakt ˈpætən",
+    "example": "The ReAct pattern interleaves thought and tool action to solve tasks step by step.",
+    "exampleTrans": "ReAct 模式把思考与工具调用交替进行，逐步完成任务。"
+  },
+  {
+    "name": "skill",
+    "trans": [
+      "n. 技能（Agent 可调用的封装能力或工具集，如检索、写代码）"
+    ],
+    "usphone": "skɪl",
+    "ukphone": "skɪl",
+    "example": "The agent selects the right skill based on the user's request.",
+    "exampleTrans": "Agent 根据用户请求挑选合适的技能。"
+  },
+  {
+    "name": "arguments",
+    "trans": [
+      "n. 参数 / 实参（调用工具或函数时传入的具体取值）"
+    ],
+    "usphone": "ˈɑːrɡjuːmənts",
+    "ukphone": "ˈɑːgjʊm(ə)nts",
+    "example": "The model returns the function name and its arguments as JSON.",
+    "exampleTrans": "模型以 JSON 形式返回函数名及其参数。"
+  },
+  {
+    "name": "function signature",
+    "trans": [
+      "n. 函数签名（描述工具/函数的名称、参数与类型的接口规范）"
+    ],
+    "usphone": "ˈfʌŋkʃ(ə)n ˈsɪɡnətʃər",
+    "ukphone": "ˈfʌŋkʃ(ə)n ˈsɪɡnətʃə(r)",
+    "example": "The model reads the function signature to decide how to call the tool.",
+    "exampleTrans": "模型读取函数签名来决定如何调用该工具。"
+  },
+  {
+    "name": "context retrieval",
+    "trans": [
+      "n. 上下文检索（从知识库中召回与问题相关的片段）"
+    ],
+    "usphone": "ˈkɑːntekst rɪˈtriːvl",
+    "ukphone": "ˈkɒntekst rɪˈtriːvl",
+    "example": "Context retrieval supplies the model with up-to-date facts before answering.",
+    "exampleTrans": "上下文检索在回答前为模型提供最新的事实。"
+  },
+  {
+    "name": "threshold",
+    "trans": [
+      "n. 阈值（相似度低于该值的检索结果被过滤掉）"
+    ],
+    "usphone": "ˈθreʃhoʊld",
+    "ukphone": "ˈθreʃhəʊld",
+    "example": "Set a similarity threshold to drop irrelevant chunks from the results.",
+    "exampleTrans": "设置相似度阈值，把不相关的文本块从结果中剔除。"
+  },
+  {
+    "name": "retention",
+    "trans": [
+      "n. 留存（记忆在会话间保留信息的能力）"
+    ],
+    "usphone": "rɪˈtenʃ(ə)n",
+    "ukphone": "rɪˈtenʃ(ə)n",
+    "example": "Memory retention lets the assistant recall facts from earlier sessions.",
+    "exampleTrans": "记忆留存让助手能回想更早会话中的事实。"
+  },
+  {
+    "name": "execution",
+    "trans": [
+      "n. 执行（工作流中实际运行某个节点或步骤的过程）"
+    ],
+    "usphone": "ˌeksɪˈkjuːʃ(ə)n",
+    "ukphone": "ˌeksɪˈkjuːʃ(ə)n",
+    "example": "The orchestrator controls the execution order of each workflow step.",
+    "exampleTrans": "编排器控制工作流每一步的执行顺序。"
+  },
+  {
+    "name": "branching",
+    "trans": [
+      "n. 分支（根据条件选择不同执行路径的流程结构）"
+    ],
+    "usphone": "ˈbræntʃɪŋ",
+    "ukphone": "ˈbrɑːntʃɪŋ",
+    "example": "Branching lets the pipeline take different routes based on the input.",
+    "exampleTrans": "分支让流水线根据输入走不同的路径。"
+  },
+  {
+    "name": "clarification",
+    "trans": [
+      "n. 澄清 / 追问（模型在信息不足时要求用户补充说明）"
+    ],
+    "usphone": "ˌklærəfɪˈkeɪʃn",
+    "ukphone": "ˌklærəfɪˈkeɪʃn",
+    "example": "Add a clarification step so the model asks before guessing ambiguous inputs.",
+    "exampleTrans": "加一个澄清步骤，让模型在猜测含糊输入前先询问。"
+  },
+  {
+    "name": "moderation",
+    "trans": [
+      "n. 内容审核（对输入/输出做安全过滤的提示或管线环节）"
+    ],
+    "usphone": "ˌmɑːdəˈreɪʃ(ə)n",
+    "ukphone": "ˌmɒdəˈreɪʃ(ə)n",
+    "example": "Prompt-based moderation rejects unsafe or off-topic requests.",
+    "exampleTrans": "基于提示的审核会拒绝不安全或离题的请求。"
+  },
+  {
+    "name": "import",
+    "trans": [
+      "v./n. 导入（在代码中引入外部模块或包）"
+    ],
+    "usphone": "ˈɪmpɔːrt",
+    "ukphone": "ˈɪmpɔːt",
+    "example": "Import the client library before calling any SDK methods.",
+    "exampleTrans": "在调用任何 SDK 方法之前先导入客户端库。"
   }
 ]
