@@ -3148,5 +3148,155 @@
     "ukphone": "ˈɪmpɔːt",
     "example": "Import the client library before calling any SDK methods.",
     "exampleTrans": "在调用任何 SDK 方法之前先导入客户端库。"
+  },
+  {
+    "name": "ReLU",
+    "trans": [
+      "n. (Rectified Linear Unit) 修正线性单元，深度学习中最常用的激活函数，输出 max(0, x)"
+    ],
+    "usphone": "ˈrɛluː",
+    "ukphone": "ˈrɛluː",
+    "example": "ReLU is the default activation function in most modern convolutional networks.",
+    "exampleTrans": "ReLU 是大多数现代卷积网络中默认的激活函数。"
+  },
+  {
+    "name": "batch normalization",
+    "trans": [
+      "n. 批量归一化，在训练中对每层输入按 mini-batch 做归一化以稳定收敛、允许更高学习率"
+    ],
+    "usphone": "ˈbætʃ ˌnɔːrmələˈzeɪʃən",
+    "ukphone": "ˈbætʃ ˌnɔːməlaɪˈzeɪʃən",
+    "example": "Batch normalization allows us to use higher learning rates without divergence.",
+    "exampleTrans": "批量归一化让我们能使用更高的学习率而不发散。"
+  },
+  {
+    "name": "sliding window attention",
+    "trans": [
+      "n. 滑动窗口注意力，限制每个 token 只关注局部窗口内的 token，降低长序列计算开销"
+    ],
+    "usphone": "ˈslaɪdɪŋ ˈwɪndoʊ əˈtenʃən",
+    "ukphone": "ˈslaɪdɪŋ ˈwɪndəʊ əˈtenʃən",
+    "example": "Sliding window attention keeps memory usage constant for very long inputs.",
+    "exampleTrans": "滑动窗口注意力让超长输入的显存占用保持恒定。"
+  },
+  {
+    "name": "BERT",
+    "trans": [
+      "n. (Bidirectional Encoder Representations from Transformers) 谷歌提出的双向 Transformer 编码器预训练模型，广泛用于 NLP 理解任务"
+    ],
+    "usphone": "bɜːrt",
+    "ukphone": "bɜːt",
+    "example": "BERT is fine-tuned for tasks like question answering and sentiment classification.",
+    "exampleTrans": "BERT 被微调用于问答、情感分类等任务。"
+  },
+  {
+    "name": "AutoGPT",
+    "trans": [
+      "n. 一种早期自主 Agent 框架，能根据目标自动拆解并循环调用 LLM 与工具完成任务"
+    ],
+    "usphone": "ˈɔːtoʊ dʒiː piː tiː",
+    "ukphone": "ˈɔːtəʊ dʒiː piː tiː",
+    "example": "AutoGPT popularized the idea of letting an LLM plan and act autonomously.",
+    "exampleTrans": "AutoGPT 普及了让 LLM 自主规划与执行的理念。"
+  },
+  {
+    "name": "agent collaboration",
+    "trans": [
+      "n. 智能体协作，多个 Agent 通过分工、通信与共享状态协同完成复杂任务"
+    ],
+    "usphone": "ˈeɪdʒənt kəˌlæbəˈreɪʃən",
+    "ukphone": "ˈeɪdʒənt kəˌlæbəˈreɪʃən",
+    "example": "Agent collaboration lets a planner delegate subtasks to specialized workers.",
+    "exampleTrans": "智能体协作让规划者把子任务分派给专门的执行者。"
+  },
+  {
+    "name": "Toolformer",
+    "trans": [
+      "n. 一种让语言模型自监督学会何时、如何调用外部工具（如计算器、检索）的模型"
+    ],
+    "usphone": "ˈtuːlfɔːrmər",
+    "ukphone": "ˈtuːlfɔːmə",
+    "example": "Toolformer teaches an LLM to invoke APIs on its own via in-context examples.",
+    "exampleTrans": "Toolformer 通过上下文示例教 LLM 自行调用 API。"
+  },
+  {
+    "name": "RAG pipeline",
+    "trans": [
+      "n. RAG 流水线，将检索、重排与生成串联起来为 LLM 提供外部知识的标准流程"
+    ],
+    "usphone": "ˌɑːr eɪ dʒiː ˈpaɪplaɪn",
+    "ukphone": "ˌɑː eɪ dʒiː ˈpaɪplaɪn",
+    "example": "A typical RAG pipeline indexes documents, retrieves top-k, then generates an answer.",
+    "exampleTrans": "典型的 RAG 流水线先建索引、检索 top-k，再生成答案。"
+  },
+  {
+    "name": "retrieval augmented generation",
+    "trans": [
+      "n. 检索增强生成（RAG），在生成前先从知识库检索相关片段再作答，缓解幻觉"
+    ],
+    "usphone": "rɪˈtriːvəl ˌɔːɡˈmentɪd ˌdʒenəˈreɪʃən",
+    "ukphone": "rɪˈtriːvəl ˌɔːɡˈmentɪd ˌdʒenəˈreɪʃən",
+    "example": "Retrieval augmented generation grounds answers in up-to-date external documents.",
+    "exampleTrans": "检索增强生成把答案锚定在最新的外部文档上。"
+  },
+  {
+    "name": "prompt cache",
+    "trans": [
+      "n. 提示缓存，将重复的前缀提示（系统提示/上下文）缓存复用以降低延迟与成本"
+    ],
+    "usphone": "prɑːmpt kæʃ",
+    "ukphone": "prɒmpt kæʃ",
+    "example": "Prompt cache lets you reuse the same system prompt across many requests cheaply.",
+    "exampleTrans": "提示缓存让你在多轮请求中低成本复用同一系统提示。"
+  },
+  {
+    "name": "cache eviction",
+    "trans": [
+      "n. 缓存淘汰，当上下文/KV 缓存超出容量时按策略移除旧内容以释放空间"
+    ],
+    "usphone": "kæʃ ɪˈvɪkʃən",
+    "ukphone": "kæʃ ɪˈvɪkʃən",
+    "example": "Cache eviction drops the oldest KV pairs when the context window is full.",
+    "exampleTrans": "当上下文窗口满时，缓存淘汰会丢弃最旧的 KV 对。"
+  },
+  {
+    "name": "job queue",
+    "trans": [
+      "n. 任务队列/作业队列，在工作流中将待处理任务排队、异步调度与执行"
+    ],
+    "usphone": "dʒɑːb kjuː",
+    "ukphone": "dʒɒb kjuː",
+    "example": "A job queue decouples request intake from slow background processing.",
+    "exampleTrans": "任务队列把请求接入与缓慢的后台处理解耦。"
+  },
+  {
+    "name": "prompt guard",
+    "trans": [
+      "n. 提示护栏，用于在输入/输出阶段拦截越狱、注入与违规内容的防护组件"
+    ],
+    "usphone": "prɑːmpt ɡɑːrd",
+    "ukphone": "prɒmpt ɡɑːd",
+    "example": "A prompt guard blocks jailbreak attempts before they reach the model.",
+    "exampleTrans": "提示护栏在越狱请求抵达模型前将其拦截。"
+  },
+  {
+    "name": "prompt leaking",
+    "trans": [
+      "n. 提示泄露，模型在回答中无意暴露系统提示或内部指令的安全风险"
+    ],
+    "usphone": "prɑːmpt ˈliːkɪŋ",
+    "ukphone": "prɒmpt ˈliːkɪŋ",
+    "example": "Prompt leaking can expose hidden instructions to end users.",
+    "exampleTrans": "提示泄露会把隐藏指令暴露给终端用户。"
+  },
+  {
+    "name": "decorator",
+    "trans": [
+      "n. 装饰器，Python 等语言中以 @ 语法在不修改原函数的情况下增强其行为的编程模式"
+    ],
+    "usphone": "ˈdekəreɪtər",
+    "ukphone": "ˈdekəreɪtə(r)",
+    "example": "A decorator can wrap a function to add logging or authentication automatically.",
+    "exampleTrans": "装饰器可以在不改动原函数的前提下自动加上日志或鉴权。"
   }
 ]
