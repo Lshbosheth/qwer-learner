@@ -1,0 +1,122 @@
+[
+  {
+    "name": "regression",
+    "trans": ["n. 回归：预测连续数值的监督学习任务（如线性回归）"],
+    "usphone": "rɪˈɡreʃn",
+    "ukphone": "rɪˈɡreʃn",
+    "example": "Linear regression is often the first model you fit to a dataset.",
+    "exampleTrans": "线性回归通常是你在一组数据上拟合的第一个模型。"
+  },
+  {
+    "name": "classification",
+    "trans": ["n. 分类：将输入归到预定义类别的监督学习任务"],
+    "usphone": "ˌklæsɪfɪˈkeɪʃ(ə)n",
+    "ukphone": "ˌklæsɪfɪˈkeɪʃ(ə)n",
+    "example": "Text classification helps route support tickets to the right team.",
+    "exampleTrans": "文本分类有助于把工单路由到正确的团队。"
+  },
+  {
+    "name": "convolution",
+    "trans": ["n. 卷积：通过滑动窗口提取局部特征的运算，是 CNN / 视觉 Transformer 的核心"],
+    "usphone": "ˌkɑːnvəˈluːʃn",
+    "ukphone": "ˌkɒnvəˈluːʃn",
+    "example": "A convolution layer slides filters over the image to detect edges and textures.",
+    "exampleTrans": "卷积层将滤波器在图像上滑动，以检测边缘与纹理。"
+  },
+  {
+    "name": "latent space",
+    "trans": ["n. 潜空间：模型将高维输入编码成的低维连续向量表示空间"],
+    "usphone": "ˈleɪtnt speɪs",
+    "ukphone": "ˈleɪtnt speɪs",
+    "example": "Interpolating in the latent space produces smooth transitions between images.",
+    "exampleTrans": "在潜空间中做插值，可在图像间产生平滑的过渡。"
+  },
+  {
+    "name": "subtask",
+    "trans": ["n. 子任务：由主任务分解出的更小、可独立执行的工作单元（Agent 常用）"],
+    "usphone": "ˈsʌbˌtæsk",
+    "ukphone": "ˈsʌbˌtæsk",
+    "example": "The planner breaks the request into a subtask for each tool.",
+    "exampleTrans": "规划器把请求拆成每个工具对应的一个子任务。"
+  },
+  {
+    "name": "feedback",
+    "trans": ["n. 反馈：将输出或环境信号回传给模型/系统以改进后续行为的机制"],
+    "usphone": "ˈfiːdbæk",
+    "ukphone": "ˈfiːdbæk",
+    "example": "Human feedback is used to align the model with user intent.",
+    "exampleTrans": "人类反馈被用来让模型与人类意图对齐。"
+  },
+  {
+    "name": "body",
+    "trans": ["n. 请求/响应体：HTTP 报文中承载实际数据的部分（常含 JSON）"],
+    "usphone": "ˈbɑːdi",
+    "ukphone": "ˈbɒdi",
+    "example": "The tool returns the search results in the response body.",
+    "exampleTrans": "该工具在响应体中返回搜索结果。"
+  },
+  {
+    "name": "search",
+    "trans": ["n. 检索：在语料或向量库中查找与查询最相关内容的操作（RAG 核心）"],
+    "usphone": "sɜːrtʃ",
+    "ukphone": "sɜːtʃ",
+    "example": "Semantic search finds passages by meaning rather than exact keywords.",
+    "exampleTrans": "语义检索按含义而非精确关键词来查找段落。"
+  },
+  {
+    "name": "store",
+    "trans": ["n. 存储：持久化保存向量/文档/记忆的仓库（如向量数据库）"],
+    "usphone": "stɔːr",
+    "ukphone": "stɔː(r)",
+    "example": "The retriever reads embeddings from a vector store at query time.",
+    "exampleTrans": "检索器在查询时从向量存储中读取嵌入。"
+  },
+  {
+    "name": "history",
+    "trans": ["n. 历史：对话/交互的过往记录，常作为模型上下文与记忆来源"],
+    "usphone": "ˈhɪstri; ˈhɪstəri",
+    "ukphone": "ˈhɪstri; ˈhɪstəri",
+    "example": "The agent summarizes the chat history to fit the context window.",
+    "exampleTrans": "Agent 对聊天历史做摘要，以适配上下文窗口。"
+  },
+  {
+    "name": "flow",
+    "trans": ["n. 流程：任务依次流转执行的逻辑通路（如数据流、控制流、工作流）"],
+    "usphone": "floʊ",
+    "ukphone": "fləʊ",
+    "example": "The workflow engine tracks the flow of each step until completion.",
+    "exampleTrans": "工作流引擎跟踪每个步骤的执行流转直至完成。"
+  },
+  {
+    "name": "style",
+    "trans": ["n. 风格：提示词中约束输出语气、格式与写法的指令维度"],
+    "usphone": "staɪl",
+    "ukphone": "staɪl",
+    "example": "Add a style instruction so the reply stays concise and formal.",
+    "exampleTrans": "加入风格指令，让回复保持简洁且正式。"
+  },
+  {
+    "name": "debugging",
+    "trans": ["n. 调试：定位并修复代码或模型行为错误的开发过程"],
+    "usphone": "ˌdiːˈbʌɡɪŋ",
+    "ukphone": "ˌdiːˈbʌɡɪŋ",
+    "example": "Debugging a flaky test often means tracing the async call chain.",
+    "exampleTrans": "调试一个偶发失败的测试，往往要追踪异步调用链。"
+  },
+  {
+    "name": "inheritance",
+    "trans": ["n. 继承：面向对象中子类复用并扩展父类属性的机制"],
+    "usphone": "ɪnˈherɪtəns",
+    "ukphone": "ɪnˈherɪtəns",
+    "example": "Class inheritance lets the base agent share tools with specialized agents.",
+    "exampleTrans": "类继承让基础 Agent 把工具共享给专用 Agent。"
+  },
+  {
+    "name": "polymorphism",
+    "trans": ["n. 多态：同一接口在不同实现上表现出不同行为的能力"],
+    "usphone": "ˌpɑːlɪˈmɔːrˌfɪzəm",
+    "ukphone": "ˌpɒlɪˈmɔːfɪz(ə)m",
+    "example": "Polymorphism lets the caller treat every tool as a uniform callable.",
+    "exampleTrans": "多态让调用方把每个工具都当作统一的“可调用对象”来处理。"
+  }
+]
