@@ -3868,7 +3868,7 @@ const programming: DictionaryResource[] = [
   {
     id: 'ai-daily-2026-09',
     name: '每日词汇',
-    description: 'AI/Agent/RAG 等高频专业英语，2026年09月（每日 15 词，共 345 词）',
+    description: 'AI/Agent/RAG 等高频专业英语，2026年09月（每日 15 词，共 360 词）',
     category: 'AI 每日词汇',
     tags: ['每日词汇'],
     chapterLabels: [
@@ -3895,9 +3895,10 @@ const programming: DictionaryResource[] = [
       '2026-09-21',
       '2026-09-25',
       '2026-09-26',
+      '2026-09-27',
     ],
     url: '/dicts/ai_daily_2026-09.json',
-    length: 345,
+    length: 360,
     language: 'en',
     languageCategory: 'ai',
   },

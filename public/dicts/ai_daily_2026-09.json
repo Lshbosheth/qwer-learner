@@ -3448,5 +3448,155 @@
     "ukphone": "ˌpɒlɪˈmɔːfɪz(ə)m",
     "example": "Polymorphism lets the caller treat every tool as a uniform callable.",
     "exampleTrans": "多态让调用方把每个工具都当作统一的“可调用对象”来处理。"
+  },
+  {
+    "name": "sigmoid",
+    "trans": [
+      "n./adj. 乙状（曲线）的；AI 语境中指 sigmoid 激活函数，将输入映射到 0~1"
+    ],
+    "usphone": "ˈsɪɡˌmɔɪd",
+    "ukphone": "ˈsɪɡmɒɪd",
+    "example": "In neural networks, the sigmoid function maps any input to a value between 0 and 1.",
+    "exampleTrans": "在神经网络中，sigmoid 函数将任意输入映射到 0 到 1 之间。"
+  },
+  {
+    "name": "generative model",
+    "trans": [
+      "n. 生成式模型：学习训练数据分布以生成新样本的模型"
+    ],
+    "usphone": "ˈdʒenərətɪv ˈmɑːdl",
+    "ukphone": "ˈdʒenərətɪv ˈmɒdl",
+    "example": "A generative model learns the underlying distribution of training data to create new samples.",
+    "exampleTrans": "生成式模型学习训练数据的底层分布以生成新样本。"
+  },
+  {
+    "name": "byte pair encoding",
+    "trans": [
+      "n. 字节对编码（BPE）：通过合并高频字符对构造子词词元的分词算法"
+    ],
+    "usphone": "baɪt per ɪnˈkoʊdɪŋ",
+    "ukphone": "baɪt peə ɪnˈkəʊdɪŋ",
+    "example": "Byte pair encoding compresses the vocabulary by merging frequent character pairs into subword tokens.",
+    "exampleTrans": "字节对编码通过把高频字符对合并为子词词元来压缩词表。"
+  },
+  {
+    "name": "embedding space",
+    "trans": [
+      "n. 嵌入空间：词/句向量所在的高维语义空间，相近含义聚集"
+    ],
+    "usphone": "ɪmˈbedɪŋ speɪs",
+    "ukphone": "ɪmˈbedɪŋ speɪs",
+    "example": "Words with similar meanings cluster close together in the embedding space.",
+    "exampleTrans": "语义相近的词在嵌入空间中彼此聚集。"
+  },
+  {
+    "name": "state space",
+    "trans": [
+      "n. 状态空间：Agent 在环境中可能到达的所有状态集合"
+    ],
+    "usphone": "steɪt speɪs",
+    "ukphone": "steɪt speɪs",
+    "example": "The agent explores the state space to find an optimal action sequence.",
+    "exampleTrans": "智能体在状态空间中搜索以寻找最优动作序列。"
+  },
+  {
+    "name": "response format",
+    "trans": [
+      "n. 响应格式：模型输出所遵循的结构（如 JSON）"
+    ],
+    "usphone": "rɪˈspɑːns ˈfɔːrmæt",
+    "ukphone": "rɪˈspɒns ˈfɔːmæt",
+    "example": "You can constrain the model's response format with a JSON schema.",
+    "exampleTrans": "你可以用 JSON Schema 约束模型的响应格式。"
+  },
+  {
+    "name": "external knowledge",
+    "trans": [
+      "n. 外部知识：来自模型参数之外的检索来源（如向量库）"
+    ],
+    "usphone": "ɪkˈstɜːrnl ˈnɑːlɪdʒ",
+    "ukphone": "ɪkˈstɜːnl ˈnɒlɪdʒ",
+    "example": "RAG augments the prompt with external knowledge retrieved from a vector store.",
+    "exampleTrans": "检索增强生成用从向量库检索到的外部知识扩充提示。"
+  },
+  {
+    "name": "answer synthesis",
+    "trans": [
+      "n. 答案合成：将检索片段整合为连贯最终回复的 RAG 步骤"
+    ],
+    "usphone": "ˈænsər ˈsɪnθəsɪs",
+    "ukphone": "ˈɑːnsə ˈsɪnθəsɪs",
+    "example": "Answer synthesis combines retrieved passages into a coherent final reply.",
+    "exampleTrans": "答案合成把检索到的片段整合为连贯的最终回复。"
+  },
+  {
+    "name": "forget",
+    "trans": [
+      "v. 遗忘：模型随上下文变长而丢失早期信息的能力缺陷"
+    ],
+    "usphone": "fərˈɡet",
+    "ukphone": "fəˈɡet",
+    "example": "The model tends to forget facts presented early in a long context.",
+    "exampleTrans": "模型倾向于遗忘长上下文中较早出现的事实。"
+  },
+  {
+    "name": "summarize",
+    "trans": [
+      "v. 摘要：压缩历史内容以维持在上下文窗口内"
+    ],
+    "usphone": "ˈsʌməraɪz",
+    "ukphone": "ˈsʌməraɪz",
+    "example": "Summarize old messages to keep the conversation within the context window.",
+    "exampleTrans": "对旧消息做摘要，使对话保持在上下文窗口内。"
+  },
+  {
+    "name": "subworkflow",
+    "trans": [
+      "n. 子工作流：可被父流水线调用的可复用步骤模块"
+    ],
+    "usphone": "ˌsʌbˈwɜːrkfloʊ",
+    "ukphone": "ˌsʌbˈwɜːkfləʊ",
+    "example": "A subworkflow encapsulates a reusable step invoked by the parent pipeline.",
+    "exampleTrans": "子工作流封装了可被父流水线调用的可复用步骤。"
+  },
+  {
+    "name": "verbose",
+    "trans": [
+      "adj. 详尽的：输出内容多、解释充分（与 concise 相对）"
+    ],
+    "usphone": "vɜːrˈboʊs",
+    "ukphone": "vɜːˈbəʊs",
+    "example": "Set the style to verbose when you need detailed step-by-step explanations.",
+    "exampleTrans": "需要详细的分步说明时，把风格设为 verbose（详尽）。"
+  },
+  {
+    "name": "concise",
+    "trans": [
+      "adj. 简洁的：输出精炼、直奔要点（提示词常用约束）"
+    ],
+    "usphone": "kənˈsaɪs",
+    "ukphone": "kənˈsaɪs",
+    "example": "Ask the assistant to give a concise answer in three bullet points.",
+    "exampleTrans": "让助手用三个要点给出简洁回答。"
+  },
+  {
+    "name": "object",
+    "trans": [
+      "n. 对象：编程中带有属性与方法的数据实体"
+    ],
+    "usphone": "ˈɑːbdʒekt",
+    "ukphone": "ˈɒbdʒɪkt",
+    "example": "In JavaScript, almost everything is an object with properties and methods.",
+    "exampleTrans": "在 JavaScript 中，几乎所有东西都是带有属性和方法的对象。"
+  },
+  {
+    "name": "stack",
+    "trans": [
+      "n. 栈：后进先出（LIFO）的数据结构，也指函数调用栈"
+    ],
+    "usphone": "stæk",
+    "ukphone": "stæk",
+    "example": "Function calls are tracked on the call stack during execution.",
+    "exampleTrans": "执行期间函数调用被记录在调用栈上。"
   }
 ]
