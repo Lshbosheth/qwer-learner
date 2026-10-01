@@ -1,0 +1,152 @@
+[
+  {
+    "name": "distribution",
+    "trans": [
+      "n. 概率分布；机器学习中描述随机变量取值规律的函数，如 softmax 输出即类别概率分布"
+    ],
+    "usphone": "ˌdɪstrɪˈbjuːʃ(ə)n",
+    "ukphone": "ˌdɪstrɪˈbjuːʃn",
+    "example": "The softmax layer outputs a probability distribution over all candidate tokens.",
+    "exampleTrans": "softmax 层输出所有候选 token 上的概率分布。"
+  },
+  {
+    "name": "entropy",
+    "trans": [
+      "n. 熵；衡量信息不确定性的量，常见于交叉熵损失与决策树分裂"
+    ],
+    "usphone": "ˈentrəpi",
+    "ukphone": "ˈentrəpi",
+    "example": "Cross-entropy measures the difference between the predicted and true probability distributions.",
+    "exampleTrans": "交叉熵衡量预测分布与真实分布之间的差异。"
+  },
+  {
+    "name": "pooling",
+    "trans": [
+      "n. 池化；对特征图或序列做降维聚合的操作，如 mean/max pooling"
+    ],
+    "usphone": "ˈpuːlɪŋ",
+    "ukphone": "ˈpuːlɪŋ",
+    "example": "Global average pooling compresses the token sequence into a single feature vector.",
+    "exampleTrans": "全局平均池化把 token 序列压缩成单个特征向量。"
+  },
+  {
+    "name": "stride",
+    "trans": [
+      "n. 步幅；卷积或滑动窗口每次移动的像素/位置间隔"
+    ],
+    "usphone": "straɪd",
+    "ukphone": "straɪd",
+    "example": "A larger stride reduces the output sequence length but may lose fine-grained details.",
+    "exampleTrans": "更大的步幅会缩短输出序列长度，但可能丢失细粒度细节。"
+  },
+  {
+    "name": "agent role",
+    "trans": [
+      "n. 智能体角色；多智能体系统中分配给每个 agent 的职责定位，如 planner、reviewer"
+    ],
+    "usphone": "ˈeɪdʒənt roʊl",
+    "ukphone": "ˈeɪdʒənt rəʊl",
+    "example": "We assign each agent role a distinct system prompt to avoid overlapping responsibilities.",
+    "exampleTrans": "我们给每个智能体角色分配不同的系统提示，以避免职责重叠。"
+  },
+  {
+    "name": "agent team",
+    "trans": [
+      "n. 智能体团队；多个分工协作的 agent 组成的协作单元"
+    ],
+    "usphone": "ˈeɪdʒənt tiːm",
+    "ukphone": "ˈeɪdʒənt tiːm",
+    "example": "The agent team splits the task into subtasks and merges their results at the end.",
+    "exampleTrans": "智能体团队把任务拆成子任务，最后合并各自的结果。"
+  },
+  {
+    "name": "api endpoint",
+    "trans": [
+      "n. API 端点；工具调用所请求的具体服务地址，如 POST /v1/chat/completions"
+    ],
+    "usphone": "ˌeɪ piː ˈaɪ ˈendˌpɔɪnt",
+    "ukphone": "ˌeɪ piː ˈaɪ ˈendˌpɔɪnt",
+    "example": "The tool definition declares the API endpoint and the required request schema.",
+    "exampleTrans": "工具定义声明了 API 端点与必需的请求结构。"
+  },
+  {
+    "name": "tool response",
+    "trans": [
+      "n. 工具返回；工具调用后由外部系统回传的结果数据"
+    ],
+    "usphone": "tuːl rɪˈspɑːns",
+    "ukphone": "tuːl rɪˈspɒns",
+    "example": "The agent feeds the tool response back into the model as an observation.",
+    "exampleTrans": "智能体把工具返回作为观测结果重新喂给模型。"
+  },
+  {
+    "name": "reference",
+    "trans": [
+      "n. 引用 / 出处；RAG 生成答案时标注所依据的来源片段"
+    ],
+    "usphone": "ˈrefrəns",
+    "ukphone": "ˈrefrəns",
+    "example": "Each generated claim should carry a reference to its retrieved passage.",
+    "exampleTrans": "每条生成的陈述都应附带对其检索片段的引用。"
+  },
+  {
+    "name": "cross-encoder",
+    "trans": [
+      "n. 交叉编码器；将查询与文档拼接后联合编码的重排序模型，常用于 RAG 精排"
+    ],
+    "usphone": "ˈkrɔːs ɪnˈkoʊdər",
+    "ukphone": "ˈkrɒs ɪnˈkəʊdə(r)",
+    "example": "A cross-encoder reranks the top candidates to improve retrieval precision.",
+    "exampleTrans": "交叉编码器对候选结果重新排序，以提升检索精度。"
+  },
+  {
+    "name": "memory consolidation",
+    "trans": [
+      "n. 记忆巩固；将短期 / 工作记忆整合沉淀为长期记忆的过程"
+    ],
+    "usphone": "ˈmeməri kənˌsɑːləˈdeɪʃ(ə)n",
+    "ukphone": "ˈmeməri kənˌsɒlɪˈdeɪʃ(ə)n",
+    "example": "Memory consolidation summarizes recent turns into durable long-term notes.",
+    "exampleTrans": "记忆巩固把最近的对话轮次归纳为持久的长期记忆。"
+  },
+  {
+    "name": "tracing",
+    "trans": [
+      "n. 链路追踪；记录请求在多个服务 / 节点间流转路径的观测手段"
+    ],
+    "usphone": "ˈtreɪsɪŋ",
+    "ukphone": "ˈtreɪsɪŋ",
+    "example": "Distributed tracing shows how a single request hops across the workflow nodes.",
+    "exampleTrans": "分布式追踪展示单个请求如何在工作流节点间跳转。"
+  },
+  {
+    "name": "prompt variant",
+    "trans": [
+      "n. 提示变体；同一意图的不同措辞版本，用于 A/B 测试与鲁棒性评估"
+    ],
+    "usphone": "prɑːmpt ˈveriənt",
+    "ukphone": "prɒmpt ˈveəriənt",
+    "example": "We test several prompt variants to find the one with the highest accuracy.",
+    "exampleTrans": "我们测试多个提示变体，找出准确率最高的那一个。"
+  },
+  {
+    "name": "override",
+    "trans": [
+      "v./n. 重写 / 覆盖；子类重新实现父类方法，或配置项覆盖默认值"
+    ],
+    "usphone": "ˌoʊvərˈraɪd",
+    "ukphone": "ˌəʊvəˈraɪd",
+    "example": "The custom Tool class overrides the run method of the base agent class.",
+    "exampleTrans": "自定义的 Tool 类重写了基础 agent 类的 run 方法。"
+  },
+  {
+    "name": "subprocess",
+    "trans": [
+      "n. 子进程；由主进程派生的独立执行单元，常用于隔离运行外部命令"
+    ],
+    "usphone": "ˈsʌbprɑːses",
+    "ukphone": "ˈsʌbprəʊses",
+    "example": "The agent spawns a subprocess to execute the shell command in a sandbox.",
+    "exampleTrans": "智能体派生一个子进程，在沙箱中执行 shell 命令。"
+  }
+]
