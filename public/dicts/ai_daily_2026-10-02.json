@@ -1,0 +1,122 @@
+[
+  {
+    "name": "label",
+    "trans": ["n. 标签；监督学习中标记样本所属类别的标注"],
+    "usphone": "ˈleɪb(ə)l",
+    "ukphone": "ˈleɪb(ə)l",
+    "example": "Each training image is assigned a label such as cat or dog.",
+    "exampleTrans": "每张训练图片都被赋予一个如“猫”或“狗”的标签。"
+  },
+  {
+    "name": "validation",
+    "trans": ["n. 验证；用验证集评估模型泛化能力的过程"],
+    "usphone": "ˌvælɪˈdeɪʃn",
+    "ukphone": "ˌvælɪˈdeɪʃn",
+    "example": "We monitor the validation loss to detect overfitting during training.",
+    "exampleTrans": "我们监控验证损失以在训练中发现过拟合。"
+  },
+  {
+    "name": "mlp",
+    "trans": ["abbr. Multi-Layer Perceptron；Transformer 每个子层中的前馈全连接网络"],
+    "usphone": "ˌem el ˈpiː",
+    "ukphone": "ˌem el ˈpiː",
+    "example": "Each transformer block applies an MLP after the attention sublayer.",
+    "exampleTrans": "每个 Transformer 块在注意力子层之后都会接一个 MLP。"
+  },
+  {
+    "name": "rotary",
+    "trans": ["adj. 旋转的；常指 RoPE（旋转位置编码），为 Transformer 注入位置信息"],
+    "usphone": "ˈroʊtəri",
+    "ukphone": "ˈrəʊtəri",
+    "example": "Rotary position embedding encodes token positions by rotating query and key vectors.",
+    "exampleTrans": "旋转位置编码通过对查询和键向量做旋转来编码词元位置。"
+  },
+  {
+    "name": "delegate",
+    "trans": ["v. 委派；Agent 将子任务分配给更专用的子 Agent 或工具处理"],
+    "usphone": "ˈdelɪɡət",
+    "ukphone": "ˈdelɪɡət",
+    "example": "The supervisor delegates the search task to a retrieval specialist agent.",
+    "exampleTrans": "主管 Agent 把搜索任务委派给一个检索专员 Agent。"
+  },
+  {
+    "name": "reflect",
+    "trans": ["v. 反思；Agent 回顾已完成步骤以修正计划或纠正错误"],
+    "usphone": "rɪˈflekt",
+    "ukphone": "rɪˈflekt",
+    "example": "The agent reflects on the failed attempt and chooses a different approach.",
+    "exampleTrans": "Agent 反思了失败的尝试，并选择了另一种方法。"
+  },
+  {
+    "name": "mcp",
+    "trans": ["abbr. Model Context Protocol；连接 Agent 与外部工具/数据源的开放协议"],
+    "usphone": "ˌem es ˈpiː",
+    "ukphone": "ˌem es ˈpiː",
+    "example": "The assistant calls a database through an MCP server instead of a custom API.",
+    "exampleTrans": "助手通过 MCP 服务器而非自定义 API 来调用数据库。"
+  },
+  {
+    "name": "bm25",
+    "trans": ["n. 一种基于概率的检索排序算法；RAG 中常用于关键词召回"],
+    "usphone": "ˌbiː em ˈtwentiˌfaɪv",
+    "ukphone": "ˌbiː em ˈtwentiˌfaɪv",
+    "example": "We combine BM25 keyword search with vector search for hybrid retrieval.",
+    "exampleTrans": "我们将 BM25 关键词检索与向量检索结合以实现混合召回。"
+  },
+  {
+    "name": "source",
+    "trans": ["n. 来源；RAG 答案所引用的原始文档或出处"],
+    "usphone": "sɔːrs",
+    "ukphone": "sɔːs",
+    "example": "The answer cites its source so users can verify the claim.",
+    "exampleTrans": "该回答标注了来源，便于用户核实说法。"
+  },
+  {
+    "name": "user profile",
+    "trans": ["n. 用户画像；长期记忆中保存的用户偏好、身份与历史信息"],
+    "usphone": "ˈjuːzər ˈproʊfaɪl",
+    "ukphone": "ˈjuːzə ˈprəʊfaɪl",
+    "example": "The agent reads the user profile to personalize tone and recommendations.",
+    "exampleTrans": "Agent 读取用户画像，以个性化语气与推荐内容。"
+  },
+  {
+    "name": "context budget",
+    "trans": ["n. 上下文预算；模型上下文窗口内可分配的最大 token 额度"],
+    "usphone": "ˈkɑːntekst ˈbʌdʒɪt",
+    "ukphone": "ˈkɒntekst ˈbʌdʒɪt",
+    "example": "A large system prompt can consume most of the context budget.",
+    "exampleTrans": "过长的系统提示词可能占掉大部分上下文预算。"
+  },
+  {
+    "name": "phase",
+    "trans": ["n. 阶段；工作流中顺序执行的某一处理环节"],
+    "usphone": "feɪz",
+    "ukphone": "feɪz",
+    "example": "The pipeline runs ingestion, embedding, and indexing as separate phases.",
+    "exampleTrans": "该流水线把摄取、向量化与建索引作为独立阶段运行。"
+  },
+  {
+    "name": "json mode",
+    "trans": ["n. JSON 模式；要求模型只输出合法 JSON 的结构化输出设置"],
+    "usphone": "ˈdʒeɪsən moʊd",
+    "ukphone": "ˈdʒeɪsən məʊd",
+    "example": "Enable JSON mode so the tool can parse the model response reliably.",
+    "exampleTrans": "开启 JSON 模式，工具便能稳定解析模型回复。"
+  },
+  {
+    "name": "separator",
+    "trans": ["n. 分隔符；在提示中划分不同段落、示例或字段的边界标记"],
+    "usphone": "ˈsepəreɪtər",
+    "ukphone": "ˈsepəreɪtə(r)",
+    "example": "Use a clear separator such as ### to mark where the input ends.",
+    "exampleTrans": "用一个如 ### 这样的清晰分隔符来标记输入结束的位置。"
+  },
+  {
+    "name": "compile",
+    "trans": ["v. 编译；将源代码转换为可执行程序的构建步骤"],
+    "usphone": "kəmˈpaɪl",
+    "ukphone": "kəmˈpaɪl",
+    "example": "Run the build script to compile the TypeScript project before deploying.",
+    "exampleTrans": "部署前运行构建脚本编译这个 TypeScript 项目。"
+  }
+]
