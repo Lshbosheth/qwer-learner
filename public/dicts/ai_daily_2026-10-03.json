@@ -1,0 +1,122 @@
+[
+  {
+    "name": "momentum",
+    "trans": ["n. 动量；训练中推动参数更新的量，影响梯度下降的步长与收敛速度"],
+    "usphone": "moʊˈmentəm",
+    "ukphone": "məˈmentəm",
+    "example": "A higher momentum helps the optimizer escape shallow local minima.",
+    "exampleTrans": "较大的动量有助于优化器跳出浅层局部最小值。"
+  },
+  {
+    "name": "hallucinate",
+    "trans": ["v. （大模型）幻觉；生成与事实不符或凭空捏造的内容"],
+    "usphone": "həˈluːsɪneɪt",
+    "ukphone": "həˈluːsɪneɪt",
+    "example": "The model may hallucinate citations that do not actually exist.",
+    "exampleTrans": "模型可能会幻觉出并不真实存在的参考文献。"
+  },
+  {
+    "name": "feedforward",
+    "trans": ["adj./n. 前馈；信号单向从输入层传到输出层（如前馈神经网络、Transformer 的 FFN 层）"],
+    "usphone": "fiːdˈfɔːrwərd",
+    "ukphone": "fiːdˈfɔːwəd",
+    "example": "The feedforward layer expands the hidden representation before activation.",
+    "exampleTrans": "前馈层在激活之前对隐藏表示进行升维。"
+  },
+  {
+    "name": "query key value",
+    "trans": ["n. 查询/键/值（QKV）；注意力机制中计算相似度与加权聚合的三组向量"],
+    "usphone": "ˈkwɪri kiː ˈvæljuː",
+    "ukphone": "ˈkwɪəri kiː ˈvæljuː",
+    "example": "Attention is computed from the query, key, and value matrices.",
+    "exampleTrans": "注意力由查询、键和值矩阵共同计算得出。"
+  },
+  {
+    "name": "behavior",
+    "trans": ["n. 行为；Agent 在环境中采取的动作或响应模式"],
+    "usphone": "bɪˈheɪvjər",
+    "ukphone": "bɪˈheɪvjə(r)",
+    "example": "The agent's behavior improved after adding a reward signal.",
+    "exampleTrans": "加入奖励信号后，该智能体的行为表现有所改善。"
+  },
+  {
+    "name": "cognition",
+    "trans": ["n. 认知；模型或系统理解、推理与决策的能力"],
+    "usphone": "kɑːɡˈnɪʃ(ə)n",
+    "ukphone": "kɒɡˈnɪʃ(ə)n",
+    "example": "Tool use extends the cognition of a language model beyond text.",
+    "exampleTrans": "工具使用将语言模型的认知能力扩展到文本之外。"
+  },
+  {
+    "name": "api key",
+    "trans": ["n. API 密钥；调用外部服务接口时的身份凭证"],
+    "usphone": "ˌeɪ piː ˈaɪ kiː",
+    "ukphone": "ˌeɪ piː ˈaɪ kiː",
+    "example": "Never expose your api key in client-side code.",
+    "exampleTrans": "切勿在客户端代码中暴露你的 API 密钥。"
+  },
+  {
+    "name": "sdk",
+    "trans": ["n. 软件开发工具包（Software Development Kit）；用于集成平台能力的开发库"],
+    "usphone": "ˌes diː ˈkeɪ",
+    "ukphone": "ˌes diː ˈkeɪ",
+    "example": "The sdk simplifies connecting your app to the model service.",
+    "exampleTrans": "该 SDK 简化了应用与模型服务的对接。"
+  },
+  {
+    "name": "embedding search",
+    "trans": ["n. 向量检索；把文本转为嵌入后按相似度查找相关内容（RAG 核心步骤）"],
+    "usphone": "ɪmˈbedɪŋ sɜːrtʃ",
+    "ukphone": "ɪmˈbedɪŋ sɜːtʃ",
+    "example": "Embedding search returns the most relevant chunks for the query.",
+    "exampleTrans": "向量检索会为查询返回最相关的文本片段。"
+  },
+  {
+    "name": "semantic",
+    "trans": ["adj. 语义的；基于含义而非字面匹配的（如语义检索、语义相似度）"],
+    "usphone": "sɪˈmæntɪk",
+    "ukphone": "sɪˈmæntɪk",
+    "example": "Semantic search understands user intent instead of exact keywords.",
+    "exampleTrans": "语义检索理解用户意图，而非仅匹配精确关键词。"
+  },
+  {
+    "name": "dialogue",
+    "trans": ["n. 对话；多轮交互中保留的上下文与记忆"],
+    "usphone": "ˈdaɪəlɔːɡ",
+    "ukphone": "ˈdaɪəlɒɡ",
+    "example": "The assistant summarizes the dialogue to save context window.",
+    "exampleTrans": "助手会总结对话以节省上下文窗口。"
+  },
+  {
+    "name": "dag",
+    "trans": ["n. 有向无环图（Directed Acyclic Graph）；用来表示工作流的任务依赖关系"],
+    "usphone": "ˌdiː eɪ ˈdʒiː",
+    "ukphone": "ˌdiː eɪ ˈdʒiː",
+    "example": "The workflow engine executes tasks following the dag order.",
+    "exampleTrans": "工作流引擎按有向无环图定义的顺序执行任务。"
+  },
+  {
+    "name": "guardrails",
+    "trans": ["n. 护栏；约束模型输出安全与合规的规则或过滤器"],
+    "usphone": "ˈɡɑːrdreɪlz",
+    "ukphone": "ˈɡɑːdreɪlz",
+    "example": "Guardrails block prompts that attempt to extract system secrets.",
+    "exampleTrans": "护栏会拦截试图套取系统机密的提示词。"
+  },
+  {
+    "name": "reasoning step",
+    "trans": ["n. 推理步骤；模型在得出答案前逐步思考的一个环节"],
+    "usphone": "ˈriːzənɪŋ step",
+    "ukphone": "ˈriːzənɪŋ step",
+    "example": "Chain-of-thought prompts make each reasoning step explicit.",
+    "exampleTrans": "思维链提示会让每一步推理都显式呈现。"
+  },
+  {
+    "name": "bug",
+    "trans": ["n. 缺陷/漏洞；程序中导致异常行为或错误结果的问题"],
+    "usphone": "bʌɡ",
+    "ukphone": "bʌɡ",
+    "example": "A missing null check was the bug behind the crash.",
+    "exampleTrans": "缺失的空值检查正是导致崩溃的那个缺陷。"
+  }
+]
