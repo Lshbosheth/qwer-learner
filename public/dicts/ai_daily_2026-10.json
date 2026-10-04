@@ -448,5 +448,155 @@
     "ukphone": "bʌɡ",
     "example": "A missing null check was the bug behind the crash.",
     "exampleTrans": "缺失的空值检查正是导致崩溃的那个缺陷。"
+  },
+  {
+    "name": "kl divergence",
+    "trans": [
+      "n. KL 散度（Kullback–Leibler divergence），衡量两个概率分布差异的指标"
+    ],
+    "usphone": "ˌkeɪ ˈel daɪˈvɜːrdʒəns",
+    "ukphone": "ˌkeɪ ˈel daɪˈvɜːdʒəns",
+    "example": "We used KL divergence to compare the model output distribution with the target.",
+    "exampleTrans": "我们用 KL 散度比较模型输出分布与目标分布。"
+  },
+  {
+    "name": "variance",
+    "trans": [
+      "n. 方差，衡量数据或随机变量离散程度的统计量"
+    ],
+    "usphone": "ˈveriəns",
+    "ukphone": "ˈveəriəns",
+    "example": "High variance in the training loss often signals an unstable learning rate.",
+    "exampleTrans": "训练损失的方差过大会提示学习率不稳定。"
+  },
+  {
+    "name": "attention dropout",
+    "trans": [
+      "n. 注意力丢弃，在注意力权重上随机置零以防止过拟合的正则化方法"
+    ],
+    "usphone": "əˈtenʃ(ə)n ˈdrɑːpaʊt",
+    "ukphone": "əˈtenʃ(ə)n ˈdrɒpaʊt",
+    "example": "Applying attention dropout helped the model generalize better on long inputs.",
+    "exampleTrans": "使用注意力丢弃让模型在长输入上泛化得更好。"
+  },
+  {
+    "name": "sparse mixture of experts",
+    "trans": [
+      "n. 稀疏专家混合（SMoE），每个 token 仅激活部分专家前馈层的稀疏结构"
+    ],
+    "usphone": "spɑːrs ˈmɪkstʃər əv ˈekspɜːrts",
+    "ukphone": "spɑːs ˈmɪkstʃə(r) əv ˈekspɜːts",
+    "example": "Sparse mixture of experts scales model capacity without scaling compute per token.",
+    "exampleTrans": "稀疏专家混合在不过度增加单 token 计算量的情况下扩展模型容量。"
+  },
+  {
+    "name": "agent benchmark",
+    "trans": [
+      "n. 智能体基准，用于系统评估 Agent 规划、工具调用与推理能力的测试集"
+    ],
+    "usphone": "ˈeɪdʒənt ˈbentʃmɑːrk",
+    "ukphone": "ˈeɪdʒənt ˈbentʃmɑːk",
+    "example": "The new agent benchmark measures tool-use accuracy across 500 tasks.",
+    "exampleTrans": "新智能体基准在 500 个任务上衡量工具使用的准确率。"
+  },
+  {
+    "name": "agent safety",
+    "trans": [
+      "n. 智能体安全，研究 Agent 在执行任务时不越权、不造成危害的约束与对齐"
+    ],
+    "usphone": "ˈeɪdʒənt ˈseɪfti",
+    "ukphone": "ˈeɪdʒənt ˈseɪfti",
+    "example": "Agent safety requires hard limits on which commands the assistant may run.",
+    "exampleTrans": "智能体安全需要对助手可执行的命令施加硬性限制。"
+  },
+  {
+    "name": "tool router",
+    "trans": [
+      "n. 工具路由器，根据意图将请求分派给最合适工具的调度组件"
+    ],
+    "usphone": "tuːl ˈruːtər",
+    "ukphone": "tuːl ˈruːtə(r)",
+    "example": "The tool router selects between the search and calculator tools by intent.",
+    "exampleTrans": "工具路由器按意图在搜索与计算器工具间做选择。"
+  },
+  {
+    "name": "tool invocation",
+    "trans": [
+      "n. 工具调用，Agent 实际触发某个外部函数或 API 的动作"
+    ],
+    "usphone": "tuːl ˌɪnvəˈkeɪʃn",
+    "ukphone": "tuːl ˌɪnvəˈkeɪʃn",
+    "example": "Each tool invocation is logged so failures can be replayed later.",
+    "exampleTrans": "每次工具调用都会被记录，以便后续回放失败案例。"
+  },
+  {
+    "name": "document store",
+    "trans": [
+      "n. 文档存储，保存原始/切分文档供检索增强生成的库"
+    ],
+    "usphone": "ˈdɑːkjumənt stɔːr",
+    "ukphone": "ˈdɒkjumənt stɔː(r)",
+    "example": "The document store indexes PDFs and web pages for retrieval.",
+    "exampleTrans": "文档存储对 PDF 与网页建索引以供检索。"
+  },
+  {
+    "name": "knn",
+    "trans": [
+      "n. KNN（k-nearest neighbors），按向量距离取最相近 k 个片段的检索算法"
+    ],
+    "usphone": "ˌkeɪ en ˈen",
+    "ukphone": "ˌkeɪ en ˈen",
+    "example": "The retriever uses KNN over embeddings to fetch relevant passages.",
+    "exampleTrans": "检索器在嵌入上用 KNN 取回相关段落。"
+  },
+  {
+    "name": "memory management",
+    "trans": [
+      "n. 记忆管理，对 Agent 长期/短期记忆的读写、压缩与淘汰策略"
+    ],
+    "usphone": "ˈmeməri ˈmænɪdʒmənt",
+    "ukphone": "ˈmeməri ˈmænɪdʒmənt",
+    "example": "Good memory management keeps the context window focused on what matters.",
+    "exampleTrans": "良好的记忆管理让上下文窗口聚焦于关键内容。"
+  },
+  {
+    "name": "memory module",
+    "trans": [
+      "n. 记忆模块，封装记忆读写与检索的可复用组件"
+    ],
+    "usphone": "ˈmeməri ˈmɑːdʒuːl",
+    "ukphone": "ˈmeməri ˈmɒdjuːl",
+    "example": "We added a memory module so the agent can recall prior user preferences.",
+    "exampleTrans": "我们加入记忆模块，让智能体能回想用户此前的偏好。"
+  },
+  {
+    "name": "execution plan",
+    "trans": [
+      "n. 执行计划，工作流引擎在运行前生成的步骤与依赖图"
+    ],
+    "usphone": "ˌeksɪˈkjuːʃ(ə)n plæn",
+    "ukphone": "ˌeksɪˈkjuːʃ(ə)n plæn",
+    "example": "The orchestrator compiles the prompt into an execution plan of tool calls.",
+    "exampleTrans": "编排器把提示编译成由工具调用组成的执行计划。"
+  },
+  {
+    "name": "reflexion",
+    "trans": [
+      "n. Reflexion，让模型基于反馈自我反思并改进后续决策的提示/智能体范式"
+    ],
+    "usphone": "rɪˈflekʃ(ə)n",
+    "ukphone": "rɪˈflekʃ(ə)n",
+    "example": "Reflexion lets the agent critique its failed attempt before retrying.",
+    "exampleTrans": "Reflexion 让智能体在重试前先反思失败原因。"
+  },
+  {
+    "name": "kubernetes",
+    "trans": [
+      "n. Kubernetes，用于容器编排与弹性部署的集群管理系统"
+    ],
+    "usphone": "kuːˈbɜːrnətiːz",
+    "ukphone": "kuːˈbɜːnətiːz",
+    "example": "We deploy the inference service on Kubernetes for autoscaling.",
+    "exampleTrans": "我们把推理服务部署在 Kubernetes 上以实现自动扩缩容。"
   }
 ]
