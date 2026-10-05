@@ -1,0 +1,152 @@
+[
+  {
+    "name": "feature",
+    "trans": [
+      "n. 特征；机器学习中输入样本的可量化属性（如图像的像素、文本的词向量）"
+    ],
+    "usphone": "ˈfiːtʃər",
+    "ukphone": "ˈfiːtʃə(r)",
+    "example": "The model learns a compact feature representation from raw images.",
+    "exampleTrans": "模型从原始图像中学习到紧凑的特征表示。"
+  },
+  {
+    "name": "confidence",
+    "trans": [
+      "n. 置信度；模型对预测结果可靠程度的量化（值越高越确定）"
+    ],
+    "usphone": "ˈkɑːnfɪdəns",
+    "ukphone": "ˈkɒnfɪdəns",
+    "example": "The classifier outputs both the label and its confidence score.",
+    "exampleTrans": "分类器同时输出标签及其置信度分数。"
+  },
+  {
+    "name": "patch",
+    "trans": [
+      "n. 图像块；Vision Transformer 中将图片切分后送入编码器的固定大小局部区域"
+    ],
+    "usphone": "pætʃ",
+    "ukphone": "pætʃ",
+    "example": "An image is split into 16x16 patches before being fed to the ViT.",
+    "exampleTrans": "图像在送入 ViT 前会被切成 16×16 的图像块。"
+  },
+  {
+    "name": "head",
+    "trans": [
+      "n. 注意力头；多头注意力中并行计算、各自关注不同子空间的一组注意力单元"
+    ],
+    "usphone": "hed",
+    "ukphone": "hed",
+    "example": "Each attention head captures a different type of relationship in the sequence.",
+    "exampleTrans": "每个注意力头捕捉序列中不同类型的关系。"
+  },
+  {
+    "name": "plan",
+    "trans": [
+      "n./v. 规划；Agent 在行动前生成的步骤性方案（planning 的核心产物）"
+    ],
+    "usphone": "plæn",
+    "ukphone": "plæn",
+    "example": "The agent generates a plan before executing any tool calls.",
+    "exampleTrans": "智能体在执行任何工具调用前先生成一份规划。"
+  },
+  {
+    "name": "tool-augmented",
+    "trans": [
+      "adj. 工具增强的；指通过调用外部工具（搜索、API 等）扩展能力的 LLM/Agent"
+    ],
+    "usphone": "tuːl ˈɔːɡmentɪd",
+    "ukphone": "tuːl ˈɔːɡmentɪd",
+    "example": "Tool-augmented language models can fetch live data beyond their training cutoff.",
+    "exampleTrans": "工具增强的语言模型可以获取训练截止日期之外的实时数据。"
+  },
+  {
+    "name": "request parameter",
+    "trans": [
+      "n. 请求参数；调用 API / 工具时随请求体或 URL 传入的输入变量"
+    ],
+    "usphone": "rɪˈkwest pəˈræmɪtər",
+    "ukphone": "rɪˈkwest pəˈræmɪtə(r)",
+    "example": "Missing a required request parameter will cause the API to return 400.",
+    "exampleTrans": "缺少必需的请求参数会导致接口返回 400。"
+  },
+  {
+    "name": "chunk overlap",
+    "trans": [
+      "n. 分块重叠；RAG 切分文档时相邻文本块之间保留的重复字符数，避免切断语义"
+    ],
+    "usphone": "tʃʌŋk ˌoʊvərˈlæp",
+    "ukphone": "tʃʌŋk ˌəʊvəˈlæp",
+    "example": "A small chunk overlap helps preserve context split across boundaries.",
+    "exampleTrans": "适当的分块重叠有助于保留被切分边界切断的上下文。"
+  },
+  {
+    "name": "query intent",
+    "trans": [
+      "n. 查询意图；用户检索问题背后的真实信息需求，常用于改写与路由"
+    ],
+    "usphone": "ˈkwɪri ɪnˈtent",
+    "ukphone": "ˈkwɪəri ɪnˈtent",
+    "example": "Classifying the query intent improves retrieval precision in RAG.",
+    "exampleTrans": "对查询意图分类能提升 RAG 的检索精度。"
+  },
+  {
+    "name": "context compaction",
+    "trans": [
+      "n. 上下文压缩；在长对话中合并/摘要旧记忆以腾出上下文窗口空间"
+    ],
+    "usphone": "ˈkɑːntekst kəmˈpækʃən",
+    "ukphone": "ˈkɒntekst kəmˈpækʃən",
+    "example": "Context compaction summarizes early turns to keep the window manageable.",
+    "exampleTrans": "上下文压缩会摘要早期轮次，以保持上下文窗口可控。"
+  },
+  {
+    "name": "publish-subscribe",
+    "trans": [
+      "n. 发布-订阅；工作流中组件异步解耦通信的消息模式（如事件总线）"
+    ],
+    "usphone": "ˈpʌblɪʃ səbˈskraɪb",
+    "ukphone": "ˈpʌblɪʃ səbˈskraɪb",
+    "example": "The pipeline uses publish-subscribe so stages scale independently.",
+    "exampleTrans": "该流水线采用发布-订阅模式，使各阶段可独立扩展。"
+  },
+  {
+    "name": "task instruction",
+    "trans": [
+      "n. 任务指令；明确告知模型要完成什么的目标性提示文本"
+    ],
+    "usphone": "tæsk ɪnˈstrʌkʃən",
+    "ukphone": "tɑːsk ɪnˈstrʌkʃən",
+    "example": "A clear task instruction reduces ambiguous outputs from the model.",
+    "exampleTrans": "清晰的任务指令能减少模型输出的歧义。"
+  },
+  {
+    "name": "output schema",
+    "trans": [
+      "n. 输出结构；约定模型/工具返回 JSON 等结果的字段与类型定义"
+    ],
+    "usphone": "ˈaʊtpʊt ˈskiːmə",
+    "ukphone": "ˈaʊtpʊt ˈskiːmə",
+    "example": "Defining an output schema lets you parse the model response reliably.",
+    "exampleTrans": "定义输出结构后，你可以可靠地解析模型返回结果。"
+  },
+  {
+    "name": "abstraction",
+    "trans": [
+      "n. 抽象；编程中隐藏实现细节、仅暴露接口以提升复用与可维护性的机制"
+    ],
+    "usphone": "æbˈstrækʃn",
+    "ukphone": "æbˈstrækʃn",
+    "example": "Good abstraction hides complexity behind a simple function signature.",
+    "exampleTrans": "良好的抽象把复杂性隐藏在简单的函数签名之后。"
+  },
+  {
+    "name": "encapsulation",
+    "trans": [
+      "n. 封装；面向对象中将数据与方法绑定并控制访问的边界机制"
+    ],
+    "usphone": "ɪnˌkæpsjuˈleɪʃ(ə)n",
+    "ukphone": "ɪnˌkæpsjuˈleɪʃ(ə)n",
+    "example": "Encapsulation prevents external code from mutating internal state directly.",
+    "exampleTrans": "封装可防止外部代码直接修改内部状态。"
+  }
+]
