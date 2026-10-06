@@ -1,0 +1,122 @@
+[
+  {
+    "name": "diffusion",
+    "trans": ["n. 扩散模型（diffusion model），通过逐步去噪生成图像/数据的生成式 AI 方法"],
+    "usphone": "dɪˈfjuːʒn",
+    "ukphone": "dɪˈfjuːʒn",
+    "example": "Stable Diffusion is a popular text-to-image diffusion model.",
+    "exampleTrans": "Stable Diffusion 是一款流行的文生图扩散模型。"
+  },
+  {
+    "name": "bayesian",
+    "trans": ["adj. 贝叶斯的，指基于贝叶斯定理的概率机器学习方法（如 Bayesian inference）"],
+    "usphone": "ˈbeɪzɪən",
+    "ukphone": "ˈbeɪzɪən",
+    "example": "Bayesian optimization is often used to tune model hyperparameters.",
+    "exampleTrans": "贝叶斯优化常用于调优模型超参数。"
+  },
+  {
+    "name": "kernel",
+    "trans": ["n. 核（函数/卷积核），如卷积核、注意力核函数，决定特征提取方式"],
+    "usphone": "ˈkɜːrn(ə)l",
+    "ukphone": "ˈkɜːn(ə)l",
+    "example": "A 3x3 convolution kernel slides over the input feature map.",
+    "exampleTrans": "一个 3×3 卷积核在输入特征图上滑动。"
+  },
+  {
+    "name": "tensor parallelism",
+    "trans": ["n. 张量并行，把大模型的权重矩阵切分到多张 GPU 上并行计算以训练/推理超大模型"],
+    "usphone": "ˈtensər ˌpærəˈlelɪzəm",
+    "ukphone": "ˈtensə ˌpærəˈlelɪzəm",
+    "example": "Tensor parallelism splits each linear layer across GPUs to fit a giant model.",
+    "exampleTrans": "张量并行把每一线性层切分到多张 GPU，以容纳超大模型。"
+  },
+  {
+    "name": "verification",
+    "trans": ["n. 验证，检验模型输出或智能体动作是否正确、符合约束"],
+    "usphone": "ˌverɪfɪˈkeɪʃ(ə)n",
+    "ukphone": "ˌverɪfɪˈkeɪʃ(ə)n",
+    "example": "The agent runs verification before finalizing the answer.",
+    "exampleTrans": "智能体在给出最终答案前会先做验证。"
+  },
+  {
+    "name": "react agent",
+    "trans": ["n. ReAct 智能体，交替进行推理（Reason）与行动（Act）的 Agent 范式"],
+    "usphone": "riˈækt ˈeɪdʒənt",
+    "ukphone": "riˈækt ˈeɪdʒənt",
+    "example": "A ReAct agent thinks step by step and calls tools between thoughts.",
+    "exampleTrans": "ReAct 智能体会逐步思考，并在思考之间调用工具。"
+  },
+  {
+    "name": "binding",
+    "trans": ["n. 绑定，将工具/函数注册为可被模型调用的接口（function binding）"],
+    "usphone": "ˈbaɪndɪŋ",
+    "ukphone": "ˈbaɪndɪŋ",
+    "example": "Tool binding exposes a Python function to the language model.",
+    "exampleTrans": "工具绑定把一个 Python 函数暴露给大语言模型调用。"
+  },
+  {
+    "name": "service",
+    "trans": ["n. 服务，Agent 可调用的后端能力单元（如 microservice、tool service）"],
+    "usphone": "ˈsɜːrvɪs",
+    "ukphone": "ˈsɜːvɪs",
+    "example": "The agent invokes a search service to fetch live results.",
+    "exampleTrans": "智能体调用搜索服务来获取实时结果。"
+  },
+  {
+    "name": "lexical search",
+    "trans": ["n. 词法/关键词检索，基于词项匹配（如 BM25）的 RAG 召回方式"],
+    "usphone": "ˈleksɪkəl sɜːrtʃ",
+    "ukphone": "ˈleksɪkəl sɜːtʃ",
+    "example": "Lexical search complements semantic retrieval in a hybrid RAG pipeline.",
+    "exampleTrans": "在混合 RAG 流程中，词法检索与语义检索互为补充。"
+  },
+  {
+    "name": "metadata filter",
+    "trans": ["n. 元数据过滤，在 RAG 检索时按来源/时间/标签等字段筛除无关文档"],
+    "usphone": "ˈmetədeɪtə ˈfɪltər",
+    "ukphone": "ˈmetədeɪtə ˈfɪltər",
+    "example": "Apply a metadata filter to keep only documents from this year.",
+    "exampleTrans": "加上元数据过滤，只保留今年的文档。"
+  },
+  {
+    "name": "buffer pool",
+    "trans": ["n. 缓冲池，临时缓存待送入上下文的 token/KV 的存储区（类比记忆缓冲）"],
+    "usphone": "ˈbʌfər puːl",
+    "ukphone": "ˈbʌfər puːl",
+    "example": "The buffer pool caches recent KV pairs to save context space.",
+    "exampleTrans": "缓冲池缓存最近的 KV 对，以节省上下文空间。"
+  },
+  {
+    "name": "checkpointing",
+    "trans": ["n. 检查点保存，定期存储模型/训练/对话状态以便恢复或续跑"],
+    "usphone": "ˈtʃekpɔɪntɪŋ",
+    "ukphone": "ˈtʃekpɔɪntɪŋ",
+    "example": "Checkpointing lets you resume training without losing progress.",
+    "exampleTrans": "检查点保存让你无需从头、就能恢复训练进度。"
+  },
+  {
+    "name": "idempotency",
+    "trans": ["n. 幂等性，同一操作重复执行结果不变，保障工作流/工具调用可安全重试"],
+    "usphone": "ˌaɪdɛmˈpoʊtənsi",
+    "ukphone": "ˌaɪdɛmˈpəʊtənsi",
+    "example": "Idempotency ensures retrying a tool call does not double-apply changes.",
+    "exampleTrans": "幂等性保证重试工具调用不会重复生效。"
+  },
+  {
+    "name": "chain of thought",
+    "trans": ["n. 思维链（CoT），让模型逐步推理并把中间步骤写出来的提示技术"],
+    "usphone": "tʃeɪn əv θɔːt",
+    "ukphone": "tʃeɪn əv θɔːt",
+    "example": "Chain of thought prompting improves accuracy on multi-step math problems.",
+    "exampleTrans": "思维链提示能提升多步数学题的准确率。"
+  },
+  {
+    "name": "generics",
+    "trans": ["n. 泛型，支持类型参数的编程特性，便于写出可复用的 AI/工具代码"],
+    "usphone": "dʒəˈnerɪks",
+    "ukphone": "dʒəˈnerɪks",
+    "example": "Generics let the SDK return typed results for any tool schema.",
+    "exampleTrans": "泛型让 SDK 能为任意工具 schema 返回带类型的结果。"
+  }
+]
