@@ -1,0 +1,122 @@
+[
+  {
+    "name": "large language model",
+    "trans": ["n. 大语言模型（参数规模庞大的预训练语言模型，如 GPT 系列）"],
+    "usphone": "ˈlɑːrdʒ ˈlæŋɡwɪdʒ ˈmɑːd(ə)l",
+    "ukphone": "ˈlɑːdʒ ˈlæŋɡwɪdʒ ˈmɒd(ə)l",
+    "example": "Large language models can generate coherent text across many domains.",
+    "exampleTrans": "大语言模型能在众多领域生成连贯的文本。"
+  },
+  {
+    "name": "model checkpoint",
+    "trans": ["n. 模型检查点（训练过程中保存的模型权重快照，可恢复训练或部署）"],
+    "usphone": "ˈmɑːd(ə)l ˈtʃekpɔɪnt",
+    "ukphone": "ˈmɒd(ə)l ˈtʃekpɔɪnt",
+    "example": "We resumed training from the last model checkpoint to save compute.",
+    "exampleTrans": "我们从上一个模型检查点恢复训练以节省算力。"
+  },
+  {
+    "name": "grouped query attention",
+    "trans": ["n. 分组查询注意力（GQA，将查询分组共享键值以提升推理效率的注意力变体）"],
+    "usphone": "ɡruːpt ˈkwɪri əˈtenʃ(ə)n",
+    "ukphone": "ɡruːpt ˈkwɪəri əˈtenʃ(ə)n",
+    "example": "Grouped query attention reduces memory bandwidth during decoding.",
+    "exampleTrans": "分组查询注意力在解码时降低了显存带宽占用。"
+  },
+  {
+    "name": "relative position",
+    "trans": ["n. 相对位置（编码词元之间相对距离的位置表示，如 RoPE、ALiBi）"],
+    "usphone": "ˈrelətɪv pəˈzɪʃ(ə)n",
+    "ukphone": "ˈrelətɪv pəˈzɪʃ(ə)n",
+    "example": "Relative position encodings help the model generalize to longer sequences.",
+    "exampleTrans": "相对位置编码有助于模型泛化到更长的序列。"
+  },
+  {
+    "name": "reasoning agent",
+    "trans": ["n. 推理智能体（通过多步思考、规划与工具调用来解决问题的 Agent）"],
+    "usphone": "ˈriːzənɪŋ ˈeɪdʒənt",
+    "ukphone": "ˈriːzənɪŋ ˈeɪdʒənt",
+    "example": "A reasoning agent breaks the task into steps before calling any tool.",
+    "exampleTrans": "推理智能体在调用任何工具前会先把任务拆成若干步骤。"
+  },
+  {
+    "name": "memory-augmented agent",
+    "trans": ["n. 记忆增强型智能体（借助外部记忆存储来保持长期上下文的 Agent）"],
+    "usphone": "ˈmeməri ɔːɡˈmentɪd ˈeɪdʒənt",
+    "ukphone": "ˈmeməri ɔːɡˈmentɪd ˈeɪdʒənt",
+    "example": "A memory-augmented agent retrieves past notes to answer follow-up questions.",
+    "exampleTrans": "记忆增强型智能体会检索过往笔记来回答后续问题。"
+  },
+  {
+    "name": "parameter schema",
+    "trans": ["n. 参数模式（描述工具/函数入参结构与类型的 JSON Schema）"],
+    "usphone": "pəˈræmɪtər ˈskiːmə",
+    "ukphone": "pəˈræmɪtə(r) ˈskiːmə",
+    "example": "The parameter schema validates the arguments sent to the tool.",
+    "exampleTrans": "参数模式会对传给工具的参数进行校验。"
+  },
+  {
+    "name": "tool specification",
+    "trans": ["n. 工具规范（定义工具名称、描述与调用格式的接口说明）"],
+    "usphone": "tuːl ˌspesɪfɪˈkeɪʃ(ə)n",
+    "ukphone": "tuːl ˌspesɪfɪˈkeɪʃ(ə)n",
+    "example": "The agent reads the tool specification to decide how to call it.",
+    "exampleTrans": "智能体阅读工具规范来决定如何调用它。"
+  },
+  {
+    "name": "embedding index",
+    "trans": ["n. 向量索引（用于高效检索 embedding 近邻的索引结构，如 HNSW、IVF）"],
+    "usphone": "ɪmˈbedɪŋ ˈɪndeks",
+    "ukphone": "ɪmˈbedɪŋ ˈɪndeks",
+    "example": "An embedding index lets RAG systems find relevant passages in milliseconds.",
+    "exampleTrans": "向量索引让 RAG 系统能在毫秒级找到相关段落。"
+  },
+  {
+    "name": "grounded generation",
+    "trans": ["n. 基于事实的生成（生成内容严格依据检索证据、可溯源的生成方式）"],
+    "usphone": "ˈɡraʊndɪd ˌdʒenəˈreɪʃ(ə)n",
+    "ukphone": "ˈɡraʊndɪd ˌdʒenəˈreɪʃ(ə)n",
+    "example": "Grounded generation reduces hallucinations by citing source documents.",
+    "exampleTrans": "基于事实的生成通过引用来源文档来减少幻觉。"
+  },
+  {
+    "name": "state persistence",
+    "trans": ["n. 状态持久化（将运行/会话状态落盘或入库以便恢复的机制）"],
+    "usphone": "steɪt pərˈsɪstəns",
+    "ukphone": "steɪt pəˈsɪstəns",
+    "example": "State persistence lets the workflow resume after a crash.",
+    "exampleTrans": "状态持久化使工作流在崩溃后仍能恢复。"
+  },
+  {
+    "name": "parallel step",
+    "trans": ["n. 并行步骤（工作流中可同时执行的多个相互独立、互不依赖的步骤）"],
+    "usphone": "ˈpærəlel ˈstep",
+    "ukphone": "ˈpærəlel ˈstep",
+    "example": "Parallel steps speed up the pipeline by running tasks at the same time.",
+    "exampleTrans": "并行步骤通过同时运行任务来加速流水线。"
+  },
+  {
+    "name": "self-refine",
+    "trans": ["n. 自精炼（让模型先生成再自我批评并迭代改进输出的提示策略）"],
+    "usphone": "self rɪˈfaɪn",
+    "ukphone": "self rɪˈfaɪn",
+    "example": "Self-refine prompts the model to critique and then revise its own answer.",
+    "exampleTrans": "自精炼让模型先批评再修订自己的回答。"
+  },
+  {
+    "name": "meta prompt",
+    "trans": ["n. 元提示（用于生成或优化其他提示词的提示，常用于提示自动化）"],
+    "usphone": "ˈmetə prɑːmpt",
+    "ukphone": "ˈmetə prɒmpt",
+    "example": "A meta prompt can produce tailored system prompts for new tasks.",
+    "exampleTrans": "元提示能为新任务生成定制化的系统提示。"
+  },
+  {
+    "name": "async await",
+    "trans": ["n. 异步等待（编程中以 async/await 编写非阻塞并发代码的语法）"],
+    "usphone": "əˈsɪŋk əˈweɪt",
+    "ukphone": "əˈsɪŋk əˈweɪt",
+    "example": "Use async await to fetch multiple APIs without blocking the thread.",
+    "exampleTrans": "用 async await 可以在不阻塞线程的情况下并发请求多个接口。"
+  }
+]
