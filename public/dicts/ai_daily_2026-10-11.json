@@ -1,0 +1,122 @@
+[
+  {
+    "name": "neural network",
+    "trans": ["n. 神经网络（由多层神经元构成、可拟合复杂函数的计算模型）"],
+    "usphone": "ˈnjʊrəl ˈnetwɜːrk",
+    "ukphone": "ˈnjʊərəl ˈnetwɜːk",
+    "example": "A deep neural network can recognize speech and images with high accuracy.",
+    "exampleTrans": "深度神经网络能以很高的准确率识别语音与图像。"
+  },
+  {
+    "name": "distributed training",
+    "trans": ["n. 分布式训练（把模型训练拆分到多台设备/机器上并行完成）"],
+    "usphone": "dɪˈstrɪbjətɪd ˈtreɪnɪŋ",
+    "ukphone": "dɪˈstrɪbjətɪd ˈtreɪnɪŋ",
+    "example": "Distributed training across eight GPUs cut the training time by nearly half.",
+    "exampleTrans": "在 8 块 GPU 上做分布式训练，把训练时间缩短了近一半。"
+  },
+  {
+    "name": "fairness",
+    "trans": ["n. 公平性（指模型对不同群体不产生偏见或歧视的特性）"],
+    "usphone": "ˈfernəs",
+    "ukphone": "ˈfeənəs",
+    "example": "Fairness is a key requirement when deploying models in hiring or lending.",
+    "exampleTrans": "在招聘或信贷等场景部署模型时，公平性是关键要求。"
+  },
+  {
+    "name": "projection",
+    "trans": ["n. 投影（将高维表示线性映射到另一空间，如注意力中的 Q/K/V 投影层）"],
+    "usphone": "prəˈdʒekʃ(ə)n",
+    "ukphone": "prəˈdʒekʃ(ə)n",
+    "example": "The input is passed through a linear projection before the attention layer.",
+    "exampleTrans": "输入在进入注意力层之前，会先经过一个线性投影。"
+  },
+  {
+    "name": "model parallelism",
+    "trans": ["n. 模型并行（把一个大模型拆分到多个设备分别计算，以突破单卡显存限制）"],
+    "usphone": "ˈmɑːdəl ˈpærəlelɪzəm",
+    "ukphone": "ˈmɒd(ə)l ˈpærəlelɪzəm",
+    "example": "Model parallelism lets you train very large models that do not fit on one GPU.",
+    "exampleTrans": "模型并行让单张 GPU 放不下的超大规模模型也能被训练。"
+  },
+  {
+    "name": "agent handoff",
+    "trans": ["n. 智能体交接（把一个子任务从一个 Agent 转交给另一个 Agent 继续处理）"],
+    "usphone": "ˈeɪdʒənt ˈhændɔf",
+    "ukphone": "ˈeɪdʒənt ˈhændɒf",
+    "example": "The triage agent performs a handoff to the billing agent for payment issues.",
+    "exampleTrans": "分诊 Agent 会把支付相关的问题交接给账单 Agent 继续处理。"
+  },
+  {
+    "name": "tool",
+    "trans": ["n. 工具（Agent 可调用的外部能力，如搜索、计算或调用 API）"],
+    "usphone": "tuːl",
+    "ukphone": "tuːl",
+    "example": "The agent decided to call a search tool to verify the latest fact.",
+    "exampleTrans": "该 Agent 决定调用一个搜索工具来核实最新事实。"
+  },
+  {
+    "name": "server",
+    "trans": ["n. 服务端（托管并运行工具、API 或模型推理的后台程序）"],
+    "usphone": "ˈsɜːrvər",
+    "ukphone": "ˈsɜːvə(r)",
+    "example": "The tool sends the request to a local server that runs the model.",
+    "exampleTrans": "该工具把请求发往运行模型的本地服务端。"
+  },
+  {
+    "name": "knowledge",
+    "trans": ["n. 知识（RAG 中供检索的外部事实与信息来源）"],
+    "usphone": "ˈnɑːlɪdʒ",
+    "ukphone": "ˈnɒlɪdʒ",
+    "example": "Retrieval brings relevant knowledge into the prompt before answering.",
+    "exampleTrans": "在回答之前，检索会把相关知识引入到提示中。"
+  },
+  {
+    "name": "answer",
+    "trans": ["n. 答案（模型基于检索内容生成的回复） v. 回答"],
+    "usphone": "ˈænsər",
+    "ukphone": "ˈɑːnsə(r)",
+    "example": "The system grounds its answer in retrieved documents to reduce hallucination.",
+    "exampleTrans": "系统让答案基于检索到的文档，以减少幻觉。"
+  },
+  {
+    "name": "remember",
+    "trans": ["v. 记住（模型在上下文/记忆中保留并利用先前信息）"],
+    "usphone": "rɪˈmembər",
+    "ukphone": "rɪˈmembə(r)",
+    "example": "The assistant could not remember details from earlier in the conversation.",
+    "exampleTrans": "该助手无法记住对话前面部分的细节。"
+  },
+  {
+    "name": "clarity",
+    "trans": ["n. 清晰度（提示词表达明确、无歧义的程度）"],
+    "usphone": "ˈklærəti",
+    "ukphone": "ˈklærəti",
+    "example": "Improving prompt clarity often yields more accurate model outputs.",
+    "exampleTrans": "提升提示词的清晰度，往往能换来更准确的模型输出。"
+  },
+  {
+    "name": "user message",
+    "trans": ["n. 用户消息（对话中由用户发出的输入，区别于系统/助手消息）"],
+    "usphone": "ˈjuːzər ˈmesɪdʒ",
+    "ukphone": "ˈjuːzə ˈmesɪdʒ",
+    "example": "The user message contained a follow-up question about the previous answer.",
+    "exampleTrans": "这条用户消息包含了一个针对上一轮答案的追问。"
+  },
+  {
+    "name": "export",
+    "trans": ["v. 导出（把模块内的函数/变量暴露给其他模块使用） n. 导出项"],
+    "usphone": "ɪkˈspɔːrt; ˈekspɔːrt",
+    "ukphone": "ɪkˈspɔːt; ˈekspɔːt",
+    "example": "Use export to share the function with other modules in your project.",
+    "exampleTrans": "用 export 把该函数共享给项目中的其他模块。"
+  },
+  {
+    "name": "syntax",
+    "trans": ["n. 语法（编程语言中约束代码结构合法性的规则）"],
+    "usphone": "ˈsɪntæks",
+    "ukphone": "ˈsɪntæks",
+    "example": "A small syntax error can prevent the whole program from running.",
+    "exampleTrans": "一个小小的语法错误就可能让整个程序无法运行。"
+  }
+]
